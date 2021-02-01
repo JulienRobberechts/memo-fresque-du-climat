@@ -1,7 +1,12 @@
 <template>
   <h1>Cartes de la Fresque du climat</h1>
-  <div class="cartes">
-    <Carte v-for="carte in cartes" :key="carte.id" :carte="carte" />
+  <div class="cards">
+    <Carte
+      class="card"
+      v-for="carte in cartes"
+      :key="carte.id"
+      :carte="carte"
+    />
   </div>
 </template>
 
@@ -26,10 +31,13 @@ export default {
 };
 </script>
 <style scoped>
-.cartes {
+.cards {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
   align-items: center;
+}
+.card {
+  margin: 3px 3px;
 }
 </style>

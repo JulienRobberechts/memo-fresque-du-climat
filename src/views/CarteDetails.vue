@@ -1,8 +1,6 @@
 <template>
   <div class="carte-details" v-if="carte">
-    <span>Carte {{ carte.cardNum }}</span>
-    <h1>{{ carte.shortTitle }}</h1>
-    <h5>Lot {{ carte.cardBatch }}</h5>
+    <Carte :carte="carte" />
   </div>
   <router-link class="back-link" :to="{ name: 'RouteAccueil' }">
     retour à la liste des cartes
@@ -10,11 +8,15 @@
 </template>
 
 <script>
+import Carte from '@/components/Carte.vue';
 import CartesService from '@/services/CartesService';
 
 export default {
   name: 'CarteDetail',
   props: ['id'],
+  components: {
+    Carte
+  },
   data() {
     return {
       carte: null
@@ -33,6 +35,7 @@ export default {
 .carte-details {
   margin: 0.4rem 5rem;
   padding: 1rem;
-  border: 1px solid #000000;
+  display: flex;
+  justify-content: center;
 }
 </style>
