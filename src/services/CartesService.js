@@ -2,7 +2,6 @@ import cards from '@/data/cards.json';
 
 export default {
   getCards() {
-    console.log('cards', cards);
     return cards;
   },
   getCard(id) {
