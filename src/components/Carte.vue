@@ -4,8 +4,9 @@
     :to="{ name: 'RouteCarteDetails', params: { id: carte.id } }"
   >
     <div class="carte-card">
-      <span>@ {{ carte.time }} on {{ carte.date }}</span>
-      <h4>{{ carte.title }}</h4>
+      <span>Carte {{ carte.cardNum }}</span>
+      <h4>{{ carte.shortTitle }}</h4>
+      <h5>Lot {{ carte.cardBatch }}</h5>
     </div>
   </router-link>
 </template>

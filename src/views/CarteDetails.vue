@@ -1,7 +1,8 @@
 <template>
   <div class="carte-details" v-if="carte">
-    <h1>{{ carte.title }}</h1>
-    <span>@ {{ carte.time }} on {{ carte.date }}</span>
+    <span>Carte {{ carte.cardNum }}</span>
+    <h1>{{ carte.shortTitle }}</h1>
+    <h5>Lot {{ carte.cardBatch }}</h5>
   </div>
   <router-link class="back-link" :to="{ name: 'RouteAccueil' }">
     retour à la liste des cartes
