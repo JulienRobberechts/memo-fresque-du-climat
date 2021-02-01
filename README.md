@@ -2,7 +2,7 @@
 
 ## Objectif
 
-Proposer un acces rapide web sur mobile aux cartes de la Fresque du climat pour les animateurs.
+Proposer un acces rapide web mobile aux cartes de la Fresque du climat pour les animateurs.
 
 ## Aspects technique
 
