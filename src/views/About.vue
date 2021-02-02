@@ -22,6 +22,7 @@ export default {
 <style scoped>
 .fdc-logo {
   width: 90vw;
+  max-width: 400px;
 }
 .about {
   margin: 0 0.5rem;
