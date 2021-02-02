@@ -1,7 +1,7 @@
 <template>
   <h1>Cartes de la Fresque du climat</h1>
   <div class="cards">
-    <Card class="card" v-for="card in cards" :key="card.id" :card="card" />
+    <Card class="card" v-for="card in cards" :key="card.cardNum" :card="card" />
   </div>
 </template>
 

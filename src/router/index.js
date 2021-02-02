@@ -11,7 +11,7 @@ const routes = [
     component: AllCards
   },
   {
-    path: '/cartes/:id',
+    path: '/cartes/:cardNum',
     name: 'RouteCardDetails',
     props: true,
     component: CardDetails

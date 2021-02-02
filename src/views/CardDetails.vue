@@ -2,20 +2,25 @@
   <div class="card-details" v-if="card">
     <Card :card="card" />
   </div>
-  <router-link class="fdc-link" :to="{ name: 'RouteHome' }">
+  <AnchorLink
+    class="fdc-link"
+    :to="{ name: 'RouteHome', hash: '#carte-' + card.cardNum }"
+  >
     &larrhk; retour
-  </router-link>
+  </AnchorLink>
 </template>
 
 <script>
+import AnchorLink from '@/components/Anchor-link.vue';
 import Card from '@/components/Card.vue';
 import CardsService from '@/services/CardsService';
 
 export default {
   name: 'CardDetails',
-  props: ['id'],
+  props: ['cardNum'],
   components: {
-    Card
+    Card,
+    AnchorLink
   },
   data() {
     return {
@@ -23,10 +28,10 @@ export default {
     };
   },
   created() {
-    if (!this.id) {
+    if (!this.cardNum) {
       return;
     }
-    this.card = CardsService.getCard(this.id);
+    this.card = CardsService.getCard(this.cardNum);
   }
 };
 </script>

@@ -1,5 +1,8 @@
 <template>
-  <router-link :to="{ name: 'RouteCardDetails', params: { id: card.id } }">
+  <div class="anchor" :id="'carte-' + card.cardNum"></div>
+  <router-link
+    :to="{ name: 'RouteCardDetails', params: { cardNum: card.cardNum } }"
+  >
     <img class="card-image" :src="card.img.url" :title="card.shortTitle" />
   </router-link>
 </template>
@@ -15,6 +18,11 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.anchor {
+  position: relative;
+  top: -8rem;
+}
+
 .card-image {
   width: 95vw;
   max-width: 450px;
