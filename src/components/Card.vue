@@ -28,9 +28,10 @@ export default {
   max-width: 450px;
   padding: 0;
   cursor: pointer;
+  margin: 3px;
 }
 .card-image:hover {
-  transform: scale(1.03);
-  box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.2);
+  transform: scale(1.02);
+  box-shadow: 5px 5px 2px #04c2c0aa;
 }
 </style>

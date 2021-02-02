@@ -1,7 +1,7 @@
 <template>
   <h1>Cartes de la Fresque du climat</h1>
   <div class="cards">
-    <Card class="card" v-for="card in cards" :key="card.cardNum" :card="card" />
+    <Card v-for="card in cards" :key="card.cardNum" :card="card" />
   </div>
 </template>
 
@@ -31,9 +31,6 @@ export default {
   flex-direction: column;
   margin: 0 auto;
   align-items: center;
-}
-.card {
-  margin: 3px 3px;
 }
 h1 {
   font-size: 1.4rem;
