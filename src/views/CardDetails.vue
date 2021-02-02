@@ -2,8 +2,8 @@
   <div class="card-details" v-if="card">
     <Card :card="card" />
   </div>
-  <router-link class="back-link" :to="{ name: 'RouteHome' }">
-    retour à la liste des cartes
+  <router-link class="fdc-link" :to="{ name: 'RouteHome' }">
+    &larrhk; retour
   </router-link>
 </template>
 
