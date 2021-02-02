@@ -27,8 +27,8 @@ export default {
 <style scoped>
 .logo {
   position: relative;
-  width: 100%;
-  margin-bottom: 3rem;
+  width: 90%;
+  margin: 0 auto 3rem auto;
 }
 .memo {
   color: #04c2c0;
