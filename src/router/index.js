@@ -1,25 +1,25 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import CarteList from '@/views/CarteList.vue';
-import CarteDetails from '@/views/CarteDetails.vue';
-import APropos from '@/views/APropos.vue';
+import AllCards from '@/views/AllCards.vue';
+import CardDetails from '@/views/CardDetails.vue';
+import About from '@/views/About.vue';
 import NotFound from '@/views/NotFound.vue';
 
 const routes = [
   {
     path: '/',
-    name: 'RouteAccueil',
-    component: CarteList
+    name: 'RouteHome',
+    component: AllCards
   },
   {
     path: '/cartes/:id',
-    name: 'RouteCarteDetails',
+    name: 'RouteCardDetails',
     props: true,
-    component: CarteDetails
+    component: CardDetails
   },
   {
-    path: '/apropos',
-    name: 'RouteAPropos',
-    component: APropos
+    path: '/a-propos',
+    name: 'RouteAbout',
+    component: About
   },
   {
     path: '/:pathMatch(.*)*',

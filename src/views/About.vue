@@ -1,5 +1,5 @@
 <template>
-  <div class="a-propos">
+  <div class="about">
     <h1>
       Memo la fresque du climat
     </h1>
@@ -22,6 +22,7 @@ export default {
 };
 </script>
 <style scoped>
-.a-propos {
+.about {
+  color: grey;
 }
 </style>

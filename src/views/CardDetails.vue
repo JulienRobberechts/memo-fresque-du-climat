@@ -1,38 +1,38 @@
 <template>
-  <div class="carte-details" v-if="carte">
-    <Carte :carte="carte" />
+  <div class="card-details" v-if="card">
+    <Card :card="card" />
   </div>
-  <router-link class="back-link" :to="{ name: 'RouteAccueil' }">
+  <router-link class="back-link" :to="{ name: 'RouteHome' }">
     retour à la liste des cartes
   </router-link>
 </template>
 
 <script>
-import Carte from '@/components/Carte.vue';
-import CartesService from '@/services/CartesService';
+import Card from '@/components/Card.vue';
+import CardsService from '@/services/CardsService';
 
 export default {
-  name: 'CarteDetail',
+  name: 'CardDetails',
   props: ['id'],
   components: {
-    Carte
+    Card
   },
   data() {
     return {
-      carte: null
+      card: null
     };
   },
   created() {
     if (!this.id) {
       return;
     }
-    this.carte = CartesService.getCard(this.id);
+    this.card = CardsService.getCard(this.id);
   }
 };
 </script>
 
 <style scoped>
-.carte-details {
+.card-details {
   margin: 0.4rem 5rem;
   padding: 1rem;
   display: flex;

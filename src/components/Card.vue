@@ -1,14 +1,14 @@
 <template>
-  <router-link :to="{ name: 'RouteCarteDetails', params: { id: carte.id } }">
-    <img class="card-image" :src="carte.img.url" :title="carte.shortTitle" />
+  <router-link :to="{ name: 'RouteCardDetails', params: { id: card.id } }">
+    <img class="card-image" :src="card.img.url" :title="card.shortTitle" />
   </router-link>
 </template>
 
 <script>
 export default {
-  name: 'CarteCard',
+  name: 'Card',
   props: {
-    carte: Object
+    card: Object
   }
 };
 </script>

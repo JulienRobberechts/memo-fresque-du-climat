@@ -1,32 +1,27 @@
 <template>
   <h1>Cartes de la Fresque du climat</h1>
   <div class="cards">
-    <Carte
-      class="card"
-      v-for="carte in cartes"
-      :key="carte.id"
-      :carte="carte"
-    />
+    <Card class="card" v-for="card in cards" :key="card.id" :card="card" />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import Carte from '@/components/Carte.vue';
-import CartesService from '@/services/CartesService';
+import Card from '@/components/Card.vue';
+import CardsService from '@/services/CardsService';
 
 export default {
-  name: 'CarteList',
+  name: 'AllCards',
   components: {
-    Carte
+    Card
   },
   data() {
     return {
-      cartes: null
+      cards: null
     };
   },
   created() {
-    this.cartes = CartesService.getCards();
+    this.cards = CardsService.getCards();
   }
 };
 </script>
@@ -39,5 +34,8 @@ export default {
 }
 .card {
   margin: 3px 3px;
+}
+h1 {
+  font-size: 1.4rem;
 }
 </style>

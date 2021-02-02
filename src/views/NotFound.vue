@@ -1,7 +1,7 @@
 <template>
   <div class="notFound">
     <h3>Oups, la page n'existe pas</h3>
-    <router-link class="back-link" :to="{ name: 'RouteAccueil' }">
+    <router-link class="back-link" :to="{ name: 'RouteHome' }">
       retour
     </router-link>
   </div>

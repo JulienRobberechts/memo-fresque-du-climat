@@ -1,12 +1,18 @@
 <template>
   <div id="nav">
-    <router-link :to="{ name: 'RouteAccueil' }">Cartes</router-link> |
-    <router-link :to="{ name: 'RouteAPropos' }">A propos</router-link>
+    <router-link :to="{ name: 'RouteHome' }">Cartes</router-link> |
+    <router-link :to="{ name: 'RouteAbout' }">A propos</router-link>
   </div>
-  <router-view />
+  <div id="content">
+    <router-view />
+  </div>
 </template>
 
 <style>
+body {
+  margin: 0;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -16,7 +22,13 @@
 }
 
 #nav {
-  padding: 30px;
+  margin: 0;
+  padding: 1rem 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 999;
 }
 
 #nav a {
@@ -26,6 +38,10 @@
 
 #nav a.router-link-exact-active {
   color: #42b983;
+}
+
+#content {
+  margin-top: 5rem;
 }
 
 h4 {
