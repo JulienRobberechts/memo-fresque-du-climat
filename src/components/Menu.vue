@@ -1,7 +1,9 @@
 <template>
   <div class="menu">
     <div class="menu-left">
-      <img class="main-logo" src="@/assets/fresque-full.png" />
+      <router-link class="fdc-link-logo" :to="{ name: 'RouteHome' }"
+        ><img class="main-logo" src="@/assets/fresque-full.png"
+      /></router-link>
     </div>
     <div class="menu-right">
       <router-link class="fdc-link" :to="{ name: 'RouteHome' }"
@@ -33,6 +35,11 @@
   margin: 0.5rem 0;
   width: 30%;
 }
+.fdc-link-logo {
+  display: flex;
+  justify-content: flex-start;
+}
+
 .fdc-link {
   margin: 0 0.3rem;
   padding: 4px 8px;

@@ -1,13 +1,16 @@
 <template>
   <div class="about">
-    <h1>
-      Memo la fresque du climat
-    </h1>
+    <div class="logo">
+      <div class="memo">
+        Memo
+      </div>
+      <img class="fdc-logo" src="@/assets/fresque-full.png" />
+    </div>
     <p>
-      Ce site a pour but de proposer au animateurs de la fresque du climat un
-      accés rapides aux cartes.
+      Le memo de la fresque du climat a pour but de proposer aux animateurs un
+      accés rapide aux cartes du jeu.
     </p>
-    <div>version : {{ version }}</div>
+    <p>version : {{ version }}</p>
   </div>
 </template>
 <script>
@@ -22,7 +25,32 @@ export default {
 };
 </script>
 <style scoped>
+.logo {
+  position: relative;
+  width: 100%;
+  margin-bottom: 3rem;
+}
+.memo {
+  color: #04c2c0;
+  text-transform: uppercase;
+  /* font-family: 'Arial Black', Gadget, sans-serif; */
+  font-family: Courier, monospace;
+  font-weight: 700;
+  font-size: 3.5rem;
+  transform: rotate(-0.03turn) translate(-4.5rem, 1.5rem);
+  text-shadow: #e90000 1px 1px;
+  position: relative;
+  top: 0px;
+}
+.fdc-logo {
+  position: relative;
+  top: 0px;
+}
 .about {
+  margin: 0 0.5rem;
   color: grey;
+}
+p {
+  margin: 1rem 3rem;
 }
 </style>
