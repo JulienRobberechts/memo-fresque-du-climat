@@ -1,7 +1,7 @@
 <template>
   <div id="menu">
     <router-link :to="{ name: 'RouteHome' }">Cartes</router-link>
-    <router-link :to="{ name: 'RouteAbout' }">A propos</router-link>
+    <router-link :to="{ name: 'RouteAbout' }">&#8505;</router-link>
   </div>
 </template>
 <style>
@@ -19,6 +19,7 @@
 
   background-color: #ffffff;
 
+  border-radius: 3px;
   border: 1px solid #71ced0;
   box-shadow: 3px 3px 0px #04c2c0;
 }
