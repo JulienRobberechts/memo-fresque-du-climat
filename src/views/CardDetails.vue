@@ -2,16 +2,16 @@
   <div class="card-details" v-if="card">
     <Card :card="card" />
   </div>
-  <AnchorLink
+  <router-link
+    @click="justForHash"
     class="fdc-link"
     :to="{ name: 'RouteHome', hash: '#carte-' + card.cardNum }"
   >
     &larrhk; retour
-  </AnchorLink>
+  </router-link>
 </template>
 
 <script>
-import AnchorLink from '@/components/Anchor-link.vue';
 import Card from '@/components/Card.vue';
 import CardsService from '@/services/CardsService';
 
@@ -19,8 +19,7 @@ export default {
   name: 'CardDetails',
   props: ['cardNum'],
   components: {
-    Card,
-    AnchorLink
+    Card
   },
   data() {
     return {
