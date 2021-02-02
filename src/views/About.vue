@@ -9,12 +9,12 @@
   </div>
 </template>
 <script>
-// import packageFile from '../../package.json';
+import packageFile from '../../package.json';
 
 export default {
   data() {
     return {
-      version: '0.1.0' // packageFile.version
+      version: packageFile.version
     };
   }
 };
