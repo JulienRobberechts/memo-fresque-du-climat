@@ -1,6 +1,6 @@
 <template>
   <div class="card-details" v-if="card">
-    <Card :card="card" />
+    <CardView :card="card" />
   </div>
   <router-link
     @click="justForHash"
@@ -12,14 +12,14 @@
 </template>
 
 <script>
-import Card from '@/components/Card.vue';
+import CardView from '@/components/CardView.vue';
 import CardsService from '@/services/CardsService';
 
 export default {
   name: 'CardDetails',
   props: ['cardNum'],
   components: {
-    Card
+    CardView
   },
   data() {
     return {

@@ -1,19 +1,19 @@
 <template>
   <h1>Cartes de la Fresque du climat</h1>
   <div class="cards">
-    <Card v-for="card in cards" :key="card.cardNum" :card="card" />
+    <CardInList v-for="card in cards" :key="card.cardNum" :card="card" />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import Card from '@/components/Card.vue';
+import CardInList from '@/components/CardInList.vue';
 import CardsService from '@/services/CardsService';
 
 export default {
   name: 'AllCards',
   components: {
-    Card
+    CardInList
   },
   data() {
     return {

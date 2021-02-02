@@ -1,5 +1,5 @@
 <template>
-  <div class="anchor" :id="'carte-' + card.cardNum"></div>
+  <div class="anchorInList" :id="'carte-' + card.cardNum"></div>
   <router-link
     :to="{ name: 'RouteCardDetails', params: { cardNum: card.cardNum } }"
   >
@@ -9,16 +9,15 @@
 
 <script>
 export default {
-  name: 'Card',
+  name: 'CardInList',
   props: {
     card: Object
   }
 };
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.anchor {
+.anchorInList {
   position: relative;
   top: -8rem;
 }
