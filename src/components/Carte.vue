@@ -1,11 +1,6 @@
 <template>
   <router-link :to="{ name: 'RouteCarteDetails', params: { id: carte.id } }">
-    <img
-      class="card"
-      :src="carte.img.url"
-      width="400"
-      :title="carte.shortTitle"
-    />
+    <img class="card-image" :src="carte.img.url" :title="carte.shortTitle" />
   </router-link>
 </template>
 
@@ -20,11 +15,13 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.card {
+.card-image {
+  width: 95vw;
+  max-width: 450px;
   padding: 0;
   cursor: pointer;
 }
-.card:hover {
+.card-image:hover {
   transform: scale(1.03);
   box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.2);
 }
