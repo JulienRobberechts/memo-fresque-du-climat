@@ -1,14 +1,38 @@
 <template>
-  <div id="menu">
-    <router-link class="fdc-link" :to="{ name: 'RouteHome' }"
-      >Cartes</router-link
-    >
-    <router-link class="fdc-link" :to="{ name: 'RouteAbout' }"
-      >&#8505;</router-link
-    >
+  <div class="menu">
+    <div class="menu-left">
+      <img class="main-logo" src="@/assets/fresque-full.png" />
+    </div>
+    <div class="menu-right">
+      <router-link class="fdc-link" :to="{ name: 'RouteHome' }"
+        >Cartes</router-link
+      >
+      <router-link class="fdc-link" :to="{ name: 'RouteAbout' }"
+        >&#8505;</router-link
+      >
+    </div>
   </div>
 </template>
 <style>
+.menu {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0.7rem;
+}
+.menu-left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.menu-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.main-logo {
+  margin: 0.5rem 0;
+  width: 30%;
+}
 .fdc-link {
   margin: 0 0.3rem;
   padding: 4px 8px;
