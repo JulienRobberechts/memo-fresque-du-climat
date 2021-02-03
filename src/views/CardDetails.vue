@@ -30,7 +30,7 @@ export default {
     if (!this.cardNum) {
       return;
     }
-    this.card = CardsService.getCard(this.cardNum);
+    this.card = CardsService.getCardDetails(this.cardNum);
   }
 };
 </script>

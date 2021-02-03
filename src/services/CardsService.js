@@ -5,17 +5,22 @@ export default {
   getCards() {
     return cards;
   },
-  getCard(cardNum) {
-    const foundCards = cards.filter(c => c.cardNum.toString() === cardNum);
-    if (foundCards.length < 1) return null;
-    const { id, shortTitle, cardBatch, img } = foundCards[0];
+  getCardData(cardNum) {
+    const card = cards.find(c => c.cardNum.toString() === cardNum.toString());
+    if (!card) {
+      throw new Error(`Card with num ${cardNum} not found`);
+    }
+    return card;
+  },
+  getCardDetails(cardNum) {
+    const { id, shortTitle, cardBatch, img } = this.getCardData(cardNum);
     const links = this.getCardLinks(cardNum);
     return { id, cardNum, shortTitle, cardBatch, img, ...links };
   },
   getCardLinks(cardNum) {
     const causesCards = links
       .filter(l => l.toNum.toString() === cardNum)
-      .map(l => this.getCard(l.fromNum));
+      .map(l => this.getCardData(l.fromNum));
     return {
       causes: causesCards
     };

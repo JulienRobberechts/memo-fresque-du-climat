@@ -1,8 +1,15 @@
 import { getCards, getCard, getCardLinks } from './CardsService';
 
-describe('getCard', () => {
+describe('getCardData', () => {
   it('should return card 1', () => {
-    const card = getCard(1);
+    const card = getCardData(1);
+    expect(card).toMatchSnapshot();
+  });
+});
+
+describe('getCardDetails', () => {
+  it('should return card 1', () => {
+    const card = getCardDetails(1);
     expect(card).toMatchSnapshot();
   });
 });
