@@ -37,6 +37,8 @@ body {
 }
 
 #content {
-  margin-top: 6rem;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 5.5rem;
 }
 </style>

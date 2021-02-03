@@ -25,11 +25,13 @@ export default {
       .filter(l => l.toNum.toString() === cardNum.toString())
       .map(link => ({
         from: this.getCardData(link.fromNum),
+        to: this.getCardData(link.toNum),
         link
       }));
     const consequencesCards = links
       .filter(l => l.fromNum.toString() === cardNum.toString())
       .map(link => ({
+        from: this.getCardData(link.fromNum),
         to: this.getCardData(link.toNum),
         link
       }));

@@ -26,8 +26,12 @@
     <p class="consequence-explanation" v-if="!!consequence.link.Explanation">
       {{ consequence.link.Explanation }}
     </p>
-    <p class="consequence-explanation-none" v-else>
-      sans explication
+    <p class="consequence-explanation" v-else>
+      <img
+        class="consequence-card-image-original"
+        :src="consequence.from.img.url"
+        :title="consequence.from.shortTitle"
+      />
     </p>
   </div>
 </template>
@@ -65,6 +69,15 @@ export default {
   margin: 0 0 0.2rem 2.8rem;
   box-shadow: -5px 5px 0px #706f71;
 }
+.consequence-card-image-original {
+  float: right;
+  width: 20vw;
+  max-width: 240px;
+  padding: 0;
+  margin: 0;
+  box-shadow: -2px 2px 0px #706f71;
+  opacity: 0.5;
+}
 .consequence-card-image-valid {
   box-shadow: -5px 5px 0px #04c2c0;
 }
@@ -78,13 +91,6 @@ export default {
   padding: 0.1rem;
   margin: 0;
   text-align: left;
-}
-.consequence-explanation-none {
-  padding: 0.1rem;
-  margin: 3rem auto;
-  color: #5555;
-  font-weight: 600;
-  font-size: 1rem;
 }
 .consequence-explanation:first-letter {
   text-transform: capitalize;

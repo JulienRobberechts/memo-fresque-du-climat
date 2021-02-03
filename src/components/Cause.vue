@@ -21,8 +21,12 @@
     <p class="cause-explanation" v-if="!!cause.link.Explanation">
       {{ cause.link.Explanation }}
     </p>
-    <p class="cause-explanation-none" v-else>
-      sans explication
+    <p class="cause-explanation" v-else>
+      <img
+        class="cause-card-image-original"
+        :src="cause.to.img.url"
+        :title="cause.to.shortTitle"
+      />
     </p>
   </div>
 </template>
@@ -62,6 +66,15 @@ export default {
   box-shadow: 5px 5px 0px #706f71;
   z-index: 3;
 }
+.cause-card-image-original {
+  width: 20vw;
+  max-width: 240px;
+  padding: 0;
+  margin: 0;
+  box-shadow: 2px 2px 0px #706f71;
+  z-index: 3;
+  opacity: 0.5;
+}
 .cause-card-image-valid {
   box-shadow: 5px 5px 0px #04c2c0;
 }
@@ -76,21 +89,13 @@ export default {
   margin: 0;
   text-align: left;
 }
-.cause-explanation-none {
-  padding: 0.1rem;
-  margin: 3rem auto;
-  color: #5555;
-  font-weight: 600;
-  font-size: 1rem;
-}
+
 .cause-explanation:first-letter {
   text-transform: capitalize;
   font-size: 130%;
 }
 .arrow-anchor {
   position: relative;
-  width: 5px;
-  height: 5px;
   float: left;
 }
 .arrow {
