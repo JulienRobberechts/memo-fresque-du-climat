@@ -26,6 +26,11 @@ export default {
       card: null
     };
   },
+  methods: {
+    justForHash() {
+      console.log('justForHash');
+    }
+  },
   created() {
     if (!this.cardNum) {
       return;

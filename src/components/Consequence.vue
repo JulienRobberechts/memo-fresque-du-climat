@@ -1,11 +1,20 @@
 <template>
   <div class="consequence">
-    <img
-      class="consequence-card-image"
-      :class="getLinkStyle('consequence-card-image-', consequence.link.status)"
-      :src="consequence.to.img.url"
-      :title="consequence.to.shortTitle"
-    />
+    <router-link
+      @click="justForHash"
+      :to="{
+        name: 'RouteCardDetails',
+        params: { cardNum: consequence.to.cardNum }
+      }"
+    >
+      <img
+        class="consequence-card-image"
+        :class="
+          getLinkStyle('consequence-card-image-', consequence.link.status)
+        "
+        :src="consequence.to.img.url"
+        :title="consequence.to.shortTitle"
+    /></router-link>
     <div class="arrow-anchor">
       <span
         class="arrow"
@@ -36,6 +45,9 @@ export default {
         [classPrefix + 'optional']: linkStatus === 'optional',
         [classPrefix + 'invalid']: linkStatus === 'invalid'
       };
+    },
+    justForHash() {
+      console.log('justForHash');
     }
   }
 };
