@@ -45,10 +45,10 @@ export default {
 
 .cause-card-image {
   float: left;
-  width: 40vw;
+  width: 30vw;
   max-width: 240px;
   padding: 0;
-  margin: 0 2rem 0.2rem 0;
+  margin: 0 2.8rem 0.2rem 0;
   box-shadow: 5px 5px 0px #706f71;
   z-index: 3;
 }
@@ -94,6 +94,7 @@ export default {
   top: -1rem;
   left: -2.9rem;
   z-index: -1;
+  transform: scaleX(0.7);
 }
 .arrow-valid {
   color: #04c2c0;
