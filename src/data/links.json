@@ -108,6 +108,12 @@
     "Explanation": ""
   },
   {
+    "fromNum": 4,
+    "toNum": 6,
+    "status": "optional",
+    "Explanation": "La construction de route nécessite parfois de déforester, mais l'aspect unidimensionnelle de la route la rend quasiment négligeable devant la déforestation lié à l'agriculture."
+  },
+  {
     "fromNum": 5,
     "toNum": 7,
     "status": "valid",
@@ -126,6 +132,12 @@
     "Explanation": "L'amoco-cadiz..."
   },
   {
+    "fromNum": 5,
+    "toNum": 40,
+    "status": "optional",
+    "Explanation": "Bien que des conflits peuvent avoir lieu à cause des ressources, ce n'est pas directement causer par une perturbation du climat, mais un appauvrissement des ressources. La relation peut-être fait, mais elle est plus politique que climatique."
+  },
+  {
     "fromNum": 8,
     "toNum": 6,
     "status": "valid",
@@ -135,7 +147,43 @@
     "fromNum": 6,
     "toNum": 7,
     "status": "valid",
-    "Explanation": ""
+    "Explanation": "La déforestation émet du CO2 car 93% du bois déforesté par l'homme est brulé."
+  },
+  {
+    "fromNum": 6,
+    "toNum": 4,
+    "status": "optional",
+    "Explanation": "La construction de route nécéssite parfois de déforester, mais l'aspect unidimensionnelle de la route la rend quasiment négligeable devant la déforestation lié à l'agriculture."
+  },
+  {
+    "fromNum": 6,
+    "toNum": 12,
+    "status": "optional",
+    "Explanation": "Les participants pensent souvent que la déforestation réduit les puits de carbone. En réalité, l'impact est minime car les zones déforestées représentent une toute petite partie de la surface totale de forêt. De plus, une forêt à l'équilibre n'absorbe plus de carbone. Or, on déforeste souvent des forêts à l'équilibre, ce qui n'impacte pas les puits de carbone. Par contre le CO2 dégagé est très important."
+  },
+  {
+    "fromNum": 6,
+    "toNum": 15,
+    "status": "optional",
+    "Explanation": "Quand la forêt est coupée, une surface vert foncé est remplacée par une surface vert clair, qui à un albédo plus élevé, donc absorbe moins d'énergie."
+  },
+  {
+    "fromNum": 6,
+    "toNum": 20,
+    "status": "optional",
+    "Explanation": "La végétation retiens l'eau. Si on la coupe, ça facilite les crues."
+  },
+  {
+    "fromNum": 6,
+    "toNum": 35,
+    "status": "optional",
+    "Explanation": "Une partie de la déforestation est faite en brûlant la forêt qui peut ensuite dégénérer en feu non-maitrisé. C'est ce qu'il s'est passé pendant l'été 2019 en Amazonie et en Australie."
+  },
+  {
+    "fromNum": 6,
+    "toNum": 25,
+    "status": "optional",
+    "Explanation": "La déforestation cause énormément de perte de biodiversité : Animale car la forêt est un hôte de beaucoup d'espèce. L'indice de biodiversité des forêts a chuté de 53% entre 1970 et 2014. Végétale car sur les 60 000 espèces d'arbres connus, 8000 sont considérées comme menacés."
   },
   {
     "fromNum": 7,
@@ -148,6 +196,18 @@
     "toNum": 9,
     "status": "valid",
     "Explanation": ""
+  },
+  {
+    "fromNum": 8,
+    "toNum": 12,
+    "status": "optional",
+    "Explanation": "Ce n'est pas grave si ce lien n'est pas fait, mais il est vrai que l'agriculture peut améliorer la capacité de stockage via la photosynthèse. C'est le principe des 4 pour 1000 (si on augmentait ne serait-ce que de 4/1000 la capacité du sol à séquestrer du carbone, on aurait un impact important sur le CO2)."
+  },
+  {
+    "fromNum": 8,
+    "toNum": 25,
+    "status": "optional",
+    "Explanation": "On pense ici surtout aux pesticides (notamment au round-up ou aux néonicotinoïdes). Pas de lien avec le climat, mais relation intéressante à faire."
   },
   {
     "fromNum": 41,
@@ -177,7 +237,7 @@
     "fromNum": 10,
     "toNum": 38,
     "status": "valid",
-    "Explanation": ""
+    "Explanation": "Bien que les aérosols ne soient pas les seuls à rentrer dans la catégorie 'Particule fines', chaque année, 391 000 personnes dans les pays de l'UE décèdent de la pollution de l'air[2], et elle cause 1.1 millions décès prématurés en Inde et en Chine"
   },
   {
     "fromNum": 12,
@@ -196,6 +256,12 @@
     "toNum": 24,
     "status": "valid",
     "Explanation": ""
+  },
+  {
+    "fromNum": 12,
+    "toNum": 32,
+    "status": "optional",
+    "Explanation": "Des études ont montré que les rendements augmentent avec de l'augmentation du CO2, mais que la teneur en éléments nutritifs des légumes s'en trouve réduite. En effet, les oligo-éléments ne sont pas plus abondants sous préexte que les rendements augmentent."
   },
   {
     "fromNum": 12,
@@ -292,6 +358,12 @@
     "toNum": 20,
     "status": "invalid",
     "Explanation": "La fonte ..."
+  },
+  {
+    "fromNum": 18,
+    "toNum": 15,
+    "status": "optional",
+    "Explanation": "Quand la banquise fond, une surface blanche est remplacé par une surface bleu marine, qui à un albédo plus faible, donc absorbe plus d'énergie. "
   },
   {
     "fromNum": 19,
@@ -555,12 +627,12 @@
     "fromNum": 14,
     "toNum": 41,
     "status": "valid",
-    "Explanation": ""
+    "Explanation": "Si l'on veut rester dans la même logique de conservation de l'énergie, il faudrait faire le lien de fonte a partir de budget énérgétique."
   },
   {
     "fromNum": 14,
     "toNum": 42,
     "status": "valid",
-    "Explanation": ""
+    "Explanation": "Si l'on veut rester dans la même logique de conservation de l'énergie, il faudrait faire le lien de fonte a partir de budget énérgétique."
   }
 ]
