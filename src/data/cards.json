@@ -9,12 +9,10 @@
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/0/01/Fr-fr_adulte_carte_1_recto.png"
     },
-    "causes": [],
-    "consequences": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_2_industrie",
-      "/wiki/index.php?title=Fr-fr_adulte_carte_3_b%C3%A2timent",
-      "/wiki/index.php?title=Fr-fr_adulte_carte_4_transport",
-      "/wiki/index.php?title=Fr-fr_adulte_carte_8_agriculture"
+    "backDescription": "C'est là que tout commence...",
+    "Explanation": "Cette carte peut être considérée comme la cause des secteurs économiques (Industrie, Bâtiment, Transport, Agriculture), ou comme le titre d'un ensemble de cartes qui sont alors regroupées dans une grosse 'patate'.",
+    "Notes": [
+      ""
     ]
   },
   {
@@ -27,12 +25,10 @@
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/7/7e/Fr-fr_adulte_carte_2_recto.png"
     },
-    "causes": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_1_activit%C3%A9s_humaines"
-    ],
-    "consequences": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_5_%C3%A9nergies_fossiles",
-      "/wiki/index.php?title=Fr-fr_adulte_carte_10_a%C3%A9rosols"
+    "backDescription": "",
+    "Explanation": "",
+    "Notes": [
+      ""
     ]
   },
   {
@@ -45,11 +41,10 @@
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/6/60/Fr-fr_adulte_carte_3_recto.png"
     },
-    "causes": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_1_activit%C3%A9s_humaines"
-    ],
-    "consequences": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_5_%C3%A9nergies_fossiles"
+    "backDescription": "",
+    "Explanation": "",
+    "Notes": [
+      ""
     ]
   },
   {
@@ -62,12 +57,10 @@
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/c/c6/Fr-fr_adulte_carte_4_recto.png"
     },
-    "causes": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_1_activit%C3%A9s_humaines"
-    ],
-    "consequences": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_5_%C3%A9nergies_fossiles",
-      "/wiki/index.php?title=Fr-fr_adulte_carte_10_a%C3%A9rosols"
+    "backDescription": "",
+    "Explanation": "",
+    "Notes": [
+      ""
     ]
   },
   {
@@ -80,13 +73,10 @@
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/8/85/Fr-fr_adulte_carte_5_recto.png"
     },
-    "causes": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_2_industrie",
-      "/wiki/index.php?title=Fr-fr_adulte_carte_3_b%C3%A2timent",
-      "/wiki/index.php?title=Fr-fr_adulte_carte_4_transport"
-    ],
-    "consequences": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_7_%C3%A9missions_de_co2"
+    "backDescription": "",
+    "Explanation": "",
+    "Notes": [
+      ""
     ]
   },
   {
@@ -99,11 +89,10 @@
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/d/d3/Fr-fr_adulte_carte_6_recto.png"
     },
-    "causes": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_8_agriculture"
-    ],
-    "consequences": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_7_%C3%A9missions_de_co2"
+    "backDescription": "",
+    "Explanation": "",
+    "Notes": [
+      ""
     ]
   },
   {
@@ -116,12 +105,10 @@
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/f/f5/Fr-fr_adulte_carte_7_recto.png"
     },
-    "causes": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_5_%C3%A9nergies_fossiles",
-      "/wiki/index.php?title=Fr-fr_adulte_carte_6_d%C3%A9forestation"
-    ],
-    "consequences": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_12_puits_de_carbone"
+    "backDescription": "",
+    "Explanation": "",
+    "Notes": [
+      ""
     ]
   },
   {
@@ -134,12 +121,10 @@
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/d/d6/Fr-fr_adulte_carte_8_recto.png"
     },
-    "causes": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_1_activit%C3%A9s_humaines"
-    ],
-    "consequences": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_6_d%C3%A9forestation",
-      "/wiki/index.php?title=Fr-fr_adulte_carte_9_autres_ges"
+    "backDescription": "",
+    "Explanation": "",
+    "Notes": [
+      ""
     ]
   },
   {
@@ -152,13 +137,10 @@
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/3/38/Fr-fr_adulte_carte_9_recto.png"
     },
-    "causes": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_8_agriculture",
-      "/wiki/index.php?title=Fr-fr_adulte_carte_41_permafrost",
-      "/wiki/index.php?title=Fr-fr_adulte_carte_42_hydrates_de_m%C3%A9thane"
-    ],
-    "consequences": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_13_effet_de_serre_additionnel"
+    "backDescription": "",
+    "Explanation": "",
+    "Notes": [
+      ""
     ]
   },
   {
@@ -171,13 +153,10 @@
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/3/35/Fr-fr_adulte_carte_10_recto.png"
     },
-    "causes": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_2_industrie",
-      "/wiki/index.php?title=Fr-fr_adulte_carte_4_transport"
-    ],
-    "consequences": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_15_for%C3%A7age_radiatif",
-      "/wiki/index.php?title=Fr-fr_adulte_carte_38_sant%C3%A9_humaine"
+    "backDescription": "",
+    "Explanation": "",
+    "Notes": [
+      ""
     ]
   },
   {
@@ -190,11 +169,10 @@
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/c/c5/Fr-fr_adulte_carte_11_recto.png"
     },
-    "causes": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_12_puits_de_carbone"
-    ],
-    "consequences": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_13_effet_de_serre_additionnel"
+    "backDescription": "",
+    "Explanation": "",
+    "Notes": [
+      ""
     ]
   },
   {
@@ -207,12 +185,10 @@
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/e/e2/Fr-fr_adulte_carte_12_recto.png"
     },
-    "causes": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_7_%C3%A9missions_de_co2"
-    ],
-    "consequences": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_11_concentration_en_co2",
-      "/wiki/index.php?title=Fr-fr_adulte_carte_24_acidification_oc%C3%A9an"
+    "backDescription": "",
+    "Explanation": "",
+    "Notes": [
+      ""
     ]
   },
   {
@@ -225,12 +201,10 @@
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/1/15/Fr-fr_adulte_carte_13_recto.png"
     },
-    "causes": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_9_autres_ges",
-      "/wiki/index.php?title=Fr-fr_adulte_carte_11_concentration_en_co2"
-    ],
-    "consequences": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_15_for%C3%A7age_radiatif"
+    "backDescription": "",
+    "Explanation": "",
+    "Notes": [
+      ""
     ]
   },
   {
@@ -243,15 +217,10 @@
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/f/fe/Fr-fr_adulte_carte_14_recto.png"
     },
-    "causes": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_15_for%C3%A7age_radiatif"
-    ],
-    "consequences": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_16_fonte_des_glaciers",
-      "/wiki/index.php?title=Fr-fr_adulte_carte_17_hausse_temp%C3%A9rature_eau",
-      "/wiki/index.php?title=Fr-fr_adulte_carte_18_fonte_de_la_banquise",
-      "/wiki/index.php?title=Fr-fr_adulte_carte_19_fonte_des_calottes_glaciaires",
-      "/wiki/index.php?title=Fr-fr_adulte_carte_21_hausse_temp%C3%A9rature"
+    "backDescription": "",
+    "Explanation": "",
+    "Notes": [
+      ""
     ]
   },
   {
@@ -264,12 +233,10 @@
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/9/95/Fr-fr_adulte_carte_15_recto.png"
     },
-    "causes": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_13_effet_de_serre_additionnel",
-      "/wiki/index.php?title=Fr-fr_adulte_carte_10_a%C3%A9rosols"
-    ],
-    "consequences": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_14_bilan_%C3%A9nerg%C3%A9tique"
+    "backDescription": "",
+    "Explanation": "",
+    "Notes": [
+      ""
     ]
   },
   {
@@ -282,12 +249,10 @@
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/1/14/Fr-fr_adulte_carte_16_recto.png"
     },
-    "causes": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_14_bilan_%C3%A9nerg%C3%A9tique"
-    ],
-    "consequences": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_22_mont%C3%A9e_des_eaux",
-      "/wiki/index.php?title=Fr-fr_adulte_carte_31_ressources_eau_douce"
+    "backDescription": "",
+    "Explanation": "",
+    "Notes": [
+      ""
     ]
   },
   {
@@ -300,15 +265,10 @@
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/b/bf/Fr-fr_adulte_carte_17_recto.png"
     },
-    "causes": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_14_bilan_%C3%A9nerg%C3%A9tique"
-    ],
-    "consequences": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_20_perturbation_cycle_eau",
-      "/wiki/index.php?title=Fr-fr_adulte_carte_22_mont%C3%A9e_des_eaux",
-      "/wiki/index.php?title=Fr-fr_adulte_carte_27_biodiversit%C3%A9_marine",
-      "/wiki/index.php?title=Fr-fr_adulte_carte_34_cyclones",
-      "/wiki/index.php?title=Fr-fr_adulte_carte_42_hydrates_de_m%C3%A9thane"
+    "backDescription": "",
+    "Explanation": "",
+    "Notes": [
+      ""
     ]
   },
   {
@@ -321,10 +281,11 @@
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/7/74/Fr-fr_adulte_carte_18_recto.png"
     },
-    "causes": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_14_bilan_%C3%A9nerg%C3%A9tique"
-    ],
-    "consequences": []
+    "backDescription": "",
+    "Explanation": "",
+    "Notes": [
+      ""
+    ]
   },
   {
     "id": 46,
@@ -336,11 +297,10 @@
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/e/e1/Fr-fr_adulte_carte_19_recto.png"
     },
-    "causes": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_14_bilan_%C3%A9nerg%C3%A9tique"
-    ],
-    "consequences": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_22_mont%C3%A9e_des_eaux"
+    "backDescription": "",
+    "Explanation": "",
+    "Notes": [
+      ""
     ]
   },
   {
@@ -353,16 +313,10 @@
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/4/4b/Fr-fr_adulte_carte_20_recto.png"
     },
-    "causes": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_17_hausse_temp%C3%A9rature_eau",
-      "/wiki/index.php?title=Fr-fr_adulte_carte_21_hausse_temp%C3%A9rature"
-    ],
-    "consequences": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_25_biodiversit%C3%A9_terrestre",
-      "/wiki/index.php?title=Fr-fr_adulte_carte_26_crues",
-      "/wiki/index.php?title=Fr-fr_adulte_carte_30_s%C3%A9cheresses",
-      "/wiki/index.php?title=Fr-fr_adulte_carte_33_submersions",
-      "/wiki/index.php?title=Fr-fr_adulte_carte_34_cyclones"
+    "backDescription": "",
+    "Explanation": "",
+    "Notes": [
+      ""
     ]
   },
   {
@@ -375,16 +329,10 @@
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/7/78/Fr-fr_adulte_carte_21_recto.png"
     },
-    "causes": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_14_bilan_%C3%A9nerg%C3%A9tique"
-    ],
-    "consequences": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_20_perturbation_cycle_eau",
-      "/wiki/index.php?title=Fr-fr_adulte_carte_25_biodiversit%C3%A9_terrestre",
-      "/wiki/index.php?title=Fr-fr_adulte_carte_32_baisse_rendements_agricoles",
-      "/wiki/index.php?title=Fr-fr_adulte_carte_36_canicules",
-      "/wiki/index.php?title=Fr-fr_adulte_carte_38_sant%C3%A9_humaine",
-      "/wiki/index.php?title=Fr-fr_adulte_carte_41_permafrost"
+    "backDescription": "",
+    "Explanation": "",
+    "Notes": [
+      ""
     ]
   },
   {
@@ -397,13 +345,10 @@
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/d/d2/Fr-fr_adulte_carte_22_recto.png"
     },
-    "causes": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_16_fonte_des_glaciers",
-      "/wiki/index.php?title=Fr-fr_adulte_carte_17_hausse_temp%C3%A9rature_eau",
-      "/wiki/index.php?title=Fr-fr_adulte_carte_19_fonte_des_calottes_glaciaires"
-    ],
-    "consequences": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_33_submersions"
+    "backDescription": "",
+    "Explanation": "",
+    "Notes": [
+      ""
     ]
   },
   {
@@ -416,11 +361,10 @@
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/8/8d/Fr-fr_adulte_carte_23_recto.png"
     },
-    "causes": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_24_acidification_oc%C3%A9an"
-    ],
-    "consequences": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_29_pt%C3%A9ropodes_et_coccolithophores"
+    "backDescription": "",
+    "Explanation": "",
+    "Notes": [
+      ""
     ]
   },
   {
@@ -433,11 +377,10 @@
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/9/94/Fr-fr_adulte_carte_24_recto.png"
     },
-    "causes": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_12_puits_de_carbone"
-    ],
-    "consequences": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_23_probl%C3%A8mes_de_calcification"
+    "backDescription": "",
+    "Explanation": "",
+    "Notes": [
+      ""
     ]
   },
   {
@@ -450,13 +393,10 @@
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/b/bd/Fr-fr_adulte_carte_25_recto.png"
     },
-    "causes": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_20_perturbation_cycle_eau",
-      "/wiki/index.php?title=Fr-fr_adulte_carte_21_hausse_temp%C3%A9rature"
-    ],
-    "consequences": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_28_vecteurs_de_maladie",
-      "/wiki/index.php?title=Fr-fr_adulte_carte_32_baisse_rendements_agricoles"
+    "backDescription": "",
+    "Explanation": "",
+    "Notes": [
+      ""
     ]
   },
   {
@@ -469,13 +409,10 @@
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/1/14/Fr-fr_adulte_carte_26_recto.png"
     },
-    "causes": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_20_perturbation_cycle_eau",
-      "/wiki/index.php?title=Fr-fr_adulte_carte_30_s%C3%A9cheresses"
-    ],
-    "consequences": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_32_baisse_rendements_agricoles",
-      "/wiki/index.php?title=Fr-fr_adulte_carte_38_sant%C3%A9_humaine"
+    "backDescription": "",
+    "Explanation": "",
+    "Notes": [
+      ""
     ]
   },
   {
@@ -488,12 +425,10 @@
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/d/dd/Fr-fr_adulte_carte_27_recto.png"
     },
-    "causes": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_17_hausse_temp%C3%A9rature_eau",
-      "/wiki/index.php?title=Fr-fr_adulte_carte_29_pt%C3%A9ropodes_et_coccolithophores"
-    ],
-    "consequences": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_37_famine"
+    "backDescription": "",
+    "Explanation": "",
+    "Notes": [
+      ""
     ]
   },
   {
@@ -506,11 +441,10 @@
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/8/80/Fr-fr_adulte_carte_28_recto.png"
     },
-    "causes": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_25_biodiversit%C3%A9_terrestre"
-    ],
-    "consequences": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_38_sant%C3%A9_humaine"
+    "backDescription": "",
+    "Explanation": "",
+    "Notes": [
+      ""
     ]
   },
   {
@@ -523,11 +457,10 @@
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/e/e0/Fr-fr_adulte_carte_29_recto.png"
     },
-    "causes": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_23_probl%C3%A8mes_de_calcification"
-    ],
-    "consequences": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_27_biodiversit%C3%A9_marine"
+    "backDescription": "",
+    "Explanation": "",
+    "Notes": [
+      ""
     ]
   },
   {
@@ -540,14 +473,10 @@
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/8/8e/Fr-fr_adulte_carte_30_recto.png"
     },
-    "causes": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_20_perturbation_cycle_eau"
-    ],
-    "consequences": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_26_crues",
-      "/wiki/index.php?title=Fr-fr_adulte_carte_31_ressources_eau_douce",
-      "/wiki/index.php?title=Fr-fr_adulte_carte_32_baisse_rendements_agricoles",
-      "/wiki/index.php?title=Fr-fr_adulte_carte_35_incendies"
+    "backDescription": "",
+    "Explanation": "",
+    "Notes": [
+      ""
     ]
   },
   {
@@ -560,13 +489,10 @@
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/7/7e/Fr-fr_adulte_carte_31_recto.png"
     },
-    "causes": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_16_fonte_des_glaciers",
-      "/wiki/index.php?title=Fr-fr_adulte_carte_30_s%C3%A9cheresses"
-    ],
-    "consequences": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_32_baisse_rendements_agricoles",
-      "/wiki/index.php?title=Fr-fr_adulte_carte_40_conflits_arm%C3%A9s"
+    "backDescription": "",
+    "Explanation": "",
+    "Notes": [
+      ""
     ]
   },
   {
@@ -579,18 +505,10 @@
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/8/84/Fr-fr_adulte_carte_32_recto.png"
     },
-    "causes": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_21_hausse_temp%C3%A9rature",
-      "/wiki/index.php?title=Fr-fr_adulte_carte_25_biodiversit%C3%A9_terrestre",
-      "/wiki/index.php?title=Fr-fr_adulte_carte_26_crues",
-      "/wiki/index.php?title=Fr-fr_adulte_carte_30_s%C3%A9cheresses",
-      "/wiki/index.php?title=Fr-fr_adulte_carte_31_ressources_eau_douce",
-      "/wiki/index.php?title=Fr-fr_adulte_carte_33_submersions",
-      "/wiki/index.php?title=Fr-fr_adulte_carte_34_cyclones"
-    ],
-    "consequences": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_37_famine",
-      "/wiki/index.php?title=Fr-fr_adulte_carte_39_r%C3%A9fugi%C3%A9s_climatiques"
+    "backDescription": "",
+    "Explanation": "",
+    "Notes": [
+      ""
     ]
   },
   {
@@ -603,13 +521,10 @@
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/8/84/Fr-fr_adulte_carte_33_recto.png"
     },
-    "causes": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_22_mont%C3%A9e_des_eaux",
-      "/wiki/index.php?title=Fr-fr_adulte_carte_34_cyclones"
-    ],
-    "consequences": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_32_baisse_rendements_agricoles",
-      "/wiki/index.php?title=Fr-fr_adulte_carte_39_r%C3%A9fugi%C3%A9s_climatiques"
+    "backDescription": "",
+    "Explanation": "",
+    "Notes": [
+      ""
     ]
   },
   {
@@ -622,13 +537,10 @@
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/9/98/Fr-fr_adulte_carte_34_recto.png"
     },
-    "causes": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_17_hausse_temp%C3%A9rature_eau"
-    ],
-    "consequences": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_32_baisse_rendements_agricoles",
-      "/wiki/index.php?title=Fr-fr_adulte_carte_33_submersions",
-      "/wiki/index.php?title=Fr-fr_adulte_carte_38_sant%C3%A9_humaine"
+    "backDescription": "",
+    "Explanation": "",
+    "Notes": [
+      ""
     ]
   },
   {
@@ -641,11 +553,11 @@
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/9/97/Fr-fr_adulte_carte_35_recto.png"
     },
-    "causes": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_30_s%C3%A9cheresses",
-      "/wiki/index.php?title=Fr-fr_adulte_carte_36_canicules"
-    ],
-    "consequences": []
+    "backDescription": "",
+    "Explanation": "",
+    "Notes": [
+      ""
+    ]
   },
   {
     "id": 80,
@@ -657,11 +569,10 @@
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/d/d3/Fr-fr_adulte_carte_36_recto.png"
     },
-    "causes": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_21_hausse_temp%C3%A9rature"
-    ],
-    "consequences": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_35_incendies"
+    "backDescription": "",
+    "Explanation": "",
+    "Notes": [
+      ""
     ]
   },
   {
@@ -674,13 +585,10 @@
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/2/20/Fr-fr_adulte_carte_37_recto.png"
     },
-    "causes": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_27_biodiversit%C3%A9_marine",
-      "/wiki/index.php?title=Fr-fr_adulte_carte_32_baisse_rendements_agricoles"
-    ],
-    "consequences": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_38_sant%C3%A9_humaine",
-      "/wiki/index.php?title=Fr-fr_adulte_carte_39_r%C3%A9fugi%C3%A9s_climatiques"
+    "backDescription": "",
+    "Explanation": "",
+    "Notes": [
+      ""
     ]
   },
   {
@@ -693,13 +601,10 @@
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/b/bb/Fr-fr_adulte_carte_38_recto.png"
     },
-    "causes": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_28_vecteurs_de_maladie",
-      "/wiki/index.php?title=Fr-fr_adulte_carte_31_ressources_eau_douce",
-      "/wiki/index.php?title=Fr-fr_adulte_carte_37_famine"
-    ],
-    "consequences": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_40_conflits_arm%C3%A9s"
+    "backDescription": "",
+    "Explanation": "",
+    "Notes": [
+      ""
     ]
   },
   {
@@ -712,12 +617,10 @@
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/7/7e/Fr-fr_adulte_carte_39_recto.png"
     },
-    "causes": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_37_famine",
-      "/wiki/index.php?title=Fr-fr_adulte_carte_40_conflits_arm%C3%A9s"
-    ],
-    "consequences": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_40_conflits_arm%C3%A9s"
+    "backDescription": "",
+    "Explanation": "",
+    "Notes": [
+      ""
     ]
   },
   {
@@ -730,12 +633,10 @@
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/6/62/Fr-fr_adulte_carte_40_recto.png"
     },
-    "causes": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_39_r%C3%A9fugi%C3%A9s_climatiques"
-    ],
-    "consequences": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_38_sant%C3%A9_humaine",
-      "/wiki/index.php?title=Fr-fr_adulte_carte_39_r%C3%A9fugi%C3%A9s_climatiques"
+    "backDescription": "",
+    "Explanation": "",
+    "Notes": [
+      ""
     ]
   },
   {
@@ -748,12 +649,10 @@
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/9/98/Fr-fr_adulte_carte_41_recto.png"
     },
-    "causes": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_21_hausse_temp%C3%A9rature",
-      "/wiki/index.php?title=Fr-fr_adulte_carte_14_bilan_%C3%A9nerg%C3%A9tique"
-    ],
-    "consequences": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_9_autres_ges"
+    "backDescription": "",
+    "Explanation": "",
+    "Notes": [
+      ""
     ]
   },
   {
@@ -766,12 +665,10 @@
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/a/ac/Fr-fr_adulte_carte_42_recto.png"
     },
-    "causes": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_17_hausse_temp%C3%A9rature_eau",
-      "/wiki/index.php?title=Fr-fr_adulte_carte_14_bilan_%C3%A9nerg%C3%A9tique"
-    ],
-    "consequences": [
-      "/wiki/index.php?title=Fr-fr_adulte_carte_9_autres_ges"
+    "backDescription": "",
+    "Explanation": "",
+    "Notes": [
+      ""
     ]
   }
 ]

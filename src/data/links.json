@@ -1,326 +1,457 @@
 [
   {
-    "fromNum": 1,
-    "toNum": 2
+    "fromNum": 5,
+    "toNum": 1,
+    "status": "optional"
+  },
+  {
+    "fromNum": 40,
+    "toNum": 1,
+    "status": "optional"
   },
   {
     "fromNum": 1,
-    "toNum": 3
+    "toNum": 2,
+    "status": "valid"
   },
   {
     "fromNum": 1,
-    "toNum": 4
+    "toNum": 3,
+    "status": "valid"
   },
   {
     "fromNum": 1,
-    "toNum": 8
+    "toNum": 4,
+    "status": "valid"
+  },
+  {
+    "fromNum": 1,
+    "toNum": 8,
+    "status": "valid"
+  },
+  {
+    "fromNum": 1,
+    "toNum": 6,
+    "status": "optional"
+  },
+  {
+    "fromNum": 1,
+    "toNum": 25,
+    "status": "optional",
+    "Explanation": "L'être humain ..."
+  },
+  {
+    "fromNum": 1,
+    "toNum": 27,
+    "status": "optional"
   },
   {
     "fromNum": 2,
-    "toNum": 5
+    "toNum": 5,
+    "status": "valid"
   },
   {
     "fromNum": 2,
-    "toNum": 10
+    "toNum": 10,
+    "status": "valid"
   },
   {
     "fromNum": 3,
-    "toNum": 5
+    "toNum": 5,
+    "status": "valid"
   },
   {
     "fromNum": 4,
-    "toNum": 5
+    "toNum": 5,
+    "status": "valid"
   },
   {
     "fromNum": 4,
-    "toNum": 10
+    "toNum": 10,
+    "status": "valid"
   },
   {
     "fromNum": 5,
-    "toNum": 7
+    "toNum": 7,
+    "status": "valid"
+  },
+  {
+    "fromNum": 5,
+    "toNum": 27,
+    "status": "optional",
+    "Explanation": "L'amoco-cadiz..."
+  },
+  {
+    "fromNum": 5,
+    "toNum": 25,
+    "status": "optional",
+    "Explanation": "L'amoco-cadiz..."
   },
   {
     "fromNum": 8,
-    "toNum": 6
+    "toNum": 6,
+    "status": "valid"
   },
   {
     "fromNum": 6,
-    "toNum": 7
+    "toNum": 7,
+    "status": "valid"
   },
   {
     "fromNum": 7,
-    "toNum": 12
+    "toNum": 12,
+    "status": "valid"
   },
   {
     "fromNum": 8,
-    "toNum": 9
+    "toNum": 9,
+    "status": "valid"
   },
   {
     "fromNum": 41,
-    "toNum": 9
+    "toNum": 9,
+    "status": "valid"
   },
   {
     "fromNum": 42,
-    "toNum": 9
+    "toNum": 9,
+    "status": "valid"
   },
   {
     "fromNum": 9,
-    "toNum": 13
+    "toNum": 13,
+    "status": "valid"
   },
   {
     "fromNum": 10,
-    "toNum": 15
+    "toNum": 15,
+    "status": "valid"
   },
   {
     "fromNum": 10,
-    "toNum": 38
+    "toNum": 38,
+    "status": "valid"
   },
   {
     "fromNum": 12,
-    "toNum": 11
+    "toNum": 11,
+    "status": "valid"
   },
   {
     "fromNum": 11,
-    "toNum": 13
+    "toNum": 13,
+    "status": "valid"
   },
   {
     "fromNum": 12,
-    "toNum": 24
+    "toNum": 24,
+    "status": "valid"
+  },
+  {
+    "fromNum": 12,
+    "toNum": 14,
+    "status": "invalid",
+    "Explanation": "Le but n'est pas ici..."
   },
   {
     "fromNum": 13,
-    "toNum": 15
+    "toNum": 15,
+    "status": "valid"
   },
   {
     "fromNum": 15,
-    "toNum": 14
+    "toNum": 14,
+    "status": "valid"
   },
   {
     "fromNum": 14,
-    "toNum": 16
+    "toNum": 16,
+    "status": "valid"
   },
   {
     "fromNum": 14,
-    "toNum": 17
+    "toNum": 17,
+    "status": "valid"
   },
   {
     "fromNum": 14,
-    "toNum": 18
+    "toNum": 18,
+    "status": "valid"
   },
   {
     "fromNum": 14,
-    "toNum": 19
+    "toNum": 19,
+    "status": "valid"
   },
   {
     "fromNum": 14,
-    "toNum": 21
+    "toNum": 21,
+    "status": "valid"
   },
   {
     "fromNum": 16,
-    "toNum": 22
+    "toNum": 22,
+    "status": "valid"
   },
   {
     "fromNum": 16,
-    "toNum": 31
+    "toNum": 31,
+    "status": "valid"
   },
   {
     "fromNum": 17,
-    "toNum": 20
+    "toNum": 20,
+    "status": "valid"
   },
   {
     "fromNum": 17,
-    "toNum": 22
+    "toNum": 22,
+    "status": "valid"
   },
   {
     "fromNum": 17,
-    "toNum": 27
+    "toNum": 27,
+    "status": "valid"
   },
   {
     "fromNum": 17,
-    "toNum": 34
+    "toNum": 34,
+    "status": "valid"
   },
   {
     "fromNum": 17,
-    "toNum": 42
+    "toNum": 42,
+    "status": "valid"
+  },
+  {
+    "fromNum": 18,
+    "toNum": 20,
+    "status": "invalid",
+    "Explanation": "La fonte ..."
   },
   {
     "fromNum": 19,
-    "toNum": 22
+    "toNum": 22,
+    "status": "valid"
   },
   {
     "fromNum": 21,
-    "toNum": 20
+    "toNum": 20,
+    "status": "valid"
   },
   {
     "fromNum": 20,
-    "toNum": 25
+    "toNum": 25,
+    "status": "valid"
   },
   {
     "fromNum": 20,
-    "toNum": 26
+    "toNum": 26,
+    "status": "valid"
   },
   {
     "fromNum": 20,
-    "toNum": 30
+    "toNum": 30,
+    "status": "valid"
   },
   {
     "fromNum": 20,
-    "toNum": 33
+    "toNum": 33,
+    "status": "valid"
   },
   {
     "fromNum": 20,
-    "toNum": 34
+    "toNum": 34,
+    "status": "valid"
   },
   {
     "fromNum": 21,
-    "toNum": 25
+    "toNum": 25,
+    "status": "valid"
   },
   {
     "fromNum": 21,
-    "toNum": 32
+    "toNum": 32,
+    "status": "valid"
   },
   {
     "fromNum": 21,
-    "toNum": 36
+    "toNum": 36,
+    "status": "valid"
   },
   {
     "fromNum": 21,
-    "toNum": 38
+    "toNum": 38,
+    "status": "valid"
   },
   {
     "fromNum": 21,
-    "toNum": 41
+    "toNum": 41,
+    "status": "valid"
   },
   {
     "fromNum": 22,
-    "toNum": 33
+    "toNum": 33,
+    "status": "valid"
   },
   {
     "fromNum": 24,
-    "toNum": 23
+    "toNum": 23,
+    "status": "valid"
   },
   {
     "fromNum": 23,
-    "toNum": 29
+    "toNum": 29,
+    "status": "valid"
   },
   {
     "fromNum": 25,
-    "toNum": 28
+    "toNum": 28,
+    "status": "valid"
   },
   {
     "fromNum": 25,
-    "toNum": 32
+    "toNum": 32,
+    "status": "valid"
   },
   {
     "fromNum": 30,
-    "toNum": 26
+    "toNum": 26,
+    "status": "valid"
   },
   {
     "fromNum": 26,
-    "toNum": 32
+    "toNum": 32,
+    "status": "valid"
   },
   {
     "fromNum": 26,
-    "toNum": 38
+    "toNum": 38,
+    "status": "valid"
   },
   {
     "fromNum": 29,
-    "toNum": 27
+    "toNum": 27,
+    "status": "valid"
   },
   {
     "fromNum": 27,
-    "toNum": 37
+    "toNum": 37,
+    "status": "valid"
   },
   {
     "fromNum": 28,
-    "toNum": 38
+    "toNum": 38,
+    "status": "valid"
   },
   {
     "fromNum": 30,
-    "toNum": 31
+    "toNum": 31,
+    "status": "valid"
   },
   {
     "fromNum": 30,
-    "toNum": 32
+    "toNum": 32,
+    "status": "valid"
   },
   {
     "fromNum": 30,
-    "toNum": 35
+    "toNum": 35,
+    "status": "valid"
   },
   {
     "fromNum": 31,
-    "toNum": 32
+    "toNum": 32,
+    "status": "valid"
   },
   {
     "fromNum": 31,
-    "toNum": 40
+    "toNum": 40,
+    "status": "valid"
   },
   {
     "fromNum": 33,
-    "toNum": 32
+    "toNum": 32,
+    "status": "valid"
   },
   {
     "fromNum": 34,
-    "toNum": 32
+    "toNum": 32,
+    "status": "valid"
   },
   {
     "fromNum": 32,
-    "toNum": 37
+    "toNum": 37,
+    "status": "valid"
   },
   {
     "fromNum": 32,
-    "toNum": 39
+    "toNum": 39,
+    "status": "valid"
   },
   {
     "fromNum": 34,
-    "toNum": 33
+    "toNum": 33,
+    "status": "valid"
   },
   {
     "fromNum": 33,
-    "toNum": 39
+    "toNum": 39,
+    "status": "valid"
   },
   {
     "fromNum": 34,
-    "toNum": 38
+    "toNum": 38,
+    "status": "valid"
   },
   {
     "fromNum": 36,
-    "toNum": 35
+    "toNum": 35,
+    "status": "valid"
   },
   {
     "fromNum": 37,
-    "toNum": 38
+    "toNum": 38,
+    "status": "valid"
   },
   {
     "fromNum": 37,
-    "toNum": 39
+    "toNum": 39,
+    "status": "valid"
   },
   {
     "fromNum": 31,
-    "toNum": 38
+    "toNum": 38,
+    "status": "valid"
   },
   {
     "fromNum": 38,
-    "toNum": 40
+    "toNum": 40,
+    "status": "valid"
   },
   {
     "fromNum": 40,
-    "toNum": 39
+    "toNum": 39,
+    "status": "valid"
   },
   {
     "fromNum": 39,
-    "toNum": 40
+    "toNum": 40,
+    "status": "valid"
   },
   {
     "fromNum": 40,
-    "toNum": 38
+    "toNum": 38,
+    "status": "valid"
   },
   {
     "fromNum": 14,
-    "toNum": 41
+    "toNum": 41,
+    "status": "valid"
   },
   {
     "fromNum": 14,
-    "toNum": 42
+    "toNum": 42,
+    "status": "valid"
   }
 ]
