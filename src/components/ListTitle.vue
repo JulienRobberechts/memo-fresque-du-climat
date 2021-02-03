@@ -1,5 +1,5 @@
 <template>
-  <h2 class="list-title">
+  <h2 class="list-title" :class="{ 'list-title-right': right }">
     <div class="badge">
       {{ items.length }}
     </div>
@@ -12,7 +12,11 @@ export default {
   name: 'ListTitle',
   props: {
     name: String,
-    items: Object
+    items: Object,
+    right: {
+      type: Boolean,
+      default: false
+    }
   }
 };
 </script>
@@ -20,9 +24,11 @@ export default {
 <style scoped>
 .list-title {
   display: flex;
-  justify-content: flex-start;
 }
-
+.list-title-right {
+  justify-content: flex-end;
+  margin-right: 0.3rem;
+}
 .badge {
   color: #ffffff;
   background-color: #04c2c0;

@@ -1,10 +1,5 @@
 <template>
-  <h2 class="consequences-title">
-    <div class="badge">
-      {{ consequences.length }}
-    </div>
-    consequence<span v-if="consequences.length > 1">s</span>
-  </h2>
+  <ListTitle name="consequence" :items="consequences" :right="true" />
   <div class="consequences">
     <Consequence
       v-for="consequence in consequences"
@@ -15,6 +10,7 @@
 </template>
 
 <script>
+import ListTitle from '@/components/ListTitle.vue';
 import Consequence from './Consequence.vue';
 
 export default {
@@ -22,31 +18,11 @@ export default {
   props: {
     consequences: Object
   },
-  components: {
-    Consequence
-  }
+  components: { ListTitle, Consequence }
 };
 </script>
 
 <style scoped>
-.consequences-title {
-  display: flex;
-  justify-content: flex-end;
-  margin-right: 0.3rem;
-}
-
-.badge {
-  color: #ffffff;
-  background-color: #04c2c0;
-  margin: 0 0.5rem;
-  width: 2rem;
-  height: 2rem;
-  border-radius: 1rem;
-  display: inline-block;
-  font-size: 1.6rem;
-  text-shadow: #e90000 1px 1px;
-  box-shadow: 1px 1px 0px #706f71;
-}
 .consequences {
   display: flex;
   flex-direction: column;
