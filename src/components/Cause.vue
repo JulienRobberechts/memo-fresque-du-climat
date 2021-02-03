@@ -68,7 +68,7 @@ export default {
 }
 .cause-card-image-original {
   width: 20vw;
-  max-width: 240px;
+  max-width: 160px;
   padding: 0;
   margin: 0;
   box-shadow: 2px 2px 0px #706f71;
