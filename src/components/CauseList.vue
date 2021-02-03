@@ -1,5 +1,5 @@
 <template>
-  <ListTitle name="cause" :items="causes" />
+  <ListTitle :name="title" :items="causes" />
   <div class="causes">
     <Cause v-for="cause in causes" :key="cause.id" :cause="cause" />
   </div>
@@ -12,6 +12,7 @@ import Cause from '@/components/Cause.vue';
 export default {
   name: 'CauseList',
   props: {
+    title: { type: String, default: 'cause' },
     causes: Object
   },
   components: {

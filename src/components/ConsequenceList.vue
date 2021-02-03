@@ -1,5 +1,5 @@
 <template>
-  <ListTitle name="consequence" :items="consequences" :right="true" />
+  <ListTitle :name="title" :items="consequences" :right="true" />
   <div class="consequences">
     <Consequence
       v-for="consequence in consequences"
@@ -16,6 +16,10 @@ import Consequence from './Consequence.vue';
 export default {
   name: 'CauseList',
   props: {
+    title: {
+      type: String,
+      default: 'conséquence'
+    },
     consequences: Object
   },
   components: { ListTitle, Consequence }
