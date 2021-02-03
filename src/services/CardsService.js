@@ -19,10 +19,14 @@ export default {
   },
   getCardLinks(cardNum) {
     const causesCards = links
-      .filter(l => l.toNum.toString() === cardNum)
+      .filter(l => l.toNum.toString() === cardNum.toString())
       .map(l => this.getCardData(l.fromNum));
+    const consequencesCards = links
+      .filter(l => l.fromNum.toString() === cardNum.toString())
+      .map(l => this.getCardData(l.toNum));
     return {
-      causes: causesCards
+      causes: causesCards,
+      consequences: consequencesCards
     };
   }
 };
