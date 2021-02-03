@@ -3,6 +3,16 @@
     <img class="card-image" :src="card.img.url" :title="card.shortTitle" />
     <CauseList :causes="validCauses()" />
     <ConsequenceList :consequences="validConsequences()" />
+    <CauseList
+      v-if="otherCauses().length > 0"
+      :causes="otherCauses()"
+      title="autre cause"
+    />
+    <ConsequenceList
+      v-if="otherConsequences().length > 0"
+      :consequences="otherConsequences()"
+      title="autre conséquence"
+    />
   </div>
 </template>
 
@@ -24,9 +34,21 @@ export default {
       return this.card.causes.filter(cause => cause.link.status === 'valid');
     },
     validConsequences() {
-      return this.card.consequences.filter(
-        consequence => consequence.link.status === 'valid'
-      );
+      return this.card.consequences
+        .filter(consequence => consequence.link.status === 'valid')
+        .sort(c => c.status);
+    },
+    otherCauses() {
+      return this.card.causes
+        .filter(cause => cause.link.status !== 'valid')
+        .sort((a, b) => a.from.cardNum - b.from.cardNum)
+        .sort(a => (a.link.status === 'optional' ? -1 : 1)); // to fix
+    },
+    otherConsequences() {
+      return this.card.consequences
+        .filter(consequence => consequence.link.status !== 'valid')
+        .sort((a, b) => a.to.cardNum - b.to.cardNum)
+        .sort(a => (a.link.status === 'optional' ? -1 : 1)); // to fix
     }
   }
 };
