@@ -1,5 +1,5 @@
 <template>
-  <h2 class="consequence-title">
+  <h2 class="consequences-title">
     <div class="badge">
       {{ consequences.length }}
     </div>

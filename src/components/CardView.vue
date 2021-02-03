@@ -1,8 +1,8 @@
 <template>
   <div class="card-details-panel">
     <img class="card-image" :src="card.img.url" :title="card.shortTitle" />
-    <CauseList :causes="card.causes" />
-    <ConsequenceList :consequences="card.consequences" />
+    <CauseList :causes="validCauses()" />
+    <ConsequenceList :consequences="validConsequences()" />
   </div>
 </template>
 
@@ -18,6 +18,16 @@ export default {
   components: {
     CauseList,
     ConsequenceList
+  },
+  methods: {
+    validCauses() {
+      return this.card.causes.filter(cause => cause.link.status === 'valid');
+    },
+    validConsequences() {
+      return this.card.consequences.filter(
+        consequence => consequence.link.status === 'valid'
+      );
+    }
   }
 };
 </script>
