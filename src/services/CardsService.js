@@ -13,9 +13,12 @@ export default {
     return card;
   },
   getCardDetails(cardNum) {
-    const { id, shortTitle, cardBatch, img } = this.getCardData(cardNum);
+    const card = this.getCardData(cardNum);
     const links = this.getCardLinks(cardNum);
-    return { id, cardNum, shortTitle, cardBatch, img, ...links };
+    return {
+      ...card,
+      ...links
+    };
   },
   getCardLinks(cardNum) {
     const causesCards = links

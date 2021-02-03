@@ -10,9 +10,11 @@
       "url": "https://fresqueduclimat.org/wiki/images/0/01/Fr-fr_adulte_carte_1_recto.png"
     },
     "backDescription": "C'est là que tout commence...",
-    "Explanation": "Cette carte peut être considérée comme la cause des secteurs économiques (Industrie, Bâtiment, Transport, Agriculture), ou comme le titre d'un ensemble de cartes qui sont alors regroupées dans une grosse 'patate'.",
-    "Notes": [
-      ""
+    "explanation": "Cette carte peut être considérée comme la cause des secteurs économiques (Industrie, Bâtiment, Transport, Agriculture), ou comme le titre d'un ensemble de cartes qui sont alors regroupées dans une grosse 'patate'.",
+    "notes": [
+      "note 1",
+      "note 2: asf assf asdf sfsdf  afdsa afdaf fb c afdfgasdg a agdfsg erfbfg dfsgf",
+      "note 3: sdfd64f e fv2d"
     ]
   },
   {
@@ -26,10 +28,8 @@
       "url": "https://fresqueduclimat.org/wiki/images/7/7e/Fr-fr_adulte_carte_2_recto.png"
     },
     "backDescription": "",
-    "Explanation": "",
-    "Notes": [
-      ""
-    ]
+    "explanation": "",
+    "notes": []
   },
   {
     "id": 14,
@@ -42,10 +42,8 @@
       "url": "https://fresqueduclimat.org/wiki/images/6/60/Fr-fr_adulte_carte_3_recto.png"
     },
     "backDescription": "",
-    "Explanation": "",
-    "Notes": [
-      ""
-    ]
+    "explanation": "",
+    "notes": []
   },
   {
     "id": 16,
@@ -58,10 +56,8 @@
       "url": "https://fresqueduclimat.org/wiki/images/c/c6/Fr-fr_adulte_carte_4_recto.png"
     },
     "backDescription": "",
-    "Explanation": "",
-    "Notes": [
-      ""
-    ]
+    "explanation": "",
+    "notes": []
   },
   {
     "id": 18,
@@ -74,10 +70,8 @@
       "url": "https://fresqueduclimat.org/wiki/images/8/85/Fr-fr_adulte_carte_5_recto.png"
     },
     "backDescription": "",
-    "Explanation": "",
-    "Notes": [
-      ""
-    ]
+    "explanation": "",
+    "notes": []
   },
   {
     "id": 21,
@@ -90,10 +84,8 @@
       "url": "https://fresqueduclimat.org/wiki/images/d/d3/Fr-fr_adulte_carte_6_recto.png"
     },
     "backDescription": "",
-    "Explanation": "",
-    "Notes": [
-      ""
-    ]
+    "explanation": "",
+    "notes": []
   },
   {
     "id": 23,
@@ -106,10 +98,8 @@
       "url": "https://fresqueduclimat.org/wiki/images/f/f5/Fr-fr_adulte_carte_7_recto.png"
     },
     "backDescription": "",
-    "Explanation": "",
-    "Notes": [
-      ""
-    ]
+    "explanation": "",
+    "notes": []
   },
   {
     "id": 8,
@@ -122,10 +112,8 @@
       "url": "https://fresqueduclimat.org/wiki/images/d/d6/Fr-fr_adulte_carte_8_recto.png"
     },
     "backDescription": "",
-    "Explanation": "",
-    "Notes": [
-      ""
-    ]
+    "explanation": "",
+    "notes": []
   },
   {
     "id": 26,
@@ -138,10 +126,8 @@
       "url": "https://fresqueduclimat.org/wiki/images/3/38/Fr-fr_adulte_carte_9_recto.png"
     },
     "backDescription": "",
-    "Explanation": "",
-    "Notes": [
-      ""
-    ]
+    "explanation": "",
+    "notes": []
   },
   {
     "id": 28,
@@ -154,10 +140,8 @@
       "url": "https://fresqueduclimat.org/wiki/images/3/35/Fr-fr_adulte_carte_10_recto.png"
     },
     "backDescription": "",
-    "Explanation": "",
-    "Notes": [
-      ""
-    ]
+    "explanation": "",
+    "notes": []
   },
   {
     "id": 30,
@@ -170,10 +154,8 @@
       "url": "https://fresqueduclimat.org/wiki/images/c/c5/Fr-fr_adulte_carte_11_recto.png"
     },
     "backDescription": "",
-    "Explanation": "",
-    "Notes": [
-      ""
-    ]
+    "explanation": "",
+    "notes": []
   },
   {
     "id": 32,
@@ -186,10 +168,8 @@
       "url": "https://fresqueduclimat.org/wiki/images/e/e2/Fr-fr_adulte_carte_12_recto.png"
     },
     "backDescription": "",
-    "Explanation": "",
-    "Notes": [
-      ""
-    ]
+    "explanation": "",
+    "notes": []
   },
   {
     "id": 34,
@@ -202,10 +182,8 @@
       "url": "https://fresqueduclimat.org/wiki/images/1/15/Fr-fr_adulte_carte_13_recto.png"
     },
     "backDescription": "",
-    "Explanation": "",
-    "Notes": [
-      ""
-    ]
+    "explanation": "",
+    "notes": []
   },
   {
     "id": 36,
@@ -218,10 +196,8 @@
       "url": "https://fresqueduclimat.org/wiki/images/f/fe/Fr-fr_adulte_carte_14_recto.png"
     },
     "backDescription": "",
-    "Explanation": "",
-    "Notes": [
-      ""
-    ]
+    "explanation": "",
+    "notes": []
   },
   {
     "id": 38,
@@ -234,10 +210,8 @@
       "url": "https://fresqueduclimat.org/wiki/images/9/95/Fr-fr_adulte_carte_15_recto.png"
     },
     "backDescription": "",
-    "Explanation": "",
-    "Notes": [
-      ""
-    ]
+    "explanation": "",
+    "notes": []
   },
   {
     "id": 40,
@@ -250,10 +224,8 @@
       "url": "https://fresqueduclimat.org/wiki/images/1/14/Fr-fr_adulte_carte_16_recto.png"
     },
     "backDescription": "",
-    "Explanation": "",
-    "Notes": [
-      ""
-    ]
+    "explanation": "",
+    "notes": []
   },
   {
     "id": 42,
@@ -266,10 +238,8 @@
       "url": "https://fresqueduclimat.org/wiki/images/b/bf/Fr-fr_adulte_carte_17_recto.png"
     },
     "backDescription": "",
-    "Explanation": "",
-    "Notes": [
-      ""
-    ]
+    "explanation": "",
+    "notes": []
   },
   {
     "id": 44,
@@ -282,10 +252,8 @@
       "url": "https://fresqueduclimat.org/wiki/images/7/74/Fr-fr_adulte_carte_18_recto.png"
     },
     "backDescription": "",
-    "Explanation": "",
-    "Notes": [
-      ""
-    ]
+    "explanation": "",
+    "notes": []
   },
   {
     "id": 46,
@@ -298,10 +266,8 @@
       "url": "https://fresqueduclimat.org/wiki/images/e/e1/Fr-fr_adulte_carte_19_recto.png"
     },
     "backDescription": "",
-    "Explanation": "",
-    "Notes": [
-      ""
-    ]
+    "explanation": "",
+    "notes": []
   },
   {
     "id": 48,
@@ -314,10 +280,8 @@
       "url": "https://fresqueduclimat.org/wiki/images/4/4b/Fr-fr_adulte_carte_20_recto.png"
     },
     "backDescription": "",
-    "Explanation": "",
-    "Notes": [
-      ""
-    ]
+    "explanation": "",
+    "notes": []
   },
   {
     "id": 50,
@@ -330,10 +294,8 @@
       "url": "https://fresqueduclimat.org/wiki/images/7/78/Fr-fr_adulte_carte_21_recto.png"
     },
     "backDescription": "",
-    "Explanation": "",
-    "Notes": [
-      ""
-    ]
+    "explanation": "",
+    "notes": []
   },
   {
     "id": 52,
@@ -346,10 +308,8 @@
       "url": "https://fresqueduclimat.org/wiki/images/d/d2/Fr-fr_adulte_carte_22_recto.png"
     },
     "backDescription": "",
-    "Explanation": "",
-    "Notes": [
-      ""
-    ]
+    "explanation": "",
+    "notes": []
   },
   {
     "id": 54,
@@ -362,10 +322,8 @@
       "url": "https://fresqueduclimat.org/wiki/images/8/8d/Fr-fr_adulte_carte_23_recto.png"
     },
     "backDescription": "",
-    "Explanation": "",
-    "Notes": [
-      ""
-    ]
+    "explanation": "",
+    "notes": []
   },
   {
     "id": 56,
@@ -378,10 +336,8 @@
       "url": "https://fresqueduclimat.org/wiki/images/9/94/Fr-fr_adulte_carte_24_recto.png"
     },
     "backDescription": "",
-    "Explanation": "",
-    "Notes": [
-      ""
-    ]
+    "explanation": "",
+    "notes": []
   },
   {
     "id": 58,
@@ -394,10 +350,8 @@
       "url": "https://fresqueduclimat.org/wiki/images/b/bd/Fr-fr_adulte_carte_25_recto.png"
     },
     "backDescription": "",
-    "Explanation": "",
-    "Notes": [
-      ""
-    ]
+    "explanation": "",
+    "notes": []
   },
   {
     "id": 60,
@@ -410,10 +364,8 @@
       "url": "https://fresqueduclimat.org/wiki/images/1/14/Fr-fr_adulte_carte_26_recto.png"
     },
     "backDescription": "",
-    "Explanation": "",
-    "Notes": [
-      ""
-    ]
+    "explanation": "",
+    "notes": []
   },
   {
     "id": 62,
@@ -426,10 +378,8 @@
       "url": "https://fresqueduclimat.org/wiki/images/d/dd/Fr-fr_adulte_carte_27_recto.png"
     },
     "backDescription": "",
-    "Explanation": "",
-    "Notes": [
-      ""
-    ]
+    "explanation": "",
+    "notes": []
   },
   {
     "id": 64,
@@ -442,10 +392,8 @@
       "url": "https://fresqueduclimat.org/wiki/images/8/80/Fr-fr_adulte_carte_28_recto.png"
     },
     "backDescription": "",
-    "Explanation": "",
-    "Notes": [
-      ""
-    ]
+    "explanation": "",
+    "notes": []
   },
   {
     "id": 66,
@@ -458,10 +406,8 @@
       "url": "https://fresqueduclimat.org/wiki/images/e/e0/Fr-fr_adulte_carte_29_recto.png"
     },
     "backDescription": "",
-    "Explanation": "",
-    "Notes": [
-      ""
-    ]
+    "explanation": "",
+    "notes": []
   },
   {
     "id": 68,
@@ -474,10 +420,8 @@
       "url": "https://fresqueduclimat.org/wiki/images/8/8e/Fr-fr_adulte_carte_30_recto.png"
     },
     "backDescription": "",
-    "Explanation": "",
-    "Notes": [
-      ""
-    ]
+    "explanation": "",
+    "notes": []
   },
   {
     "id": 70,
@@ -490,10 +434,8 @@
       "url": "https://fresqueduclimat.org/wiki/images/7/7e/Fr-fr_adulte_carte_31_recto.png"
     },
     "backDescription": "",
-    "Explanation": "",
-    "Notes": [
-      ""
-    ]
+    "explanation": "",
+    "notes": []
   },
   {
     "id": 72,
@@ -506,10 +448,8 @@
       "url": "https://fresqueduclimat.org/wiki/images/8/84/Fr-fr_adulte_carte_32_recto.png"
     },
     "backDescription": "",
-    "Explanation": "",
-    "Notes": [
-      ""
-    ]
+    "explanation": "",
+    "notes": []
   },
   {
     "id": 74,
@@ -522,10 +462,8 @@
       "url": "https://fresqueduclimat.org/wiki/images/8/84/Fr-fr_adulte_carte_33_recto.png"
     },
     "backDescription": "",
-    "Explanation": "",
-    "Notes": [
-      ""
-    ]
+    "explanation": "",
+    "notes": []
   },
   {
     "id": 76,
@@ -538,10 +476,8 @@
       "url": "https://fresqueduclimat.org/wiki/images/9/98/Fr-fr_adulte_carte_34_recto.png"
     },
     "backDescription": "",
-    "Explanation": "",
-    "Notes": [
-      ""
-    ]
+    "explanation": "",
+    "notes": []
   },
   {
     "id": 78,
@@ -554,10 +490,8 @@
       "url": "https://fresqueduclimat.org/wiki/images/9/97/Fr-fr_adulte_carte_35_recto.png"
     },
     "backDescription": "",
-    "Explanation": "",
-    "Notes": [
-      ""
-    ]
+    "explanation": "",
+    "notes": []
   },
   {
     "id": 80,
@@ -570,10 +504,8 @@
       "url": "https://fresqueduclimat.org/wiki/images/d/d3/Fr-fr_adulte_carte_36_recto.png"
     },
     "backDescription": "",
-    "Explanation": "",
-    "Notes": [
-      ""
-    ]
+    "explanation": "",
+    "notes": []
   },
   {
     "id": 82,
@@ -586,10 +518,8 @@
       "url": "https://fresqueduclimat.org/wiki/images/2/20/Fr-fr_adulte_carte_37_recto.png"
     },
     "backDescription": "",
-    "Explanation": "",
-    "Notes": [
-      ""
-    ]
+    "explanation": "",
+    "notes": []
   },
   {
     "id": 84,
@@ -602,10 +532,8 @@
       "url": "https://fresqueduclimat.org/wiki/images/b/bb/Fr-fr_adulte_carte_38_recto.png"
     },
     "backDescription": "",
-    "Explanation": "",
-    "Notes": [
-      ""
-    ]
+    "explanation": "",
+    "notes": []
   },
   {
     "id": 86,
@@ -618,10 +546,8 @@
       "url": "https://fresqueduclimat.org/wiki/images/7/7e/Fr-fr_adulte_carte_39_recto.png"
     },
     "backDescription": "",
-    "Explanation": "",
-    "Notes": [
-      ""
-    ]
+    "explanation": "",
+    "notes": []
   },
   {
     "id": 88,
@@ -634,10 +560,8 @@
       "url": "https://fresqueduclimat.org/wiki/images/6/62/Fr-fr_adulte_carte_40_recto.png"
     },
     "backDescription": "",
-    "Explanation": "",
-    "Notes": [
-      ""
-    ]
+    "explanation": "",
+    "notes": []
   },
   {
     "id": 90,
@@ -650,9 +574,9 @@
       "url": "https://fresqueduclimat.org/wiki/images/9/98/Fr-fr_adulte_carte_41_recto.png"
     },
     "backDescription": "",
-    "Explanation": "",
-    "Notes": [
-      ""
+    "explanation": null,
+    "notes": [
+      "test"
     ]
   },
   {
@@ -666,9 +590,7 @@
       "url": "https://fresqueduclimat.org/wiki/images/a/ac/Fr-fr_adulte_carte_42_recto.png"
     },
     "backDescription": "",
-    "Explanation": "",
-    "Notes": [
-      ""
-    ]
+    "explanation": "",
+    "notes": []
   }
 ]
