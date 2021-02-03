@@ -20,10 +20,16 @@ export default {
   getCardLinks(cardNum) {
     const causesCards = links
       .filter(l => l.toNum.toString() === cardNum.toString())
-      .map(l => this.getCardData(l.fromNum));
+      .map(link => ({
+        from: this.getCardData(link.fromNum),
+        link
+      }));
     const consequencesCards = links
       .filter(l => l.fromNum.toString() === cardNum.toString())
-      .map(l => this.getCardData(l.toNum));
+      .map(link => ({
+        to: this.getCardData(link.toNum),
+        link
+      }));
     return {
       causes: causesCards,
       consequences: consequencesCards

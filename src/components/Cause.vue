@@ -2,16 +2,17 @@
   <div class="cause">
     <img
       class="cause-card-image"
-      :src="cause.img.url"
-      :title="cause.shortTitle"
+      :class="getLinkStyle('cause-card-image-', cause.link.status)"
+      :src="cause.from.img.url"
+      :title="cause.from.shortTitle"
     />
     <div class="arrow-anchor">
-      <span class="arrow">
+      <span class="arrow" :class="getLinkStyle('arrow-', cause.link.status)">
         &#10145;
       </span>
     </div>
-    <p class="cause-explanation" v-if="!!cause.Explanation">
-      {{ cause.Explanation }}
+    <p class="cause-explanation" v-if="!!cause.link.Explanation">
+      {{ cause.link.Explanation }}
     </p>
     <p class="cause-explanation-none" v-else>
       sans explication
@@ -24,6 +25,15 @@ export default {
   name: 'Cause',
   props: {
     cause: Object
+  },
+  methods: {
+    getLinkStyle(classPrefix, linkStatus) {
+      return {
+        [classPrefix + 'valid']: linkStatus === 'valid',
+        [classPrefix + 'optional']: linkStatus === 'optional',
+        [classPrefix + 'invalid']: linkStatus === 'invalid'
+      };
+    }
   }
 };
 </script>
@@ -39,11 +49,17 @@ export default {
   max-width: 240px;
   padding: 0;
   margin: 0 2rem 0.2rem 0;
-  box-shadow: 3px 3px 0px #706f71;
+  box-shadow: 5px 5px 0px #706f71;
   z-index: 3;
 }
 .cause-card-image-valid {
-  box-shadow: 3px 3px 0px #04c2c0;
+  box-shadow: 5px 5px 0px #04c2c0;
+}
+.cause-card-image-optional {
+  box-shadow: 5px 5px 0px rgb(255, 221, 103);
+}
+.cause-card-image-invalid {
+  box-shadow: 5px 5px 0px #e90000;
 }
 .cause-explanation {
   padding: 0.1rem;
@@ -81,5 +97,11 @@ export default {
 }
 .arrow-valid {
   color: #04c2c0;
+}
+.arrow-optional {
+  color: rgb(255, 221, 103);
+}
+.arrow-invalid {
+  color: #e90000;
 }
 </style>

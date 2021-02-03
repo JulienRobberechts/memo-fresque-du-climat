@@ -2,11 +2,11 @@
   <div class="consequence">
     <img
       class="consequence-card-image"
-      :src="consequence.img.url"
-      :title="consequence.shortTitle"
+      :src="consequence.to.img.url"
+      :title="consequence.to.shortTitle"
     />
-    <p class="consequence-explanation" v-if="!!consequence.Explanation">
-      {{ consequence.Explanation }}
+    <p class="consequence-explanation" v-if="!!consequence.link.Explanation">
+      {{ consequence.link.Explanation }}
     </p>
     <p class="consequence-explanation-none" v-else>
       sans explication
