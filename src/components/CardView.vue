@@ -7,18 +7,18 @@
       </div>
       cause<span v-if="card.causes.length > 1">s</span>
     </h2>
-    <div class="causes" v-for="cause in card.causes" :key="cause.id">
-      <div class="cause">
+    <div class="causes">
+      <div class="cause" v-for="cause in card.causes" :key="cause.id">
         <img
           class="cause-card-image"
           :src="cause.img.url"
           :title="cause.shortTitle"
         />
-        <p class="cause-explanation">
-          Cette carte peut être considérée comme la cause des secteurs
-          économiques (Industrie, Bâtiment, Transport, Agriculture), ou comme le
-          titre d'un ensemble de cartes qui sont alors regroupées dans une
-          grosse "patate".
+        <p class="cause-explanation" v-if="!!cause.Explanation">
+          {{ cause.Explanation }}
+        </p>
+        <p class="cause-explanation-none" v-else>
+          sans explication
         </p>
       </div>
     </div>
@@ -28,23 +28,23 @@
       </div>
       consequence<span v-if="card.consequences.length > 1">s</span>
     </h2>
-    <div
-      class="consequences"
-      v-for="consequence in card.consequences"
-      :key="consequence.id"
-    >
-      <div class="consequence">
+    <div class="consequences">
+      <div
+        class="consequence"
+        v-for="consequence in card.consequences"
+        :key="consequence.id"
+      >
         <img
           class="consequence-card-image"
           :src="consequence.img.url"
           :title="consequence.shortTitle"
         />
-        <p class="consequence-explanation">
-          Cette carte peut être considérée comme la cause des secteurs
-          économiques (Industrie, Bâtiment, Transport, Agriculture), ou comme le
-          titre d'un ensemble de cartes qui sont alors regroupées dans une
-          grosse "patate".
+        <p class="consequence-explanation" v-if="!!consequence.Explanation">
+          {{ consequence.Explanation }}
         </p>
+        <div class="consequence-explanation-none" v-else>
+          sans explication
+        </div>
       </div>
     </div>
   </div>
@@ -94,9 +94,13 @@ export default {
 }
 .causes {
   display: flex;
+  flex-direction: column;
+  max-width: 600px;
 }
 .consequences {
   display: flex;
+  flex-direction: column;
+  max-width: 600px;
 }
 .cause {
   margin: 0.5rem 0.3rem;
@@ -107,7 +111,7 @@ export default {
 .cause-card-image {
   float: left;
   width: 40vw;
-  max-width: 600px;
+  max-width: 240px;
   padding: 0;
   margin: 0 0.6rem 0.2rem 0;
   box-shadow: 3px 3px 0px #04c2c0;
@@ -115,7 +119,7 @@ export default {
 .consequence-card-image {
   float: right;
   width: 40vw;
-  max-width: 600px;
+  max-width: 240px;
   padding: 0;
   margin: 0 0 0.2rem 0.6rem;
   box-shadow: -3px 3px 0px #04c2c0;
@@ -123,12 +127,26 @@ export default {
 .cause-explanation {
   padding: 0.1rem;
   margin: 0;
-  text-align: justify;
+  text-align: left;
 }
 .consequence-explanation {
   padding: 0.1rem;
   margin: 0;
-  text-align: justify;
+  text-align: left;
+}
+.cause-explanation-none {
+  padding: 0.1rem;
+  margin: 3rem auto;
+  color: #5555;
+  font-weight: 600;
+  font-size: 1rem;
+}
+.consequence-explanation-none {
+  padding: 0.1rem;
+  margin: 3rem auto;
+  color: #5555;
+  font-weight: 600;
+  font-size: 1rem;
 }
 .cause-explanation:first-letter {
   text-transform: capitalize;
