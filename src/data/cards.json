@@ -322,9 +322,11 @@
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/7/78/Fr-fr_adulte_carte_21_recto.png"
     },
-    "backDescription": "",
-    "explanation": "",
-    "notes": []
+    "backDescription": "On parle ici de la température de l’air au sol, en moyenne sur la surface de la Terre. Elle a déjà augmenté de près de 1°C depuis 1900. Selon les scénarios, elle aura augmenté de 2°C à 5°C d’ici 2100. Or, lors de la dernière période glaciaire (il y a 20.000 ans), elle était seulement 5°C plus basse qu’aujourd’hui... et la déglaciation a duré 10.000 ans ! ",
+    "explanation": "Quand on a gardé les cartes 10, 14 et 15, (version standard) cette carte représente la température de l'air donc de l'atmosphère.",
+    "notes": [
+      "Au rythme actuel de réchauffement, 0,2°C par décennie, le réchauffement atteindra 1,5°C entre 2030 et 2050 environ"
+    ]
   },
   {
     "id": 52,
@@ -336,9 +338,13 @@
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/d/d2/Fr-fr_adulte_carte_22_recto.png"
     },
-    "backDescription": "",
+    "backDescription": "Depuis 1900, le niveau de l’océan a monté de 20 cm. Cela est dû à la dilatation de l'eau, la fonte des glaciers et la fonte des calottes.",
     "explanation": "",
-    "notes": []
+    "notes": [
+      "Il est important de noter que les prévisions concernant la hausse du niveau de l'eau sont très conservatrices. Certains phénomènes, qui sont compris d'un point de vu qualitatif, mais pas quantitatif, ne sont tout simplement pas chiffrés dans le rapport du GIEC.",
+      "C'est le cas des moulins, par exemple. Ce sont des passages entre l'eau des lacs glaciaires à la surface des calottes et le socle rocheux. Une fois que l'eau s'introduit dans ces passages, elle vient lubrifier le contact entre le socle rocheux et la calotte glaciaire, ce qui facilite la dérive des glaciers vers la mer.",
+      "Les chiffres concernant la montée des eaux seront donc très probablement revus à la hausse dans les prochains rapports."
+    ]
   },
   {
     "id": 54,
@@ -350,9 +356,11 @@
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/8/8d/Fr-fr_adulte_carte_23_recto.png"
     },
-    "backDescription": "",
+    "backDescription": "Si le pH baisse, la formation de calcaire devient plus difficile, notamment pour les coquilles.",
     "explanation": "",
-    "notes": []
+    "notes": [
+      "La constitution du calcaire (calcification) est la réaction chimique suivante : Ca++ + 2HCO3- ⇔ CaCO3 + H2O + CO2. Elle nécessite la présence d'ions bicarbonate HCO3–. Or la quantité de ces ions dans l'eau dépend du pH : Dans l'eau, le dioxyde de carbone, l'acide carbonique, l'ion bicarbonate et l'ion carbonate sont en équilibre, en fonction du pH : CO2 + H2O ⇔ H2CO3 ⇔ H+ + HCO3– ⇔ 2 H+ + CO32–. L'ajout d'un acide déplace les équilibres vers la gauche. Dit autrement, si le pH baisse, les ions bicarbonates sont en moins grande quantité. D'où la difficulté de fabriquer du calcaire pour les organisme qui en ont besoin."
+    ]
   },
   {
     "id": 56,
@@ -364,8 +372,8 @@
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/9/94/Fr-fr_adulte_carte_24_recto.png"
     },
-    "backDescription": "",
-    "explanation": "",
+    "backDescription": "Quand le CO2 se dissout dans l'océan, il se transforme en des ions acides (H2CO3 puis HCO3–). Cela a pour effet d'acidifier l'océan (le pH baisse).",
+    "explanation": "L'acidification de l'océan est parfois appelée 'l'autre problème du carbone'. En effet, ce n'est pas à proprement parler une conséquence du changement climatique, mais une autre conséquence des émissions de CO2. ",
     "notes": []
   },
   {
@@ -378,9 +386,11 @@
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/b/bd/Fr-fr_adulte_carte_25_recto.png"
     },
-    "backDescription": "",
-    "explanation": "",
-    "notes": []
+    "backDescription": "Les animaux et les plantes sont affectés par les changements de température et du cycle de l'eau : ils se déplacent ou disparaissent (ou, plus rarement, ils prolifèrent). ",
+    "explanation": "Aujourd'hui, la biodiversité terrestre est avant tout mise à mal par d'autres facteurs que le climat : déforestation, disparition des habitats naturels, pesticides, pollutions diverses. Il n'empêche que le changement climatique va largement contribuer à la disparition des espèces dans les décennies à venir.",
+    "notes": [
+      "Cette carte désigne aussi bien la biodiversité végétale que l'animale."
+    ]
   },
   {
     "id": 60,
@@ -392,9 +402,12 @@
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/1/14/Fr-fr_adulte_carte_26_recto.png"
     },
-    "backDescription": "",
-    "explanation": "",
-    "notes": []
+    "backDescription": "La perturbation du cycle de l'eau peut amener plus d'eau ou moins d’eau. Plus d'eau, cela peut engendrer des crues (inondations dans les terres). Si le sol a été durci par une sécheresse, c'est pire car l'eau ruisselle.",
+    "explanation": "Une crue est l'élevation du niveau d'un cours d'eau du au précipatitation ou a des fontes de neige ou de glace. Celle-ci est temporaire.",
+    "notes": [],
+    "animation": [
+      "On peut demander aux participants quelle différences ils voient entre les crues et les submersions. Les crues viennent de la pluie et des rivières alors que les submersions viennent de la mer."
+    ]
   },
   {
     "id": 62,
@@ -406,8 +419,8 @@
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/d/dd/Fr-fr_adulte_carte_27_recto.png"
     },
-    "backDescription": "",
-    "explanation": "",
+    "backDescription": "Ptéropodes et coccolithophores étant à la base de la chaîne alimentaire, leur disparition menace toute la biodiversité marine. Le réchauffement de l’eau joue aussi un rôle important dans la fragilisation de la biodiversité marine. ",
+    "explanation": "Aujourd'hui, la biodiversité marine est plus mise en danger par la surpêche que par le changement climatique ou l'acidification. Mais à long terme, ces derniers vont considérablement augmenter leur pression. La FAO considère que dans le monde, entre 660 et 820 million d'individus sont directement ou indirectement dépendant de la pêche et de l'aquaculture. Soit à peu près 10% de la population mondiale.",
     "notes": []
   },
   {
@@ -420,8 +433,8 @@
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/8/80/Fr-fr_adulte_carte_28_recto.png"
     },
-    "backDescription": "",
-    "explanation": "",
+    "backDescription": "Avec le réchauffement, les animaux migrent. Or, certains sont des vecteurs de maladie et peuvent atteindre des zones où les populations ne sont pas immunisées contre ces maladies.",
+    "explanation": "Le problème n'est tant pas la prolifération des vecteurs de maladie que leur déplacement. Cette carte vient idéalement après la carte 25 dans la mesure où les vecteurs de maladie sont une sous−partie de la biodiversité.",
     "notes": []
   },
   {
@@ -434,9 +447,12 @@
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/e/e0/Fr-fr_adulte_carte_29_recto.png"
     },
-    "backDescription": "",
+    "backDescription": "Les ptéropodes sont du zooplancton et les coccolithophores du phytoplancton. Ces micro-organismes ont une coquille en calcaire. ",
     "explanation": "",
-    "notes": []
+    "notes": [],
+    "animation": [
+      "C'est une carte qui fait beaucoup rire à cause de la difficulté à retenir ces noms. Apprenez-les par cœur, comme si c'était une évidence. 'Ça fait toujours bien dans les dîners en ville !' "
+    ]
   },
   {
     "id": 68,
@@ -448,8 +464,8 @@
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/8/8e/Fr-fr_adulte_carte_30_recto.png"
     },
-    "backDescription": "",
-    "explanation": "",
+    "backDescription": "La perturbation du cycle de l'eau peut amener plus ou moins d'eau. Moins d'eau, c'est une sécheresse. On estime ainsi que les sécheresses pourraient se multiplier à l’avenir. ",
+    "explanation": "Une sécheresse est une période de temps anormalement sec suffisamment longue pour causer un grave déséquilibre hydrologique. On peut parler de sécheresse agricole si l'on mesure l'humidité du sol ou de sécheresse météorologique dans le cas d'une baisse de précipitation. Une mégasécheresse est une sécheresse persistante et étendue, d’une durée très supérieure à la normale (en général, une décennie ou plus)[1]. Le manque de pluie et l'évaporation sur le sol sont les causes des sécheresses.",
     "notes": []
   },
   {
@@ -462,8 +478,8 @@
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/7/7e/Fr-fr_adulte_carte_31_recto.png"
     },
-    "backDescription": "",
-    "explanation": "",
+    "backDescription": "Les ressources en eau douce sont affectées par les changements de précipitation et la disparition des glaciers qui jouent un rôle régulateur du débit des cours d'eau. ",
+    "explanation": "Le gros sujet, c'est la disparition des glaciers. Ils servent de réservoirs d'eau douce sous forme solide et fondent (surtout en été, quand il fait chaud, ça tombe bien !) pour alimenter en aval l'irrigation des cultures.",
     "notes": []
   },
   {
@@ -476,8 +492,8 @@
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/8/84/Fr-fr_adulte_carte_32_recto.png"
     },
-    "backDescription": "",
-    "explanation": "",
+    "backDescription": "La production agricole peut être affectée par la température, les sécheresses, les évènements extrêmes, les inondations et les submersions (ex : delta du Nil).",
+    "explanation": "Voici l'une des plus grosses menaces pour l'humanité. Ce sont déjà des baisses de rendements agricoles qui ont amené à des conflits au Rwanda et en Syrie.",
     "notes": []
   },
   {
@@ -490,8 +506,8 @@
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/8/84/Fr-fr_adulte_carte_33_recto.png"
     },
-    "backDescription": "",
-    "explanation": "",
+    "backDescription": "Cyclones et perturbations amènent du vent (donc des vagues) et des basses pressions. Or, chaque hectopascal en moins, c’est 1 cm d’eau en plus. Ils peuvent donc occasionner des submersions (inondations côtières) qui sont aggravées par l’augmentation du niveau de l’océan.",
+    "explanation": "Ne pas confondre avec les crues. Les submersions, c'est l'eau de la mer ou l'océan qui monte. Cette monté peux-être exceptionnel à cause d'événement climatique extrème, ou permanente à cause de la montée des eaux.",
     "notes": []
   },
   {
@@ -504,8 +520,8 @@
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/9/98/Fr-fr_adulte_carte_34_recto.png"
     },
-    "backDescription": "",
-    "explanation": "",
+    "backDescription": "Les cyclones s’alimentent de l’énergie des eaux chaudes à la surface de l’océan. Leur puissance a augmenté à cause du changement climatique. ",
+    "explanation": "Un cyclone est un phénomène tourbillonnaire des régions tropicales (entre 30°N et 30°S) accompagnés de vents dont la vitesse est supérieure ou égale à 64 nœuds c'est-à-dire 118 km/h ( soit une force 12 sur l'échelle de Beaufort). Les termes typhon, ouragan et cyclone tropical recouvrent tous les trois le même phénomène, la désignation adoptée dépend simplement de l'endroit du globe où il se produit. Le terme cyclone ou cyclone tropical est réservé à l'océan Indien et au Pacifique sud. On parle en revanche d'ouragan en Atlantique nord et dans le Pacifique nord-est et enfin de typhon dans le Pacifique nord-ouest.",
     "notes": []
   },
   {
@@ -518,9 +534,11 @@
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/9/97/Fr-fr_adulte_carte_35_recto.png"
     },
-    "backDescription": "",
+    "backDescription": "Les incendies sont facilités par les sécheresses et les canicules.",
     "explanation": "",
-    "notes": []
+    "notes": [
+      "Un Mégafeu est un incendie hors-normes déclenchant de très grands feux ravageant une très grande surface, sans que cette appellation ne corresponde à une définition scientifique très précise. On parle habituellement de mégafeu lorsque la surface touchée est de l'ordre minimal de 1 000 à 10 000 hectares. Les megafire ne sont que 3% des feus et représente pourtant 50% des pertes au niveau mondial.[1] 96% des 500 derniers megafire des 10 dernières années ont eu lieu pendant une période de chaleur et/ou de sécheresses anormalement élevée."
+    ]
   },
   {
     "id": 80,
@@ -532,9 +550,12 @@
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/d/d3/Fr-fr_adulte_carte_36_recto.png"
     },
-    "backDescription": "",
-    "explanation": "",
-    "notes": []
+    "backDescription": "Une manifestation de l’augmentation de température est la multiplication des canicules.",
+    "explanation": "Une canicule, ou vague de chaleur, est un phénomène météorologique de températures de l'air anormalement fortes, diurnes et nocturnes, se prolongeant de quelques jours à quelques semaines, dans une zone relativement étendue.",
+    "notes": [],
+    "animations": [
+      "Cette carte peut avoir un très fort potentiel marquant car elle a directement un impact sur les pays dévéloppé, et peut donc marquer facilement les participants. Grace a cette carte, on peut faire ressortir que le changement climatique est un problème mondial qui ne touche pas que les plus pauvres."
+    ]
   },
   {
     "id": 82,
@@ -546,7 +567,7 @@
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/2/20/Fr-fr_adulte_carte_37_recto.png"
     },
-    "backDescription": "",
+    "backDescription": "Les famines peuvent être occasionnées par la baisse des rendements agricoles et la réduction de la biodiversité marine. ",
     "explanation": "",
     "notes": []
   },
@@ -560,8 +581,8 @@
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/b/bb/Fr-fr_adulte_carte_38_recto.png"
     },
-    "backDescription": "",
-    "explanation": "",
+    "backDescription": "Famines, déplacement des vecteurs de maladie, canicules et conflits armés peuvent affecter la santé humaine.",
+    "explanation": "C'est l'une des cartes qui peut être placée en dernier, comme LA conséquence ultime.",
     "notes": []
   },
   {
@@ -574,7 +595,7 @@
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/7/7e/Fr-fr_adulte_carte_39_recto.png"
     },
-    "backDescription": "",
+    "backDescription": "Imaginez que vous vivez dans un endroit qui est miraculeusement épargné par le changement climatique. Quelques milliards d'humains risquent d'avoir très envie de le partager avec vous !!!",
     "explanation": "",
     "notes": []
   },
@@ -588,8 +609,8 @@
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/6/62/Fr-fr_adulte_carte_40_recto.png"
     },
-    "backDescription": "",
-    "explanation": "",
+    "backDescription": "C'est comme ça qu'il faudrait éviter que ça finisse...",
+    "explanation": "C'est la carte qui est prévue pour être placée en dernier, comme le laisse entendre le texte. On est déjà en mesure de dire que le changement climatique a été l'une des causes de certains conflits comme au Rwanda ou en Syrie. Dans un monde qui subit l'ensemble des conséquences décrites dans ce jeu, il est difficile d'imaginer qu'on puisse éviter des conflits armés. En 2007, quand le GIEC a eu le Prix Nobel, c'était le Prix Nobel de la Paix. Et il y a de très bonnes raisons à ça.",
     "notes": []
   },
   {
@@ -602,11 +623,9 @@
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/9/98/Fr-fr_adulte_carte_41_recto.png"
     },
-    "backDescription": "",
-    "explanation": null,
-    "notes": [
-      "test"
-    ]
+    "backDescription": "Le permafrost désigne le sol gelé en permanence. On constate qu’il commence à dégeler, relâchant dans l’air le méthane qui était emmagasiné sous terre. Au-delà de +2°C, ce phénomène risque de s’accélérer et il y a alors un fort risque d’emballement du dérèglement climatique.",
+    "explanation": "Le permafrost, ou pergélisol en français, est un sol dont la température reste inférieur ou égale à 0°C pendant au moins deux années consécutives. Deux cartes ont été ajoutée après la carte n°40 : ce sont des boucles de rétroactions violentes potentielles, des 'bombes climatiques', qui si elles se déclenchent, nous font perdre définitivement le contrôle sur le climat. Les thermokarst sont de véritables bioréacteurs au cœur du processus de relargage du carbone gelé : Lorsque le pergélisol dégèle, des morceaux de sol se détachent et tombent dans l’eau, apportant nutriments et carbone aux bactéries et au plancton présents dans la mare, qui les dégradent en CO2 (dans les couches d’eau proches de la surface) et en méthane ou CH4 (dans le fond privé d’oxygène de la mare).",
+    "notes": []
   },
   {
     "id": 92,
@@ -618,8 +637,8 @@
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/a/ac/Fr-fr_adulte_carte_42_recto.png"
     },
-    "backDescription": "",
-    "explanation": "",
+    "backDescription": "Les hydrates de méthanes (ou clathrates de méthane) sont une forme de glace posée au fond des océans, le long des talus continentaux, qui emprisonne des molécules de méthane. Ils peuvent devenir instables au-delà de +2°C.",
+    "explanation": "Deux cartes ont été ajoutée après la carte n°40 : ce sont des boucles de rétroactions violentes potentielles, des 'bombes climatiques', qui si elles se déclenchent, nous font perdre définitivement le contrôle sur le climat. Les thermokarst sont de véritables bioréacteurs au cœur du processus de relargage du carbone gelé : Lorsque le pergélisol dégèle, des morceaux de sol se détachent et tombent dans l’eau, apportant nutriments et carbone aux bactéries et au plancton présents dans la mare, qui les dégradent en CO2 (dans les couches d’eau proches de la surface) et en méthane ou CH4 (dans le fond privé d’oxygène de la mare).",
     "notes": []
   }
 ]
