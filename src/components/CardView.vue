@@ -8,19 +8,7 @@
       cause<span v-if="card.causes.length > 1">s</span>
     </h2>
     <div class="causes">
-      <div class="cause" v-for="cause in card.causes" :key="cause.id">
-        <img
-          class="cause-card-image"
-          :src="cause.img.url"
-          :title="cause.shortTitle"
-        />
-        <p class="cause-explanation" v-if="!!cause.Explanation">
-          {{ cause.Explanation }}
-        </p>
-        <p class="cause-explanation-none" v-else>
-          sans explication
-        </p>
-      </div>
+      <Cause v-for="cause in card.causes" :key="cause.id" :cause="cause" />
     </div>
     <h2 class="consequences-title">
       <div class="badge">
@@ -29,32 +17,27 @@
       consequence<span v-if="card.consequences.length > 1">s</span>
     </h2>
     <div class="consequences">
-      <div
-        class="consequence"
+      <Consequence
         v-for="consequence in card.consequences"
         :key="consequence.id"
-      >
-        <img
-          class="consequence-card-image"
-          :src="consequence.img.url"
-          :title="consequence.shortTitle"
-        />
-        <p class="consequence-explanation" v-if="!!consequence.Explanation">
-          {{ consequence.Explanation }}
-        </p>
-        <div class="consequence-explanation-none" v-else>
-          sans explication
-        </div>
-      </div>
+        :consequence="consequence"
+      />
     </div>
   </div>
 </template>
 
 <script>
+import Cause from '@/components/Cause.vue';
+import Consequence from '@/components/Consequence.vue';
+
 export default {
   name: 'CardView',
   props: {
     card: Object
+  },
+  components: {
+    Cause,
+    Consequence
   }
 };
 </script>
@@ -101,59 +84,5 @@ export default {
   display: flex;
   flex-direction: column;
   max-width: 600px;
-}
-.cause {
-  margin: 0.5rem 0.3rem;
-}
-.consequence {
-  margin: 0.5rem 0.3rem;
-}
-.cause-card-image {
-  float: left;
-  width: 40vw;
-  max-width: 240px;
-  padding: 0;
-  margin: 0 0.6rem 0.2rem 0;
-  box-shadow: 3px 3px 0px #04c2c0;
-}
-.consequence-card-image {
-  float: right;
-  width: 40vw;
-  max-width: 240px;
-  padding: 0;
-  margin: 0 0 0.2rem 0.6rem;
-  box-shadow: -3px 3px 0px #04c2c0;
-}
-.cause-explanation {
-  padding: 0.1rem;
-  margin: 0;
-  text-align: left;
-}
-.consequence-explanation {
-  padding: 0.1rem;
-  margin: 0;
-  text-align: left;
-}
-.cause-explanation-none {
-  padding: 0.1rem;
-  margin: 3rem auto;
-  color: #5555;
-  font-weight: 600;
-  font-size: 1rem;
-}
-.consequence-explanation-none {
-  padding: 0.1rem;
-  margin: 3rem auto;
-  color: #5555;
-  font-weight: 600;
-  font-size: 1rem;
-}
-.cause-explanation:first-letter {
-  text-transform: capitalize;
-  font-size: 130%;
-}
-.consequence-explanation:first-letter {
-  text-transform: capitalize;
-  font-size: 130%;
 }
 </style>
