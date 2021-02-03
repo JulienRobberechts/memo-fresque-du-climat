@@ -4,7 +4,7 @@
   </div>
   <router-link
     @click="justForHash"
-    class="fdc-link"
+    class="fdc-link withSpace"
     :to="{ name: 'RouteHome', hash: '#carte-' + card.cardNum }"
   >
     &larrhk; retour
@@ -41,5 +41,8 @@ export default {
   padding: 1rem;
   display: flex;
   justify-content: center;
+}
+.withSpace {
+  margin: 2rem;
 }
 </style>
