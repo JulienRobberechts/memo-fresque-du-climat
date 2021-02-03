@@ -2,78 +2,116 @@
   {
     "fromNum": 5,
     "toNum": 1,
-    "status": "optional"
+    "status": "optional",
+    "Explanation": "On peut se demander si les activités humaines consomment des énegie fossiles ou si les énérgies fossiles permettent les activités humaines. Ce débat ne doit pas prendre de temps et on peut regrouper les deux cartes au besoin. Quand je chante dans mon jardin, je réalise une activité humaine sans énergie fossile. Quand les moulins à vent ou à eau produisaient de la farine, ils n'utilisaient pas d'énergie fossile. Il reste, heureusement de nombreuses activités humaines sans énergie fossile."
   },
   {
     "fromNum": 40,
     "toNum": 1,
-    "status": "optional"
+    "status": "optional",
+    "Explanation": "C'est 'la boucle du club de Rome' ! Tout cela finira bien par se réguler, mais pas forcément de manière soft. Les participant·e·s font souvent ce lien, et proposent parfois de faire un rouleau avec la fresque pour mettre bord à bord la fin et le début. D'ailleurs, il est intéressant de faire remarquer qu'il y a des humains dans les cartes du début et celles de la fin, mais pas au milieu."
   },
   {
     "fromNum": 1,
     "toNum": 2,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 1,
     "toNum": 3,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 1,
     "toNum": 4,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 1,
     "toNum": 8,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 1,
     "toNum": 6,
-    "status": "optional"
+    "status": "optional",
+    "Explanation": ""
   },
   {
     "fromNum": 1,
     "toNum": 25,
     "status": "optional",
-    "Explanation": "L'être humain ..."
+    "Explanation": "L'être humain occupe presque tout l'espace disponible sur terre, ne laissant aucune place aux animaux et aux plantes. C'est ce qu'on appelle la disparition des habitats naturels et c'est la principale cause de perte de biodiversité aujourd'hui, bien devant les causes climatiques."
   },
   {
     "fromNum": 1,
     "toNum": 27,
-    "status": "optional"
+    "status": "optional",
+    "Explanation": "Par ce lien, on exprime toutes les dégradations que l'être humain est capable d'infliger à la vie marine comme la pollution au plastique et la sur-pêche. C'est hors-sujet par rapport au changement climatique, mais c'est intéressant de faire le lien quand-même."
+  },
+  {
+    "fromNum": 2,
+    "toNum": 6,
+    "status": "optional",
+    "Explanation": "Ce lien est possible pour les industries qui consomment du bois. Cependant, il faut faire attention, du bois utilisé par une usine dans une forêt gérée durablement n'est pas considéré comme de la déforestation."
+  },
+  {
+    "fromNum": 2,
+    "toNum": 9,
+    "status": "optional",
+    "Explanation": "En réalité, l'industrie est responsable d'autant d'émissions de méthanes que l'agriculture à cause des émissions fugitives (les fuites de gaz naturels dans les pipelines). C'est un point qui est peu connu, donc cette relation n'est pas considérée comme incontournable. L'industrie émet également des HFC (fluides réfrigérants)."
   },
   {
     "fromNum": 2,
     "toNum": 5,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 2,
     "toNum": 10,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 3,
     "toNum": 5,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
+  },
+  {
+    "fromNum": 3,
+    "toNum": 26,
+    "status": "optional",
+    "Explanation": "L'artificialisation des sols est également responsable d'innondations car le sol n'est plus drainant."
+  },
+  {
+    "fromNum": 3,
+    "toNum": 10,
+    "status": "optional",
+    "Explanation": " Les bâtiments émettent peu d'aérosols de manière directe. Les seules émissions significatives sont les feux de cheminée. A Chamonix, 85% des particules fines présentes dans l'atmosphère proviennent de chauffage au bois."
   },
   {
     "fromNum": 4,
     "toNum": 5,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 4,
     "toNum": 10,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 5,
     "toNum": 7,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 5,
@@ -90,62 +128,74 @@
   {
     "fromNum": 8,
     "toNum": 6,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 6,
     "toNum": 7,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 7,
     "toNum": 12,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 8,
     "toNum": 9,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 41,
     "toNum": 9,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 42,
     "toNum": 9,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 9,
     "toNum": 13,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 10,
     "toNum": 15,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 10,
     "toNum": 38,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 12,
     "toNum": 11,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 11,
     "toNum": 13,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 12,
     "toNum": 24,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 12,
@@ -156,72 +206,86 @@
   {
     "fromNum": 13,
     "toNum": 15,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 15,
     "toNum": 14,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 14,
     "toNum": 16,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 14,
     "toNum": 17,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 14,
     "toNum": 18,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 14,
     "toNum": 19,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 14,
     "toNum": 21,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 16,
     "toNum": 22,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 16,
     "toNum": 31,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 17,
     "toNum": 20,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 17,
     "toNum": 22,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 17,
     "toNum": 27,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 17,
     "toNum": 34,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 17,
     "toNum": 42,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 18,
@@ -232,226 +296,271 @@
   {
     "fromNum": 19,
     "toNum": 22,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 21,
     "toNum": 20,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 20,
     "toNum": 25,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 20,
     "toNum": 26,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 20,
     "toNum": 30,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 20,
     "toNum": 33,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 20,
     "toNum": 34,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 21,
     "toNum": 25,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 21,
     "toNum": 32,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 21,
     "toNum": 36,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 21,
     "toNum": 38,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 21,
     "toNum": 41,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 22,
     "toNum": 33,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 24,
     "toNum": 23,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 23,
     "toNum": 29,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 25,
     "toNum": 28,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 25,
     "toNum": 32,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 30,
     "toNum": 26,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 26,
     "toNum": 32,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 26,
     "toNum": 38,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 29,
     "toNum": 27,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 27,
     "toNum": 37,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 28,
     "toNum": 38,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 30,
     "toNum": 31,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 30,
     "toNum": 32,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 30,
     "toNum": 35,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 31,
     "toNum": 32,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 31,
     "toNum": 40,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 33,
     "toNum": 32,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 34,
     "toNum": 32,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 32,
     "toNum": 37,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 32,
     "toNum": 39,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 34,
     "toNum": 33,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 33,
     "toNum": 39,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 34,
     "toNum": 38,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 36,
     "toNum": 35,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 37,
     "toNum": 38,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 37,
     "toNum": 39,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 31,
     "toNum": 38,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 38,
     "toNum": 40,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 40,
     "toNum": 39,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 39,
     "toNum": 40,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 40,
     "toNum": 38,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 14,
     "toNum": 41,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 14,
     "toNum": 42,
-    "status": "valid"
+    "status": "valid",
+    "Explanation": ""
   }
 ]
