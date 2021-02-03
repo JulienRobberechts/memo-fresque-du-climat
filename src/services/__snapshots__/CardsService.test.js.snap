@@ -1,0 +1,789 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getCard should return card 1 1`] = `null`;
+
+exports[`getCardLinks should return links for card 1 1`] = `
+Object {
+  "causes": Array [],
+}
+`;
+
+exports[`getCards should return all cards 1`] = `
+Array [
+  Object {
+    "cardBatch": 1,
+    "cardNum": 1,
+    "causes": Array [],
+    "consequences": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_2_industrie",
+      "/wiki/index.php?title=Fr-fr_adulte_carte_3_b%C3%A2timent",
+      "/wiki/index.php?title=Fr-fr_adulte_carte_4_transport",
+      "/wiki/index.php?title=Fr-fr_adulte_carte_8_agriculture",
+    ],
+    "id": 4,
+    "img": Object {
+      "url": "https://fresqueduclimat.org/wiki/images/0/01/Fr-fr_adulte_carte_1_recto.png",
+    },
+    "shortTitle": "Activités humaines",
+    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_1_activit%C3%A9s_humaines",
+    "wikiTitle": "Fr-fr adulte carte 1 activités humaines",
+  },
+  Object {
+    "cardBatch": 2,
+    "cardNum": 2,
+    "causes": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_1_activit%C3%A9s_humaines",
+    ],
+    "consequences": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_5_%C3%A9nergies_fossiles",
+      "/wiki/index.php?title=Fr-fr_adulte_carte_10_a%C3%A9rosols",
+    ],
+    "id": 12,
+    "img": Object {
+      "url": "https://fresqueduclimat.org/wiki/images/7/7e/Fr-fr_adulte_carte_2_recto.png",
+    },
+    "shortTitle": "Industrie",
+    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_2_industrie",
+    "wikiTitle": "Fr-fr adulte carte 2 industrie",
+  },
+  Object {
+    "cardBatch": 2,
+    "cardNum": 3,
+    "causes": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_1_activit%C3%A9s_humaines",
+    ],
+    "consequences": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_5_%C3%A9nergies_fossiles",
+    ],
+    "id": 14,
+    "img": Object {
+      "url": "https://fresqueduclimat.org/wiki/images/6/60/Fr-fr_adulte_carte_3_recto.png",
+    },
+    "shortTitle": "Utilisation des bâtiments",
+    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_3_utilisation_des_b%C3%A2timents",
+    "wikiTitle": "Fr-fr adulte carte 3 utilisation des bâtiments",
+  },
+  Object {
+    "cardBatch": 2,
+    "cardNum": 4,
+    "causes": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_1_activit%C3%A9s_humaines",
+    ],
+    "consequences": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_5_%C3%A9nergies_fossiles",
+      "/wiki/index.php?title=Fr-fr_adulte_carte_10_a%C3%A9rosols",
+    ],
+    "id": 16,
+    "img": Object {
+      "url": "https://fresqueduclimat.org/wiki/images/c/c6/Fr-fr_adulte_carte_4_recto.png",
+    },
+    "shortTitle": "Transport",
+    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_4_transport",
+    "wikiTitle": "Fr-fr adulte carte 4 transport",
+  },
+  Object {
+    "cardBatch": 1,
+    "cardNum": 5,
+    "causes": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_2_industrie",
+      "/wiki/index.php?title=Fr-fr_adulte_carte_3_b%C3%A2timent",
+      "/wiki/index.php?title=Fr-fr_adulte_carte_4_transport",
+    ],
+    "consequences": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_7_%C3%A9missions_de_co2",
+    ],
+    "id": 18,
+    "img": Object {
+      "url": "https://fresqueduclimat.org/wiki/images/8/85/Fr-fr_adulte_carte_5_recto.png",
+    },
+    "shortTitle": "Énergies fossiles",
+    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_5_%C3%A9nergies_fossiles",
+    "wikiTitle": "Fr-fr adulte carte 5 énergies fossiles",
+  },
+  Object {
+    "cardBatch": 2,
+    "cardNum": 6,
+    "causes": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_8_agriculture",
+    ],
+    "consequences": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_7_%C3%A9missions_de_co2",
+    ],
+    "id": 21,
+    "img": Object {
+      "url": "https://fresqueduclimat.org/wiki/images/d/d3/Fr-fr_adulte_carte_6_recto.png",
+    },
+    "shortTitle": "Déforestation",
+    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_6_d%C3%A9forestation",
+    "wikiTitle": "Fr-fr adulte carte 6 déforestation",
+  },
+  Object {
+    "cardBatch": 1,
+    "cardNum": 7,
+    "causes": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_5_%C3%A9nergies_fossiles",
+      "/wiki/index.php?title=Fr-fr_adulte_carte_6_d%C3%A9forestation",
+    ],
+    "consequences": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_12_puits_de_carbone",
+    ],
+    "id": 23,
+    "img": Object {
+      "url": "https://fresqueduclimat.org/wiki/images/f/f5/Fr-fr_adulte_carte_7_recto.png",
+    },
+    "shortTitle": "Émissions de CO2",
+    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_7_%C3%A9missions_de_co2",
+    "wikiTitle": "Fr-fr adulte carte 7 émissions de co2",
+  },
+  Object {
+    "cardBatch": 2,
+    "cardNum": 8,
+    "causes": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_1_activit%C3%A9s_humaines",
+    ],
+    "consequences": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_6_d%C3%A9forestation",
+      "/wiki/index.php?title=Fr-fr_adulte_carte_9_autres_ges",
+    ],
+    "id": 8,
+    "img": Object {
+      "url": "https://fresqueduclimat.org/wiki/images/d/d6/Fr-fr_adulte_carte_8_recto.png",
+    },
+    "shortTitle": "Agriculture",
+    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_8_agriculture",
+    "wikiTitle": "Fr-fr adulte carte 8 agriculture",
+  },
+  Object {
+    "cardBatch": 2,
+    "cardNum": 9,
+    "causes": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_8_agriculture",
+      "/wiki/index.php?title=Fr-fr_adulte_carte_41_permafrost",
+      "/wiki/index.php?title=Fr-fr_adulte_carte_42_hydrates_de_m%C3%A9thane",
+    ],
+    "consequences": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_13_effet_de_serre_additionnel",
+    ],
+    "id": 26,
+    "img": Object {
+      "url": "https://fresqueduclimat.org/wiki/images/3/38/Fr-fr_adulte_carte_9_recto.png",
+    },
+    "shortTitle": "Autres GES",
+    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_9_autres_ges",
+    "wikiTitle": "Fr-fr adulte carte 9 autres ges",
+  },
+  Object {
+    "cardBatch": 3,
+    "cardNum": 10,
+    "causes": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_2_industrie",
+      "/wiki/index.php?title=Fr-fr_adulte_carte_4_transport",
+    ],
+    "consequences": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_15_for%C3%A7age_radiatif",
+      "/wiki/index.php?title=Fr-fr_adulte_carte_38_sant%C3%A9_humaine",
+    ],
+    "id": 28,
+    "img": Object {
+      "url": "https://fresqueduclimat.org/wiki/images/3/35/Fr-fr_adulte_carte_10_recto.png",
+    },
+    "shortTitle": "Aérosols",
+    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_10_a%C3%A9rosols",
+    "wikiTitle": "Fr-fr adulte carte 10 aérosols",
+  },
+  Object {
+    "cardBatch": 2,
+    "cardNum": 11,
+    "causes": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_12_puits_de_carbone",
+    ],
+    "consequences": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_13_effet_de_serre_additionnel",
+    ],
+    "id": 30,
+    "img": Object {
+      "url": "https://fresqueduclimat.org/wiki/images/c/c5/Fr-fr_adulte_carte_11_recto.png",
+    },
+    "shortTitle": "Concentration en CO2 (ppm)",
+    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_11_concentration_en_co2",
+    "wikiTitle": "Fr-fr adulte carte 11 concentration en co2",
+  },
+  Object {
+    "cardBatch": 2,
+    "cardNum": 12,
+    "causes": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_7_%C3%A9missions_de_co2",
+    ],
+    "consequences": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_11_concentration_en_co2",
+      "/wiki/index.php?title=Fr-fr_adulte_carte_24_acidification_oc%C3%A9an",
+    ],
+    "id": 32,
+    "img": Object {
+      "url": "https://fresqueduclimat.org/wiki/images/e/e2/Fr-fr_adulte_carte_12_recto.png",
+    },
+    "shortTitle": "Puits de carbone",
+    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_12_puits_de_carbone",
+    "wikiTitle": "Fr-fr adulte carte 12 puits de carbone",
+  },
+  Object {
+    "cardBatch": 1,
+    "cardNum": 13,
+    "causes": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_9_autres_ges",
+      "/wiki/index.php?title=Fr-fr_adulte_carte_11_concentration_en_co2",
+    ],
+    "consequences": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_15_for%C3%A7age_radiatif",
+    ],
+    "id": 34,
+    "img": Object {
+      "url": "https://fresqueduclimat.org/wiki/images/1/15/Fr-fr_adulte_carte_13_recto.png",
+    },
+    "shortTitle": "Effet de serre additionnel",
+    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_13_effet_de_serre_additionnel",
+    "wikiTitle": "Fr-fr adulte carte 13 effet de serre additionnel",
+  },
+  Object {
+    "cardBatch": 3,
+    "cardNum": 14,
+    "causes": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_15_for%C3%A7age_radiatif",
+    ],
+    "consequences": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_16_fonte_des_glaciers",
+      "/wiki/index.php?title=Fr-fr_adulte_carte_17_hausse_temp%C3%A9rature_eau",
+      "/wiki/index.php?title=Fr-fr_adulte_carte_18_fonte_de_la_banquise",
+      "/wiki/index.php?title=Fr-fr_adulte_carte_19_fonte_des_calottes_glaciaires",
+      "/wiki/index.php?title=Fr-fr_adulte_carte_21_hausse_temp%C3%A9rature",
+    ],
+    "id": 36,
+    "img": Object {
+      "url": "https://fresqueduclimat.org/wiki/images/f/fe/Fr-fr_adulte_carte_14_recto.png",
+    },
+    "shortTitle": "Budget énergétique",
+    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_14_bilan_%C3%A9nerg%C3%A9tique",
+    "wikiTitle": "Fr-fr adulte carte 14 bilan énergétique",
+  },
+  Object {
+    "cardBatch": 3,
+    "cardNum": 15,
+    "causes": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_13_effet_de_serre_additionnel",
+      "/wiki/index.php?title=Fr-fr_adulte_carte_10_a%C3%A9rosols",
+    ],
+    "consequences": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_14_bilan_%C3%A9nerg%C3%A9tique",
+    ],
+    "id": 38,
+    "img": Object {
+      "url": "https://fresqueduclimat.org/wiki/images/9/95/Fr-fr_adulte_carte_15_recto.png",
+    },
+    "shortTitle": "Forçage radiatif",
+    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_15_for%C3%A7age_radiatif",
+    "wikiTitle": "Fr-fr adulte carte 15 forçage radiatif",
+  },
+  Object {
+    "cardBatch": 3,
+    "cardNum": 16,
+    "causes": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_14_bilan_%C3%A9nerg%C3%A9tique",
+    ],
+    "consequences": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_22_mont%C3%A9e_des_eaux",
+      "/wiki/index.php?title=Fr-fr_adulte_carte_31_ressources_eau_douce",
+    ],
+    "id": 40,
+    "img": Object {
+      "url": "https://fresqueduclimat.org/wiki/images/1/14/Fr-fr_adulte_carte_16_recto.png",
+    },
+    "shortTitle": "Fonte des glaciers",
+    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_16_fonte_des_glaciers",
+    "wikiTitle": "Fr-fr adulte carte 16 fonte des glaciers",
+  },
+  Object {
+    "cardBatch": 3,
+    "cardNum": 17,
+    "causes": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_14_bilan_%C3%A9nerg%C3%A9tique",
+    ],
+    "consequences": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_20_perturbation_cycle_eau",
+      "/wiki/index.php?title=Fr-fr_adulte_carte_22_mont%C3%A9e_des_eaux",
+      "/wiki/index.php?title=Fr-fr_adulte_carte_27_biodiversit%C3%A9_marine",
+      "/wiki/index.php?title=Fr-fr_adulte_carte_34_cyclones",
+      "/wiki/index.php?title=Fr-fr_adulte_carte_42_hydrates_de_m%C3%A9thane",
+    ],
+    "id": 42,
+    "img": Object {
+      "url": "https://fresqueduclimat.org/wiki/images/b/bf/Fr-fr_adulte_carte_17_recto.png",
+    },
+    "shortTitle": "Hausse de la température de l'eau",
+    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_17_hausse_temp%C3%A9rature_eau",
+    "wikiTitle": "Fr-fr adulte carte 17 hausse température eau",
+  },
+  Object {
+    "cardBatch": 1,
+    "cardNum": 18,
+    "causes": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_14_bilan_%C3%A9nerg%C3%A9tique",
+    ],
+    "consequences": Array [],
+    "id": 44,
+    "img": Object {
+      "url": "https://fresqueduclimat.org/wiki/images/7/74/Fr-fr_adulte_carte_18_recto.png",
+    },
+    "shortTitle": "Fonte de la banquise",
+    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_18_fonte_de_la_banquise",
+    "wikiTitle": "Fr-fr adulte carte 18 fonte de la banquise",
+  },
+  Object {
+    "cardBatch": 3,
+    "cardNum": 19,
+    "causes": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_14_bilan_%C3%A9nerg%C3%A9tique",
+    ],
+    "consequences": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_22_mont%C3%A9e_des_eaux",
+    ],
+    "id": 46,
+    "img": Object {
+      "url": "https://fresqueduclimat.org/wiki/images/e/e1/Fr-fr_adulte_carte_19_recto.png",
+    },
+    "shortTitle": "Fonte des calottes glaciaires",
+    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_19_fonte_des_calottes_glaciaires",
+    "wikiTitle": "Fr-fr adulte carte 19 fonte des calottes glaciaires",
+  },
+  Object {
+    "cardBatch": 3,
+    "cardNum": 20,
+    "causes": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_17_hausse_temp%C3%A9rature_eau",
+      "/wiki/index.php?title=Fr-fr_adulte_carte_21_hausse_temp%C3%A9rature",
+    ],
+    "consequences": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_25_biodiversit%C3%A9_terrestre",
+      "/wiki/index.php?title=Fr-fr_adulte_carte_26_crues",
+      "/wiki/index.php?title=Fr-fr_adulte_carte_30_s%C3%A9cheresses",
+      "/wiki/index.php?title=Fr-fr_adulte_carte_33_submersions",
+      "/wiki/index.php?title=Fr-fr_adulte_carte_34_cyclones",
+    ],
+    "id": 48,
+    "img": Object {
+      "url": "https://fresqueduclimat.org/wiki/images/4/4b/Fr-fr_adulte_carte_20_recto.png",
+    },
+    "shortTitle": "Perturbation du cycle de l'eau",
+    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_20_perturbation_cycle_eau",
+    "wikiTitle": "Fr-fr adulte carte 20 perturbation cycle eau",
+  },
+  Object {
+    "cardBatch": 1,
+    "cardNum": 21,
+    "causes": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_14_bilan_%C3%A9nerg%C3%A9tique",
+    ],
+    "consequences": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_20_perturbation_cycle_eau",
+      "/wiki/index.php?title=Fr-fr_adulte_carte_25_biodiversit%C3%A9_terrestre",
+      "/wiki/index.php?title=Fr-fr_adulte_carte_32_baisse_rendements_agricoles",
+      "/wiki/index.php?title=Fr-fr_adulte_carte_36_canicules",
+      "/wiki/index.php?title=Fr-fr_adulte_carte_38_sant%C3%A9_humaine",
+      "/wiki/index.php?title=Fr-fr_adulte_carte_41_permafrost",
+    ],
+    "id": 50,
+    "img": Object {
+      "url": "https://fresqueduclimat.org/wiki/images/7/78/Fr-fr_adulte_carte_21_recto.png",
+    },
+    "shortTitle": "Hausse de la température",
+    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_21_hausse_temp%C3%A9rature",
+    "wikiTitle": "Fr-fr adulte carte 21 hausse température",
+  },
+  Object {
+    "cardBatch": 1,
+    "cardNum": 22,
+    "causes": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_16_fonte_des_glaciers",
+      "/wiki/index.php?title=Fr-fr_adulte_carte_17_hausse_temp%C3%A9rature_eau",
+      "/wiki/index.php?title=Fr-fr_adulte_carte_19_fonte_des_calottes_glaciaires",
+    ],
+    "consequences": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_33_submersions",
+    ],
+    "id": 52,
+    "img": Object {
+      "url": "https://fresqueduclimat.org/wiki/images/d/d2/Fr-fr_adulte_carte_22_recto.png",
+    },
+    "shortTitle": "Montée des eaux",
+    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_22_mont%C3%A9e_des_eaux",
+    "wikiTitle": "Fr-fr adulte carte 22 montée des eaux",
+  },
+  Object {
+    "cardBatch": 4,
+    "cardNum": 23,
+    "causes": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_24_acidification_oc%C3%A9an",
+    ],
+    "consequences": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_29_pt%C3%A9ropodes_et_coccolithophores",
+    ],
+    "id": 54,
+    "img": Object {
+      "url": "https://fresqueduclimat.org/wiki/images/8/8d/Fr-fr_adulte_carte_23_recto.png",
+    },
+    "shortTitle": "Problèmes de calcification",
+    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_23_probl%C3%A8mes_de_calcification",
+    "wikiTitle": "Fr-fr adulte carte 23 problèmes de calcification",
+  },
+  Object {
+    "cardBatch": 2,
+    "cardNum": 24,
+    "causes": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_12_puits_de_carbone",
+    ],
+    "consequences": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_23_probl%C3%A8mes_de_calcification",
+    ],
+    "id": 56,
+    "img": Object {
+      "url": "https://fresqueduclimat.org/wiki/images/9/94/Fr-fr_adulte_carte_24_recto.png",
+    },
+    "shortTitle": "Acidification de l'océan",
+    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_24_acidification_oc%C3%A9an",
+    "wikiTitle": "Fr-fr adulte carte 24 acidification océan",
+  },
+  Object {
+    "cardBatch": 4,
+    "cardNum": 25,
+    "causes": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_20_perturbation_cycle_eau",
+      "/wiki/index.php?title=Fr-fr_adulte_carte_21_hausse_temp%C3%A9rature",
+    ],
+    "consequences": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_28_vecteurs_de_maladie",
+      "/wiki/index.php?title=Fr-fr_adulte_carte_32_baisse_rendements_agricoles",
+    ],
+    "id": 58,
+    "img": Object {
+      "url": "https://fresqueduclimat.org/wiki/images/b/bd/Fr-fr_adulte_carte_25_recto.png",
+    },
+    "shortTitle": "Biodiversité terrestre",
+    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_25_biodiversit%C3%A9_terrestre",
+    "wikiTitle": "Fr-fr adulte carte 25 biodiversité terrestre",
+  },
+  Object {
+    "cardBatch": 4,
+    "cardNum": 26,
+    "causes": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_20_perturbation_cycle_eau",
+      "/wiki/index.php?title=Fr-fr_adulte_carte_30_s%C3%A9cheresses",
+    ],
+    "consequences": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_32_baisse_rendements_agricoles",
+      "/wiki/index.php?title=Fr-fr_adulte_carte_38_sant%C3%A9_humaine",
+    ],
+    "id": 60,
+    "img": Object {
+      "url": "https://fresqueduclimat.org/wiki/images/1/14/Fr-fr_adulte_carte_26_recto.png",
+    },
+    "shortTitle": "Crues",
+    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_26_crues",
+    "wikiTitle": "Fr-fr adulte carte 26 crues",
+  },
+  Object {
+    "cardBatch": 4,
+    "cardNum": 27,
+    "causes": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_17_hausse_temp%C3%A9rature_eau",
+      "/wiki/index.php?title=Fr-fr_adulte_carte_29_pt%C3%A9ropodes_et_coccolithophores",
+    ],
+    "consequences": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_37_famine",
+    ],
+    "id": 62,
+    "img": Object {
+      "url": "https://fresqueduclimat.org/wiki/images/d/dd/Fr-fr_adulte_carte_27_recto.png",
+    },
+    "shortTitle": "Biodiversité marine",
+    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_27_biodiversit%C3%A9_marine",
+    "wikiTitle": "Fr-fr adulte carte 27 biodiversité marine",
+  },
+  Object {
+    "cardBatch": 5,
+    "cardNum": 28,
+    "causes": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_25_biodiversit%C3%A9_terrestre",
+    ],
+    "consequences": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_38_sant%C3%A9_humaine",
+    ],
+    "id": 64,
+    "img": Object {
+      "url": "https://fresqueduclimat.org/wiki/images/8/80/Fr-fr_adulte_carte_28_recto.png",
+    },
+    "shortTitle": "Vecteurs de maladie",
+    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_28_vecteurs_de_maladie",
+    "wikiTitle": "Fr-fr adulte carte 28 vecteurs de maladie",
+  },
+  Object {
+    "cardBatch": 4,
+    "cardNum": 29,
+    "causes": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_23_probl%C3%A8mes_de_calcification",
+    ],
+    "consequences": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_27_biodiversit%C3%A9_marine",
+    ],
+    "id": 66,
+    "img": Object {
+      "url": "https://fresqueduclimat.org/wiki/images/e/e0/Fr-fr_adulte_carte_29_recto.png",
+    },
+    "shortTitle": "Ptéropodes et coccolithophores",
+    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_29_pt%C3%A9ropodes_et_coccolithophores",
+    "wikiTitle": "Fr-fr adulte carte 29 ptéropodes et coccolithophores",
+  },
+  Object {
+    "cardBatch": 4,
+    "cardNum": 30,
+    "causes": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_20_perturbation_cycle_eau",
+    ],
+    "consequences": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_26_crues",
+      "/wiki/index.php?title=Fr-fr_adulte_carte_31_ressources_eau_douce",
+      "/wiki/index.php?title=Fr-fr_adulte_carte_32_baisse_rendements_agricoles",
+      "/wiki/index.php?title=Fr-fr_adulte_carte_35_incendies",
+    ],
+    "id": 68,
+    "img": Object {
+      "url": "https://fresqueduclimat.org/wiki/images/8/8e/Fr-fr_adulte_carte_30_recto.png",
+    },
+    "shortTitle": "Sécheresses",
+    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_30_s%C3%A9cheresses",
+    "wikiTitle": "Fr-fr adulte carte 30 sécheresses",
+  },
+  Object {
+    "cardBatch": 5,
+    "cardNum": 31,
+    "causes": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_16_fonte_des_glaciers",
+      "/wiki/index.php?title=Fr-fr_adulte_carte_30_s%C3%A9cheresses",
+    ],
+    "consequences": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_32_baisse_rendements_agricoles",
+      "/wiki/index.php?title=Fr-fr_adulte_carte_40_conflits_arm%C3%A9s",
+    ],
+    "id": 70,
+    "img": Object {
+      "url": "https://fresqueduclimat.org/wiki/images/7/7e/Fr-fr_adulte_carte_31_recto.png",
+    },
+    "shortTitle": "Ressources en eau douce",
+    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_31_ressources_eau_douce",
+    "wikiTitle": "Fr-fr adulte carte 31 ressources eau douce",
+  },
+  Object {
+    "cardBatch": 5,
+    "cardNum": 32,
+    "causes": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_21_hausse_temp%C3%A9rature",
+      "/wiki/index.php?title=Fr-fr_adulte_carte_25_biodiversit%C3%A9_terrestre",
+      "/wiki/index.php?title=Fr-fr_adulte_carte_26_crues",
+      "/wiki/index.php?title=Fr-fr_adulte_carte_30_s%C3%A9cheresses",
+      "/wiki/index.php?title=Fr-fr_adulte_carte_31_ressources_eau_douce",
+      "/wiki/index.php?title=Fr-fr_adulte_carte_33_submersions",
+      "/wiki/index.php?title=Fr-fr_adulte_carte_34_cyclones",
+    ],
+    "consequences": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_37_famine",
+      "/wiki/index.php?title=Fr-fr_adulte_carte_39_r%C3%A9fugi%C3%A9s_climatiques",
+    ],
+    "id": 72,
+    "img": Object {
+      "url": "https://fresqueduclimat.org/wiki/images/8/84/Fr-fr_adulte_carte_32_recto.png",
+    },
+    "shortTitle": "Baisse des rendements agricoles",
+    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_32_baisse_rendements_agricoles",
+    "wikiTitle": "Fr-fr adulte carte 32 baisse rendements agricoles",
+  },
+  Object {
+    "cardBatch": 4,
+    "cardNum": 33,
+    "causes": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_22_mont%C3%A9e_des_eaux",
+      "/wiki/index.php?title=Fr-fr_adulte_carte_34_cyclones",
+    ],
+    "consequences": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_32_baisse_rendements_agricoles",
+      "/wiki/index.php?title=Fr-fr_adulte_carte_39_r%C3%A9fugi%C3%A9s_climatiques",
+    ],
+    "id": 74,
+    "img": Object {
+      "url": "https://fresqueduclimat.org/wiki/images/8/84/Fr-fr_adulte_carte_33_recto.png",
+    },
+    "shortTitle": "Submersions",
+    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_33_submersions",
+    "wikiTitle": "Fr-fr adulte carte 33 submersions",
+  },
+  Object {
+    "cardBatch": 4,
+    "cardNum": 34,
+    "causes": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_17_hausse_temp%C3%A9rature_eau",
+    ],
+    "consequences": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_32_baisse_rendements_agricoles",
+      "/wiki/index.php?title=Fr-fr_adulte_carte_33_submersions",
+      "/wiki/index.php?title=Fr-fr_adulte_carte_38_sant%C3%A9_humaine",
+    ],
+    "id": 76,
+    "img": Object {
+      "url": "https://fresqueduclimat.org/wiki/images/9/98/Fr-fr_adulte_carte_34_recto.png",
+    },
+    "shortTitle": "Cyclones",
+    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_34_cyclones",
+    "wikiTitle": "Fr-fr adulte carte 34 cyclones",
+  },
+  Object {
+    "cardBatch": 5,
+    "cardNum": 35,
+    "causes": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_30_s%C3%A9cheresses",
+      "/wiki/index.php?title=Fr-fr_adulte_carte_36_canicules",
+    ],
+    "consequences": Array [],
+    "id": 78,
+    "img": Object {
+      "url": "https://fresqueduclimat.org/wiki/images/9/97/Fr-fr_adulte_carte_35_recto.png",
+    },
+    "shortTitle": "Incendies",
+    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_35_incendies",
+    "wikiTitle": "Fr-fr adulte carte 35 incendies",
+  },
+  Object {
+    "cardBatch": 5,
+    "cardNum": 36,
+    "causes": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_21_hausse_temp%C3%A9rature",
+    ],
+    "consequences": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_35_incendies",
+    ],
+    "id": 80,
+    "img": Object {
+      "url": "https://fresqueduclimat.org/wiki/images/d/d3/Fr-fr_adulte_carte_36_recto.png",
+    },
+    "shortTitle": "Canicules",
+    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_36_canicules",
+    "wikiTitle": "Fr-fr adulte carte 36 canicules",
+  },
+  Object {
+    "cardBatch": 5,
+    "cardNum": 37,
+    "causes": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_27_biodiversit%C3%A9_marine",
+      "/wiki/index.php?title=Fr-fr_adulte_carte_32_baisse_rendements_agricoles",
+    ],
+    "consequences": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_38_sant%C3%A9_humaine",
+      "/wiki/index.php?title=Fr-fr_adulte_carte_39_r%C3%A9fugi%C3%A9s_climatiques",
+    ],
+    "id": 82,
+    "img": Object {
+      "url": "https://fresqueduclimat.org/wiki/images/2/20/Fr-fr_adulte_carte_37_recto.png",
+    },
+    "shortTitle": "Famine",
+    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_37_famine",
+    "wikiTitle": "Fr-fr adulte carte 37 famine",
+  },
+  Object {
+    "cardBatch": 5,
+    "cardNum": 38,
+    "causes": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_28_vecteurs_de_maladie",
+      "/wiki/index.php?title=Fr-fr_adulte_carte_31_ressources_eau_douce",
+      "/wiki/index.php?title=Fr-fr_adulte_carte_37_famine",
+    ],
+    "consequences": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_40_conflits_arm%C3%A9s",
+    ],
+    "id": 84,
+    "img": Object {
+      "url": "https://fresqueduclimat.org/wiki/images/b/bb/Fr-fr_adulte_carte_38_recto.png",
+    },
+    "shortTitle": "Santé humaine",
+    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_38_sant%C3%A9_humaine",
+    "wikiTitle": "Fr-fr adulte carte 38 santé humaine",
+  },
+  Object {
+    "cardBatch": 5,
+    "cardNum": 39,
+    "causes": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_37_famine",
+      "/wiki/index.php?title=Fr-fr_adulte_carte_40_conflits_arm%C3%A9s",
+    ],
+    "consequences": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_40_conflits_arm%C3%A9s",
+    ],
+    "id": 86,
+    "img": Object {
+      "url": "https://fresqueduclimat.org/wiki/images/7/7e/Fr-fr_adulte_carte_39_recto.png",
+    },
+    "shortTitle": "Réfugiés climatiques",
+    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_39_r%C3%A9fugi%C3%A9s_climatiques",
+    "wikiTitle": "Fr-fr adulte carte 39 réfugiés climatiques",
+  },
+  Object {
+    "cardBatch": 5,
+    "cardNum": 40,
+    "causes": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_39_r%C3%A9fugi%C3%A9s_climatiques",
+    ],
+    "consequences": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_38_sant%C3%A9_humaine",
+      "/wiki/index.php?title=Fr-fr_adulte_carte_39_r%C3%A9fugi%C3%A9s_climatiques",
+    ],
+    "id": 88,
+    "img": Object {
+      "url": "https://fresqueduclimat.org/wiki/images/6/62/Fr-fr_adulte_carte_40_recto.png",
+    },
+    "shortTitle": "Conflits armés",
+    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_40_conflits_arm%C3%A9s",
+    "wikiTitle": "Fr-fr adulte carte 40 conflits armés",
+  },
+  Object {
+    "cardBatch": 5,
+    "cardNum": 41,
+    "causes": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_21_hausse_temp%C3%A9rature",
+      "/wiki/index.php?title=Fr-fr_adulte_carte_14_bilan_%C3%A9nerg%C3%A9tique",
+    ],
+    "consequences": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_9_autres_ges",
+    ],
+    "id": 90,
+    "img": Object {
+      "url": "https://fresqueduclimat.org/wiki/images/9/98/Fr-fr_adulte_carte_41_recto.png",
+    },
+    "shortTitle": "Permafrost",
+    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_41_permafrost",
+    "wikiTitle": "Fr-fr adulte carte 41 permafrost",
+  },
+  Object {
+    "cardBatch": 5,
+    "cardNum": 42,
+    "causes": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_17_hausse_temp%C3%A9rature_eau",
+      "/wiki/index.php?title=Fr-fr_adulte_carte_14_bilan_%C3%A9nerg%C3%A9tique",
+    ],
+    "consequences": Array [
+      "/wiki/index.php?title=Fr-fr_adulte_carte_9_autres_ges",
+    ],
+    "id": 92,
+    "img": Object {
+      "url": "https://fresqueduclimat.org/wiki/images/a/ac/Fr-fr_adulte_carte_42_recto.png",
+    },
+    "shortTitle": "Hydrates de méthane",
+    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_42_hydrates_de_m%C3%A9thane",
+    "wikiTitle": "Fr-fr adulte carte 42 hydrates de méthane",
+  },
+]
+`;

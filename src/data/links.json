@@ -1,0 +1,326 @@
+[
+  {
+    "fromNum": 1,
+    "toNum": 2
+  },
+  {
+    "fromNum": 1,
+    "toNum": 3
+  },
+  {
+    "fromNum": 1,
+    "toNum": 4
+  },
+  {
+    "fromNum": 1,
+    "toNum": 8
+  },
+  {
+    "fromNum": 2,
+    "toNum": 5
+  },
+  {
+    "fromNum": 2,
+    "toNum": 10
+  },
+  {
+    "fromNum": 3,
+    "toNum": 5
+  },
+  {
+    "fromNum": 4,
+    "toNum": 5
+  },
+  {
+    "fromNum": 4,
+    "toNum": 10
+  },
+  {
+    "fromNum": 5,
+    "toNum": 7
+  },
+  {
+    "fromNum": 8,
+    "toNum": 6
+  },
+  {
+    "fromNum": 6,
+    "toNum": 7
+  },
+  {
+    "fromNum": 7,
+    "toNum": 12
+  },
+  {
+    "fromNum": 8,
+    "toNum": 9
+  },
+  {
+    "fromNum": 41,
+    "toNum": 9
+  },
+  {
+    "fromNum": 42,
+    "toNum": 9
+  },
+  {
+    "fromNum": 9,
+    "toNum": 13
+  },
+  {
+    "fromNum": 10,
+    "toNum": 15
+  },
+  {
+    "fromNum": 10,
+    "toNum": 38
+  },
+  {
+    "fromNum": 12,
+    "toNum": 11
+  },
+  {
+    "fromNum": 11,
+    "toNum": 13
+  },
+  {
+    "fromNum": 12,
+    "toNum": 24
+  },
+  {
+    "fromNum": 13,
+    "toNum": 15
+  },
+  {
+    "fromNum": 15,
+    "toNum": 14
+  },
+  {
+    "fromNum": 14,
+    "toNum": 16
+  },
+  {
+    "fromNum": 14,
+    "toNum": 17
+  },
+  {
+    "fromNum": 14,
+    "toNum": 18
+  },
+  {
+    "fromNum": 14,
+    "toNum": 19
+  },
+  {
+    "fromNum": 14,
+    "toNum": 21
+  },
+  {
+    "fromNum": 16,
+    "toNum": 22
+  },
+  {
+    "fromNum": 16,
+    "toNum": 31
+  },
+  {
+    "fromNum": 17,
+    "toNum": 20
+  },
+  {
+    "fromNum": 17,
+    "toNum": 22
+  },
+  {
+    "fromNum": 17,
+    "toNum": 27
+  },
+  {
+    "fromNum": 17,
+    "toNum": 34
+  },
+  {
+    "fromNum": 17,
+    "toNum": 42
+  },
+  {
+    "fromNum": 19,
+    "toNum": 22
+  },
+  {
+    "fromNum": 21,
+    "toNum": 20
+  },
+  {
+    "fromNum": 20,
+    "toNum": 25
+  },
+  {
+    "fromNum": 20,
+    "toNum": 26
+  },
+  {
+    "fromNum": 20,
+    "toNum": 30
+  },
+  {
+    "fromNum": 20,
+    "toNum": 33
+  },
+  {
+    "fromNum": 20,
+    "toNum": 34
+  },
+  {
+    "fromNum": 21,
+    "toNum": 25
+  },
+  {
+    "fromNum": 21,
+    "toNum": 32
+  },
+  {
+    "fromNum": 21,
+    "toNum": 36
+  },
+  {
+    "fromNum": 21,
+    "toNum": 38
+  },
+  {
+    "fromNum": 21,
+    "toNum": 41
+  },
+  {
+    "fromNum": 22,
+    "toNum": 33
+  },
+  {
+    "fromNum": 24,
+    "toNum": 23
+  },
+  {
+    "fromNum": 23,
+    "toNum": 29
+  },
+  {
+    "fromNum": 25,
+    "toNum": 28
+  },
+  {
+    "fromNum": 25,
+    "toNum": 32
+  },
+  {
+    "fromNum": 30,
+    "toNum": 26
+  },
+  {
+    "fromNum": 26,
+    "toNum": 32
+  },
+  {
+    "fromNum": 26,
+    "toNum": 38
+  },
+  {
+    "fromNum": 29,
+    "toNum": 27
+  },
+  {
+    "fromNum": 27,
+    "toNum": 37
+  },
+  {
+    "fromNum": 28,
+    "toNum": 38
+  },
+  {
+    "fromNum": 30,
+    "toNum": 31
+  },
+  {
+    "fromNum": 30,
+    "toNum": 32
+  },
+  {
+    "fromNum": 30,
+    "toNum": 35
+  },
+  {
+    "fromNum": 31,
+    "toNum": 32
+  },
+  {
+    "fromNum": 31,
+    "toNum": 40
+  },
+  {
+    "fromNum": 33,
+    "toNum": 32
+  },
+  {
+    "fromNum": 34,
+    "toNum": 32
+  },
+  {
+    "fromNum": 32,
+    "toNum": 37
+  },
+  {
+    "fromNum": 32,
+    "toNum": 39
+  },
+  {
+    "fromNum": 34,
+    "toNum": 33
+  },
+  {
+    "fromNum": 33,
+    "toNum": 39
+  },
+  {
+    "fromNum": 34,
+    "toNum": 38
+  },
+  {
+    "fromNum": 36,
+    "toNum": 35
+  },
+  {
+    "fromNum": 37,
+    "toNum": 38
+  },
+  {
+    "fromNum": 37,
+    "toNum": 39
+  },
+  {
+    "fromNum": 31,
+    "toNum": 38
+  },
+  {
+    "fromNum": 38,
+    "toNum": 40
+  },
+  {
+    "fromNum": 40,
+    "toNum": 39
+  },
+  {
+    "fromNum": 39,
+    "toNum": 40
+  },
+  {
+    "fromNum": 40,
+    "toNum": 38
+  },
+  {
+    "fromNum": 14,
+    "toNum": 41
+  },
+  {
+    "fromNum": 14,
+    "toNum": 42
+  }
+]
