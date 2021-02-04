@@ -7,10 +7,37 @@
     "source": "guide"
   },
   {
+    "fromNum": 5,
+    "toNum": 2,
+    "status": "optional",
+    "Explanation": "On peut se demander si les activités humaines consomment des énegie fossiles ou si les énérgies fossiles permettent les activités humaines. Ce débat ne doit pas prendre de temps et on peut regrouper les deux cartes au besoin. Quand je chante dans mon jardin, je réalise une activité humaine sans énergie fossile. Quand les moulins à vent ou à eau produisaient de la farine, ils n'utilisaient pas d'énergie fossile. Il reste, heureusement de nombreuses activités humaines sans énergie fossile.",
+    "source": "guide"
+  },
+  {
+    "fromNum": 5,
+    "toNum": 3,
+    "status": "optional",
+    "Explanation": "On peut se demander si les activités humaines consomment des énegie fossiles ou si les énérgies fossiles permettent les activités humaines. Ce débat ne doit pas prendre de temps et on peut regrouper les deux cartes au besoin. Quand je chante dans mon jardin, je réalise une activité humaine sans énergie fossile. Quand les moulins à vent ou à eau produisaient de la farine, ils n'utilisaient pas d'énergie fossile. Il reste, heureusement de nombreuses activités humaines sans énergie fossile.",
+    "source": "guide"
+  },
+  {
+    "fromNum": 5,
+    "toNum": 4,
+    "status": "optional",
+    "Explanation": "On peut se demander si les activités humaines consomment des énegie fossiles ou si les énérgies fossiles permettent les activités humaines. Ce débat ne doit pas prendre de temps et on peut regrouper les deux cartes au besoin. Quand je chante dans mon jardin, je réalise une activité humaine sans énergie fossile. Quand les moulins à vent ou à eau produisaient de la farine, ils n'utilisaient pas d'énergie fossile. Il reste, heureusement de nombreuses activités humaines sans énergie fossile.",
+    "source": "guide"
+  },
+  {
     "fromNum": 40,
     "toNum": 1,
     "status": "optional",
     "Explanation": "C'est 'la boucle du club de Rome' ! Tout cela finira bien par se réguler, mais pas forcément de manière soft. Les participant·e·s font souvent ce lien, et proposent parfois de faire un rouleau avec la fresque pour mettre bord à bord la fin et le début. D'ailleurs, il est intéressant de faire remarquer qu'il y a des humains dans les cartes du début et celles de la fin, mais pas au milieu."
+  },
+  {
+    "fromNum": 40,
+    "toNum": 5,
+    "status": "optional",
+    "Explanation": "[TODO]"
   },
   {
     "fromNum": 1,
@@ -40,7 +67,7 @@
     "fromNum": 1,
     "toNum": 6,
     "status": "optional",
-    "Explanation": ""
+    "Explanation": "La déforestation peut être considérée comme une activité humaine ou comme une conséquence de l'agriculture ou les deux."
   },
   {
     "fromNum": 1,
@@ -94,7 +121,14 @@
     "fromNum": 3,
     "toNum": 10,
     "status": "optional",
-    "Explanation": " Les bâtiments émettent peu d'aérosols de manière directe. Les seules émissions significatives sont les feux de cheminée. A Chamonix, 85% des particules fines présentes dans l'atmosphère proviennent de chauffage au bois."
+    "Explanation": " Les bâtiments émettent peu d'aérosols de manière directe. Les seules émissions significatives sont les feux de cheminée. A Chamonix, 85% des particules fines présentes dans l'atmosphère proviennent de chauffage au bois. De manière indirecte, via la production d'éléctricité, il y a bien émissions de particules."
+  },
+  {
+    "fromNum": 3,
+    "toNum": 6,
+    "status": "optional",
+    "Explanation": "Les bâtiments eux même causent moins de déforestation par rapport à l'agriculture. Ce ne sont pas les mêmes échelles.",
+    "source": "guide"
   },
   {
     "fromNum": 4,
@@ -106,7 +140,7 @@
     "fromNum": 4,
     "toNum": 10,
     "status": "valid",
-    "Explanation": ""
+    "Explanation": "La pollution locale que représentent les échappements des voitures est une motivation forte pour pousser la vouture électrique. Or cette dernière est responsable d'émissions dues à le génération de l'électricité elle-même (selon le mix électrique du pays considéré)."
   },
   {
     "fromNum": 4,
@@ -124,14 +158,14 @@
     "fromNum": 5,
     "toNum": 27,
     "status": "optional",
-    "Explanation": "L'amoco-cadiz...",
+    "Explanation": "La marée noire qu'a provoqué le naufrage du supertanker l'Amoco Cadiz est un exemple de lien entre énergie fosile et biodiversité.",
     "source": "guide"
   },
   {
     "fromNum": 5,
     "toNum": 25,
     "status": "optional",
-    "Explanation": "L'amoco-cadiz...",
+    "Explanation": "La marée noire qu'a provoqué le naufrage du supertanker l'Amoco Cadiz est un exemple de lien entre énergie fosile et biodiversité.",
     "source": "guide"
   },
   {
@@ -174,7 +208,8 @@
     "fromNum": 6,
     "toNum": 20,
     "status": "optional",
-    "Explanation": "La végétation retiens l'eau. Si on la coupe, ça facilite les crues."
+    "Explanation": "La végétation retiens l'eau. Si on la coupe, ça facilite les crues. De plus la déforestation peut avoir des conséquences locales sur le régime des pluies",
+    "source": "guide"
   },
   {
     "fromNum": 6,
@@ -195,6 +230,27 @@
     "Explanation": "La déforestation cause énormément de perte de biodiversité : Animale car la forêt est un hôte de beaucoup d'espèce. L'indice de biodiversité des forêts a chuté de 53% entre 1970 et 2014. Végétale car sur les 60 000 espèces d'arbres connus, 8000 sont considérées comme menacés."
   },
   {
+    "fromNum": 6,
+    "toNum": 30,
+    "status": "optional",
+    "Explanation": "La déforestation peut être la cause directe de sécheresses car les arbres stockent beaucoup d'eau. Si on les coupe, ils ne jouent plus ce rôle de régulateurs de l'humidité.",
+    "source": "guide"
+  },
+  {
+    "fromNum": 7,
+    "toNum": 11,
+    "status": "invalid",
+    "Explanation": "Il faut plutôt faire un lien via la carte 12 Puits de Carbone.",
+    "source": "guide"
+  },
+  {
+    "fromNum": 7,
+    "toNum": 24,
+    "status": "invalid",
+    "Explanation": "Il faut plutôt faire un lien via la carte 12 Puits de Carbone.",
+    "source": "guide"
+  },
+  {
     "fromNum": 7,
     "toNum": 12,
     "status": "valid",
@@ -202,9 +258,29 @@
   },
   {
     "fromNum": 8,
+    "toNum": 7,
+    "status": "optional",
+    "Explanation": "[TODO]",
+    "source": "guide"
+  },
+  {
+    "fromNum": 8,
+    "toNum": 10,
+    "status": "optional",
+    "Explanation": "[TODO]",
+    "source": "guide"
+  },
+  {
+    "fromNum": 8,
     "toNum": 9,
     "status": "valid",
     "Explanation": ""
+  },
+  {
+    "fromNum": 8,
+    "toNum": 5,
+    "status": "optional",
+    "Explanation": "[TODO]"
   },
   {
     "fromNum": 8,
@@ -225,6 +301,12 @@
     "Explanation": ""
   },
   {
+    "fromNum": 41,
+    "toNum": 13,
+    "status": "optional",
+    "Explanation": "On peut relier [TODO]"
+  },
+  {
     "fromNum": 42,
     "toNum": 9,
     "status": "valid",
@@ -234,13 +316,14 @@
     "fromNum": 9,
     "toNum": 13,
     "status": "valid",
-    "Explanation": ""
+    "Explanation": "Le E et le S de la carte 'Autres GES' sont à mettre en lien avec Effet de Serre",
+    "source": "guide"
   },
   {
     "fromNum": 10,
     "toNum": 15,
     "status": "valid",
-    "Explanation": ""
+    "Explanation": "[TODO]"
   },
   {
     "fromNum": 10,
@@ -261,10 +344,16 @@
     "Explanation": ""
   },
   {
+    "fromNum": 11,
+    "toNum": 12,
+    "status": "invalid",
+    "Explanation": "[TODO]"
+  },
+  {
     "fromNum": 12,
     "toNum": 24,
     "status": "valid",
-    "Explanation": ""
+    "Explanation": "[TODO]"
   },
   {
     "fromNum": 12,
@@ -276,13 +365,14 @@
     "fromNum": 12,
     "toNum": 14,
     "status": "invalid",
-    "Explanation": "Le but n'est pas ici..."
+    "Explanation": "Le but n'est pas ici...[TODO]"
   },
   {
     "fromNum": 13,
     "toNum": 15,
     "status": "valid",
-    "Explanation": ""
+    "Explanation": "[TODO]",
+    "source": "guide"
   },
   {
     "fromNum": 15,
@@ -318,7 +408,8 @@
     "fromNum": 14,
     "toNum": 21,
     "status": "valid",
-    "Explanation": ""
+    "Explanation": "[TODO]",
+    "source": "guide"
   },
   {
     "fromNum": 16,
@@ -369,10 +460,23 @@
     "Explanation": "Si l'on veut rester dans la même logique de conservation de l'énergie, il faudrait faire le lien de fonte a partir de budget énérgétique."
   },
   {
+    "fromNum": 17,
+    "toNum": 24,
+    "status": "invalid",
+    "Explanation": "La hausse [TODO]."
+  },
+  {
     "fromNum": 18,
     "toNum": 15,
     "status": "optional",
     "Explanation": "Quand la banquise fond, une surface blanche est remplacé par une surface bleu marine, qui à un albédo plus faible, donc absorbe plus d'énergie. Cette relation n'est pas indispensable mais permet de mettre en avant une autre boucle de rétro-action du jeu."
+  },
+  {
+    "fromNum": 18,
+    "toNum": 25,
+    "status": "optional",
+    "Explanation": "Ourse Polaire [TODO]",
+    "source": "guide"
   },
   {
     "fromNum": 18,
@@ -385,6 +489,20 @@
     "toNum": 22,
     "status": "invalid",
     "Explanation": "La fonte de la banquise n'est pas responsable de la montée des eaux."
+  },
+  {
+    "fromNum": 18,
+    "toNum": 13,
+    "status": "invalid",
+    "Explanation": "[TODO]",
+    "source": "guide"
+  },
+  {
+    "fromNum": 18,
+    "toNum": 27,
+    "status": "optional",
+    "Explanation": "[TODO]",
+    "source": "guide"
   },
   {
     "fromNum": 19,
@@ -414,13 +532,15 @@
     "fromNum": 20,
     "toNum": 30,
     "status": "valid",
-    "Explanation": ""
+    "Explanation": "[TODO]",
+    "source": "guide"
   },
   {
     "fromNum": 20,
     "toNum": 33,
     "status": "valid",
-    "Explanation": ""
+    "Explanation": "[TODO]",
+    "source": "guide"
   },
   {
     "fromNum": 20,
@@ -430,15 +550,30 @@
   },
   {
     "fromNum": 20,
+    "toNum": 19,
+    "status": "optional",
+    "Explanation": "[TODO]",
+    "source": "guide"
+  },
+  {
+    "fromNum": 20,
     "toNum": 28,
     "status": "optional",
     "Explanation": "La carte vecteurs de maladie est en général reliée à la carte Biodiversité terrestre car les vecteurs de maladie sont une sous-partie de la biodiversité, mais on peut aussi la relier aux mêmes causes que la carte biodiversité, c’est-à-dire perturbation du cycle de l'eau et hausse de la température."
   },
   {
+    "fromNum": 20,
+    "toNum": 22,
+    "status": "invalid",
+    "Explanation": "[TODO]",
+    "source": "guide"
+  },
+  {
     "fromNum": 21,
     "toNum": 20,
     "status": "valid",
-    "Explanation": ""
+    "Explanation": "[TODO]",
+    "source": "guide"
   },
   {
     "fromNum": 21,
@@ -459,10 +594,18 @@
     "Explanation": "Les deux types de biodiversité peuvent intéragir entres elles."
   },
   {
+    "fromNum": 25,
+    "toNum": 8,
+    "status": "invalid",
+    "Explanation": "[TODO]",
+    "source": "guide"
+  },
+  {
     "fromNum": 21,
     "toNum": 32,
     "status": "valid",
-    "Explanation": ""
+    "Explanation": "[TODO]",
+    "source": "guide"
   },
   {
     "fromNum": 21,
@@ -519,22 +662,32 @@
     "Explanation": ""
   },
   {
+    "fromNum": 23,
+    "toNum": 27,
+    "status": "optional",
+    "Explanation": "[TODO]",
+    "source": "guide"
+  },
+  {
     "fromNum": 25,
     "toNum": 28,
     "status": "valid",
-    "Explanation": ""
+    "Explanation": "[TODO]",
+    "source": "guide"
   },
   {
     "fromNum": 25,
     "toNum": 32,
     "status": "valid",
-    "Explanation": ""
+    "Explanation": "[TODO]",
+    "source": "guide"
   },
   {
     "fromNum": 30,
     "toNum": 26,
     "status": "valid",
-    "Explanation": ""
+    "Explanation": "[TODO]",
+    "source": "guide"
   },
   {
     "fromNum": 26,
@@ -546,7 +699,29 @@
     "fromNum": 26,
     "toNum": 38,
     "status": "valid",
-    "Explanation": ""
+    "Explanation": "[TODO]",
+    "source": "guide"
+  },
+  {
+    "fromNum": 26,
+    "toNum": 31,
+    "status": "valid",
+    "Explanation": "[TODO]",
+    "source": "guide"
+  },
+  {
+    "fromNum": 26,
+    "toNum": 28,
+    "status": "optional",
+    "Explanation": "[TODO]",
+    "source": "guide"
+  },
+  {
+    "fromNum": 26,
+    "toNum": 33,
+    "status": "invalid",
+    "Explanation": "[TODO]",
+    "source": "guide"
   },
   {
     "fromNum": 29,
@@ -558,7 +733,8 @@
     "fromNum": 27,
     "toNum": 37,
     "status": "valid",
-    "Explanation": ""
+    "Explanation": "[TODO]",
+    "source": "guide"
   },
   {
     "fromNum": 28,
@@ -571,6 +747,13 @@
     "toNum": 31,
     "status": "valid",
     "Explanation": ""
+  },
+  {
+    "fromNum": 30,
+    "toNum": 12,
+    "status": "optional",
+    "Explanation": "A documenter...[TODO]",
+    "source": "guide"
   },
   {
     "fromNum": 30,
@@ -616,6 +799,13 @@
   },
   {
     "fromNum": 32,
+    "toNum": 8,
+    "status": "invalid",
+    "Explanation": "[TODO]",
+    "source": "guide"
+  },
+  {
+    "fromNum": 32,
     "toNum": 39,
     "status": "valid",
     "Explanation": ""
@@ -639,6 +829,39 @@
     "Explanation": ""
   },
   {
+    "fromNum": 35,
+    "toNum": 6,
+    "status": "optional",
+    "Explanation": ""
+  },
+  {
+    "fromNum": 35,
+    "toNum": 10,
+    "status": "optional",
+    "Explanation": ""
+  },
+  {
+    "fromNum": 35,
+    "toNum": 25,
+    "status": "optional",
+    "Explanation": "[TODO]",
+    "source": "guide"
+  },
+  {
+    "fromNum": 35,
+    "toNum": 32,
+    "status": "optional",
+    "Explanation": "[TODO]",
+    "source": "guide"
+  },
+  {
+    "fromNum": 35,
+    "toNum": 38,
+    "status": "optional",
+    "Explanation": "[TODO]",
+    "source": "guide"
+  },
+  {
     "fromNum": 36,
     "toNum": 35,
     "status": "valid",
@@ -649,6 +872,13 @@
     "toNum": 38,
     "status": "optional",
     "Explanation": "Les canicules peuvent être très devastatrice, notamment chez les personnes agés."
+  },
+  {
+    "fromNum": 36,
+    "toNum": 30,
+    "status": "invalid",
+    "Explanation": "[TODO]",
+    "source": "guide"
   },
   {
     "fromNum": 37,
@@ -716,7 +946,8 @@
     "fromNum": 40,
     "toNum": 38,
     "status": "valid",
-    "Explanation": ""
+    "Explanation": "[TODO]",
+    "source": "guide"
   },
   {
     "fromNum": 14,
