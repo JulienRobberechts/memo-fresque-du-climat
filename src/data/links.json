@@ -3,7 +3,8 @@
     "fromNum": 5,
     "toNum": 1,
     "status": "optional",
-    "Explanation": "On peut se demander si les activités humaines consomment des énegie fossiles ou si les énérgies fossiles permettent les activités humaines. Ce débat ne doit pas prendre de temps et on peut regrouper les deux cartes au besoin. Quand je chante dans mon jardin, je réalise une activité humaine sans énergie fossile. Quand les moulins à vent ou à eau produisaient de la farine, ils n'utilisaient pas d'énergie fossile. Il reste, heureusement de nombreuses activités humaines sans énergie fossile."
+    "Explanation": "On peut se demander si les activités humaines consomment des énegie fossiles ou si les énérgies fossiles permettent les activités humaines. Ce débat ne doit pas prendre de temps et on peut regrouper les deux cartes au besoin. Quand je chante dans mon jardin, je réalise une activité humaine sans énergie fossile. Quand les moulins à vent ou à eau produisaient de la farine, ils n'utilisaient pas d'énergie fossile. Il reste, heureusement de nombreuses activités humaines sans énergie fossile.",
+    "source": "guide"
   },
   {
     "fromNum": 40,
@@ -123,13 +124,15 @@
     "fromNum": 5,
     "toNum": 27,
     "status": "optional",
-    "Explanation": "L'amoco-cadiz..."
+    "Explanation": "L'amoco-cadiz...",
+    "source": "guide"
   },
   {
     "fromNum": 5,
     "toNum": 25,
     "status": "optional",
-    "Explanation": "L'amoco-cadiz..."
+    "Explanation": "L'amoco-cadiz...",
+    "source": "guide"
   },
   {
     "fromNum": 5,
@@ -170,6 +173,12 @@
   {
     "fromNum": 6,
     "toNum": 20,
+    "status": "optional",
+    "Explanation": "La végétation retiens l'eau. Si on la coupe, ça facilite les crues."
+  },
+  {
+    "fromNum": 6,
+    "toNum": 26,
     "status": "optional",
     "Explanation": "La végétation retiens l'eau. Si on la coupe, ça facilite les crues."
   },
@@ -324,6 +333,12 @@
     "Explanation": ""
   },
   {
+    "fromNum": 16,
+    "toNum": 26,
+    "status": "optional",
+    "Explanation": "Il est possible, dans certaines circonstances de forte chaleur, que la fonte trop rapide des glaciers provoque des crues. Mais le vrai sujet de préoccupation à propos des ces glaciers, c'est le fait qu'ils disparaissent progressivement, privant l'irrigation en aval d'un appoint d'eau en été."
+  },
+  {
     "fromNum": 17,
     "toNum": 20,
     "status": "valid",
@@ -350,20 +365,26 @@
   {
     "fromNum": 17,
     "toNum": 42,
-    "status": "valid",
-    "Explanation": ""
-  },
-  {
-    "fromNum": 18,
-    "toNum": 20,
-    "status": "invalid",
-    "Explanation": "La fonte ..."
+    "status": "optional",
+    "Explanation": "Si l'on veut rester dans la même logique de conservation de l'énergie, il faudrait faire le lien de fonte a partir de budget énérgétique."
   },
   {
     "fromNum": 18,
     "toNum": 15,
     "status": "optional",
-    "Explanation": "Quand la banquise fond, une surface blanche est remplacé par une surface bleu marine, qui à un albédo plus faible, donc absorbe plus d'énergie. "
+    "Explanation": "Quand la banquise fond, une surface blanche est remplacé par une surface bleu marine, qui à un albédo plus faible, donc absorbe plus d'énergie. Cette relation n'est pas indispensable mais permet de mettre en avant une autre boucle de rétro-action du jeu."
+  },
+  {
+    "fromNum": 18,
+    "toNum": 20,
+    "status": "invalid",
+    "Explanation": "La fonte de la banquise arctique, mais également la fonte des glaciers du Groenland peuvent amener, dans un futur lointain, à perturber la circulation thermohaline (qui donne le Gulf Stream). Mais attention, la carte 'Cycle de l'eau' ne fait pas du tout référence à la Circulation thermohaline."
+  },
+  {
+    "fromNum": 18,
+    "toNum": 22,
+    "status": "invalid",
+    "Explanation": "La fonte de la banquise n'est pas responsable de la montée des eaux."
   },
   {
     "fromNum": 19,
@@ -405,6 +426,18 @@
     "fromNum": 20,
     "toNum": 34,
     "status": "valid",
+    "Explanation": "On peut considérer les cyclones comme une manifestation de la perturbation du cycle de l'eau."
+  },
+  {
+    "fromNum": 20,
+    "toNum": 28,
+    "status": "optional",
+    "Explanation": "La carte vecteurs de maladie est en général reliée à la carte Biodiversité terrestre car les vecteurs de maladie sont une sous-partie de la biodiversité, mais on peut aussi la relier aux mêmes causes que la carte biodiversité, c’est-à-dire perturbation du cycle de l'eau et hausse de la température."
+  },
+  {
+    "fromNum": 21,
+    "toNum": 20,
+    "status": "valid",
     "Explanation": ""
   },
   {
@@ -412,6 +445,18 @@
     "toNum": 25,
     "status": "valid",
     "Explanation": ""
+  },
+  {
+    "fromNum": 27,
+    "toNum": 25,
+    "status": "optional",
+    "Explanation": "Les deux types de biodiversité peuvent intéragir entres elles."
+  },
+  {
+    "fromNum": 25,
+    "toNum": 27,
+    "status": "optional",
+    "Explanation": "Les deux types de biodiversité peuvent intéragir entres elles."
   },
   {
     "fromNum": 21,
@@ -434,14 +479,32 @@
   {
     "fromNum": 21,
     "toNum": 41,
-    "status": "valid",
-    "Explanation": ""
+    "status": "optional",
+    "Explanation": "Si l'on veut rester dans la même logique de conservation de l'énergie, il faudrait faire le lien de fonte a partir de budget énérgétique."
+  },
+  {
+    "fromNum": 21,
+    "toNum": 28,
+    "status": "optional",
+    "Explanation": "La carte vecteurs de maladie est en général reliée à la carte Biodiversité terrestre car les vecteurs de maladie sont une sous-partie de la biodiversité, mais on peut aussi la relier aux mêmes causes que la carte biodiversité, c’est-à-dire perturbation du cycle de l'eau et hausse de la température."
+  },
+  {
+    "fromNum": 41,
+    "toNum": 28,
+    "status": "optional",
+    "Explanation": "Le permafrost contient des milliards de bactéries et de virus enfouis. S'il se mettait à dégeler, certains de ces agents pathogènes pourraient se retrouver à contaminer des populations humaines ou animales. En 2016, une épidémie d'anthrax a eu lieu en Sibérie à cause d'une carcasse de 75 ans qui aurait degelé."
   },
   {
     "fromNum": 22,
     "toNum": 33,
     "status": "valid",
     "Explanation": ""
+  },
+  {
+    "fromNum": 11,
+    "toNum": 24,
+    "status": "invalid",
+    "Explanation": "On retrouve souvent comme origine de cette carte concentration en CO2 (ppm). Hors, toute molècule qui se retrouve dans l'océan ne se retrouve pas dans l'atmosphère, et donc le lien le plus logique provient de la carte puits de carbone"
   },
   {
     "fromNum": 24,
@@ -582,6 +645,12 @@
     "Explanation": ""
   },
   {
+    "fromNum": 36,
+    "toNum": 38,
+    "status": "optional",
+    "Explanation": "Les canicules peuvent être très devastatrice, notamment chez les personnes agés."
+  },
+  {
     "fromNum": 37,
     "toNum": 38,
     "status": "valid",
@@ -600,10 +669,29 @@
     "Explanation": ""
   },
   {
+    "fromNum": 33,
+    "toNum": 31,
+    "status": "optional",
+    "Explanation": "Si l'eau de mer monte, elle peut pénétrer les nappes phréatiques qui sont des réserves d'eau douce."
+  },
+  {
+    "fromNum": 31,
+    "toNum": 37,
+    "status": "optional",
+    "Explanation": "Si l'on considère qu'une famine n'est pas seulement un manque de nourriture mais également un manque d'eau."
+  },
+  {
     "fromNum": 38,
     "toNum": 40,
     "status": "valid",
     "Explanation": ""
+  },
+  {
+    "fromNum": 37,
+    "toNum": 40,
+    "status": "valid",
+    "Explanation": "",
+    "source": "prezi"
   },
   {
     "fromNum": 40,
@@ -616,6 +704,13 @@
     "toNum": 40,
     "status": "valid",
     "Explanation": ""
+  },
+  {
+    "fromNum": 39,
+    "toNum": 38,
+    "status": "valid",
+    "Explanation": "",
+    "source": "prezi"
   },
   {
     "fromNum": 40,
