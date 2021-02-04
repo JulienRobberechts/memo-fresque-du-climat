@@ -4,7 +4,7 @@
     <div class="back-description">{{ card.backDescription }}</div>
     <div class="explanation" v-if="card.explanation">
       <span class="explanation-logo">
-        &#9755;
+        <img src="@/assets/hand.png" />
       </span>
       {{ card.explanation }}
     </div>
@@ -83,13 +83,10 @@ export default {
   margin: 2rem;
   font-size: 1rem;
 }
-.explanation-logo {
-  font-size: 3rem;
+.explanation-logo img {
   position: relative;
-  top: 0.8rem;
-  left: 0.3rem;
-  color: #04c2c0;
-  text-shadow: #e90000 2px 2px;
+  top: 0.5rem;
+  width: 2rem;
 }
 .explanation {
   margin: 1rem 1rem;
