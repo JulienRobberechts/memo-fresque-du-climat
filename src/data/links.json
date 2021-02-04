@@ -188,12 +188,6 @@
   },
   {
     "fromNum": 6,
-    "toNum": 4,
-    "status": "optional",
-    "Explanation": "La construction de route nécéssite parfois de déforester, mais l'aspect unidimensionnelle de la route la rend quasiment négligeable devant la déforestation lié à l'agriculture."
-  },
-  {
-    "fromNum": 6,
     "toNum": 12,
     "status": "optional",
     "Explanation": "Les participants pensent souvent que la déforestation réduit les puits de carbone. En réalité, l'impact est minime car les zones déforestées représentent une toute petite partie de la surface totale de forêt. De plus, une forêt à l'équilibre n'absorbe plus de carbone. Or, on déforeste souvent des forêts à l'équilibre, ce qui n'impacte pas les puits de carbone. Par contre le CO2 dégagé est très important."
