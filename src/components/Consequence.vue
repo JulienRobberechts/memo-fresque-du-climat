@@ -27,8 +27,8 @@
           xmlns:xlink="http://www.w3.org/1999/xlink"
           x="0px"
           y="0px"
-          width="444.815px"
-          height="444.815px"
+          width="44.4815px"
+          height="44.4815px"
           viewBox="0 0 444.815 444.815"
           xml:space="preserve"
         >
@@ -128,7 +128,7 @@ export default {
 .arrow svg {
   position: absolute;
   z-index: 3;
-  transform: translate(-50%, -50%) scale(0.08) translate(50%, 50%);
+  transform: translate(-50%, -50%) scale(0.8) translate(50%, 50%);
   fill: #706f71;
 }
 .arrow-valid svg {
