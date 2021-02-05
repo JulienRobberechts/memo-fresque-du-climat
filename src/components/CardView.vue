@@ -92,6 +92,7 @@ export default {
   margin: 1rem 1rem;
   max-width: 600px;
   font-size: 1.2rem;
+  text-align: justify;
 }
 .notes {
   margin: 0 auto;
@@ -103,7 +104,7 @@ export default {
 }
 
 .bullet {
-  width: 1.5rem;
+  width: 1.2rem;
   margin-right: 0.3rem;
   float: left;
 }
@@ -112,7 +113,7 @@ export default {
   list-style-type: none;
   margin: 0.5rem;
   padding: 0;
-  text-align: left;
+  text-align: justify;
   font-size: 1.2rem;
 }
 </style>
