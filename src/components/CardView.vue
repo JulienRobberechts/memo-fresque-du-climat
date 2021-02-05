@@ -14,22 +14,34 @@
         {{ note }}
       </li>
     </ul>
-    <CauseList :causes="validCauses()" />
-    <ConsequenceList :consequences="validConsequences()" />
-    <CauseList
-      v-if="otherCauses().length > 0"
-      :causes="otherCauses()"
-      title="autre cause"
-    />
+    <ListTitle name="Cause" :items="validCauses" />
+    <CauseList :causes="validCauses" />
+
+    <ListTitle name="Conséquence" :items="validConsequences" />
+    <ConsequenceList :consequences="validConsequences" />
+
+    <h3>Autres causes possibles</h3>
+    <CauseList v-if="optionalCauses.length > 0" :causes="optionalCauses" />
+
+    <h3>Autres conséquences possible</h3>
     <ConsequenceList
-      v-if="otherConsequences().length > 0"
-      :consequences="otherConsequences()"
-      title="autre conséquence"
+      v-if="optionalConsequences.length > 0"
+      :consequences="optionalConsequences"
+    />
+
+    <h3>Causes à ne pas faire</h3>
+    <CauseList v-if="invalidCauses.length > 0" :causes="invalidCauses" />
+
+    <h3>Conséquences à ne pas faire</h3>
+    <ConsequenceList
+      v-if="invalidConsequences.length > 0"
+      :consequences="invalidConsequences"
     />
   </div>
 </template>
 
 <script>
+import ListTitle from '@/components/ListTitle.vue';
 import CauseList from '@/components/CauseList.vue';
 import ConsequenceList from '@/components/ConsequenceList.vue';
 
@@ -39,29 +51,48 @@ export default {
     card: Object
   },
   components: {
+    ListTitle,
     CauseList,
     ConsequenceList
   },
+  data() {
+    return {
+      validCauses: this.getValidCauses(),
+      validConsequences: this.getValidConsequences(),
+      optionalCauses: this.getOptionalCauses(),
+      optionalConsequences: this.getValidConsequences(),
+      invalidCauses: this.getInvalidCauses(),
+      invalidConsequences: this.getInvalidConsequences()
+    };
+  },
   methods: {
-    validCauses() {
+    getValidCauses() {
       return this.card.causes.filter(cause => cause.link.status === 'valid');
     },
-    validConsequences() {
+    getValidConsequences() {
       return this.card.consequences
         .filter(consequence => consequence.link.status === 'valid')
         .sort(c => c.status);
     },
-    otherCauses() {
+    getOptionalCauses() {
       return this.card.causes
-        .filter(cause => cause.link.status !== 'valid')
-        .sort((a, b) => a.from.cardNum - b.from.cardNum)
-        .sort(a => (a.link.status === 'optional' ? -1 : 1)); // to fix
+        .filter(cause => cause.link.status === 'optional')
+        .sort((a, b) => a.from.cardNum - b.from.cardNum); // to fix
     },
-    otherConsequences() {
+    getOptionalConsequences() {
       return this.card.consequences
-        .filter(consequence => consequence.link.status !== 'valid')
-        .sort((a, b) => a.to.cardNum - b.to.cardNum)
-        .sort(a => (a.link.status === 'optional' ? -1 : 1)); // to fix
+        .filter(consequence => consequence.link.status === 'optional')
+        .sort((a, b) => a.to.cardNum - b.to.cardNum);
+    },
+    getInvalidCauses() {
+      return this.card.causes
+        .filter(cause => cause.link.status === 'invalid')
+        .sort((a, b) => a.from.cardNum - b.from.cardNum);
+    },
+    getInvalidConsequences() {
+      return this.card.consequences
+        .filter(consequence => consequence.link.status === 'invalid')
+        .sort((a, b) => a.to.cardNum - b.to.cardNum);
     }
   }
 };

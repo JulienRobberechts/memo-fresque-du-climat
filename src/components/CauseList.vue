@@ -1,12 +1,10 @@
 <template>
-  <ListTitle :name="title" :items="causes" />
   <div class="causes">
     <Cause v-for="cause in causes" :key="cause.id" :cause="cause" />
   </div>
 </template>
 
 <script>
-import ListTitle from '@/components/ListTitle.vue';
 import Cause from '@/components/Cause.vue';
 
 export default {
@@ -16,7 +14,6 @@ export default {
     causes: Object
   },
   components: {
-    ListTitle,
     Cause
   }
 };

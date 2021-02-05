@@ -41,10 +41,4 @@ export default {
   text-shadow: #e90000 1px 1px;
   box-shadow: 1px 1px 0px #706f71;
 }
-
-.causes {
-  display: flex;
-  flex-direction: column;
-  max-width: 600px;
-}
 </style>

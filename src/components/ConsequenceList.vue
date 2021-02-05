@@ -1,5 +1,4 @@
 <template>
-  <ListTitle :name="title" :items="consequences" :right="true" />
   <div class="consequences">
     <Consequence
       v-for="consequence in consequences"
@@ -10,7 +9,6 @@
 </template>
 
 <script>
-import ListTitle from '@/components/ListTitle.vue';
 import Consequence from './Consequence.vue';
 
 export default {
@@ -22,7 +20,7 @@ export default {
     },
     consequences: Object
   },
-  components: { ListTitle, Consequence }
+  components: { Consequence }
 };
 </script>
 
