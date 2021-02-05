@@ -4,7 +4,7 @@
 
 Proposer un acces rapide web mobile aux cartes de la Fresque du climat pour les animateurs.
 
-## Aspects technique
+## Aspects techniques
 
 ## Project setup
 ```
