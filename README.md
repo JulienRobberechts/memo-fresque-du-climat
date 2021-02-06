@@ -5,7 +5,7 @@ Les animateurs peuvent facilement consulter sur leur téléphone :iphone: ou ord
 
 ## Notes pour les éditeurs de contenu
 
-Vous trouverez dans ce [tutoriel](doc/FDC - Comment faire des modifications dans le memo.pdf) comment proposer des modifications de contenu.
+Vous trouverez dans ce [tutoriel](./doc/FDC - Comment faire des modifications dans le memo.pdf) comment proposer des modifications de contenu.
 
 :tada: Merci d'avance pour votre participation au projet :sparkles:
 
