@@ -39,7 +39,7 @@ Voici quelques idées pour aider le projet:
 
 - Utiliser et partager le lien de l'application (attention le lien peut changer à l'avenir).
 - Proposer une vision et des cas d'usage pour ce site web (exemple: Nous pourrions utiliser le site lors de la formation des animateurs).
-- Relire le contenu du site et soumettre vos corrections. Ce [tutoriel](https://github.com/JulienRobberechts/memo-fresque-du-climat/blob/main/doc/FDC%20-%20Comment%20faire%20des%20modifications%20dans%20le%20memo.pdf) explique comment les proposer.
+- Relire le contenu du site et soumettre vos corrections (orthographe ou autres). Ce [tutoriel](https://github.com/JulienRobberechts/memo-fresque-du-climat/blob/main/doc/FDC%20-%20Comment%20faire%20des%20modifications%20dans%20le%20memo.pdf) explique comment les proposer.
 - Proposer des améliorations et nouvelles fonctionnalités (Sur le canal Telegram).
 - Proposer un logo, icones et des améliorations de design.
 - Proposer des contenus pour la documentation (ici même) et la page A propos.
