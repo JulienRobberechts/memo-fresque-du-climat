@@ -4,15 +4,25 @@
       <img
         class="yt-logo"
         src="@/assets/play-youtube.png"
-        title="Wiki"
-        @click="toggleVideo"
+        title="Fresqu'onfinée - vidéo en Français"
+        @click="toggleVideoFr"
+      />
+      <img
+        class="play-cc-logo"
+        src="@/assets/play-face-cc.png"
+        title="Faces of Climat Collage - vidéo en différentes langues"
+        @click="toggleVideoCc"
       />
       <a
         :href="`https://fresqueduclimat.org${card.url}`"
         target="_blank"
         class="wiki-link"
       >
-        <img class="wiki-logo" src="@/assets/wiki.png" title="Wiki" />
+        <img
+          class="wiki-logo"
+          src="@/assets/wiki.png"
+          title="Wiki de La Fresque du Climat"
+        />
       </a>
     </div>
     <img
@@ -20,13 +30,15 @@
       v-if="!showVideo"
       :src="card.img.url"
       :title="card.shortTitle"
-      @click="toggleVideo"
+      @click="toggleVideoFr"
     />
     <div class="card-video-wrapper" v-if="showVideo">
       <iframe
         class="card-video"
         :src="
-          `https://www.youtube-nocookie.com/embed/${card.youtubeCode}?vq=small`
+          `https://www.youtube-nocookie.com/embed/${
+            videoVersionFr ? card.youtubeCode : card.faceOfCc
+          }?vq=small`
         "
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -93,6 +105,7 @@ export default {
   data() {
     return {
       showVideo: false,
+      videoVersionFr: true,
       validCauses: this.getValidCauses(),
       validConsequences: this.getValidConsequences(),
       optionalCauses: this.getOptionalCauses(),
@@ -102,8 +115,13 @@ export default {
     };
   },
   methods: {
-    toggleVideo() {
-      this.showVideo = !this.showVideo;
+    toggleVideoCc() {
+      this.showVideo = !this.showVideo || this.videoVersionFr;
+      this.videoVersionFr = !this.showVideo && !this.videoVersionFr;
+    },
+    toggleVideoFr() {
+      this.showVideo = !this.showVideo || !this.videoVersionFr;
+      this.videoVersionFr = this.showVideo || this.videoVersionFr;
     },
     getValidCauses() {
       return this.card.causes.filter(cause => cause.link.status === 'valid');
@@ -179,6 +197,14 @@ export default {
   width: 1.8rem;
   height: 1.8rem;
   margin: 0 0.3rem;
+}
+.play-cc-logo {
+  width: 1.8rem;
+  height: 1.8rem;
+  margin: 0 0.3rem;
+}
+.play-cc-logo:hover {
+  transform: scale(1.1);
 }
 .yt-logo {
   width: 2rem;
