@@ -1,8 +1,10 @@
 # Memo Fresque du Climat
 
-[Le site web "MEMO Fresque du Climat" en ligne](https://memo-fresque-du-climat.onrender.com/)
+Site web Live :
 
-[<img src="https://raw.githubusercontent.com/JulienRobberechts/memo-fresque-du-climat/main/src/assets/fresque-full.png" width="200">](https://fresqueduclimat.org/)
+["MEMO Fresque du Climat"](https://memo-fresque-du-climat.onrender.com/)
+
+[<img src="https://raw.githubusercontent.com/JulienRobberechts/memo-fresque-du-climat/main/src/assets/fresque-full.png" width="200">](https://memo-fresque-du-climat.onrender.com/)
 
 C'est un petit site web qui permet un accès facile et rapide aux cartes de [la Fresque du climat](https://fresqueduclimat.org/).
 Les animateurs peuvent facilement consulter sur leur téléphone ou ordinateur  la description de chacune des cartes, les liens importants ou facultatifs ainsi que les liens à ne pas faire et pourquoi. C'est donc un aide-mémoire pour les animateurs plus que pour les participants (à priori).
@@ -19,12 +21,6 @@ Vous pouvez utiliser l'application:
 - En tant que participant pour tricher :see_no_evil:
 - ... A Vous d'inventer d'autres usages ... (voir section "Que faire pour aider ?")
 
-## Notes pour les éditeurs de contenu
-
-### Canal de communication
-
-Rejoignez nous sur le [canal Telegram](https://t.me/memofdc) pour participer à ce projet.
-
 ### Sources de données
 
 Les descriptions et explications des cartes et liens sont tous issus à l'origine de l'une de ces 3 sources:
@@ -32,6 +28,12 @@ Les descriptions et explications des cartes et liens sont tous issus à l'origin
 - [Le wiki de la fresque du Climat](https://fresqueduclimat.org/wiki/index.php?title=Portail:Accueil)
 - [La correction Prezi](https://prezi.com/view/tJJYWcXs12lz9cXCngmH/)
 - [Le guide d'autoformation juin 2020](https://drive.google.com/file/d/11xAvR7Qg_sCK1wA97ybYtSfNBRTfvXmo/view)
+
+## Notes pour aux participants du projet
+
+### Canal de communication
+
+Rejoignez nous sur le [canal Telegram](https://t.me/memofdc) pour participer à ce projet.
 
 ### Que faire pour aider ?
 
