@@ -90,6 +90,10 @@ export default {
   box-shadow: 5px 5px 0px #706f71;
   z-index: 3;
 }
+.cause-card-image:hover {
+  transform: scale(1.03);
+  max-width: 248px;
+}
 .cause-card-image-original {
   width: 20vw;
   max-width: 160px;

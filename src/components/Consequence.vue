@@ -93,6 +93,10 @@ export default {
   margin: 0 0 0.2rem 2.8rem;
   box-shadow: -5px 5px 0px #706f71;
 }
+.consequence-card-image:hover {
+  transform: scale(1.03);
+  max-width: 248px;
+}
 .consequence-card-image-original {
   float: right;
   width: 20vw;
