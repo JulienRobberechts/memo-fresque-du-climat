@@ -1,6 +1,12 @@
 <template>
   <div class="card-details-panel">
     <div class="header-panel">
+      <img
+        class="yt-logo"
+        src="@/assets/play-youtube.png"
+        title="Wiki"
+        @click="toggleVideo"
+      />
       <a
         :href="`https://fresqueduclimat.org${card.url}`"
         target="_blank"
@@ -9,7 +15,27 @@
         <img class="wiki-logo" src="@/assets/wiki.png" title="Wiki" />
       </a>
     </div>
-    <img class="card-image" :src="card.img.url" :title="card.shortTitle" />
+    <img
+      class="card-image"
+      v-if="!showVideo"
+      :src="card.img.url"
+      :title="card.shortTitle"
+      @click="toggleVideo"
+    />
+    <div class="card-video-wrapper" v-if="showVideo">
+      <iframe
+        class="card-video"
+        :src="
+          `https://www.youtube-nocookie.com/embed/${card.youtubeCode}?vq=small`
+        "
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+        importance="low"
+        name="card-video"
+        referrerpolicy="no-referrer"
+      ></iframe>
+    </div>
     <div class="back-description">{{ card.backDescription }}</div>
     <div class="explanation" v-if="card.explanation">
       <span class="explanation-logo">
@@ -66,6 +92,7 @@ export default {
   },
   data() {
     return {
+      showVideo: false,
       validCauses: this.getValidCauses(),
       validConsequences: this.getValidConsequences(),
       optionalCauses: this.getOptionalCauses(),
@@ -75,6 +102,9 @@ export default {
     };
   },
   methods: {
+    toggleVideo() {
+      this.showVideo = !this.showVideo;
+    },
     getValidCauses() {
       return this.card.causes.filter(cause => cause.link.status === 'valid');
     },
@@ -108,6 +138,17 @@ export default {
 </script>
 
 <style scoped>
+.card-video-wrapper {
+  position: relative;
+  padding-bottom: 68%;
+}
+.card-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 .card-details-panel {
   display: flex;
   flex-direction: column;
@@ -135,9 +176,17 @@ export default {
   outline: none;
 }
 .wiki-logo {
+  width: 1.8rem;
+  height: 1.8rem;
+  margin: 0 0.3rem;
+}
+.yt-logo {
   width: 2rem;
   height: 2rem;
   margin: 0 0.3rem;
+}
+.yt-logo:hover {
+  transform: scale(1.1);
 }
 .back-description {
   margin: 2rem;
