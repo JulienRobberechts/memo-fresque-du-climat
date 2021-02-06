@@ -256,7 +256,9 @@
     "fromNum": 8,
     "toNum": 5,
     "status": "optional",
-    "Explanation": "[TODO]"
+    "Explanation": "L'agriculture n'utilise pas beaucoup d'énergies fossiles. Tout juste un peu d'essence pour mettre dans les tracteurs. 
+Attention, ça ne veut pas dire qu'elle n'a pas une empreinte carbone importante, mais c'est surtout du méthane et du protoxyde d'azote (lire les cartes 8 et 9)
+"
   },
   {
     "fromNum": 8,
