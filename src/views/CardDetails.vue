@@ -42,8 +42,6 @@ export default {
 
 <style scoped>
 .card-details {
-  margin: 0.4rem 5rem;
-  padding: 1rem;
   display: flex;
   justify-content: center;
 }

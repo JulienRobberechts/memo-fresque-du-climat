@@ -28,17 +28,17 @@ body {
 
 #nav {
   margin: 0;
-  padding: 1rem 0;
+  padding: 0.5rem 0;
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: white;
+  min-height: 3rem;
   z-index: 999;
 }
 
 #content {
   max-width: 600px;
   margin: 0 auto;
-  margin-top: 5.5rem;
+  margin-top: 5rem;
 }
 </style>

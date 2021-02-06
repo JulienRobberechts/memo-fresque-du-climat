@@ -1,5 +1,14 @@
 <template>
   <div class="card-details-panel">
+    <div class="header-panel">
+      <a
+        :href="`https://fresqueduclimat.org${card.url}`"
+        target="_blank"
+        class="wiki-link"
+      >
+        <img class="wiki-logo" src="@/assets/wiki.png" title="Wiki" />
+      </a>
+    </div>
     <img class="card-image" :src="card.img.url" :title="card.shortTitle" />
     <div class="back-description">{{ card.backDescription }}</div>
     <div class="explanation" v-if="card.explanation">
@@ -103,12 +112,32 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-.card-image {
   width: 95vw;
   max-width: 600px;
   padding: 0;
   margin: 3px;
+}
+.header-panel {
+  margin-bottom: 0.3rem;
+  padding: 0.3rem 0.5rem;
+  display: flex;
+  justify-content: flex-end;
+}
+.wiki-link {
+  display: flex;
+}
+.wiki-link:hover {
+  transform: scale(1.1);
+}
+.wiki-link,
+.wiki-link:active,
+.wiki-link:focus {
+  outline: none;
+}
+.wiki-logo {
+  width: 2rem;
+  height: 2rem;
+  margin: 0 0.3rem;
 }
 .back-description {
   margin: 2rem;
