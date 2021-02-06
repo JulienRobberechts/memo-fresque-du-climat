@@ -1,45 +1,5 @@
 [
   {
-    "fromNum": 5,
-    "toNum": 1,
-    "status": "optional",
-    "Explanation": "On peut se demander si les activités humaines consomment des énegie fossiles ou si les énérgies fossiles permettent les activités humaines. Ce débat ne doit pas prendre de temps et on peut regrouper les deux cartes au besoin. Quand je chante dans mon jardin, je réalise une activité humaine sans énergie fossile. Quand les moulins à vent ou à eau produisaient de la farine, ils n'utilisaient pas d'énergie fossile. Il reste, heureusement de nombreuses activités humaines sans énergie fossile.",
-    "source": "guide"
-  },
-  {
-    "fromNum": 5,
-    "toNum": 2,
-    "status": "optional",
-    "Explanation": "On peut se demander si les activités humaines consomment des énegie fossiles ou si les énérgies fossiles permettent les activités humaines. Ce débat ne doit pas prendre de temps et on peut regrouper les deux cartes au besoin. Quand je chante dans mon jardin, je réalise une activité humaine sans énergie fossile. Quand les moulins à vent ou à eau produisaient de la farine, ils n'utilisaient pas d'énergie fossile. Il reste, heureusement de nombreuses activités humaines sans énergie fossile.",
-    "source": "guide"
-  },
-  {
-    "fromNum": 5,
-    "toNum": 3,
-    "status": "optional",
-    "Explanation": "On peut se demander si les activités humaines consomment des énegie fossiles ou si les énérgies fossiles permettent les activités humaines. Ce débat ne doit pas prendre de temps et on peut regrouper les deux cartes au besoin. Quand je chante dans mon jardin, je réalise une activité humaine sans énergie fossile. Quand les moulins à vent ou à eau produisaient de la farine, ils n'utilisaient pas d'énergie fossile. Il reste, heureusement de nombreuses activités humaines sans énergie fossile.",
-    "source": "guide"
-  },
-  {
-    "fromNum": 5,
-    "toNum": 4,
-    "status": "optional",
-    "Explanation": "On peut se demander si les activités humaines consomment des énegie fossiles ou si les énérgies fossiles permettent les activités humaines. Ce débat ne doit pas prendre de temps et on peut regrouper les deux cartes au besoin. Quand je chante dans mon jardin, je réalise une activité humaine sans énergie fossile. Quand les moulins à vent ou à eau produisaient de la farine, ils n'utilisaient pas d'énergie fossile. Il reste, heureusement de nombreuses activités humaines sans énergie fossile.",
-    "source": "guide"
-  },
-  {
-    "fromNum": 40,
-    "toNum": 1,
-    "status": "optional",
-    "Explanation": "C'est 'la boucle du club de Rome' ! Tout cela finira bien par se réguler, mais pas forcément de manière soft. Les participant·e·s font souvent ce lien, et proposent parfois de faire un rouleau avec la fresque pour mettre bord à bord la fin et le début. D'ailleurs, il est intéressant de faire remarquer qu'il y a des humains dans les cartes du début et celles de la fin, mais pas au milieu."
-  },
-  {
-    "fromNum": 40,
-    "toNum": 5,
-    "status": "optional",
-    "Explanation": "[TODO]"
-  },
-  {
     "fromNum": 1,
     "toNum": 2,
     "status": "valid",
@@ -175,10 +135,32 @@
     "Explanation": "Bien que des conflits peuvent avoir lieu à cause des ressources, ce n'est pas directement causer par une perturbation du climat, mais un appauvrissement des ressources. La relation peut-être fait, mais elle est plus politique que climatique."
   },
   {
-    "fromNum": 8,
-    "toNum": 6,
-    "status": "valid",
-    "Explanation": ""
+    "fromNum": 5,
+    "toNum": 1,
+    "status": "optional",
+    "Explanation": "On peut se demander si les activités humaines consomment des énegie fossiles ou si les énérgies fossiles permettent les activités humaines. Ce débat ne doit pas prendre de temps et on peut regrouper les deux cartes au besoin. Quand je chante dans mon jardin, je réalise une activité humaine sans énergie fossile. Quand les moulins à vent ou à eau produisaient de la farine, ils n'utilisaient pas d'énergie fossile. Il reste, heureusement de nombreuses activités humaines sans énergie fossile.",
+    "source": "guide"
+  },
+  {
+    "fromNum": 5,
+    "toNum": 2,
+    "status": "optional",
+    "Explanation": "On peut se demander si les activités humaines consomment des énegie fossiles ou si les énérgies fossiles permettent les activités humaines. Ce débat ne doit pas prendre de temps et on peut regrouper les deux cartes au besoin. Quand je chante dans mon jardin, je réalise une activité humaine sans énergie fossile. Quand les moulins à vent ou à eau produisaient de la farine, ils n'utilisaient pas d'énergie fossile. Il reste, heureusement de nombreuses activités humaines sans énergie fossile.",
+    "source": "guide"
+  },
+  {
+    "fromNum": 5,
+    "toNum": 3,
+    "status": "optional",
+    "Explanation": "On peut se demander si les activités humaines consomment des énegie fossiles ou si les énérgies fossiles permettent les activités humaines. Ce débat ne doit pas prendre de temps et on peut regrouper les deux cartes au besoin. Quand je chante dans mon jardin, je réalise une activité humaine sans énergie fossile. Quand les moulins à vent ou à eau produisaient de la farine, ils n'utilisaient pas d'énergie fossile. Il reste, heureusement de nombreuses activités humaines sans énergie fossile.",
+    "source": "guide"
+  },
+  {
+    "fromNum": 5,
+    "toNum": 4,
+    "status": "optional",
+    "Explanation": "On peut se demander si les activités humaines consomment des énegie fossiles ou si les énérgies fossiles permettent les activités humaines. Ce débat ne doit pas prendre de temps et on peut regrouper les deux cartes au besoin. Quand je chante dans mon jardin, je réalise une activité humaine sans énergie fossile. Quand les moulins à vent ou à eau produisaient de la farine, ils n'utilisaient pas d'énergie fossile. Il reste, heureusement de nombreuses activités humaines sans énergie fossile.",
+    "source": "guide"
   },
   {
     "fromNum": 6,
@@ -289,20 +271,8 @@
     "Explanation": "On pense ici surtout aux pesticides (notamment au round-up ou aux néonicotinoïdes). Pas de lien avec le climat, mais relation intéressante à faire."
   },
   {
-    "fromNum": 41,
-    "toNum": 9,
-    "status": "valid",
-    "Explanation": ""
-  },
-  {
-    "fromNum": 41,
-    "toNum": 13,
-    "status": "optional",
-    "Explanation": "On peut relier [TODO]"
-  },
-  {
-    "fromNum": 42,
-    "toNum": 9,
+    "fromNum": 8,
+    "toNum": 6,
     "status": "valid",
     "Explanation": ""
   },
@@ -326,12 +296,6 @@
     "Explanation": "Bien que les aérosols ne soient pas les seuls à rentrer dans la catégorie 'Particule fines', chaque année, 391 000 personnes dans les pays de l'UE décèdent de la pollution de l'air[2], et elle cause 1.1 millions décès prématurés en Inde et en Chine"
   },
   {
-    "fromNum": 12,
-    "toNum": 11,
-    "status": "valid",
-    "Explanation": ""
-  },
-  {
     "fromNum": 11,
     "toNum": 13,
     "status": "valid",
@@ -344,10 +308,22 @@
     "Explanation": "[TODO]"
   },
   {
+    "fromNum": 11,
+    "toNum": 24,
+    "status": "invalid",
+    "Explanation": "On retrouve souvent comme origine de cette carte concentration en CO2 (ppm). Hors, toute molècule qui se retrouve dans l'océan ne se retrouve pas dans l'atmosphère, et donc le lien le plus logique provient de la carte puits de carbone"
+  },
+  {
     "fromNum": 12,
     "toNum": 24,
     "status": "valid",
     "Explanation": "[TODO]"
+  },
+  {
+    "fromNum": 12,
+    "toNum": 11,
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 12,
@@ -367,12 +343,6 @@
     "status": "valid",
     "Explanation": "[TODO]",
     "source": "guide"
-  },
-  {
-    "fromNum": 15,
-    "toNum": 14,
-    "status": "valid",
-    "Explanation": ""
   },
   {
     "fromNum": 14,
@@ -404,6 +374,24 @@
     "status": "valid",
     "Explanation": "[TODO]",
     "source": "guide"
+  },
+  {
+    "fromNum": 14,
+    "toNum": 41,
+    "status": "valid",
+    "Explanation": "Si l'on veut rester dans la même logique de conservation de l'énergie, il faudrait faire le lien de fonte a partir de budget énérgétique."
+  },
+  {
+    "fromNum": 14,
+    "toNum": 42,
+    "status": "valid",
+    "Explanation": "Si l'on veut rester dans la même logique de conservation de l'énergie, il faudrait faire le lien de fonte a partir de budget énérgétique."
+  },
+  {
+    "fromNum": 15,
+    "toNum": 14,
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 16,
@@ -505,12 +493,6 @@
     "Explanation": ""
   },
   {
-    "fromNum": 21,
-    "toNum": 20,
-    "status": "valid",
-    "Explanation": ""
-  },
-  {
     "fromNum": 20,
     "toNum": 25,
     "status": "valid",
@@ -576,23 +558,10 @@
     "Explanation": ""
   },
   {
-    "fromNum": 27,
-    "toNum": 25,
-    "status": "optional",
-    "Explanation": "Les deux types de biodiversité peuvent intéragir entres elles."
-  },
-  {
-    "fromNum": 25,
-    "toNum": 27,
-    "status": "optional",
-    "Explanation": "Les deux types de biodiversité peuvent intéragir entres elles."
-  },
-  {
-    "fromNum": 25,
-    "toNum": 8,
-    "status": "invalid",
-    "Explanation": "[TODO]",
-    "source": "guide"
+    "fromNum": 21,
+    "toNum": 20,
+    "status": "valid",
+    "Explanation": ""
   },
   {
     "fromNum": 21,
@@ -626,26 +595,8 @@
     "Explanation": "La carte vecteurs de maladie est en général reliée à la carte Biodiversité terrestre car les vecteurs de maladie sont une sous-partie de la biodiversité, mais on peut aussi la relier aux mêmes causes que la carte biodiversité, c’est-à-dire perturbation du cycle de l'eau et hausse de la température."
   },
   {
-    "fromNum": 41,
-    "toNum": 28,
-    "status": "optional",
-    "Explanation": "Le permafrost contient des milliards de bactéries et de virus enfouis. S'il se mettait à dégeler, certains de ces agents pathogènes pourraient se retrouver à contaminer des populations humaines ou animales. En 2016, une épidémie d'anthrax a eu lieu en Sibérie à cause d'une carcasse de 75 ans qui aurait degelé."
-  },
-  {
     "fromNum": 22,
     "toNum": 33,
-    "status": "valid",
-    "Explanation": ""
-  },
-  {
-    "fromNum": 11,
-    "toNum": 24,
-    "status": "invalid",
-    "Explanation": "On retrouve souvent comme origine de cette carte concentration en CO2 (ppm). Hors, toute molècule qui se retrouve dans l'océan ne se retrouve pas dans l'atmosphère, et donc le lien le plus logique provient de la carte puits de carbone"
-  },
-  {
-    "fromNum": 24,
-    "toNum": 23,
     "status": "valid",
     "Explanation": ""
   },
@@ -663,6 +614,12 @@
     "source": "guide"
   },
   {
+    "fromNum": 24,
+    "toNum": 23,
+    "status": "valid",
+    "Explanation": ""
+  },
+  {
     "fromNum": 25,
     "toNum": 28,
     "status": "valid",
@@ -677,9 +634,15 @@
     "source": "guide"
   },
   {
-    "fromNum": 30,
-    "toNum": 26,
-    "status": "valid",
+    "fromNum": 25,
+    "toNum": 27,
+    "status": "optional",
+    "Explanation": "Les deux types de biodiversité peuvent intéragir entres elles."
+  },
+  {
+    "fromNum": 25,
+    "toNum": 8,
+    "status": "invalid",
     "Explanation": "[TODO]",
     "source": "guide"
   },
@@ -718,10 +681,10 @@
     "source": "guide"
   },
   {
-    "fromNum": 29,
-    "toNum": 27,
-    "status": "valid",
-    "Explanation": ""
+    "fromNum": 27,
+    "toNum": 25,
+    "status": "optional",
+    "Explanation": "Les deux types de biodiversité peuvent intéragir entres elles."
   },
   {
     "fromNum": 27,
@@ -735,6 +698,19 @@
     "toNum": 38,
     "status": "valid",
     "Explanation": ""
+  },
+  {
+    "fromNum": 29,
+    "toNum": 27,
+    "status": "valid",
+    "Explanation": ""
+  },
+  {
+    "fromNum": 30,
+    "toNum": 26,
+    "status": "valid",
+    "Explanation": "[TODO]",
+    "source": "guide"
   },
   {
     "fromNum": 30,
@@ -774,16 +750,16 @@
     "Explanation": ""
   },
   {
-    "fromNum": 33,
-    "toNum": 32,
+    "fromNum": 31,
+    "toNum": 38,
     "status": "valid",
     "Explanation": ""
   },
   {
-    "fromNum": 34,
-    "toNum": 32,
-    "status": "valid",
-    "Explanation": ""
+    "fromNum": 31,
+    "toNum": 37,
+    "status": "optional",
+    "Explanation": "Si l'on considère qu'une famine n'est pas seulement un manque de nourriture mais également un manque d'eau."
   },
   {
     "fromNum": 32,
@@ -805,14 +781,32 @@
     "Explanation": ""
   },
   {
-    "fromNum": 34,
-    "toNum": 33,
+    "fromNum": 33,
+    "toNum": 32,
     "status": "valid",
     "Explanation": ""
   },
   {
     "fromNum": 33,
     "toNum": 39,
+    "status": "valid",
+    "Explanation": ""
+  },
+  {
+    "fromNum": 33,
+    "toNum": 31,
+    "status": "optional",
+    "Explanation": "Si l'eau de mer monte, elle peut pénétrer les nappes phréatiques qui sont des réserves d'eau douce."
+  },
+  {
+    "fromNum": 34,
+    "toNum": 32,
+    "status": "valid",
+    "Explanation": ""
+  },
+  {
+    "fromNum": 34,
+    "toNum": 33,
     "status": "valid",
     "Explanation": ""
   },
@@ -887,22 +881,11 @@
     "Explanation": ""
   },
   {
-    "fromNum": 31,
-    "toNum": 38,
+    "fromNum": 37,
+    "toNum": 40,
     "status": "valid",
-    "Explanation": ""
-  },
-  {
-    "fromNum": 33,
-    "toNum": 31,
-    "status": "optional",
-    "Explanation": "Si l'eau de mer monte, elle peut pénétrer les nappes phréatiques qui sont des réserves d'eau douce."
-  },
-  {
-    "fromNum": 31,
-    "toNum": 37,
-    "status": "optional",
-    "Explanation": "Si l'on considère qu'une famine n'est pas seulement un manque de nourriture mais également un manque d'eau."
+    "Explanation": "",
+    "source": "prezi"
   },
   {
     "fromNum": 38,
@@ -911,8 +894,14 @@
     "Explanation": ""
   },
   {
-    "fromNum": 37,
+    "fromNum": 39,
     "toNum": 40,
+    "status": "valid",
+    "Explanation": ""
+  },
+  {
+    "fromNum": 39,
+    "toNum": 38,
     "status": "valid",
     "Explanation": "",
     "source": "prezi"
@@ -924,19 +913,6 @@
     "Explanation": ""
   },
   {
-    "fromNum": 39,
-    "toNum": 40,
-    "status": "valid",
-    "Explanation": ""
-  },
-  {
-    "fromNum": 39,
-    "toNum": 38,
-    "status": "valid",
-    "Explanation": "",
-    "source": "prezi"
-  },
-  {
     "fromNum": 40,
     "toNum": 38,
     "status": "valid",
@@ -944,15 +920,39 @@
     "source": "guide"
   },
   {
-    "fromNum": 14,
-    "toNum": 41,
-    "status": "valid",
-    "Explanation": "Si l'on veut rester dans la même logique de conservation de l'énergie, il faudrait faire le lien de fonte a partir de budget énérgétique."
+    "fromNum": 40,
+    "toNum": 1,
+    "status": "optional",
+    "Explanation": "C'est 'la boucle du club de Rome' ! Tout cela finira bien par se réguler, mais pas forcément de manière soft. Les participant·e·s font souvent ce lien, et proposent parfois de faire un rouleau avec la fresque pour mettre bord à bord la fin et le début. D'ailleurs, il est intéressant de faire remarquer qu'il y a des humains dans les cartes du début et celles de la fin, mais pas au milieu."
   },
   {
-    "fromNum": 14,
-    "toNum": 42,
+    "fromNum": 40,
+    "toNum": 5,
+    "status": "optional",
+    "Explanation": "[TODO]"
+  },
+  {
+    "fromNum": 41,
+    "toNum": 9,
     "status": "valid",
-    "Explanation": "Si l'on veut rester dans la même logique de conservation de l'énergie, il faudrait faire le lien de fonte a partir de budget énérgétique."
+    "Explanation": ""
+  },
+  {
+    "fromNum": 41,
+    "toNum": 28,
+    "status": "optional",
+    "Explanation": "Le permafrost contient des milliards de bactéries et de virus enfouis. S'il se mettait à dégeler, certains de ces agents pathogènes pourraient se retrouver à contaminer des populations humaines ou animales. En 2016, une épidémie d'anthrax a eu lieu en Sibérie à cause d'une carcasse de 75 ans qui aurait degelé."
+  },
+  {
+    "fromNum": 41,
+    "toNum": 13,
+    "status": "optional",
+    "Explanation": "On peut relier [TODO]"
+  },
+  {
+    "fromNum": 42,
+    "toNum": 9,
+    "status": "valid",
+    "Explanation": ""
   }
 ]
