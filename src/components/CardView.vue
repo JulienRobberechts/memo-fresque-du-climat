@@ -60,7 +60,7 @@ export default {
       validCauses: this.getValidCauses(),
       validConsequences: this.getValidConsequences(),
       optionalCauses: this.getOptionalCauses(),
-      optionalConsequences: this.getValidConsequences(),
+      optionalConsequences: this.getOptionalConsequences(),
       invalidCauses: this.getInvalidCauses(),
       invalidConsequences: this.getInvalidConsequences()
     };
@@ -77,7 +77,7 @@ export default {
     getOptionalCauses() {
       return this.card.causes
         .filter(cause => cause.link.status === 'optional')
-        .sort((a, b) => a.from.cardNum - b.from.cardNum); // to fix
+        .sort((a, b) => a.from.cardNum - b.from.cardNum);
     },
     getOptionalConsequences() {
       return this.card.consequences
