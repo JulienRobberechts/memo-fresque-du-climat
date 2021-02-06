@@ -11,10 +11,11 @@ Les animateurs peuvent facilement consulter sur leur téléphone :iphone: ou ord
 
 ## Notes pour les éditeurs de contenu
 
+Rejoignez nous sur le [canal Telegram](https://t.me/memofdc) pour participer à ce projet.
+
 Vous trouverez dans ce [tutoriel](https://github.com/JulienRobberechts/memo-fresque-du-climat/blob/main/doc/FDC%20-%20Comment%20faire%20des%20modifications%20dans%20le%20memo.pdf) comment proposer des modifications de contenu.
 
 :tada: Merci d'avance pour votre participation au projet :sparkles:
-
 ## Notes pour les développeurs
 
 ## Project setup
@@ -36,3 +37,14 @@ yarn build
 ```
 yarn lint
 ```
+
+## Autres projet sur les Cartes de la Fresque du Climat
+
+### Collage View
+
+C'est un prototype d'un outil de visualisation de la Fresque du climat.
+
+Les projets sont complémentaires et pourait être rassemblés à terme dans le même outils. (partagez vos idées sur [Telegram](https://t.me/memofdc))
+- [repo github](https://github.com/Marc-AntoineA/collage-view/tree/master/src/assets/collages/climatecollage)
+- [site web](https://fresqueduclimat.marc-antoinea.fr/#/)
+
