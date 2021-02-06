@@ -5,7 +5,7 @@ Les animateurs peuvent facilement consulter sur leur téléphone :iphone: ou ord
 
 ## Notes pour les éditeurs de contenu
 
-Vous trouverez dans ce [tutoriel](./doc/FDC - Comment faire des modifications dans le memo.pdf) comment proposer des modifications de contenu.
+Vous trouverez dans ce [tutoriel](https://github.com/JulienRobberechts/memo-fresque-du-climat/blob/main/doc/FDC%20-%20Comment%20faire%20des%20modifications%20dans%20le%20memo.pdf) comment proposer des modifications de contenu.
 
 :tada: Merci d'avance pour votre participation au projet :sparkles:
 
