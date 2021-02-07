@@ -34,6 +34,7 @@ body {
   width: 100%;
   min-height: 3rem;
   z-index: 999;
+  background-color: white;
 }
 
 #content {
