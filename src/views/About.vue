@@ -3,7 +3,7 @@
     <img class="fdc-logo" src="@/assets/fresque-full.png" />
     <p>
       Le memo de la fresque du climat a pour but de proposer aux animateurs un
-      accés rapide aux cartes du jeu.
+      accès rapide aux cartes de la fresque.
     </p>
     <p>version : {{ version }}</p>
   </div>
