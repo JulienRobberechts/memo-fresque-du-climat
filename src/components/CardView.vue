@@ -71,19 +71,39 @@
     />
     <ConsequenceList :consequences="validConsequences" />
 
-    <h3>Autres causes possibles</h3>
+    <ListTitle
+      nameSingular="Autre cause possible"
+      namePlural="Autres causes possibles"
+      :items="optionalCauses"
+      :withBadge="false"
+    />
     <CauseList v-if="optionalCauses.length > 0" :causes="optionalCauses" />
 
-    <h3>Autres conséquences possible</h3>
+    <ListTitle
+      nameSingular="Autre conséquence possible"
+      namePlural="Autres conséquences possibles"
+      :items="optionalConsequences"
+      :withBadge="false"
+    />
     <ConsequenceList
       v-if="optionalConsequences.length > 0"
       :consequences="optionalConsequences"
     />
 
-    <h3>Causes à ne pas faire</h3>
+    <ListTitle
+      nameSingular="Cause à ne pas faire"
+      namePlural="Causes à ne pas faire"
+      :items="invalidCauses"
+      :withBadge="false"
+    />
     <CauseList v-if="invalidCauses.length > 0" :causes="invalidCauses" />
 
-    <h3>Conséquences à ne pas faire</h3>
+    <ListTitle
+      nameSingular="Conséquence à ne pas faire"
+      namePlural="Conséquences à ne pas faire"
+      :items="invalidConsequences"
+      :withBadge="false"
+    />
     <ConsequenceList
       v-if="invalidConsequences.length > 0"
       :consequences="invalidConsequences"

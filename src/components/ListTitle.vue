@@ -1,6 +1,6 @@
 <template>
-  <h2 class="list-title">
-    <div class="badge">
+  <h2 class="list-title" v-if="items.length > 0">
+    <div class="badge" v-if="withBadge">
       {{ items.length }}
     </div>
     <span v-if="items.length <= 1">{{ nameSingular }}</span>
@@ -14,6 +14,7 @@ export default {
   props: {
     nameSingular: String,
     namePlural: String,
+    withBadge: { type: Boolean, default: true },
     items: Object
   }
 };
@@ -23,6 +24,7 @@ export default {
 .list-title {
   display: flex;
   justify-content: center;
+  margin-top: 2rem;
 }
 
 .badge {
