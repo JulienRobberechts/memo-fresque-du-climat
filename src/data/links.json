@@ -864,7 +864,7 @@
   {
     "fromNum": 36,
     "toNum": 30,
-    "status": "invalid",
+    "status": "optional",
     "Explanation": "Une canicule, c'est la température, une sécheresse, c'est l'humidité. Ceci étant dit, si il fait chaud, l'eau s'évapore et cela peut entraîner une sécheresse. Les deux vont de fait souvent ensemble.",
     "source": "guide"
   },
