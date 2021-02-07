@@ -100,7 +100,7 @@
     "fromNum": 4,
     "toNum": 10,
     "status": "valid",
-    "Explanation": "La pollution locale que représentent les échappements des voitures est une motivation forte pour pousser la voiture électrique. Or cette dernière est responsable d'émissions dues à la génération de l'électricité elle-même (selon le mix électrique du pays considéré)."
+    "Explanation": "La pollution locale que représentent les échappements des voitures est une motivation forte pour pousser la voiture électrique. Or cette dernière est responsable d'émissions dûes à la génération de l'électricité elle-même (selon le mix électrique du pays considéré)."
   },
   {
     "fromNum": 4,
@@ -236,7 +236,7 @@
     "fromNum": 8,
     "toNum": 7,
     "status": "optional",
-    "Explanation": "L'agriculture émet peu de CO2 à part à travers la déforestation. Son empreinte carbone est surtout due aux autres GES.",
+    "Explanation": "L'agriculture émet peu de CO2 à part à travers la déforestation. Son empreinte carbone est surtout dûe aux autres GES.",
     "source": "guide"
   },
   {
