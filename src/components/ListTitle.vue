@@ -1,9 +1,10 @@
 <template>
-  <h2 class="list-title" :class="{ 'list-title-right': right }">
+  <h2 class="list-title">
     <div class="badge">
       {{ items.length }}
     </div>
-    {{ name }}<span v-if="items.length > 1">s</span>
+    <span v-if="items.length <= 1">{{ nameSingular }}</span>
+    <span v-if="items.length > 1">{{ namePlural }}</span>
   </h2>
 </template>
 
@@ -11,12 +12,9 @@
 export default {
   name: 'ListTitle',
   props: {
-    name: String,
-    items: Object,
-    right: {
-      type: Boolean,
-      default: false
-    }
+    nameSingular: String,
+    namePlural: String,
+    items: Object
   }
 };
 </script>
@@ -24,11 +22,9 @@ export default {
 <style scoped>
 .list-title {
   display: flex;
+  justify-content: center;
 }
-.list-title-right {
-  justify-content: flex-end;
-  margin-right: 0.3rem;
-}
+
 .badge {
   color: #ffffff;
   background-color: #04c2c0;

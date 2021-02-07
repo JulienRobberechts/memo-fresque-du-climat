@@ -61,10 +61,14 @@
         {{ note }}
       </li>
     </ul>
-    <ListTitle name="Cause" :items="validCauses" />
+    <ListTitle nameSingular="Cause" namePlural="Causes" :items="validCauses" />
     <CauseList :causes="validCauses" />
 
-    <ListTitle name="Conséquence" :items="validConsequences" />
+    <ListTitle
+      nameSingular="Conséquence"
+      namePlural="Conséquences"
+      :items="validConsequences"
+    />
     <ConsequenceList :consequences="validConsequences" />
 
     <h3>Autres causes possibles</h3>
