@@ -947,7 +947,7 @@
     "fromNum": 41,
     "toNum": 13,
     "status": "optional",
-    "Explanation": "On peut relier [TODO]"
+    "Explanation": "On peut relier directement les feedback liés au Méthane à la carte Autres GES ou à la carte Effet de Serre. En effet, la carte des autres GES représente les GES d'origine humaine, alors qu'ici, il s'agit de GES qui ne sont pas émis directement par l'homme."
   },
   {
     "fromNum": 42,
