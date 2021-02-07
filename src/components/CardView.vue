@@ -61,12 +61,18 @@
         {{ note }}
       </li>
     </ul>
-    <ListTitle nameSingular="Cause" namePlural="Causes" :items="validCauses" />
+    <ListTitle
+      nameSingular="Cause"
+      namePlural="Causes"
+      badgeStatus="valid"
+      :items="validCauses"
+    />
     <CauseList :causes="validCauses" />
 
     <ListTitle
       nameSingular="Conséquence"
       namePlural="Conséquences"
+      badgeStatus="valid"
       :items="validConsequences"
     />
     <ConsequenceList :consequences="validConsequences" />
@@ -74,16 +80,16 @@
     <ListTitle
       nameSingular="Autre cause possible"
       namePlural="Autres causes possibles"
+      badgeStatus="optional"
       :items="optionalCauses"
-      :withBadge="false"
     />
     <CauseList v-if="optionalCauses.length > 0" :causes="optionalCauses" />
 
     <ListTitle
       nameSingular="Autre conséquence possible"
       namePlural="Autres conséquences possibles"
+      badgeStatus="optional"
       :items="optionalConsequences"
-      :withBadge="false"
     />
     <ConsequenceList
       v-if="optionalConsequences.length > 0"
@@ -93,16 +99,16 @@
     <ListTitle
       nameSingular="Cause à ne pas faire"
       namePlural="Causes à ne pas faire"
+      badgeStatus="invalid"
       :items="invalidCauses"
-      :withBadge="false"
     />
     <CauseList v-if="invalidCauses.length > 0" :causes="invalidCauses" />
 
     <ListTitle
       nameSingular="Conséquence à ne pas faire"
       namePlural="Conséquences à ne pas faire"
+      badgeStatus="invalid"
       :items="invalidConsequences"
-      :withBadge="false"
     />
     <ConsequenceList
       v-if="invalidConsequences.length > 0"
