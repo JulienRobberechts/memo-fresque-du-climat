@@ -62,6 +62,11 @@
 .fdc-link:hover {
   transform: scale(1.05);
 }
+.fdc-link,
+.fdc-link:active,
+.fdc-link:focus {
+  outline: none;
+}
 
 .fdc-link.router-link-exact-active {
   color: #ffffff;
