@@ -37,15 +37,17 @@ Rejoignez nous sur le [canal Telegram](https://t.me/memofdc) pour participer à 
 
 ### Que faire pour aider ?
 
-Voici quelques idées pour aider le projet:
+Voici quelques idées pour s'investir dans ce projet:
 
 - Utiliser et partager le lien de l'application (attention le lien peut changer à l'avenir).
-- Proposer une vision et des cas d'usage pour ce site web (exemple: Nous pourrions utiliser le site lors de la formation des animateurs).
+- Proposer une vision et des cas d'usages pour ce site web (exemple: Nous pourrions utiliser le site lors de la formation des animateurs).
 - Relire le contenu du site et soumettre vos corrections (orthographe ou autres). Ce [tutoriel](https://github.com/JulienRobberechts/memo-fresque-du-climat/blob/main/doc/FDC%20-%20Comment%20faire%20des%20modifications%20dans%20le%20memo.pdf) explique comment les proposer.
-- Proposer des améliorations et nouvelles fonctionnalités (Sur le canal Telegram).
-- Proposer un logo, icones et des améliorations de design.
+- Proposer des améliorations et nouvelles fonctionnalités (Sur le canal Telegram ou dans l'onglet [Issues](https://github.com/JulienRobberechts/memo-fresque-du-climat/issues) directement).
+- Proposer un logo, icônes et des améliorations de design.
 - Proposer des contenus pour la documentation (ici même) et la page A propos.
 - Proposer une traduction des cartes et liens (pour cela il faut proposer une traduction des 2 fichiers de [ce dossier](https://github.com/JulienRobberechts/memo-fresque-du-climat/tree/main/src/data))
+- Donner votre avis sur la liste des bug et améliorations ouverte [onglet Issues de Github](https://github.com/JulienRobberechts/memo-fresque-du-climat/issues)
+- Développer des fonctionnalités si vous savez développer en VueJs.
 - Proposer des tâches dans cette liste...
 
 :tada: Merci d'avance pour votre participation au projet :sparkles:
