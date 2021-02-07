@@ -52,6 +52,7 @@
   </div>
   <div class="cause-explanation" v-if="!!cause.link.Explanation">
     {{ cause.link.Explanation }}
+    <hr class="item-separator" />
   </div>
 </template>
 
@@ -119,13 +120,19 @@ export default {
 }
 .cause-explanation {
   padding: 0.1rem;
-  margin: 1rem 0;
+  margin: 0.7rem 0;
   text-align: justify;
 }
 
 .cause-explanation:first-letter {
   text-transform: capitalize;
   font-size: 130%;
+}
+.item-separator {
+  margin: 1rem auto;
+  width: 30%;
+  color: #04c2c0;
+  box-shadow: 3px 3px 0px #e90000;
 }
 
 .arrow-anchor {
