@@ -32,8 +32,8 @@
   align-items: flex-start;
 }
 .main-logo {
-  margin: 0.5rem 0;
-  width: 30%;
+  width: 50%;
+  min-width: 7rem;
 }
 .fdc-link-logo {
   display: flex;
