@@ -305,7 +305,7 @@
     "fromNum": 11,
     "toNum": 12,
     "status": "invalid",
-    "Explanation": "[TODO]"
+    "Explanation": "On peut argumenter que les émissions de Co2 ont eu lieu dans l'atmosphère avant d'aller dans les puits de carbones. Ce lien est défendable. Mais l'idée était plutôt de faire un lien dans l'autre sens."
   },
   {
     "fromNum": 11,
@@ -663,7 +663,8 @@
     "fromNum": 26,
     "toNum": 31,
     "status": "valid",
-    "Explanation": "[TODO]",
+    "Explanation": "",
+    "needExplanation": true,
     "source": "guide"
   },
   {
@@ -722,7 +723,8 @@
     "fromNum": 30,
     "toNum": 12,
     "status": "optional",
-    "Explanation": "A documenter...[TODO]",
+    "Explanation": "",
+    "needExplanation": true,
     "source": "guide"
   },
   {
