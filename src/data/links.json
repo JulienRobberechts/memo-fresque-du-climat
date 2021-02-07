@@ -75,13 +75,13 @@
     "fromNum": 3,
     "toNum": 26,
     "status": "optional",
-    "Explanation": "L'artificialisation des sols est également responsable d'innondations car le sol n'est plus drainant."
+    "Explanation": "L'artificialisation des sols est également responsable d'inondations car le sol n'est plus drainant."
   },
   {
     "fromNum": 3,
     "toNum": 10,
     "status": "optional",
-    "Explanation": " Les bâtiments émettent peu d'aérosols de manière directe. Les seules émissions significatives sont les feux de cheminée. A Chamonix, 85% des particules fines présentes dans l'atmosphère proviennent de chauffage au bois. De manière indirecte, via la production d'éléctricité, il y a bien émissions de particules."
+    "Explanation": " Les bâtiments émettent peu d'aérosols de manière directe. Les seules émissions significatives sont les feux de cheminée. A Chamonix, 85% des particules fines présentes dans l'atmosphère proviennent de chauffage au bois. De manière indirecte, via la production d'électricité, il y a bien émissions de particules."
   },
   {
     "fromNum": 3,
@@ -118,14 +118,14 @@
     "fromNum": 5,
     "toNum": 27,
     "status": "optional",
-    "Explanation": "La marée noire qu'a provoqué le naufrage du supertanker l'Amoco Cadiz est un exemple de lien entre énergie fosile et biodiversité.",
+    "Explanation": "La marée noire qu'a provoqué le naufrage du supertanker l'Amoco Cadiz est un exemple de lien entre énergie fossile et biodiversité.",
     "source": "guide"
   },
   {
     "fromNum": 5,
     "toNum": 25,
     "status": "optional",
-    "Explanation": "La marée noire qu'a provoqué le naufrage du supertanker l'Amoco Cadiz est un exemple de lien entre énergie fosile et biodiversité.",
+    "Explanation": "La marée noire qu'a provoqué le naufrage du supertanker l'Amoco Cadiz est un exemple de lien entre énergie fossile et biodiversité.",
     "source": "guide"
   },
   {
@@ -152,21 +152,21 @@
     "fromNum": 5,
     "toNum": 3,
     "status": "optional",
-    "Explanation": "On peut se demander si les activités humaines consomment des énegie fossiles ou si les énérgies fossiles permettent les activités humaines. Ce débat ne doit pas prendre de temps et on peut regrouper les deux cartes au besoin. Quand je chante dans mon jardin, je réalise une activité humaine sans énergie fossile. Quand les moulins à vent ou à eau produisaient de la farine, ils n'utilisaient pas d'énergie fossile. Il reste, heureusement de nombreuses activités humaines sans énergie fossile.",
+    "Explanation": "On peut se demander si les activités humaines consomment des énergies fossiles ou si les énergies fossiles permettent les activités humaines. Ce débat ne doit pas prendre de temps et on peut regrouper les deux cartes au besoin. Quand je chante dans mon jardin, je réalise une activité humaine sans énergie fossile. Quand les moulins à vent ou à eau produisaient de la farine, ils n'utilisaient pas d'énergie fossile. Il reste, heureusement de nombreuses activités humaines sans énergie fossile.",
     "source": "guide"
   },
   {
     "fromNum": 5,
     "toNum": 4,
     "status": "optional",
-    "Explanation": "On peut se demander si les activités humaines consomment des énegie fossiles ou si les énérgies fossiles permettent les activités humaines. Ce débat ne doit pas prendre de temps et on peut regrouper les deux cartes au besoin. Quand je chante dans mon jardin, je réalise une activité humaine sans énergie fossile. Quand les moulins à vent ou à eau produisaient de la farine, ils n'utilisaient pas d'énergie fossile. Il reste, heureusement de nombreuses activités humaines sans énergie fossile.",
+    "Explanation": "On peut se demander si les activités humaines consomment des énergies fossiles ou si les énergies fossiles permettent les activités humaines. Ce débat ne doit pas prendre de temps et on peut regrouper les deux cartes au besoin. Quand je chante dans mon jardin, je réalise une activité humaine sans énergie fossile. Quand les moulins à vent ou à eau produisaient de la farine, ils n'utilisaient pas d'énergie fossile. Il reste, heureusement de nombreuses activités humaines sans énergie fossile.",
     "source": "guide"
   },
   {
     "fromNum": 6,
     "toNum": 7,
     "status": "valid",
-    "Explanation": "La déforestation émet du CO2 car 93% du bois déforesté par l'homme est brulé."
+    "Explanation": "La déforestation émet du CO2 car 93% du bois déforesté par l'homme est brûlé."
   },
   {
     "fromNum": 6,
@@ -197,7 +197,7 @@
     "fromNum": 6,
     "toNum": 35,
     "status": "optional",
-    "Explanation": "Une partie de la déforestation est faite en brûlant la forêt qui peut ensuite dégénérer en feu non-maitrisé. C'est ce qu'il s'est passé pendant l'été 2019 en Amazonie et en Australie."
+    "Explanation": "Une partie de la déforestation est faite en brûlant la forêt qui peut ensuite dégénérer en feu non-maîtrisé. C'est ce qu'il s'est passé pendant l'été 2019 en Amazonie et en Australie."
   },
   {
     "fromNum": 6,
@@ -305,13 +305,13 @@
     "fromNum": 11,
     "toNum": 12,
     "status": "invalid",
-    "Explanation": "On peut argumenter que les émissions de Co2 ont eu lieu dans l'atmosphère avant d'aller dans les puits de carbones. Ce lien est défendable. Mais l'idée était plutôt de faire un lien dans l'autre sens."
+    "Explanation": "On peut argumenter que les émissions de CO2 ont eu lieu dans l'atmosphère avant d'aller dans les puits de carbones. Ce lien est défendable. Mais l'idée était plutôt de faire un lien dans l'autre sens."
   },
   {
     "fromNum": 11,
     "toNum": 24,
     "status": "invalid",
-    "Explanation": "On retrouve souvent comme origine de cette carte concentration en CO2 (ppm). Hors, toute molècule qui se retrouve dans l'océan ne se retrouve pas dans l'atmosphère, et donc le lien le plus logique provient de la carte puits de carbone"
+    "Explanation": "On retrouve souvent comme origine de cette carte concentration en CO2 (ppm). Hors, toute molécule qui se retrouve dans l'océan ne se retrouve pas dans l'atmosphère, et donc le lien le plus logique provient de la carte puits de carbone"
   },
   {
     "fromNum": 12,
@@ -329,7 +329,7 @@
     "fromNum": 12,
     "toNum": 32,
     "status": "optional",
-    "Explanation": "Des études ont montré que les rendements augmentent avec de l'augmentation du CO2, mais que la teneur en éléments nutritifs des légumes s'en trouve réduite. En effet, les oligo-éléments ne sont pas plus abondants sous préexte que les rendements augmentent."
+    "Explanation": "Des études ont montré que les rendements augmentent avec de l'augmentation du CO2, mais que la teneur en éléments nutritifs des légumes s'en trouve réduite. En effet, les oligo-éléments ne sont pas plus abondants sous prétexte que les rendements augmentent."
   },
   {
     "fromNum": 12,
@@ -379,13 +379,13 @@
     "fromNum": 14,
     "toNum": 41,
     "status": "valid",
-    "Explanation": "Si l'on veut rester dans la même logique de conservation de l'énergie, il faudrait faire le lien de fonte a partir de budget énérgétique."
+    "Explanation": "Si l'on veut rester dans la même logique de conservation de l'énergie, il faudrait faire le lien de fonte a partir de budget énergétique."
   },
   {
     "fromNum": 14,
     "toNum": 42,
     "status": "valid",
-    "Explanation": "Si l'on veut rester dans la même logique de conservation de l'énergie, il faudrait faire le lien de fonte a partir de budget énérgétique."
+    "Explanation": "Si l'on veut rester dans la même logique de conservation de l'énergie, il faudrait faire le lien de fonte a partir de budget énergétique."
   },
   {
     "fromNum": 15,
@@ -439,13 +439,13 @@
     "fromNum": 17,
     "toNum": 42,
     "status": "optional",
-    "Explanation": "Si l'on veut rester dans la même logique de conservation de l'énergie, il faudrait faire le lien de fonte a partir de budget énérgétique."
+    "Explanation": "Si l'on veut rester dans la même logique de conservation de l'énergie, il faudrait faire le lien de fonte a partir de budget énergétique."
   },
   {
     "fromNum": 17,
     "toNum": 24,
     "status": "invalid",
-    "Explanation": "La hausse de la température de l'eau n'a aucun lien avec l'acidification de l'océan, du moins à court terme. A plus long terme (sur plusieurs centaines d'années), en se réchauffant, l'océan perd sa capacité à dissoudre le CO2 atmosphérique. Le puit océan perd donc de son efficacité au fur et à mesure que l'océan se réchauffe. La hausse de la température de l'eau a donc un effet sur l'acidification, inhibiteur en l'occurence."
+    "Explanation": "La hausse de la température de l'eau n'a aucun lien avec l'acidification de l'océan, du moins à court terme. A plus long terme (sur plusieurs centaines d'années), en se réchauffant, l'océan perd sa capacité à dissoudre le CO2 atmosphérique. Le puits océan perd donc de son efficacité au fur et à mesure que l'océan se réchauffe. La hausse de la température de l'eau a donc un effet sur l'acidification, inhibiteur en l'occurrence."
   },
   {
     "fromNum": 18,
@@ -476,7 +476,7 @@
     "fromNum": 18,
     "toNum": 13,
     "status": "invalid",
-    "Explanation": "Il y a ici confusion avec l’effet d’amplification dû à l’albedo. La banquise blanche qui fond laisse place à une surface beaucoup plus foncée et l'énergie absorbée réchauffe la terre. Ce mécanisme est appelé albédo et n’a rien à voir avec l’effet de serre. Ça joue sur les flèches oranges de la carte 13 et non sur les flèches rouges.",
+    "Explanation": "Il y a ici confusion avec l’effet d’amplification dû à l’albédo. La banquise blanche qui fond laisse place à une surface beaucoup plus foncée et l'énergie absorbée réchauffe la terre. Ce mécanisme est appelé albédo et n’a rien à voir avec l’effet de serre. Ça joue sur les flèches oranges de la carte 13 et non sur les flèches rouges.",
     "source": "guide"
   },
   {
@@ -586,7 +586,7 @@
     "fromNum": 21,
     "toNum": 41,
     "status": "optional",
-    "Explanation": "Si l'on veut rester dans la même logique de conservation de l'énergie, il faudrait faire le lien de fonte a partir de budget énérgétique."
+    "Explanation": "Si l'on veut rester dans la même logique de conservation de l'énergie, il faudrait faire le lien de fonte a partir de budget énergétique."
   },
   {
     "fromNum": 21,
@@ -637,7 +637,7 @@
     "fromNum": 25,
     "toNum": 27,
     "status": "optional",
-    "Explanation": "Les deux types de biodiversité peuvent intéragir entres elles."
+    "Explanation": "Les deux types de biodiversité peuvent interagir entres elles."
   },
   {
     "fromNum": 25,
@@ -685,7 +685,7 @@
     "fromNum": 27,
     "toNum": 25,
     "status": "optional",
-    "Explanation": "Les deux types de biodiversité peuvent intéragir entres elles."
+    "Explanation": "Les deux types de biodiversité peuvent interagir entres elles."
   },
   {
     "fromNum": 27,
@@ -861,7 +861,7 @@
     "fromNum": 36,
     "toNum": 38,
     "status": "optional",
-    "Explanation": "Les canicules peuvent être très devastatrice, notamment chez les personnes agés."
+    "Explanation": "Les canicules peuvent être très dévastatrice, notamment chez les personnes âgées."
   },
   {
     "fromNum": 36,
@@ -943,7 +943,7 @@
     "fromNum": 41,
     "toNum": 28,
     "status": "optional",
-    "Explanation": "Le permafrost contient des milliards de bactéries et de virus enfouis. S'il se mettait à dégeler, certains de ces agents pathogènes pourraient se retrouver à contaminer des populations humaines ou animales. En 2016, une épidémie d'anthrax a eu lieu en Sibérie à cause d'une carcasse de 75 ans qui aurait degelé."
+    "Explanation": "Le permafrost contient des milliards de bactéries et de virus enfouis. S'il se mettait à dégeler, certains de ces agents pathogènes pourraient se retrouver à contaminer des populations humaines ou animales. En 2016, une épidémie d'anthrax a eu lieu en Sibérie à cause d'une carcasse de 75 ans qui aurait dégelé."
   },
   {
     "fromNum": 41,
