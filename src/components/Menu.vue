@@ -9,8 +9,8 @@
       <router-link class="fdc-link" :to="{ name: 'RouteHome' }"
         >Cartes</router-link
       >
-      <router-link class="fdc-link" :to="{ name: 'RouteAbout' }"
-        >A propos</router-link
+      <router-link class="fdc-link fdc-link-info" :to="{ name: 'RouteAbout' }"
+        >i</router-link
       >
     </div>
   </div>
@@ -59,7 +59,11 @@
   border: 1px solid #71ced0;
   box-shadow: 3px 3px 0px #04c2c0;
 }
-
+.fdc-link-info {
+  text-transform: lowercase;
+  font-style: italic;
+  font-family: cursive;
+}
 .fdc-link:hover {
   transform: scale(1.05);
 }
