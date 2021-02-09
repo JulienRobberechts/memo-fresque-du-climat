@@ -198,9 +198,6 @@ export default {
   height: 100%;
 }
 .card-details-panel {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   width: 95vw;
   max-width: 600px;
   padding: 0;
@@ -243,6 +240,9 @@ export default {
 }
 .yt-logo:hover {
   transform: scale(1.1);
+}
+.card-image {
+  width: 100%;
 }
 .back-description {
   margin: 2rem;
