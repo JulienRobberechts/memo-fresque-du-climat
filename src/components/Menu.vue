@@ -45,7 +45,7 @@
   margin: 0 0.3rem;
   padding: 4px 8px;
   display: inline-block;
-
+  white-space: nowrap;
   text-decoration: none;
   font-weight: 600;
   font-size: 1em;
