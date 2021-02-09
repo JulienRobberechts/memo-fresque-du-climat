@@ -10,7 +10,7 @@
         >Cartes</router-link
       >
       <router-link class="fdc-link" :to="{ name: 'RouteAbout' }"
-        >&#8505;</router-link
+        >A propos</router-link
       >
     </div>
   </div>
@@ -33,6 +33,7 @@
 }
 .main-logo {
   width: 50%;
+  height: 50%;
   min-width: 7rem;
 }
 .fdc-link-logo {
