@@ -34,5 +34,6 @@ export default {
 }
 h1 {
   font-size: 1.4rem;
+  line-height: 1.4em;
 }
 </style>
