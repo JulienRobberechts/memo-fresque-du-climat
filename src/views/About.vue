@@ -16,7 +16,7 @@
     </p>
 
     <p>
-      Les descriptions et explications des cartes et liens sont tous issus à
+      Les descriptions et explications des cartes et liens sont toutes issues à
       l'origine de l'une de ces 3 sources. Des corrections ont été faites
       ensuite (qui seront à terme reprotées dans le Wiki).
     </p>
