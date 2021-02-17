@@ -28,7 +28,7 @@ export default {
   },
   methods: {
     justForHash() {
-      console.log('justForHash');
+      // console.log('justForHash');
     }
   },
   created() {
