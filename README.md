@@ -23,7 +23,7 @@ Vous pouvez utiliser l'application:
 
 ### Sources de données
 
-Les descriptions et explications des cartes et liens sont tous issus à l'origine de l'une de ces 3 sources:
+Les descriptions et explications des cartes et liens sont toutes issues à l'origine de l'une de ces 3 sources:
 
 - [Le wiki de la fresque du Climat](https://fresqueduclimat.org/wiki/index.php?title=Portail:Accueil)
 - [La correction Prezi](https://prezi.com/view/tJJYWcXs12lz9cXCngmH/)
