@@ -27,9 +27,21 @@ const routes = [
   }
 ];
 
+const scrollBehavior = to => {
+  // (to, from, savedPosition)
+  // console.log('scrollTop', document.documentElement.scrollTop);
+  // console.log('scrollBehavior', { to, from, savedPosition });
+
+  if (to.name === 'RouteCardDetails')
+    return {
+      top: 0
+    };
+};
+
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
-  routes
+  routes,
+  scrollBehavior
 });
 
 export default router;
