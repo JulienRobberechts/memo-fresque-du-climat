@@ -28,9 +28,10 @@ export default {
   padding: 0;
   cursor: pointer;
   margin: 3px;
+  box-shadow: 1px 1px 4px #706f71;
 }
 .card-image:hover {
   transform: scale(1.02);
-  box-shadow: 5px 5px 2px #04c2c0aa;
+  box-shadow: 3px 3px 7px #706f71;
 }
 </style>
