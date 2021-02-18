@@ -3,7 +3,6 @@
     <CardView :card="card" />
   </div>
   <router-link
-    @click="justForHash"
     class="fdc-link withSpace"
     :to="{ name: 'RouteHome', hash: '#carte-' + card.cardNum }"
   >
@@ -25,11 +24,6 @@ export default {
     return {
       card: null
     };
-  },
-  methods: {
-    justForHash() {
-      // console.log('justForHash');
-    }
   },
   created() {
     if (!this.cardNum) {
