@@ -28,14 +28,23 @@ const routes = [
 ];
 
 const scrollBehavior = to => {
-  // (to, from, savedPosition)
   // console.log('scrollTop', document.documentElement.scrollTop);
   // console.log('scrollBehavior', { to, from, savedPosition });
 
-  if (to.name === 'RouteCardDetails')
+  if (to.hash) {
+    // console.log(`scroll to hash of ${to.hash}`);
+    return {
+      el: to.hash
+    };
+  }
+
+  if (to.name === 'RouteCardDetails') {
+    // console.log(`scroll to top of ${to.path}`);
     return {
       top: 0
     };
+  }
+  // console.log(`no scroll`);
 };
 
 const router = createRouter({
