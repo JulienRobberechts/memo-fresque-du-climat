@@ -9,7 +9,7 @@
         <img class="back-logo-img" src="@/assets/fresque-full.png" />
       </div>
     </div>
-    <div class="back-description">
+    <div class="back-description" :style="descriptionFontStyle">
       {{ description }}
     </div>
     <div class="footer">
@@ -36,6 +36,14 @@ export default {
       type: Number,
       required: true
     }
+  },
+  computed: {
+    descriptionFontStyle() {
+      const factor = 1 + (240 - this.description.length) * 0.002;
+      return {
+        'font-size': `calc(min(4vw, 1.6rem) * ${factor})`
+      };
+    }
   }
 };
 </script>
@@ -60,8 +68,9 @@ export default {
   display: flex;
   margin: 0 0.7rem;
 }
+
 .back-logo {
-  margin: 0.8rem;
+  margin: 2.5%;
 }
 
 .back-logo-img {
@@ -88,19 +97,19 @@ export default {
   left: 50%;
   transform: translate(-50%, -50%);
   font-weight: 600;
-  font-size: 2rem;
+  font-size: min(5vw, 2rem);
   font-family: 'Avenir Next', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica',
     Arial, sans-serif;
 }
+
 .back-set-num {
   bottom: 0px;
   margin-left: 80%;
-  width: 20vw;
-  max-width: 100px;
+  width: 15%;
   background-color: #e90000;
-  color: #ffffff;
-  padding: min(calc(0.3rem + 1vw), 0.7rem);
-  font-size: min(calc(0.3rem + 3vw), 1.5rem);
+  color: #fff;
+  padding: min(2vw, 0.7rem);
+  font-size: min(4vw, 1.5rem);
 }
 
 .set1 {
@@ -121,7 +130,7 @@ export default {
 
 .back-description {
   padding: 0rem 1rem;
-  font-size: min(calc(0.4rem + 3.5vw), 1.625rem);
+  font-size: 1rem;
   flex-basis: 100%;
   display: flex;
   justify-content: center;
