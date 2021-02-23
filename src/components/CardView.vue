@@ -48,7 +48,11 @@
         referrerpolicy="no-referrer"
       ></iframe>
     </div>
-    <div class="back-description">{{ card.backDescription }}</div>
+    <CardBack
+      :description="card.backDescription"
+      :cardNumber="card.cardNum"
+      :setNumber="card.cardBatch"
+    />
     <div class="explanation" v-if="card.explanation">
       <span class="explanation-logo">
         <img src="@/assets/hand.png" />
@@ -121,6 +125,7 @@
 import ListTitle from '@/components/ListTitle.vue';
 import CauseList from '@/components/CauseList.vue';
 import ConsequenceList from '@/components/ConsequenceList.vue';
+import CardBack from '@/components/CardBack.vue';
 
 export default {
   name: 'CardView',
@@ -129,6 +134,7 @@ export default {
   },
   components: {
     ListTitle,
+    CardBack,
     CauseList,
     ConsequenceList
   },
@@ -243,10 +249,8 @@ export default {
 }
 .card-image {
   width: 100%;
-}
-.back-description {
-  margin: 2rem;
-  font-size: 1rem;
+
+  box-shadow: 1px 1px 4px #706f71;
 }
 .explanation-logo img {
   position: relative;
