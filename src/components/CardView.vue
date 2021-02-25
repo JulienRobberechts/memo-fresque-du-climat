@@ -51,7 +51,7 @@
     <CardBack
       :description="card.backDescription"
       :cardNumber="card.cardNum"
-      :setNumber="card.cardBatch"
+      :setNumber="card.cardSet"
     />
     <div class="explanation" v-if="card.explanation">
       <span class="explanation-logo">
