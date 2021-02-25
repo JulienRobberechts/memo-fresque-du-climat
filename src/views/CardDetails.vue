@@ -19,7 +19,6 @@ export default {
   },
   computed: {
     card: function() {
-      console.log('get card');
       return CardsService.getCardDetails(this.cardNum);
     }
   }

@@ -3,6 +3,8 @@ import AllCards from '@/views/AllCards.vue';
 import CardDetails from '@/views/CardDetails.vue';
 import About from '@/views/About.vue';
 import NotFound from '@/views/NotFound.vue';
+import { noScroll, scrollToCard, scrollToTop, scrollToHash } from './scroll';
+import { isLinkToCardDetail, isLinkBackToCardList } from './nav';
 
 const routes = [
   {
@@ -28,46 +30,23 @@ const routes = [
 ];
 
 const scrollBehavior = (to, from) => {
-  // console.log('scrollTop', document.documentElement.scrollTop);
-  // console.log('scrollBehavior', { to, from });
+  if (to.hash === '#top') {
+    return scrollToTop();
+  }
 
-  // If there is a hash, scroll to hash
   if (to.hash) {
-    // console.log(`scroll to to because of hash`);
-    // Top is a special hash
-    if (to.hash === '#top') {
-      return {
-        top: 0
-      };
-    }
-    // console.log(`scroll to hash of ${to.hash}`);
-    return {
-      el: to.hash
-    };
+    return scrollToHash(to.hash);
   }
 
-  // on card Detail, scroll to top
-  if (to.name === 'RouteCardDetails') {
-    // console.log(`scroll to top of ${to.path}`);
-    return {
-      top: 0
-    };
+  if (isLinkToCardDetail(to, from)) {
+    return scrollToTop();
   }
 
-  // on Come back to home, scroll to the card
-  if (
-    from.name === 'RouteCardDetails' &&
-    to.name === 'RouteHome' &&
-    from.params.cardNum
-  ) {
-    // console.log(`scroll to top of ${to.path}`);
-    return {
-      el: `#carte-${from.params.cardNum}`
-    };
+  if (isLinkBackToCardList(to, from)) {
+    return scrollToCard(from.params.cardNum);
   }
 
-  // console.log(`no scroll`);
-  return null;
+  return noScroll;
 };
 
 const router = createRouter({
