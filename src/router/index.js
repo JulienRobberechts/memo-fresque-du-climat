@@ -27,24 +27,47 @@ const routes = [
   }
 ];
 
-const scrollBehavior = to => {
+const scrollBehavior = (to, from) => {
   // console.log('scrollTop', document.documentElement.scrollTop);
-  // console.log('scrollBehavior', { to, from, savedPosition });
+  // console.log('scrollBehavior', { to, from });
 
+  // If there is a hash, scroll to hash
   if (to.hash) {
+    // console.log(`scroll to to because of hash`);
+    // Top is a special hash
+    if (to.hash === '#top') {
+      return {
+        top: 0
+      };
+    }
     // console.log(`scroll to hash of ${to.hash}`);
     return {
       el: to.hash
     };
   }
 
+  // on card Detail, scroll to top
   if (to.name === 'RouteCardDetails') {
     // console.log(`scroll to top of ${to.path}`);
     return {
       top: 0
     };
   }
+
+  // on Come back to home, scroll to the card
+  if (
+    from.name === 'RouteCardDetails' &&
+    to.name === 'RouteHome' &&
+    from.params.cardNum
+  ) {
+    // console.log(`scroll to top of ${to.path}`);
+    return {
+      el: `#carte-${from.params.cardNum}`
+    };
+  }
+
   // console.log(`no scroll`);
+  return null;
 };
 
 const router = createRouter({

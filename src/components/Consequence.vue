@@ -2,7 +2,6 @@
   <div class="consequenceParent">
     <div class="consequence">
       <router-link
-        @click="justForHash"
         :to="{
           name: 'RouteCardDetails',
           params: { cardNum: consequence.to.cardNum }
@@ -74,9 +73,6 @@ export default {
         [classPrefix + 'optional']: linkStatus === 'optional',
         [classPrefix + 'invalid']: linkStatus === 'invalid'
       };
-    },
-    justForHash() {
-      console.log('justForHash');
     }
   }
 };

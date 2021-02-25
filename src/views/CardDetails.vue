@@ -2,10 +2,7 @@
   <div class="card-details" v-if="card">
     <CardView :card="card" />
   </div>
-  <router-link
-    class="fdc-link withSpace"
-    :to="{ name: 'RouteHome', hash: '#carte-' + card.cardNum }"
-  >
+  <router-link class="fdc-link withSpace" :to="{ name: 'RouteHome' }">
     &larrhk; retour
   </router-link>
 </template>
@@ -20,16 +17,11 @@ export default {
   components: {
     CardView
   },
-  data() {
-    return {
-      card: null
-    };
-  },
-  created() {
-    if (!this.cardNum) {
-      return;
+  computed: {
+    card: function() {
+      console.log('get card');
+      return CardsService.getCardDetails(this.cardNum);
     }
-    this.card = CardsService.getCardDetails(this.cardNum);
   }
 };
 </script>

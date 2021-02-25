@@ -1,7 +1,9 @@
 <template>
   <div class="menu">
     <div class="menu-left">
-      <router-link class="fdc-link-logo" :to="{ name: 'RouteHome' }"
+      <router-link
+        class="fdc-link-logo"
+        :to="{ name: 'RouteHome', hash: '#top' }"
         ><img class="main-logo" src="@/assets/fresque-full.png"
       /></router-link>
     </div>

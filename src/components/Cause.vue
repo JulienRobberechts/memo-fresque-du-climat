@@ -2,7 +2,6 @@
   <div class="causeParent">
     <div class="cause">
       <router-link
-        @click="justForHash"
         :to="{
           name: 'RouteCardDetails',
           params: { cardNum: cause.from.cardNum }
@@ -69,9 +68,6 @@ export default {
         [classPrefix + 'optional']: linkStatus === 'optional',
         [classPrefix + 'invalid']: linkStatus === 'invalid'
       };
-    },
-    justForHash() {
-      console.log('justForHash');
     }
   }
 };
