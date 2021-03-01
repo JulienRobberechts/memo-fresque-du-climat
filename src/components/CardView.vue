@@ -133,12 +133,6 @@ export default {
   data() {
     return {
       showVideo: false
-      // validCauses: this.getValidCauses(),
-      // validConsequences: this.getValidConsequences(),
-      // optionalCauses: this.getOptionalCauses(),
-      // optionalConsequences: this.getOptionalConsequences(),
-      // invalidCauses: this.getInvalidCauses(),
-      // invalidConsequences: this.getInvalidConsequences()
     };
   },
   computed: {
@@ -146,9 +140,9 @@ export default {
       return this.card.causes.filter(cause => cause.link.status === 'valid');
     },
     validConsequences: function() {
-      return this.card.consequences
-        .filter(consequence => consequence.link.status === 'valid')
-        .sort(c => c.status);
+      return this.card.consequences.filter(
+        consequence => consequence.link.status === 'valid'
+      );
     },
     optionalCauses: function() {
       return this.card.causes
