@@ -132,44 +132,48 @@ export default {
   },
   data() {
     return {
-      showVideo: false,
-      videoVersionFr: true,
-      validCauses: this.getValidCauses(),
-      validConsequences: this.getValidConsequences(),
-      optionalCauses: this.getOptionalCauses(),
-      optionalConsequences: this.getOptionalConsequences(),
-      invalidCauses: this.getInvalidCauses(),
-      invalidConsequences: this.getInvalidConsequences()
+      showVideo: false
+      // validCauses: this.getValidCauses(),
+      // validConsequences: this.getValidConsequences(),
+      // optionalCauses: this.getOptionalCauses(),
+      // optionalConsequences: this.getOptionalConsequences(),
+      // invalidCauses: this.getInvalidCauses(),
+      // invalidConsequences: this.getInvalidConsequences()
     };
   },
-  methods: {
-    getValidCauses() {
+  computed: {
+    validCauses: function() {
       return this.card.causes.filter(cause => cause.link.status === 'valid');
     },
-    getValidConsequences() {
+    validConsequences: function() {
       return this.card.consequences
         .filter(consequence => consequence.link.status === 'valid')
         .sort(c => c.status);
     },
-    getOptionalCauses() {
+    optionalCauses: function() {
       return this.card.causes
         .filter(cause => cause.link.status === 'optional')
         .sort((a, b) => a.from.cardNum - b.from.cardNum);
     },
-    getOptionalConsequences() {
+    optionalConsequences: function() {
       return this.card.consequences
         .filter(consequence => consequence.link.status === 'optional')
         .sort((a, b) => a.to.cardNum - b.to.cardNum);
     },
-    getInvalidCauses() {
+    invalidCauses: function() {
       return this.card.causes
         .filter(cause => cause.link.status === 'invalid')
         .sort((a, b) => a.from.cardNum - b.from.cardNum);
     },
-    getInvalidConsequences() {
+    invalidConsequences: function() {
       return this.card.consequences
         .filter(consequence => consequence.link.status === 'invalid')
         .sort((a, b) => a.to.cardNum - b.to.cardNum);
+    }
+  },
+  watch: {
+    card: function() {
+      this.showVideo = false;
     }
   }
 };
