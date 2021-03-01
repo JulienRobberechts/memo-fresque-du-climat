@@ -13,7 +13,7 @@
             getLinkStyle('consequence-card-image-', consequence.link.status)
           "
           :src="consequence.to.img.url"
-          :title="consequence.to.shortTitle"
+          :title="consequence.to.title"
       /></router-link>
       <div class="arrow-anchor">
         <span
@@ -49,7 +49,7 @@
         <img
           class="consequence-card-image-original"
           :src="consequence.from.img.url"
-          :title="consequence.from.shortTitle"
+          :title="consequence.from.title"
         />
       </p>
     </div>

@@ -14,7 +14,7 @@
         @click="toggleVideoCc"
       />
       <a
-        :href="`https://fresqueduclimat.org${card.url}`"
+        :href="`https://fresqueduclimat.org${card.wikiUrl}`"
         target="_blank"
         class="wiki-link"
       >
@@ -29,7 +29,7 @@
       class="card-image"
       v-if="!showVideo"
       :src="card.img.url"
-      :title="card.shortTitle"
+      :title="card.title"
       @click="toggleVideoFr"
     />
     <div class="card-video-wrapper" v-if="showVideo">
@@ -37,7 +37,7 @@
         class="card-video"
         :src="
           `https://www.youtube-nocookie.com/embed/${
-            videoVersionFr ? card.youtubeCode : card.faceOfCc
+            videoVersionFr ? card.videoYoutubeCode : card.faceOfCc
           }?vq=small`
         "
         frameborder="0"

@@ -1,17 +1,14 @@
 [
   {
-    "id": 4,
+    "wikiId": 4,
     "cardNum": 1,
-    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_1_activit%C3%A9s_humaines",
-    "wikiTitle": "Fr-fr adulte carte 1 activités humaines",
-    "shortTitle": "Activités humaines",
+    "wikiUrl": "/wiki/index.php?title=Fr-fr_adulte_carte_1_activit%C3%A9s_humaines",
+    "title": "Activités humaines",
     "cardSet": 1,
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/0/01/Fr-fr_adulte_carte_1_recto.png"
     },
-    "youtubeCode": "ZPknjN0hYe8",
     "faceOfCc": "fVcxeM0Ljh0",
-    "mooc": "5wZRE3v7P98",
     "backDescription": "C'est là que tout commence...",
     "explanation": "Cette carte peut être considérée comme la cause des secteurs économiques (Industrie, Bâtiment, Transport, Agriculture), ou comme le titre d'un ensemble de cartes (qui sont alors regroupées dans une grosse 'patate').",
     "notes": [
@@ -20,18 +17,15 @@
     ]
   },
   {
-    "id": 12,
+    "wikiId": 12,
     "cardNum": 2,
-    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_2_industrie",
-    "wikiTitle": "Fr-fr adulte carte 2 industrie",
-    "shortTitle": "Industrie",
+    "wikiUrl": "/wiki/index.php?title=Fr-fr_adulte_carte_2_industrie",
+    "title": "Industrie",
     "cardSet": 2,
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/7/7e/Fr-fr_adulte_carte_2_recto.png"
     },
-    "youtubeCode": "4LG5GMiCcR0",
     "faceOfCc": "-Hbo56WQ3zo",
-    "mooc": "c0v4KKNqcbI",
     "backDescription": "L'industrie utilise des énergies fossiles et de l'électricité. Elle représente 40% des Gaz à Effet de Serre (GES).",
     "explanation": "Il s'agit de la fabrication de l'ensemble des biens de consommation. L'industrie regroupe un très grand nombre de secteurs industriels différents dont les plus importants en émissions de GES sont la papeterie, le ciment, l'acier, l'aluminium, la chimie. Pour réduire les émissions de l'industrie, la solution consiste à allonger la durée de vie des produits, voire à réduire leur consommation. ",
     "notes": [
@@ -40,35 +34,29 @@
     ]
   },
   {
-    "id": 14,
+    "wikiId": 14,
     "cardNum": 3,
-    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_3_utilisation_des_b%C3%A2timents",
-    "wikiTitle": "Fr-fr adulte carte 3 utilisation des bâtiments",
-    "shortTitle": "Utilisation des bâtiments",
+    "wikiUrl": "/wiki/index.php?title=Fr-fr_adulte_carte_3_utilisation_des_b%C3%A2timents",
+    "title": "Utilisation des bâtiments",
     "cardSet": 2,
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/6/60/Fr-fr_adulte_carte_3_recto.png"
     },
-    "youtubeCode": "rxHxR0Ald3I",
     "faceOfCc": "csAunDBa8vY",
-    "mooc": "PSSfW9Wzam0",
     "backDescription": "L’utilisation du bâtiment (logement et services) utilise des énergies fossiles et de l'électricité. Cela représente 20% des Gaz à Effet de Serre (GES).",
     "explanation": "On parle ici de l'utilisation des bâtiments et non de leur construction (qui, elle, entre dans le secteur de l'industrie). Chauffage, climatisation, éclairage, électronique, etc. Le gros sujet, sous nos latitudes, c'est l'isolation thermique des bâtiments. En ce qui concerne la construction dans le neuf, il est important de construire des bâtiment bien isolés. Mais l'enjeu est limité car les normes dans le neuf sont bien plus contraignantes que par le passé et on ne construit chaque année qu'une petite partie (1%) du parc déjà construit. L'enjeu est donc beaucoup plus dans la rénovation thermique des bâtiments. ",
     "notes": []
   },
   {
-    "id": 16,
+    "wikiId": 16,
     "cardNum": 4,
-    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_4_transport",
-    "wikiTitle": "Fr-fr adulte carte 4 transport",
-    "shortTitle": "Transport",
+    "wikiUrl": "/wiki/index.php?title=Fr-fr_adulte_carte_4_transport",
+    "title": "Transport",
     "cardSet": 2,
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/c/c6/Fr-fr_adulte_carte_4_recto.png"
     },
-    "youtubeCode": "oMxhN9RlMnA",
     "faceOfCc": "oUx3gsVREKw",
-    "mooc": "9CaF1cVMR-Y",
     "backDescription": "Le secteur du transport est très dépendant du pétrole. Il représente 15% des émissions de gaz à effet de serre.",
     "explanation": "15%, c'est peu, mais cela varie beaucoup en fonction des pays et des modes de vie. Dans les pays occidentaux, la part du transport, et notamment celle de l'avion, peut représenter une très grosse partie de l'empreinte carbone de chacun. En fait, si vous prenez un ou quelques longs courriers dans l'année, cela constitue l'essentiel de votre bilan carbone.",
     "notes": [
@@ -81,35 +69,29 @@
     ]
   },
   {
-    "id": 18,
+    "wikiId": 18,
     "cardNum": 5,
-    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_5_%C3%A9nergies_fossiles",
-    "wikiTitle": "Fr-fr adulte carte 5 énergies fossiles",
-    "shortTitle": "Énergies fossiles",
+    "wikiUrl": "/wiki/index.php?title=Fr-fr_adulte_carte_5_%C3%A9nergies_fossiles",
+    "title": "Énergies fossiles",
     "cardSet": 1,
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/8/85/Fr-fr_adulte_carte_5_recto.png"
     },
-    "youtubeCode": "2ONOXLLFzWQ",
     "faceOfCc": "Cm6x4ikTUho",
-    "mooc": "2BaMvsng5WI",
     "backDescription": "Les énergies fossiles sont le charbon, le pétrole et le gaz. Elles sont utilisées principalement dans les bâtiments, le transport et dans l'industrie. Elles émettent du CO2 lors de la combustion.",
     "explanation": "Il y a souvent un débat entre mettre les énergies fossiles avant ou après les activités humaines. C’est comme la poule et l’œuf : il n’y a pas de bonne réponse. C’est une question de dialectique. Il ne faut pas perdre de temps là-dessus. Le graphique représente les émissions des énergies fossiles. Dans un scénario +2°C, elles doivent atteindre 0 en 2070.",
     "notes": []
   },
   {
-    "id": 21,
+    "wikiId": 21,
     "cardNum": 6,
-    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_6_d%C3%A9forestation",
-    "wikiTitle": "Fr-fr adulte carte 6 déforestation",
-    "shortTitle": "Déforestation",
+    "wikiUrl": "/wiki/index.php?title=Fr-fr_adulte_carte_6_d%C3%A9forestation",
+    "title": "Déforestation",
     "cardSet": 2,
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/d/d3/Fr-fr_adulte_carte_6_recto.png"
     },
-    "youtubeCode": "EMi8CNnHVmE",
     "faceOfCc": "uq2Ypdj-5Oo",
-    "mooc": "L4pGtAMNz5k",
     "backDescription": "La déforestation consiste à couper ou brûler des arbres au-delà de la capacité de renouvellement de la forêt. Elle est liée à 80% à l’agriculture. ",
     "explanation": "La déforestation est le phénomène de régression durable des surfaces couvertes de forêts, qu'il soit d'origine anthropique ou naturelle. Si une forêt repousse après une coupe, une attaque d'insectes xylophage ou un feu, on ne parle pas de déforestation. La déforestation peut être considérée comme une activité humaine ou comme une conséquence de l'agriculture, ou encore les deux à la fois. Attention : le problème avec la déforestation, ce n'est pas que ça détruit des puits de carbone, c'est que ça émet du CO2. C'est une différence entre flux et stock.",
     "notes": [
@@ -119,18 +101,15 @@
     ]
   },
   {
-    "id": 23,
+    "wikiId": 23,
     "cardNum": 7,
-    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_7_%C3%A9missions_de_co2",
-    "wikiTitle": "Fr-fr adulte carte 7 émissions de co2",
-    "shortTitle": "Émissions de CO2",
+    "wikiUrl": "/wiki/index.php?title=Fr-fr_adulte_carte_7_%C3%A9missions_de_co2",
+    "title": "Émissions de CO2",
     "cardSet": 1,
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/f/f5/Fr-fr_adulte_carte_7_recto.png"
     },
-    "youtubeCode": "ACV16QfNbok",
     "faceOfCc": "vA7BJ8f8t8o",
-    "mooc": "lpgjRDhIlDc",
     "backDescription": "Le CO2 est le premier gaz à effet de serre anthropique (c'est à dire émis par l’homme). Les émissions de CO2 viennent de la combustion des énergies fossiles et de la déforestation.",
     "explanation": "",
     "notes": [
@@ -139,120 +118,99 @@
     ]
   },
   {
-    "id": 8,
+    "wikiId": 8,
     "cardNum": 8,
-    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_8_agriculture",
-    "wikiTitle": "Fr-fr adulte carte 8 agriculture",
-    "shortTitle": "Agriculture",
+    "wikiUrl": "/wiki/index.php?title=Fr-fr_adulte_carte_8_agriculture",
+    "title": "Agriculture",
     "cardSet": 2,
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/d/d6/Fr-fr_adulte_carte_8_recto.png"
     },
-    "youtubeCode": "BIZ_MNIehjg",
     "faceOfCc": "ZOTCm-J_YVU",
-    "mooc": "CcNe8eckXm4",
     "backDescription": "L'agriculture est responsable de l'émission d'un peu de CO2 et de beaucoup de méthane (bovins, rizières), et de protoxyde d'azote (engrais). En tout, c’est 25% des GES si on y inclut la déforestation induite.",
     "explanation": "L'agriculture utilise très peu d'énergie fossile, au regard des émissions d'autres GES dont elle est responsable. Elle est responsable de 80% de la déforestation. En effet, il faut des grandes surfaces pour cultiver, surtout pour nourrir les animaux d'élevage. L'agriculture est une activité humaine qui a commencé dès que le climat s'est stabilisé, au début du Néolithique il y a 10.000 ans, après la dernière déglaciation qui a elle-même duré 10.000 ans. Dès lors, l’impact de l’activité humaine sur son environnement n’a cessé de croître: il a domestiqué des espèces végétales (aujourd'hui, le riz domestiqué n’est plus capable de se reproduire sans l’intervention de l’homme), il a déforesté pour étendre les surfaces cultivées, privant les espèces animales de leur habitat naturel, et depuis la révolution verte (verte pour agricole, pas pour écologique !), il a commencé à utiliser des pesticides et des intrants nocifs pour l’environnement et pour lui-même.",
     "notes": []
   },
   {
-    "id": 26,
+    "wikiId": 26,
     "cardNum": 9,
-    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_9_autres_ges",
-    "wikiTitle": "Fr-fr adulte carte 9 autres ges",
-    "shortTitle": "Autres GES",
+    "wikiUrl": "/wiki/index.php?title=Fr-fr_adulte_carte_9_autres_ges",
+    "title": "Autres GES",
     "cardSet": 2,
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/3/38/Fr-fr_adulte_carte_9_recto.png"
     },
-    "youtubeCode": "vP51oA5tgos",
     "faceOfCc": "LN7lPIUWPuQ",
-    "mooc": "halhL0JRqg8",
     "backDescription": "Le CO2 n'est pas le seul Gaz à Effet de Serre. Il y a aussi le méthane (CH4) et le protoxyde d'azote (N2O) (qui viennent en très grande partie de l'agriculture), ainsi que quelques autres.",
     "explanation": "",
     "notes": []
   },
   {
-    "id": 28,
+    "wikiId": 28,
     "cardNum": 10,
-    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_10_a%C3%A9rosols",
-    "wikiTitle": "Fr-fr adulte carte 10 aérosols",
-    "shortTitle": "Aérosols",
+    "wikiUrl": "/wiki/index.php?title=Fr-fr_adulte_carte_10_a%C3%A9rosols",
+    "title": "Aérosols",
     "cardSet": 3,
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/3/35/Fr-fr_adulte_carte_10_recto.png"
     },
-    "youtubeCode": "XRAKRtOQ_Fg",
     "faceOfCc": "-RE5I12XKJQ",
-    "mooc": "rHP1QPtDG04",
     "backDescription": "Rien à voir avec les bombes aérosols. Les aérosols sont une pollution locale qui vient de la combustion imparfaite des énergies fossiles. Ils sont mauvais pour la santé et ils ont par ailleurs une contribution négative au forçage radiatif (ils refroidissent le climat).",
     "explanation": "",
     "notes": []
   },
   {
-    "id": 30,
+    "wikiId": 30,
     "cardNum": 11,
-    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_11_concentration_en_co2",
-    "wikiTitle": "Fr-fr adulte carte 11 concentration en co2",
-    "shortTitle": "Concentration en CO2 (ppm)",
+    "wikiUrl": "/wiki/index.php?title=Fr-fr_adulte_carte_11_concentration_en_co2",
+    "title": "Concentration en CO2 (ppm)",
     "cardSet": 2,
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/c/c5/Fr-fr_adulte_carte_11_recto.png"
     },
-    "youtubeCode": "rkUfk9-kito",
     "faceOfCc": "cUPYgpbTBAA",
-    "mooc": "",
     "backDescription": "Une fois que la moitié de nos émissions de CO2 a été captée par les puits naturels, l'autre moitié reste dans l'atmosphère. La concentration en CO2 dans l'atmosphère est passée de 280 à 410 ppm (parties par millions) en 150 ans.",
     "explanation": "Des mesures de CO2 ont lieu depuis 1958 à Hawaï, sur l'île de Big Island, sur les flans du volcan Mauna Loa. Elles ont été lancées par Charles Keeling. Dans le scénario bleu (2°C) elles augmentent jusqu'en 2040-2050 puis elles baissent car on a tellement diminué les émissions que les puits naturels n'absorbent plus.",
     "notes": []
   },
   {
-    "id": 32,
+    "wikiId": 32,
     "cardNum": 12,
-    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_12_puits_de_carbone",
-    "wikiTitle": "Fr-fr adulte carte 12 puits de carbone",
-    "shortTitle": "Puits de carbone",
+    "wikiUrl": "/wiki/index.php?title=Fr-fr_adulte_carte_12_puits_de_carbone",
+    "title": "Puits de carbone",
     "cardSet": 2,
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/e/e2/Fr-fr_adulte_carte_12_recto.png"
     },
-    "youtubeCode": "--H_a7k_sQ8",
     "faceOfCc": "G9dyMMQideU",
-    "mooc": "yEFCvYrfE24",
     "backDescription": "La moitié du CO2 que nous émettons chaque année est absorbée par les puits de carbone : la végétation pour 1/4 (via la photosynthèse), l'océan pour 1/4, le reste (1/2) reste dans l'atmosphère. ",
     "explanation": "Dans le rapport du GIEC, le graphique est directement le rasseblement des deux cartes, la Fresque l'a 'découpé'. Il montre d'où vient le CO2 et où il va.",
     "notes": []
   },
   {
-    "id": 34,
+    "wikiId": 34,
     "cardNum": 13,
-    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_13_effet_de_serre_additionnel",
-    "wikiTitle": "Fr-fr adulte carte 13 effet de serre additionnel",
-    "shortTitle": "Effet de serre additionnel",
+    "wikiUrl": "/wiki/index.php?title=Fr-fr_adulte_carte_13_effet_de_serre_additionnel",
+    "title": "Effet de serre additionnel",
     "cardSet": 1,
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/1/15/Fr-fr_adulte_carte_13_recto.png"
     },
-    "youtubeCode": "M_bdkLnLQAE",
     "faceOfCc": "1LxOZMKX8R8",
-    "mooc": "8im42OpyGJc",
     "backDescription": "L'effet de serre est naturel. D’ailleurs, le premier GES naturel est la vapeur d’eau. Sans l'effet de serre, la planète serait 33°C plus froide. Mais le CO2 et les autres GES dus à l'Homme augmentent cet effet de serre naturel ce qui réchauffe le climat.",
     "explanation": "Sur cette carte, on voit des flèches de deux couleurs : le orange pour l'énergie qui vient du soleil (UV, lumière visible et infrarouge de haute fréquence) et celle qui est réfléchie par effet albedo à la même fréquence. L'albedo est la capacité d'un corps à renvoyer la lumière (un corps noir a un albedo de 0, un miroir a un albedo de 1. La terre a un albedo moyen de 0,31). le rouge pour les infrarouges de basse fréquences, émis par la terre qui est moins chaude que le soleil, ou retenus pas l'effet de serre. L'effet de serre repose sur le fait que ce ne soit pas la même rayonnement entrant que le rayonnement sortant. Sur la droite, '-18°C', c'est la température qu'il ferait sur terre sans l'effet de serre et '15°C', c'est la température réelle aujourd'hui. Il faisait '14°C' en 1850, c'est à dire avant que l'activité humaine ne produise cet effet de serre additionnel.",
     "notes": []
   },
   {
-    "id": 36,
+    "wikiId": 36,
     "cardNum": 14,
-    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_14_bilan_%C3%A9nerg%C3%A9tique",
-    "wikiTitle": "Fr-fr adulte carte 14 bilan énergétique",
-    "shortTitle": "Budget énergétique",
+    "wikiUrl": "/wiki/index.php?title=Fr-fr_adulte_carte_14_bilan_%C3%A9nerg%C3%A9tique",
+    "title": "Budget énergétique",
     "cardSet": 3,
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/f/fe/Fr-fr_adulte_carte_14_recto.png"
     },
-    "youtubeCode": "lFT5Mx0eK3U",
     "faceOfCc": "tnMmouVM-Lg",
-    "mooc": "",
     "backDescription": "Ce graphique explique où va l’énergie qui s’accumule sur la terre à cause du forçage radiatif : elle réchauffe l’océan, fait fondre la glace, se dissipe dans le sol et réchauffe l’atmosphère.",
     "explanation": "",
     "notes": [],
@@ -267,52 +225,43 @@
     ]
   },
   {
-    "id": 38,
+    "wikiId": 38,
     "cardNum": 15,
-    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_15_for%C3%A7age_radiatif",
-    "wikiTitle": "Fr-fr adulte carte 15 forçage radiatif",
-    "shortTitle": "Forçage radiatif",
+    "wikiUrl": "/wiki/index.php?title=Fr-fr_adulte_carte_15_for%C3%A7age_radiatif",
+    "title": "Forçage radiatif",
     "cardSet": 3,
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/9/95/Fr-fr_adulte_carte_15_recto.png"
     },
-    "youtubeCode": "WYpGFCtFuNg",
     "faceOfCc": "zR1HJG8UPKE",
-    "mooc": "VIY8MO53B5I",
     "backDescription": "Le forçage radiatif est la mesure du déséquilibre entre l'énergie qui arrive chaque seconde sur terre et celle qui repart. Il vaut 3,1 W/m 2 (Watt par métre carré) pour l’effet de serre et − 0,8 W/m2 pour les aérosols, soit 2,3 W / m 2 en tout.",
     "explanation": "La terre reçoit de l'énergie du Soleil et en réémet vers l'espace sous forme d'infrarouges. En temps normal, elle est en équilibre thermique et sa température est constante. On appelle forçage radiatif tout ce qui lui fait quitter cet équilibre thermique, que ce soit d'origine naturelle (soleil, volcans) ou anthropique (aérosols, GES). ",
     "notes": []
   },
   {
-    "id": 40,
+    "wikiId": 40,
     "cardNum": 16,
-    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_16_fonte_des_glaciers",
-    "wikiTitle": "Fr-fr adulte carte 16 fonte des glaciers",
-    "shortTitle": "Fonte des glaciers",
+    "wikiUrl": "/wiki/index.php?title=Fr-fr_adulte_carte_16_fonte_des_glaciers",
+    "title": "Fonte des glaciers",
     "cardSet": 3,
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/1/14/Fr-fr_adulte_carte_16_recto.png"
     },
-    "youtubeCode": "zRlMGkImeUs",
     "faceOfCc": "LmaMIdQN_40",
-    "mooc": "tiyT7lgSv9k",
     "backDescription": "Presque tous les glaciers ont perdu de la masse. Des centaines ont même déjà disparu. Or ces glaciers ont un rôle régulateur sur l'approvisionnement en eau douce. ",
     "explanation": "On appellera ici glacier une accumulation de glace continentale issue de la transformation de la neige et soumise à un écoulement lent. On parlera ici de fonte d'un glacier lorsque la masse totale de glace a diminué sur la période considérée, quel·s que soi·en·t le·s processus en cause. ",
     "notes": []
   },
   {
-    "id": 42,
+    "wikiId": 42,
     "cardNum": 17,
-    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_17_hausse_temp%C3%A9rature_eau",
-    "wikiTitle": "Fr-fr adulte carte 17 hausse température eau",
-    "shortTitle": "Hausse de la température de l'eau",
+    "wikiUrl": "/wiki/index.php?title=Fr-fr_adulte_carte_17_hausse_temp%C3%A9rature_eau",
+    "title": "Hausse de la température de l'eau",
     "cardSet": 3,
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/b/bf/Fr-fr_adulte_carte_17_recto.png"
     },
-    "youtubeCode": "TRhhK8tJ9ds",
     "faceOfCc": "hTmQXSS0lWs",
-    "mooc": "jD_zs0nmsN4",
     "backDescription": "L'océan absorbe 93% de l'énergie qui s'accumule sur la Terre. En se réchauffant, l'eau se dilate.",
     "explanation": "L'océan se réchauffe de l'ordre du dixième de degré en surface et encore moins en profondeur. Comment cela se fait-il alors qu'il absorbe 93% de l'énergie en excès sur la terre ? C'est parce qu'il est beaucoup plus gros que l'atmosphère. Il a une capacité calorifique beaucoup plus grande. ",
     "notes": [
@@ -322,35 +271,29 @@
     ]
   },
   {
-    "id": 44,
+    "wikiId": 44,
     "cardNum": 18,
-    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_18_fonte_de_la_banquise",
-    "wikiTitle": "Fr-fr adulte carte 18 fonte de la banquise",
-    "shortTitle": "Fonte de la banquise",
+    "wikiUrl": "/wiki/index.php?title=Fr-fr_adulte_carte_18_fonte_de_la_banquise",
+    "title": "Fonte de la banquise",
     "cardSet": 1,
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/7/74/Fr-fr_adulte_carte_18_recto.png"
     },
-    "youtubeCode": "qtZ3J_HEHuA",
     "faceOfCc": "3cR2lvo0TJw",
-    "mooc": "HbANNDiACok",
     "backDescription": "La fonte de la banquise n'est pas responsable de la montée des eaux (un glaçon qui fond dans du pastis ne fait pas déborder le verre). ",
     "explanation": "Pour une explication plus poussée du pourquoi du comment Archimède et tout et tout.",
     "notes": []
   },
   {
-    "id": 46,
+    "wikiId": 46,
     "cardNum": 19,
-    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_19_fonte_des_calottes_glaciaires",
-    "wikiTitle": "Fr-fr adulte carte 19 fonte des calottes glaciaires",
-    "shortTitle": "Fonte des calottes glaciaires",
+    "wikiUrl": "/wiki/index.php?title=Fr-fr_adulte_carte_19_fonte_des_calottes_glaciaires",
+    "title": "Fonte des calottes glaciaires",
     "cardSet": 3,
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/e/e1/Fr-fr_adulte_carte_19_recto.png"
     },
-    "youtubeCode": "Btoz2BU9PFo",
     "faceOfCc": "J-vm_DSJRjc",
-    "mooc": "tDBzTETRiHc",
     "backDescription": "Les calottes glaciaires sont le Groënland et l'Antarctique. Si elles fondaient intégralement, cela représenterait une augmentation du niveau de la mer de 7m pour le Groënland, et de 54m pour l'Antarctique. Durant la dernière ère glaciaire, les calottes étaient si importantes que le niveau de la mer était 120 m plus bas qu'aujourd'hui. ",
     "explanation": "Ces illustrations représentent le gain ou la perte de masse des calottes, indiqué en centimètre d'eau par année (cm d'eau/an) et mesuré par gravimétrie. En bleu le gain de masse (parce qu'il neige davantage) et en rouge les pertes (les glaciers s'écoulent plus vite vers l'océan).",
     "notes": [
@@ -358,35 +301,29 @@
     ]
   },
   {
-    "id": 48,
+    "wikiId": 48,
     "cardNum": 20,
-    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_20_perturbation_cycle_eau",
-    "wikiTitle": "Fr-fr adulte carte 20 perturbation cycle eau",
-    "shortTitle": "Perturbation du cycle de l'eau",
+    "wikiUrl": "/wiki/index.php?title=Fr-fr_adulte_carte_20_perturbation_cycle_eau",
+    "title": "Perturbation du cycle de l'eau",
     "cardSet": 3,
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/4/4b/Fr-fr_adulte_carte_20_recto.png"
     },
-    "youtubeCode": "m16bWEIgUnI",
     "faceOfCc": "T13hvxFrBfA",
-    "mooc": "2PJhZP9RC5M",
     "backDescription": "L'évaporation qui a lieu à la surface de l'océan augmente si l'eau et l'air se réchauffent. Cela fait plus de nuages qui feront ensuite de la pluie. Mais si l’évaporation a lieu sur terre, cela assèche le sol.",
     "explanation": "Cette carte est importante. Elle matérialise à elle seule pourquoi on parlait autrefois de réchauffement climatique, puis maintenant de changement climatique, voire de dérèglement climatique. L'augmentation de température est en soi un problème, mais on voit sur la fresque, à la fin, que la perturbation du cycle de l'eau a beaucoup plus d'effets. ",
     "notes": []
   },
   {
-    "id": 50,
+    "wikiId": 50,
     "cardNum": 21,
-    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_21_hausse_temp%C3%A9rature",
-    "wikiTitle": "Fr-fr adulte carte 21 hausse température",
-    "shortTitle": "Hausse de la température",
+    "wikiUrl": "/wiki/index.php?title=Fr-fr_adulte_carte_21_hausse_temp%C3%A9rature",
+    "title": "Hausse de la température",
     "cardSet": 1,
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/7/78/Fr-fr_adulte_carte_21_recto.png"
     },
-    "youtubeCode": "X0zSLQTEHD8",
     "faceOfCc": "nuACnopTT_g",
-    "mooc": "CVnEVFMcvMw",
     "backDescription": "On parle ici de la température de l’air au sol, en moyenne sur la surface de la Terre. Elle a déjà augmenté de près de 1°C depuis 1900. Selon les scénarios, elle aura augmenté de 2°C à 5°C d’ici 2100. Or, lors de la dernière période glaciaire (il y a 20.000 ans), elle était seulement 5°C plus basse qu’aujourd’hui... et la déglaciation a duré 10.000 ans ! ",
     "explanation": "Quand on a gardé les cartes 10, 14 et 15, (version standard) cette carte représente la température de l'air donc de l'atmosphère.",
     "notes": [
@@ -394,18 +331,15 @@
     ]
   },
   {
-    "id": 52,
+    "wikiId": 52,
     "cardNum": 22,
-    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_22_mont%C3%A9e_des_eaux",
-    "wikiTitle": "Fr-fr adulte carte 22 montée des eaux",
-    "shortTitle": "Montée des eaux",
+    "wikiUrl": "/wiki/index.php?title=Fr-fr_adulte_carte_22_mont%C3%A9e_des_eaux",
+    "title": "Montée des eaux",
     "cardSet": 1,
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/d/d2/Fr-fr_adulte_carte_22_recto.png"
     },
-    "youtubeCode": "iypRDzcMA-o",
     "faceOfCc": "PwC6YqtuEYU",
-    "mooc": "eZTkWYyGfAI",
     "backDescription": "Depuis 1900, le niveau de l’océan a monté de 20 cm. Cela est dû à la dilatation de l'eau, la fonte des glaciers et la fonte des calottes.",
     "explanation": "",
     "notes": [
@@ -415,18 +349,15 @@
     ]
   },
   {
-    "id": 54,
+    "wikiId": 54,
     "cardNum": 23,
-    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_23_probl%C3%A8mes_de_calcification",
-    "wikiTitle": "Fr-fr adulte carte 23 problèmes de calcification",
-    "shortTitle": "Problèmes de calcification",
+    "wikiUrl": "/wiki/index.php?title=Fr-fr_adulte_carte_23_probl%C3%A8mes_de_calcification",
+    "title": "Problèmes de calcification",
     "cardSet": 4,
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/8/8d/Fr-fr_adulte_carte_23_recto.png"
     },
-    "youtubeCode": "A3zQW_C7RMI",
     "faceOfCc": "1nlD6jzbZJI",
-    "mooc": "0uhlhZHvJq4",
     "backDescription": "Si le pH baisse, la formation de calcaire devient plus difficile, notamment pour les coquilles.",
     "explanation": "",
     "notes": [
@@ -434,35 +365,29 @@
     ]
   },
   {
-    "id": 56,
+    "wikiId": 56,
     "cardNum": 24,
-    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_24_acidification_oc%C3%A9an",
-    "wikiTitle": "Fr-fr adulte carte 24 acidification océan",
-    "shortTitle": "Acidification de l'océan",
+    "wikiUrl": "/wiki/index.php?title=Fr-fr_adulte_carte_24_acidification_oc%C3%A9an",
+    "title": "Acidification de l'océan",
     "cardSet": 2,
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/9/94/Fr-fr_adulte_carte_24_recto.png"
     },
-    "youtubeCode": "XlaLH13Pups",
     "faceOfCc": "ppZenThTh5c",
-    "mooc": "KoRIwQ6cGms",
     "backDescription": "Quand le CO2 se dissout dans l'océan, il se transforme en des ions acides (H2CO3 puis HCO3–). Cela a pour effet d'acidifier l'océan (le pH baisse).",
     "explanation": "L'acidification de l'océan est parfois appelée 'l'autre problème du carbone'. En effet, ce n'est pas à proprement parler une conséquence du changement climatique, mais une autre conséquence des émissions de CO2. ",
     "notes": []
   },
   {
-    "id": 58,
+    "wikiId": 58,
     "cardNum": 25,
-    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_25_biodiversit%C3%A9_terrestre",
-    "wikiTitle": "Fr-fr adulte carte 25 biodiversité terrestre",
-    "shortTitle": "Biodiversité terrestre",
+    "wikiUrl": "/wiki/index.php?title=Fr-fr_adulte_carte_25_biodiversit%C3%A9_terrestre",
+    "title": "Biodiversité terrestre",
     "cardSet": 4,
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/b/bd/Fr-fr_adulte_carte_25_recto.png"
     },
-    "youtubeCode": "TP8Tu4Gq2CE",
     "faceOfCc": "oa5rHgw2EE0",
-    "mooc": "KoRIwQ6cGms",
     "backDescription": "Les animaux et les plantes sont affectés par les changements de température et du cycle de l'eau : ils se déplacent ou disparaissent (ou, plus rarement, ils prolifèrent). ",
     "explanation": "Aujourd'hui, la biodiversité terrestre est avant tout mise à mal par d'autres facteurs que le climat : déforestation, disparition des habitats naturels, pesticides, pollutions diverses. Il n'empêche que le changement climatique va largement contribuer à la disparition des espèces dans les décennies à venir.",
     "notes": [
@@ -470,18 +395,15 @@
     ]
   },
   {
-    "id": 60,
+    "wikiId": 60,
     "cardNum": 26,
-    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_26_crues",
-    "wikiTitle": "Fr-fr adulte carte 26 crues",
-    "shortTitle": "Crues",
+    "wikiUrl": "/wiki/index.php?title=Fr-fr_adulte_carte_26_crues",
+    "title": "Crues",
     "cardSet": 4,
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/1/14/Fr-fr_adulte_carte_26_recto.png"
     },
-    "youtubeCode": "43Hf5wnz3Wk",
     "faceOfCc": "EgCZs3oqwos",
-    "mooc": "rBqtLwY0GIU",
     "backDescription": "La perturbation du cycle de l'eau peut amener plus d'eau ou moins d’eau. Plus d'eau, cela peut engendrer des crues (inondations dans les terres). Si le sol a été durci par une sécheresse, c'est pire car l'eau ruisselle.",
     "explanation": "Une crue est l'élevation du niveau d'un cours d'eau du au précipatitation ou a des fontes de neige ou de glace. Celle-ci est temporaire.",
     "notes": [],
@@ -490,52 +412,43 @@
     ]
   },
   {
-    "id": 62,
+    "wikiId": 62,
     "cardNum": 27,
-    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_27_biodiversit%C3%A9_marine",
-    "wikiTitle": "Fr-fr adulte carte 27 biodiversité marine",
-    "shortTitle": "Biodiversité marine",
+    "wikiUrl": "/wiki/index.php?title=Fr-fr_adulte_carte_27_biodiversit%C3%A9_marine",
+    "title": "Biodiversité marine",
     "cardSet": 4,
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/d/dd/Fr-fr_adulte_carte_27_recto.png"
     },
-    "youtubeCode": "mMMByJIVkhc",
     "faceOfCc": "5aL1RA4Q0VU",
-    "mooc": "EBVYgKqpEog",
     "backDescription": "Ptéropodes et coccolithophores étant à la base de la chaîne alimentaire, leur disparition menace toute la biodiversité marine. Le réchauffement de l’eau joue aussi un rôle important dans la fragilisation de la biodiversité marine. ",
     "explanation": "Aujourd'hui, la biodiversité marine est plus mise en danger par la surpêche que par le changement climatique ou l'acidification. Mais à long terme, ces derniers vont considérablement augmenter leur pression. La FAO considère que dans le monde, entre 660 et 820 million d'individus sont directement ou indirectement dépendant de la pêche et de l'aquaculture. Soit à peu près 10% de la population mondiale.",
     "notes": []
   },
   {
-    "id": 64,
+    "wikiId": 64,
     "cardNum": 28,
-    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_28_vecteurs_de_maladie",
-    "wikiTitle": "Fr-fr adulte carte 28 vecteurs de maladie",
-    "shortTitle": "Vecteurs de maladie",
+    "wikiUrl": "/wiki/index.php?title=Fr-fr_adulte_carte_28_vecteurs_de_maladie",
+    "title": "Vecteurs de maladie",
     "cardSet": 5,
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/8/80/Fr-fr_adulte_carte_28_recto.png"
     },
-    "youtubeCode": "2jp-vkrqJfQ",
     "faceOfCc": "Ec6KJpVw_Rc",
-    "mooc": "EvHVm1R_OTU",
     "backDescription": "Avec le réchauffement, les animaux migrent. Or, certains sont des vecteurs de maladie et peuvent atteindre des zones où les populations ne sont pas immunisées contre ces maladies.",
     "explanation": "Le problème n'est tant pas la prolifération des vecteurs de maladie que leur déplacement. Cette carte vient idéalement après la carte 25 dans la mesure où les vecteurs de maladie sont une sous−partie de la biodiversité.",
     "notes": []
   },
   {
-    "id": 66,
+    "wikiId": 66,
     "cardNum": 29,
-    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_29_pt%C3%A9ropodes_et_coccolithophores",
-    "wikiTitle": "Fr-fr adulte carte 29 ptéropodes et coccolithophores",
-    "shortTitle": "Ptéropodes et coccolithophores",
+    "wikiUrl": "/wiki/index.php?title=Fr-fr_adulte_carte_29_pt%C3%A9ropodes_et_coccolithophores",
+    "title": "Ptéropodes et coccolithophores",
     "cardSet": 4,
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/e/e0/Fr-fr_adulte_carte_29_recto.png"
     },
-    "youtubeCode": "nzqB3nKTjzc",
     "faceOfCc": "6gHERqKJc2A",
-    "mooc": "qO5w3bgXZmA",
     "backDescription": "Les ptéropodes sont du zooplancton et les coccolithophores du phytoplancton. Ces micro-organismes ont une coquille en calcaire. ",
     "explanation": "",
     "notes": [],
@@ -544,103 +457,85 @@
     ]
   },
   {
-    "id": 68,
+    "wikiId": 68,
     "cardNum": 30,
-    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_30_s%C3%A9cheresses",
-    "wikiTitle": "Fr-fr adulte carte 30 sécheresses",
-    "shortTitle": "Sécheresses",
+    "wikiUrl": "/wiki/index.php?title=Fr-fr_adulte_carte_30_s%C3%A9cheresses",
+    "title": "Sécheresses",
     "cardSet": 4,
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/8/8e/Fr-fr_adulte_carte_30_recto.png"
     },
-    "youtubeCode": "EX82KQmQ3yg",
     "faceOfCc": "bEuX-UVM-4M",
-    "mooc": "CpYHLMPn7r8",
     "backDescription": "La perturbation du cycle de l'eau peut amener plus ou moins d'eau. Moins d'eau, c'est une sécheresse. On estime ainsi que les sécheresses pourraient se multiplier à l’avenir. ",
     "explanation": "Une sécheresse est une période de temps anormalement sec suffisamment longue pour causer un grave déséquilibre hydrologique. On peut parler de sécheresse agricole si l'on mesure l'humidité du sol ou de sécheresse météorologique dans le cas d'une baisse de précipitation. Une mégasécheresse est une sécheresse persistante et étendue, d’une durée très supérieure à la normale (en général, une décennie ou plus). Le manque de pluie et l'évaporation sur le sol sont les causes des sécheresses.",
     "notes": []
   },
   {
-    "id": 70,
+    "wikiId": 70,
     "cardNum": 31,
-    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_31_ressources_eau_douce",
-    "wikiTitle": "Fr-fr adulte carte 31 ressources eau douce",
-    "shortTitle": "Ressources en eau douce",
+    "wikiUrl": "/wiki/index.php?title=Fr-fr_adulte_carte_31_ressources_eau_douce",
+    "title": "Ressources en eau douce",
     "cardSet": 5,
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/7/7e/Fr-fr_adulte_carte_31_recto.png"
     },
-    "youtubeCode": "JHRnIGIebH0",
     "faceOfCc": "zJEORSe1RQY",
-    "mooc": "l4NBLpC9Q5I",
     "backDescription": "Les ressources en eau douce sont affectées par les changements de précipitation et la disparition des glaciers qui jouent un rôle régulateur du débit des cours d'eau. ",
     "explanation": "Le gros sujet, c'est la disparition des glaciers. Ils servent de réservoirs d'eau douce sous forme solide et fondent (surtout en été, quand il fait chaud, ça tombe bien !) pour alimenter en aval l'irrigation des cultures.",
     "notes": []
   },
   {
-    "id": 72,
+    "wikiId": 72,
     "cardNum": 32,
-    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_32_baisse_rendements_agricoles",
-    "wikiTitle": "Fr-fr adulte carte 32 baisse rendements agricoles",
-    "shortTitle": "Baisse des rendements agricoles",
+    "wikiUrl": "/wiki/index.php?title=Fr-fr_adulte_carte_32_baisse_rendements_agricoles",
+    "title": "Baisse des rendements agricoles",
     "cardSet": 5,
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/8/84/Fr-fr_adulte_carte_32_recto.png"
     },
-    "youtubeCode": "nP2YWbNHTsM",
     "faceOfCc": "RkVjxqMTQvE",
-    "mooc": "",
     "backDescription": "La production agricole peut être affectée par la température, les sécheresses, les évènements extrêmes, les inondations et les submersions (ex : delta du Nil).",
     "explanation": "Voici l'une des plus grosses menaces pour l'humanité. Ce sont déjà des baisses de rendements agricoles qui ont amené à des conflits au Rwanda et en Syrie.",
     "notes": []
   },
   {
-    "id": 74,
+    "wikiId": 74,
     "cardNum": 33,
-    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_33_submersions",
-    "wikiTitle": "Fr-fr adulte carte 33 submersions",
-    "shortTitle": "Submersions",
+    "wikiUrl": "/wiki/index.php?title=Fr-fr_adulte_carte_33_submersions",
+    "title": "Submersions",
     "cardSet": 4,
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/8/84/Fr-fr_adulte_carte_33_recto.png"
     },
-    "youtubeCode": "AalZJ4lPh_Q",
     "faceOfCc": "OuZd3GVgyjg",
-    "mooc": "",
     "backDescription": "Cyclones et perturbations amènent du vent (donc des vagues) et des basses pressions. Or, chaque hectopascal en moins, c’est 1 cm d’eau en plus. Ils peuvent donc occasionner des submersions (inondations côtières) qui sont aggravées par l’augmentation du niveau de l’océan.",
     "explanation": "Ne pas confondre avec les crues. Les submersions, c'est l'eau de la mer ou l'océan qui monte. Cette monté peux-être exceptionnel à cause d'événement climatique extrème, ou permanente à cause de la montée des eaux.",
     "notes": []
   },
   {
-    "id": 76,
+    "wikiId": 76,
     "cardNum": 34,
-    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_34_cyclones",
-    "wikiTitle": "Fr-fr adulte carte 34 cyclones",
-    "shortTitle": "Cyclones",
+    "wikiUrl": "/wiki/index.php?title=Fr-fr_adulte_carte_34_cyclones",
+    "title": "Cyclones",
     "cardSet": 4,
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/9/98/Fr-fr_adulte_carte_34_recto.png"
     },
-    "youtubeCode": "YvJcgi3LjDY",
     "faceOfCc": "pgbIRQMCeqc",
-    "mooc": "",
     "backDescription": "Les cyclones s’alimentent de l’énergie des eaux chaudes à la surface de l’océan. Leur puissance a augmenté à cause du changement climatique. ",
     "explanation": "Un cyclone est un phénomène tourbillonnaire des régions tropicales (entre 30°N et 30°S) accompagnés de vents dont la vitesse est supérieure ou égale à 64 nœuds c'est-à-dire 118 km/h ( soit une force 12 sur l'échelle de Beaufort). Les termes typhon, ouragan et cyclone tropical recouvrent tous les trois le même phénomène, la désignation adoptée dépend simplement de l'endroit du globe où il se produit. Le terme cyclone ou cyclone tropical est réservé à l'océan Indien et au Pacifique sud. On parle en revanche d'ouragan en Atlantique nord et dans le Pacifique nord-est et enfin de typhon dans le Pacifique nord-ouest.",
     "notes": []
   },
   {
-    "id": 78,
+    "wikiId": 78,
     "cardNum": 35,
-    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_35_incendies",
-    "wikiTitle": "Fr-fr adulte carte 35 incendies",
-    "shortTitle": "Incendies",
+    "wikiUrl": "/wiki/index.php?title=Fr-fr_adulte_carte_35_incendies",
+    "title": "Incendies",
     "cardSet": 5,
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/9/97/Fr-fr_adulte_carte_35_recto.png"
     },
-    "youtubeCode": "s6uVJt_Mqdc",
     "faceOfCc": "0hkG0xUIHp8",
-    "mooc": "",
     "backDescription": "Les incendies sont facilités par les sécheresses et les canicules.",
     "explanation": "",
     "notes": [
@@ -648,18 +543,15 @@
     ]
   },
   {
-    "id": 80,
+    "wikiId": 80,
     "cardNum": 36,
-    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_36_canicules",
-    "wikiTitle": "Fr-fr adulte carte 36 canicules",
-    "shortTitle": "Canicules",
+    "wikiUrl": "/wiki/index.php?title=Fr-fr_adulte_carte_36_canicules",
+    "title": "Canicules",
     "cardSet": 5,
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/d/d3/Fr-fr_adulte_carte_36_recto.png"
     },
-    "youtubeCode": "hrfVmTJom30",
     "faceOfCc": "cw0iqw6jcyc",
-    "mooc": "",
     "backDescription": "Une manifestation de l’augmentation de température est la multiplication des canicules.",
     "explanation": "Une canicule, ou vague de chaleur, est un phénomène météorologique de températures de l'air anormalement fortes, diurnes et nocturnes, se prolongeant de quelques jours à quelques semaines, dans une zone relativement étendue.",
     "notes": [],
@@ -668,103 +560,85 @@
     ]
   },
   {
-    "id": 82,
+    "wikiId": 82,
     "cardNum": 37,
-    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_37_famine",
-    "wikiTitle": "Fr-fr adulte carte 37 famine",
-    "shortTitle": "Famine",
+    "wikiUrl": "/wiki/index.php?title=Fr-fr_adulte_carte_37_famine",
+    "title": "Famine",
     "cardSet": 5,
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/2/20/Fr-fr_adulte_carte_37_recto.png"
     },
-    "youtubeCode": "FfyI7LHroFk",
     "faceOfCc": "8moQDG78iqY",
-    "mooc": "",
     "backDescription": "Les famines peuvent être occasionnées par la baisse des rendements agricoles et la réduction de la biodiversité marine. ",
     "explanation": "",
     "notes": []
   },
   {
-    "id": 84,
+    "wikiId": 84,
     "cardNum": 38,
-    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_38_sant%C3%A9_humaine",
-    "wikiTitle": "Fr-fr adulte carte 38 santé humaine",
-    "shortTitle": "Santé humaine",
+    "wikiUrl": "/wiki/index.php?title=Fr-fr_adulte_carte_38_sant%C3%A9_humaine",
+    "title": "Santé humaine",
     "cardSet": 5,
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/b/bb/Fr-fr_adulte_carte_38_recto.png"
     },
-    "youtubeCode": "TNSNrEz4cGI",
     "faceOfCc": "8Wz5bj7r-dI",
-    "mooc": "",
     "backDescription": "Famines, déplacement des vecteurs de maladie, canicules et conflits armés peuvent affecter la santé humaine.",
     "explanation": "C'est l'une des cartes qui peut être placée en dernier, comme LA conséquence ultime.",
     "notes": []
   },
   {
-    "id": 86,
+    "wikiId": 86,
     "cardNum": 39,
-    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_39_r%C3%A9fugi%C3%A9s_climatiques",
-    "wikiTitle": "Fr-fr adulte carte 39 réfugiés climatiques",
-    "shortTitle": "Réfugiés climatiques",
+    "wikiUrl": "/wiki/index.php?title=Fr-fr_adulte_carte_39_r%C3%A9fugi%C3%A9s_climatiques",
+    "title": "Réfugiés climatiques",
     "cardSet": 5,
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/7/7e/Fr-fr_adulte_carte_39_recto.png"
     },
-    "youtubeCode": "He2tKBiumfU",
     "faceOfCc": "KhWuuoK_-BI",
-    "mooc": "",
     "backDescription": "Imaginez que vous vivez dans un endroit qui est miraculeusement épargné par le changement climatique. Quelques milliards d'humains risquent d'avoir très envie de le partager avec vous !!!",
     "explanation": "",
     "notes": []
   },
   {
-    "id": 88,
+    "wikiId": 88,
     "cardNum": 40,
-    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_40_conflits_arm%C3%A9s",
-    "wikiTitle": "Fr-fr adulte carte 40 conflits armés",
-    "shortTitle": "Conflits armés",
+    "wikiUrl": "/wiki/index.php?title=Fr-fr_adulte_carte_40_conflits_arm%C3%A9s",
+    "title": "Conflits armés",
     "cardSet": 5,
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/6/62/Fr-fr_adulte_carte_40_recto.png"
     },
-    "youtubeCode": "_gURpjNvlRc",
     "faceOfCc": "KzW-8WEXdSI",
-    "mooc": "",
     "backDescription": "C'est comme ça qu'il faudrait éviter que ça finisse...",
     "explanation": "C'est la carte qui est prévue pour être placée en dernier, comme le laisse entendre le texte. On est déjà en mesure de dire que le changement climatique a été l'une des causes de certains conflits comme au Rwanda ou en Syrie. Dans un monde qui subit l'ensemble des conséquences décrites dans ce jeu, il est difficile d'imaginer qu'on puisse éviter des conflits armés. En 2007, quand le GIEC a eu le Prix Nobel, c'était le Prix Nobel de la Paix. Et il y a de très bonnes raisons à ça.",
     "notes": []
   },
   {
-    "id": 90,
+    "wikiId": 90,
     "cardNum": 41,
-    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_41_permafrost",
-    "wikiTitle": "Fr-fr adulte carte 41 permafrost",
-    "shortTitle": "Permafrost",
+    "wikiUrl": "/wiki/index.php?title=Fr-fr_adulte_carte_41_permafrost",
+    "title": "Permafrost",
     "cardSet": 5,
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/9/98/Fr-fr_adulte_carte_41_recto.png"
     },
-    "youtubeCode": "T_9vgHZkx90",
     "faceOfCc": "0eXsD4C15KQ",
-    "mooc": "",
     "backDescription": "Le permafrost désigne le sol gelé en permanence. On constate qu’il commence à dégeler, relâchant dans l’air le méthane qui était emmagasiné sous terre. Au-delà de +2°C, ce phénomène risque de s’accélérer et il y a alors un fort risque d’emballement du dérèglement climatique.",
     "explanation": "Le permafrost, ou pergélisol en français, est un sol dont la température reste inférieur ou égale à 0°C pendant au moins deux années consécutives. Deux cartes ont été ajoutée après la carte n°40 : ce sont des boucles de rétroactions violentes potentielles, des 'bombes climatiques', qui si elles se déclenchent, nous font perdre définitivement le contrôle sur le climat. Les thermokarst sont de véritables bioréacteurs au cœur du processus de relargage du carbone gelé : Lorsque le pergélisol dégèle, des morceaux de sol se détachent et tombent dans l’eau, apportant nutriments et carbone aux bactéries et au plancton présents dans la mare, qui les dégradent en CO2 (dans les couches d’eau proches de la surface) et en méthane ou CH4 (dans le fond privé d’oxygène de la mare).",
     "notes": []
   },
   {
-    "id": 92,
+    "wikiId": 92,
     "cardNum": 42,
-    "url": "/wiki/index.php?title=Fr-fr_adulte_carte_42_hydrates_de_m%C3%A9thane",
-    "wikiTitle": "Fr-fr adulte carte 42 hydrates de méthane",
-    "shortTitle": "Hydrates de méthane",
+    "wikiUrl": "/wiki/index.php?title=Fr-fr_adulte_carte_42_hydrates_de_m%C3%A9thane",
+    "title": "Hydrates de méthane",
     "cardSet": 5,
     "img": {
       "url": "https://fresqueduclimat.org/wiki/images/a/ac/Fr-fr_adulte_carte_42_recto.png"
     },
-    "youtubeCode": "K4_cT6bkPXQ",
     "faceOfCc": "0KDUOKv2Qg8",
-    "mooc": "",
     "backDescription": "Les hydrates de méthanes (ou clathrates de méthane) sont une forme de glace posée au fond des océans, le long des talus continentaux, qui emprisonne des molécules de méthane. Ils peuvent devenir instables au-delà de +2°C.",
     "explanation": "Deux cartes ont été ajoutée après la carte n°40 : ce sont des boucles de rétroactions violentes potentielles, des 'bombes climatiques', qui si elles se déclenchent, nous font perdre définitivement le contrôle sur le climat. Les thermokarst sont de véritables bioréacteurs au cœur du processus de relargage du carbone gelé : Lorsque le pergélisol dégèle, des morceaux de sol se détachent et tombent dans l’eau, apportant nutriments et carbone aux bactéries et au plancton présents dans la mare, qui les dégradent en CO2 (dans les couches d’eau proches de la surface) et en méthane ou CH4 (dans le fond privé d’oxygène de la mare).",
     "notes": []

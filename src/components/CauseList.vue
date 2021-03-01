@@ -1,6 +1,6 @@
 <template>
   <div class="causes">
-    <Cause v-for="cause in causes" :key="cause.id" :cause="cause" />
+    <Cause v-for="cause in causes" :key="cause.cardNum" :cause="cause" />
   </div>
 </template>
 

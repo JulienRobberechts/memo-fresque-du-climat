@@ -1,4 +1,5 @@
 import cards from '@/data/cards.json';
+import cardsVideo from '@/data/cards-videos-fr.json';
 import links from '@/data/links.json';
 
 export default {
@@ -12,12 +13,23 @@ export default {
     }
     return card;
   },
+  getCardVideoCode(cardNum) {
+    const cardVideo = cardsVideo.find(
+      c => c.cardNum.toString() === cardNum.toString()
+    );
+    if (!cardVideo) {
+      throw new Error(`Card with num ${cardNum} not found in videos`);
+    }
+    return cardVideo.videoYoutubeCode;
+  },
   getCardDetails(cardNum) {
     const card = this.getCardData(cardNum);
     const links = this.getCardLinks(cardNum);
+    const videoYoutubeCode = this.getCardVideoCode(cardNum);
     return {
       ...card,
-      ...links
+      ...links,
+      videoYoutubeCode
     };
   },
   getCardLinks(cardNum) {
