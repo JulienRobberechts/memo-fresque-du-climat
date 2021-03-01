@@ -5,13 +5,7 @@
         class="yt-logo"
         src="@/assets/play-youtube.png"
         title="Fresqu'onfinée - vidéo en Français"
-        @click="toggleVideoFr"
-      />
-      <img
-        class="play-cc-logo"
-        src="@/assets/play-face-cc.png"
-        title="Faces of Climat Collage - vidéo en différentes langues"
-        @click="toggleVideoCc"
+        @click="showVideo = !showVideo"
       />
       <a
         :href="`https://fresqueduclimat.org${card.wikiUrl}`"
@@ -30,15 +24,13 @@
       v-if="!showVideo"
       :src="card.img.url"
       :title="card.title"
-      @click="toggleVideoFr"
+      @click="showVideo = !showVideo"
     />
     <div class="card-video-wrapper" v-if="showVideo">
       <iframe
         class="card-video"
         :src="
-          `https://www.youtube-nocookie.com/embed/${
-            videoVersionFr ? card.videoYoutubeCode : card.faceOfCc
-          }?vq=small`
+          `https://www.youtube-nocookie.com/embed/${card.videoYoutubeCode}?vq=small`
         "
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -151,14 +143,6 @@ export default {
     };
   },
   methods: {
-    toggleVideoCc() {
-      this.showVideo = !this.showVideo || this.videoVersionFr;
-      this.videoVersionFr = !this.showVideo && !this.videoVersionFr;
-    },
-    toggleVideoFr() {
-      this.showVideo = !this.showVideo || !this.videoVersionFr;
-      this.videoVersionFr = this.showVideo || this.videoVersionFr;
-    },
     getValidCauses() {
       return this.card.causes.filter(cause => cause.link.status === 'valid');
     },
@@ -230,14 +214,6 @@ export default {
   width: 1.8rem;
   height: 1.8rem;
   margin: 0 0.3rem;
-}
-.play-cc-logo {
-  width: 1.8rem;
-  height: 1.8rem;
-  margin: 0 0.3rem;
-}
-.play-cc-logo:hover {
-  transform: scale(1.1);
 }
 .yt-logo {
   width: 2rem;
