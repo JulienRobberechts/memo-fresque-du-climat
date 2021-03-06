@@ -2,7 +2,7 @@
   <div class="consequences">
     <Consequence
       v-for="consequence in consequences"
-      :key="consequence.id"
+      :key="consequence.cardNum"
       :consequence="consequence"
     />
   </div>

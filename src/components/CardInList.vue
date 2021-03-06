@@ -3,7 +3,7 @@
   <router-link
     :to="{ name: 'RouteCardDetails', params: { cardNum: card.cardNum } }"
   >
-    <img class="card-image" :src="card.img.url" :title="card.shortTitle" />
+    <img class="card-image" :src="card.img.url" :title="card.title" />
   </router-link>
 </template>
 

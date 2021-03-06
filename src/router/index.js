@@ -3,6 +3,8 @@ import AllCards from '@/views/AllCards.vue';
 import CardDetails from '@/views/CardDetails.vue';
 import About from '@/views/About.vue';
 import NotFound from '@/views/NotFound.vue';
+import { noScroll, scrollToCard, scrollToTop, scrollToHash } from './scroll';
+import { isLinkToCardDetail, isLinkBackToCardList } from './nav';
 
 const routes = [
   {
@@ -27,15 +29,24 @@ const routes = [
   }
 ];
 
-const scrollBehavior = to => {
-  // (to, from, savedPosition)
-  // console.log('scrollTop', document.documentElement.scrollTop);
-  // console.log('scrollBehavior', { to, from, savedPosition });
+const scrollBehavior = (to, from) => {
+  if (to.hash === '#top') {
+    return scrollToTop();
+  }
 
-  if (to.name === 'RouteCardDetails')
-    return {
-      top: 0
-    };
+  if (to.hash) {
+    return scrollToHash(to.hash);
+  }
+
+  if (isLinkToCardDetail(to, from)) {
+    return scrollToTop();
+  }
+
+  if (isLinkBackToCardList(to, from)) {
+    return scrollToCard(from.params.cardNum);
+  }
+
+  return noScroll;
 };
 
 const router = createRouter({
