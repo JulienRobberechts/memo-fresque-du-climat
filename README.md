@@ -23,11 +23,18 @@ Vous pouvez utiliser l'application:
 
 ### Sources de données
 
+#### Sources actuelles
+
 Les descriptions et explications des cartes et liens sont toutes issues à l'origine de l'une de ces 3 sources:
 
 - [Le wiki de la fresque du Climat](https://fresqueduclimat.org/wiki/index.php?title=Portail:Accueil)
 - [La correction Prezi](https://prezi.com/view/tJJYWcXs12lz9cXCngmH/)
 - [Le guide d'autoformation juin 2020](https://drive.google.com/file/d/11xAvR7Qg_sCK1wA97ybYtSfNBRTfvXmo/view)
+
+#### Source futur
+
+Mais toutes les données seront à terme dans le Wiki uniquement (et ceux en français ET en anglais).
+Le projet ['Climate Collage Wiki Scraping'](https://github.com/JulienRobberechts/climate-collage-wiki-scraping) a pour objectif d'extraire les données du wiki dans un format JSON afin de les importer dans le Memo. L'import sera donc automatique et pourra donc être fait souvent.
 
 ## Notes pour aux participants du projet
 
@@ -80,7 +87,14 @@ yarn lint
 
 C'est un prototype d'un outil de visualisation de la Fresque du climat.
 
-Les projets sont complémentaires et pourait être rassemblés à terme dans le même outils. (partagez vos idées sur [Telegram](https://t.me/memofdc))
+Les projets sont complémentaires et pourrait être rassemblés à terme dans le même outils. (partagez vos idées sur [Telegram](https://t.me/memofdc))
 - [repo github](https://github.com/Marc-AntoineA/collage-view/tree/master/src/assets/collages/climatecollage)
 - [site web](https://fresqueduclimat.marc-antoinea.fr/#/)
 
+## liens
+
+- [Site de La Fresque du Climat en Français](https://fresqueduclimat.org/)
+- [Site de La Fresque du Climat en anglais](https://climatecollage.org/)
+- [Wiki de La Fresque du Climat en Français](https://fresqueduclimat.org/wiki)
+- [Wiki de La Fresque du Climat en anglais](https://fresqueduclimat.org/wiki/en) (beta)
+- [Memo en français](https://memo-fresque-du-climat.onrender.com)
