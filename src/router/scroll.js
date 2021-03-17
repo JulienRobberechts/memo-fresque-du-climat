@@ -12,4 +12,4 @@ const scrollToHash = hash => ({
   el: hash
 });
 
-export { noScroll, scrollToCard, scrollToTop,scrollToHash };
+export { noScroll, scrollToCard, scrollToTop, scrollToHash };
