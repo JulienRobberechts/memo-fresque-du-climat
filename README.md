@@ -31,7 +31,7 @@ Les descriptions et explications des cartes et liens sont toutes issues à l'ori
 - [La correction Prezi](https://prezi.com/view/tJJYWcXs12lz9cXCngmH/)
 - [Le guide d'autoformation juin 2020](https://drive.google.com/file/d/11xAvR7Qg_sCK1wA97ybYtSfNBRTfvXmo/view)
 
-#### Source futur
+#### Source future
 
 Mais toutes les données seront à terme dans le Wiki uniquement (et ceux en français ET en anglais).
 Le projet ['Climate Collage Wiki Scraping'](https://github.com/JulienRobberechts/climate-collage-wiki-scraping) a pour objectif d'extraire les données du wiki dans un format JSON afin de les importer dans le Memo. L'import sera donc automatique et pourra donc être fait souvent.
