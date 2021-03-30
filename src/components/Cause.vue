@@ -49,8 +49,8 @@
       </p>
     </div>
   </div>
-  <div class="cause-explanation" v-if="!!cause.link.Explanation">
-    {{ cause.link.Explanation }}
+  <div class="cause-explanation" v-if="!!cause.link.explanation">
+    {{ cause.link.explanation }}
     <hr class="item-separator" />
   </div>
 </template>

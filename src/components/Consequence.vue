@@ -54,8 +54,8 @@
       </p>
     </div>
   </div>
-  <div class="consequence-explanation" v-if="!!consequence.link.Explanation">
-    {{ consequence.link.Explanation }}
+  <div class="consequence-explanation" v-if="!!consequence.link.explanation">
+    {{ consequence.link.explanation }}
     <hr class="item-separator" />
   </div>
 </template>
