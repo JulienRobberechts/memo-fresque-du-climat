@@ -880,11 +880,5 @@
     "toNum": 9,
     "status": "valid",
     "explanation": ""
-  },
-  {
-    "fromNum": 42,
-    "toNum": 14,
-    "status": "optional",
-    "explanation": "Si l'on veut rester dans la même logique de conservation de l'énergie, il faudrait faire le lien de fonte a partir de budget énergétique."
   }
 ]
