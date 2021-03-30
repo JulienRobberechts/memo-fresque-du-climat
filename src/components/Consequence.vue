@@ -4,7 +4,7 @@
       <router-link
         :to="{
           name: 'RouteCardDetails',
-          params: { cardNum: consequence.to.cardNum }
+          params: { cardNum: consequence.to.cardNum },
         }"
       >
         <img
@@ -64,17 +64,17 @@
 export default {
   name: 'Consequence',
   props: {
-    consequence: Object
+    consequence: Object,
   },
   methods: {
     getLinkStyle(classPrefix, linkStatus) {
       return {
         [classPrefix + 'valid']: linkStatus === 'valid',
         [classPrefix + 'optional']: linkStatus === 'optional',
-        [classPrefix + 'invalid']: linkStatus === 'invalid'
+        [classPrefix + 'invalid']: linkStatus === 'invalid',
       };
-    }
-  }
+    },
+  },
 };
 </script>
 
