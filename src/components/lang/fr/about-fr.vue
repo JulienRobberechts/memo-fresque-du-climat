@@ -6,7 +6,7 @@
     >
       <img
         class="memo-logo"
-        src="/img/memo-fr.png"
+        src="@/assets/lang/fr/memo-fr.png"
         alt="Memo du climat sur GitHub"
     /></a>
     <p>
