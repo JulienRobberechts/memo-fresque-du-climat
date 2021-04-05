@@ -10,10 +10,18 @@
         alt="Memo du climat sur GitHub"
     /></a>
     <p>
-      Le memo de la fresque du climat a pour but de proposer aux animateurs un
-      accès rapide aux cartes de la fresque (et particulièrement sur mobile).
+      <a href="https://fresqueduclimat.org/" target="_blank"
+        >La Fresque du Climat</a
+      >
+      est un atelier de sensibilisation où les participants co-construisent une
+      fresque résumant les mécanismes du changement climatique tels qu'expliqués
+      dans les rapports du GIEC.
     </p>
-
+    <p>
+      Le memo de la Fresque du Climat a pour but de proposer aux animateurs un
+      accès rapide aux cartes particulièrement sur mobile afin de réviser les
+      liens ou approfondir leurs connaissances.
+    </p>
     <p>
       Les descriptions et explications des cartes et liens sont toutes issues du
       <a href="https://fresqueduclimat.org/wiki" target="_blank"
@@ -21,9 +29,6 @@
       >
       et sont synchronisées régulièrement.
     </p>
-    <a href="https://fresqueduclimat.org/wiki" target="_blank"
-      >Le Wiki du Climat</a
-    >
     <div class="list-title">Autres sources de formation :</div>
     <div class="list">
       <ul>
@@ -44,7 +49,7 @@
 
     <p>
       Vous avez remarqué un bug ou vous avez une amélioration à proposer,
-      contactez-nous sur
+      contactez-nous sur le canal dédié sur
       <a href="https://t.me/memofdc" target="_blank">Telegram</a>.
     </p>
 
