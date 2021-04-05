@@ -4,18 +4,18 @@
       <img
         class="yt-logo"
         src="@/assets/play-youtube.png"
-        title="Fresqu'onfinée - vidéo en Français"
+        :title="$t('card.video-link-title')"
         @click="showVideo = !showVideo"
       />
       <a
-        :href="`https://fresqueduclimat.org${card.wikiUrl}`"
+        :href="`${$t('config.wiki-root-url')}${card.wikiUrl}`"
         target="_blank"
         class="wiki-link"
       >
         <img
           class="wiki-logo"
           src="@/assets/wiki.png"
-          title="Wiki de La Fresque du Climat"
+          :title="$t('card.wiki-link-title')"
         />
       </a>
     </div>
@@ -56,32 +56,32 @@
       </li>
     </ul>
     <ListTitle
-      nameSingular="Cause"
-      namePlural="Causes"
+      :nameSingular="$t('card.valid-cause')"
+      :namePlural="$t('card.valid-causes')"
       badgeStatus="valid"
       :items="validCauses"
     />
     <CauseList :causes="validCauses" />
 
     <ListTitle
-      nameSingular="Conséquence"
-      namePlural="Conséquences"
+      :nameSingular="$t('card.valid-consequence')"
+      :namePlural="$t('card.valid-consequences')"
       badgeStatus="valid"
       :items="validConsequences"
     />
     <ConsequenceList :consequences="validConsequences" />
 
     <ListTitle
-      nameSingular="Autre cause possible"
-      namePlural="Autres causes possibles"
+      :nameSingular="$t('card.optional-cause')"
+      :namePlural="$t('card.optional-causes')"
       badgeStatus="optional"
       :items="optionalCauses"
     />
     <CauseList v-if="optionalCauses.length > 0" :causes="optionalCauses" />
 
     <ListTitle
-      nameSingular="Autre conséquence possible"
-      namePlural="Autres conséquences possibles"
+      :nameSingular="$t('card.optional-consequence')"
+      :namePlural="$t('card.optional-consequences')"
       badgeStatus="optional"
       :items="optionalConsequences"
     />
@@ -91,16 +91,16 @@
     />
 
     <ListTitle
-      nameSingular="Cause à ne pas faire"
-      namePlural="Causes à ne pas faire"
+      :nameSingular="$t('card.invalid-cause')"
+      :namePlural="$t('card.invalid-causes')"
       badgeStatus="invalid"
       :items="invalidCauses"
     />
     <CauseList v-if="invalidCauses.length > 0" :causes="invalidCauses" />
 
     <ListTitle
-      nameSingular="Conséquence à ne pas faire"
-      namePlural="Conséquences à ne pas faire"
+      :nameSingular="$t('card.invalid-consequence')"
+      :namePlural="$t('card.invalid-consequences')"
       badgeStatus="invalid"
       :items="invalidConsequences"
     />
