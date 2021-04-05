@@ -1,3 +1,16 @@
 {
-  "all-cards": "Climat Collage cards"
+  "all-cards": "Climat Collage cards",
+  "menu": {
+    "cards": "Cards",
+    "info": "i"
+  },
+  "about": {
+    "github-link-alt": "Climate Collage Memo on GitHub",
+    "paragraph1": "The Climate Collage Memo aims to provide to facilitators a quick and easy access to the Climate Collage cards (especially on mobile).",
+    "paragraph2": "Cards and links descriptions and explanations are all coming from the Climate Collage Wiki and are synchronized on a regular basis.",
+    "wiki-link": "The Cl!mate Wiki",
+    "other-sources": "Autres sources pour se former :",
+    "prezi-link": null,
+    "self-learning-guide-link": "Le guide d'autoformation des animateurs de juin 2020",
+  }
 }
