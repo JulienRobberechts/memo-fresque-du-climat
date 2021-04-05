@@ -11,11 +11,11 @@ export default {
   name: 'CauseList',
   props: {
     title: { type: String, default: 'cause' },
-    causes: Object
+    causes: Object,
   },
   components: {
-    Cause
-  }
+    Cause,
+  },
 };
 </script>
 

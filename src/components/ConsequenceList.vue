@@ -16,11 +16,11 @@ export default {
   props: {
     title: {
       type: String,
-      default: 'conséquence'
+      default: 'conséquence',
     },
-    consequences: Object
+    consequences: Object,
   },
-  components: { Consequence }
+  components: { Consequence },
 };
 </script>
 

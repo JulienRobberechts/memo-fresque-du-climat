@@ -10,23 +10,23 @@ const routes = [
   {
     path: '/',
     name: 'RouteHome',
-    component: AllCards
+    component: AllCards,
   },
   {
     path: '/cartes/:cardNum',
     name: 'RouteCardDetails',
     props: true,
-    component: CardDetails
+    component: CardDetails,
   },
   {
     path: '/a-propos',
     name: 'RouteAbout',
-    component: About
+    component: About,
   },
   {
     path: '/:pathMatch(.*)*',
-    component: NotFound
-  }
+    component: NotFound,
+  },
 ];
 
 const scrollBehavior = (to, from) => {
@@ -52,7 +52,7 @@ const scrollBehavior = (to, from) => {
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
   routes,
-  scrollBehavior
+  scrollBehavior,
 });
 
 export default router;

@@ -22,7 +22,7 @@ export default {
   },
   getCardData(cardNum) {
     const card = this.getCardsForLang(lang).find(
-      c => c.cardNum.toString() === cardNum.toString()
+      (c) => c.cardNum.toString() === cardNum.toString()
     );
     if (!card) {
       throw new Error(`Card with num ${cardNum} not found`);
@@ -34,27 +34,27 @@ export default {
     const links = this.getCardLinks(cardNum);
     return {
       ...card,
-      ...links
+      ...links,
     };
   },
   getCardLinks(cardNum) {
     const causesCards = this.getLinksForLang(lang)
-      .filter(l => l.toNum.toString() === cardNum.toString())
-      .map(link => ({
+      .filter((l) => l.toNum.toString() === cardNum.toString())
+      .map((link) => ({
         from: this.getCardData(link.fromNum),
         to: this.getCardData(link.toNum),
-        link
+        link,
       }));
     const consequencesCards = this.getLinksForLang(lang)
-      .filter(l => l.fromNum.toString() === cardNum.toString())
-      .map(link => ({
+      .filter((l) => l.fromNum.toString() === cardNum.toString())
+      .map((link) => ({
         from: this.getCardData(link.fromNum),
         to: this.getCardData(link.toNum),
-        link
+        link,
       }));
     return {
       causes: causesCards,
-      consequences: consequencesCards
+      consequences: consequencesCards,
     };
-  }
+  },
 };

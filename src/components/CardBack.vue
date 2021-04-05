@@ -26,25 +26,25 @@ export default {
   props: {
     description: {
       type: String,
-      required: true
+      required: true,
     },
     cardNumber: {
       type: Number,
-      required: true
+      required: true,
     },
     setNumber: {
       type: Number,
-      required: true
-    }
+      required: true,
+    },
   },
   computed: {
     descriptionFontStyle() {
       const factor = 1 + (240 - this.description.length) * 0.002;
       return {
-        'font-size': `calc(min(4vw, 1.6rem) * ${factor})`
+        'font-size': `calc(min(4vw, 1.6rem) * ${factor})`,
       };
-    }
-  }
+    },
+  },
 };
 </script>
 
