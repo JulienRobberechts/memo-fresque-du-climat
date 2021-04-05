@@ -6,7 +6,7 @@
         <div class="card-num-digit">{{ cardNumber }}</div>
       </div>
       <div class="back-logo">
-        <img class="back-logo-img" src="@/assets/fresque-full.png" />
+        <img class="back-logo-img" src="@/assets/lang/fr/logo-full-fr.png" />
       </div>
     </div>
     <div class="back-description" :style="descriptionFontStyle">
