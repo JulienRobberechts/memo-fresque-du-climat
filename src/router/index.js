@@ -13,13 +13,13 @@ const routes = [
     component: AllCards,
   },
   {
-    path: '/cartes/:cardNum',
+    path: '/cards/:cardNum',
     name: 'RouteCardDetails',
     props: true,
     component: CardDetails,
   },
   {
-    path: '/a-propos',
+    path: '/about',
     name: 'RouteAbout',
     component: About,
   },
