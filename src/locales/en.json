@@ -1,10 +1,27 @@
 {
+  "config": {
+    "wiki-root-url": "https://fresqueduclimat.org"
+  },
   "all-cards": "Climat Collage cards",
   "menu": {
     "cards": "cards",
     "info": "i"
   },
   "card": {
-    "set": "set"
+    "set": "set",
+    "video-link-title": "video",
+    "wiki-link-title": "The Cl!mate Wiki",
+    "valid-cause": "Cause",
+    "valid-causes": "Causes",
+    "valid-consequence": "Consequence",
+    "valid-consequences": "Consequences",
+    "optional-cause": "Other possible cause",
+    "optional-causes": "Other possible causes",
+    "optional-consequence": "Other possible consequence",
+    "optional-consequences": "Other possible consequences",
+    "invalid-cause": "Wrong cause",
+    "invalid-causes": "Wrong causes",
+    "invalid-consequence": "Wrong consequence",
+    "invalid-consequences": "Wrong consequences"
   }
 }

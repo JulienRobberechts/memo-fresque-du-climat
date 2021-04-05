@@ -1,10 +1,27 @@
 {
+  "config": {
+    "wiki-root-url": "https://fresqueduclimat.org"
+  },
   "all-cards": "Cartes de la Fresque du climat",
   "menu": {
     "cards": "cartes",
     "info": "i"
   },
   "card": {
-    "set": "lot"
+    "set": "lot",
+    "video-title": "Fresqu'onfinée - vidéo en Français",
+    "wiki-link-title": "Le Wiki du Cl!mat",
+    "valid-cause": "Cause",
+    "valid-causes": "Causes",
+    "valid-consequence": "Conséquence",
+    "valid-consequences": "Conséquences",
+    "optional-cause": "Autre cause possible",
+    "optional-causes": "Autre causes possibles",
+    "optional-consequence": "Autre conséquence possible",
+    "optional-consequences": "Autres conséquences possibles",
+    "invalid-cause": "Cause à ne pas faire",
+    "invalid-causes": "Causes à ne pas faire",
+    "invalid-consequence": "Conséquence à ne pas faire",
+    "invalid-consequences": "Conséquences à ne pas faire"
   }
 }
