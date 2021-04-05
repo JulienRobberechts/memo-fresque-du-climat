@@ -6,7 +6,7 @@
     >
       <img
         class="memo-logo"
-        src="/img/memo-en.png"
+        src="@/assets/lang/en/memo-en.png"
         alt="Climate Collage Memo on GitHub"
     /></a>
 
