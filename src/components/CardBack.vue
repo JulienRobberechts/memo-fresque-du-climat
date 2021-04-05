@@ -6,7 +6,12 @@
         <div class="card-num-digit">{{ cardNumber }}</div>
       </div>
       <div class="back-logo">
-        <img class="back-logo-img" src="@/assets/lang/fr/logo-full-fr.png" />
+        <img
+          class="back-logo-img"
+          :src="
+            require(`@/assets/lang/${$i18n.locale}/logo-full-${$i18n.locale}.png`)
+          "
+        />
       </div>
     </div>
     <div class="back-description" :style="descriptionFontStyle">
@@ -14,7 +19,7 @@
     </div>
     <div class="footer">
       <div class="back-set-num" :class="`set${setNumber}`">
-        Lot {{ setNumber }}
+        <span> {{ $t('card.set') }} {{ setNumber }} </span>
       </div>
     </div>
   </div>
@@ -110,6 +115,7 @@ export default {
   color: #fff;
   padding: min(2vw, 0.7rem);
   font-size: min(4vw, 1.5rem);
+  text-transform: capitalize;
 }
 
 .set1 {
