@@ -1,5 +1,5 @@
 <template>
-  <h1>Cartes de la Fresque du climat</h1>
+  <h1>{{ $t('all-cards') }}</h1>
   <div class="cards">
     <CardInList v-for="card in cards" :key="card.cardNum" :card="card" />
   </div>
