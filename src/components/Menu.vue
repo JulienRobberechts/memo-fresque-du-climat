@@ -14,9 +14,18 @@
       <router-link class="fdc-link fdc-link-info" :to="{ name: 'RouteAbout' }"
         >i</router-link
       >
+      <LanguageSwitch />
     </div>
   </div>
 </template>
+<script>
+import LanguageSwitch from '@/components/LanguageSwitch';
+export default {
+  components: {
+    LanguageSwitch,
+  },
+};
+</script>
 <style>
 .menu {
   display: flex;
