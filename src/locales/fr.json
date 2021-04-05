@@ -3,14 +3,5 @@
   "menu": {
     "cards": "Cartes",
     "info": "i"
-  },
-  "about": {
-    "github-link-alt": "Memo du climat sur GitHub",
-    "paragraph1": "Le memo de la fresque du climat a pour but de proposer aux animateurs un accès rapide aux cartes de la fresque (et particulièrement sur mobile).",
-    "paragraph2": "Les descriptions et explications des cartes et liens sont toutes issues du Wiki du climat et sont synchronisées régulièrement.",
-    "wiki-link": "Le Wiki du Cl!mat",
-    "other-sources": "Autres sources pour se former :",
-    "prezi-link": "La correction de la fresque du Climat sur Prezi",
-    "self-learning-guide-link": "Le guide d'autoformation des animateurs de juin 2020"
   }
 }
