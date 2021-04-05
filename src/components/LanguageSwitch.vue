@@ -10,9 +10,15 @@
 
 <script>
 export default {
-  name: 'locale-changer',
+  name: 'LanguageSwitch',
   data() {
     return { langs: ['en', 'fr'] };
   },
 };
 </script>
+<style scoped>
+.locale-changer {
+  /* hide the component until we get 2 languages */
+  display: none;
+}
+</style>
