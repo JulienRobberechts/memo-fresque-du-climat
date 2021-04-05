@@ -1,11 +1,15 @@
-import cardsFr from '@/data/cards-fr.json';
-import linksFr from '@/data/links-fr.json';
+import cardsFr from '@/data/fr/cards-fr.json';
+import linksFr from '@/data/fr/links-fr.json';
+import cardsEn from '@/data/en/cards-en.json';
+import linksEn from '@/data/en/links-en.json';
 
-const lang = 'fr';
+// const lang = 'fr';
 
 export default {
   getCardsForLang(lang) {
     switch (lang) {
+      case 'en':
+        return cardsEn;
       case 'fr':
         return cardsFr;
       default:
@@ -14,13 +18,15 @@ export default {
   },
   getLinksForLang(lang) {
     switch (lang) {
+      case 'en':
+        return linksEn;
       case 'fr':
         return linksFr;
       default:
         throw new Error(`The language code '${lang}' is not supported`);
     }
   },
-  getCardData(cardNum) {
+  getCardData(cardNum, lang = 'fr') {
     const card = this.getCardsForLang(lang).find(
       (c) => c.cardNum.toString() === cardNum.toString()
     );
@@ -29,15 +35,7 @@ export default {
     }
     return card;
   },
-  getCardDetails(cardNum) {
-    const card = this.getCardData(cardNum);
-    const links = this.getCardLinks(cardNum);
-    return {
-      ...card,
-      ...links,
-    };
-  },
-  getCardLinks(cardNum) {
+  getCardLinks(cardNum, lang = 'fr') {
     const causesCards = this.getLinksForLang(lang)
       .filter((l) => l.toNum.toString() === cardNum.toString())
       .map((link) => ({
@@ -55,6 +53,14 @@ export default {
     return {
       causes: causesCards,
       consequences: consequencesCards,
+    };
+  },
+  getCardDetails(cardNum, lang = 'fr') {
+    const card = this.getCardData(cardNum, lang);
+    const links = this.getCardLinks(cardNum, lang);
+    return {
+      ...card,
+      ...links,
     };
   },
 };
