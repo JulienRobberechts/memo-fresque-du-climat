@@ -69,7 +69,7 @@
 
     <p>
       If you noticed some bugs or have improvements to suggest contact us in
-      <a href="https://t.me/memofdc" target="_blank">Télégram</a>.
+      <a href="https://t.me/memofdc" target="_blank">Telegram</a>.
     </p>
 
     <div class="footer">

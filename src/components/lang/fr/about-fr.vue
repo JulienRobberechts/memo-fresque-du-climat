@@ -45,7 +45,7 @@
     <p>
       Vous avez remarqué un bug ou vous avez une amélioration à proposer,
       contactez-nous sur
-      <a href="https://t.me/memofdc" target="_blank">Télégram</a>.
+      <a href="https://t.me/memofdc" target="_blank">Telegram</a>.
     </p>
 
     <div class="footer">
