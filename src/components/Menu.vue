@@ -8,11 +8,13 @@
       /></router-link>
     </div>
     <div class="menu-right">
-      <router-link class="fdc-link" :to="{ name: 'RouteHome' }"
-        >Cartes</router-link
-      >
-      <router-link class="fdc-link fdc-link-info" :to="{ name: 'RouteAbout' }"
-        >i</router-link
+      <router-link class="fdc-link" :to="{ name: 'RouteHome' }">{{
+        $t('menu.cards')
+      }}</router-link>
+      <router-link
+        class="fdc-link fdc-link-info"
+        :to="{ name: 'RouteAbout' }"
+        >{{ $t('menu.info') }}</router-link
       >
       <LanguageSwitch />
     </div>
