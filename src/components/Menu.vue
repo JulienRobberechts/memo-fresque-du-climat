@@ -4,7 +4,7 @@
       <router-link
         class="fdc-link-logo"
         :to="{ name: 'RouteHome', hash: '#top' }"
-        ><img class="main-logo" src="@/assets/fresque-full.png"
+        ><img class="main-logo" src="@/assets/lang/fr/logo-full-fr.png"
       /></router-link>
     </div>
     <div class="menu-right">
@@ -20,6 +20,7 @@
 </template>
 <script>
 import LanguageSwitch from '@/components/LanguageSwitch';
+
 export default {
   components: {
     LanguageSwitch,
