@@ -11,8 +11,8 @@
 export default {
   name: 'CardInList',
   props: {
-    card: Object
-  }
+    card: Object,
+  },
 };
 </script>
 

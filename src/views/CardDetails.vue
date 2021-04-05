@@ -15,13 +15,13 @@ export default {
   name: 'CardDetails',
   props: ['cardNum'],
   components: {
-    CardView
+    CardView,
   },
   computed: {
-    card: function() {
+    card: function () {
       return CardsService.getCardDetails(this.cardNum);
-    }
-  }
+    },
+  },
 };
 </script>
 

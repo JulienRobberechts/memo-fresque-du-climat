@@ -67,9 +67,9 @@ import packageFile from '../../package.json';
 export default {
   data() {
     return {
-      version: packageFile.version
+      version: packageFile.version,
     };
-  }
+  },
 };
 </script>
 <style scoped>

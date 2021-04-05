@@ -13,16 +13,16 @@ import CardsService from '@/services/CardsService';
 export default {
   name: 'AllCards',
   components: {
-    CardInList
+    CardInList,
   },
   data() {
     return {
-      cards: null
+      cards: null,
     };
   },
   created() {
     this.cards = CardsService.getCardsForLang('fr');
-  }
+  },
 };
 </script>
 <style scoped>

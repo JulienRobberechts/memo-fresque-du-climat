@@ -20,17 +20,17 @@ export default {
     namePlural: String,
     withBadge: { type: Boolean, default: true },
     badgeStatus: String,
-    items: Object
+    items: Object,
   },
   methods: {
     getLinkStyle(classPrefix, linkStatus) {
       return {
         [classPrefix + 'valid']: linkStatus === 'valid',
         [classPrefix + 'optional']: linkStatus === 'optional',
-        [classPrefix + 'invalid']: linkStatus === 'invalid'
+        [classPrefix + 'invalid']: linkStatus === 'invalid',
       };
-    }
-  }
+    },
+  },
 };
 </script>
 

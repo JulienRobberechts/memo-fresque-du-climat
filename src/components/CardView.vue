@@ -29,9 +29,7 @@
     <div class="card-video-wrapper" v-if="showVideo">
       <iframe
         class="card-video"
-        :src="
-          `https://www.youtube-nocookie.com/embed/${card.videoYoutubeCode}?vq=small`
-        "
+        :src="`https://www.youtube-nocookie.com/embed/${card.videoYoutubeCode}?vq=small`"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
@@ -122,54 +120,54 @@ import CardBack from '@/components/CardBack.vue';
 export default {
   name: 'CardView',
   props: {
-    card: Object
+    card: Object,
   },
   components: {
     ListTitle,
     CardBack,
     CauseList,
-    ConsequenceList
+    ConsequenceList,
   },
   data() {
     return {
-      showVideo: false
+      showVideo: false,
     };
   },
   computed: {
-    validCauses: function() {
-      return this.card.causes.filter(cause => cause.link.status === 'valid');
+    validCauses: function () {
+      return this.card.causes.filter((cause) => cause.link.status === 'valid');
     },
-    validConsequences: function() {
+    validConsequences: function () {
       return this.card.consequences.filter(
-        consequence => consequence.link.status === 'valid'
+        (consequence) => consequence.link.status === 'valid'
       );
     },
-    optionalCauses: function() {
+    optionalCauses: function () {
       return this.card.causes
-        .filter(cause => cause.link.status === 'optional')
+        .filter((cause) => cause.link.status === 'optional')
         .sort((a, b) => a.from.cardNum - b.from.cardNum);
     },
-    optionalConsequences: function() {
+    optionalConsequences: function () {
       return this.card.consequences
-        .filter(consequence => consequence.link.status === 'optional')
+        .filter((consequence) => consequence.link.status === 'optional')
         .sort((a, b) => a.to.cardNum - b.to.cardNum);
     },
-    invalidCauses: function() {
+    invalidCauses: function () {
       return this.card.causes
-        .filter(cause => cause.link.status === 'invalid')
+        .filter((cause) => cause.link.status === 'invalid')
         .sort((a, b) => a.from.cardNum - b.from.cardNum);
     },
-    invalidConsequences: function() {
+    invalidConsequences: function () {
       return this.card.consequences
-        .filter(consequence => consequence.link.status === 'invalid')
+        .filter((consequence) => consequence.link.status === 'invalid')
         .sort((a, b) => a.to.cardNum - b.to.cardNum);
-    }
+    },
   },
   watch: {
-    card: function() {
+    card: function () {
       this.showVideo = false;
-    }
-  }
+    },
+  },
 };
 </script>
 
