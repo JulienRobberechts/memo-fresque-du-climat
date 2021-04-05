@@ -4,7 +4,7 @@
       <router-link
         class="fdc-link-logo"
         :to="{ name: 'RouteHome', hash: '#top' }"
-        ><img class="main-logo" src="@/assets/lang/fr/logo-full-fr.png"
+        ><img class="main-logo" :src="logoPath"
       /></router-link>
     </div>
     <div class="menu-right">
@@ -26,6 +26,12 @@ import LanguageSwitch from '@/components/LanguageSwitch';
 export default {
   components: {
     LanguageSwitch,
+  },
+  computed: {
+    logoPath() {
+      console.log('ddd', this.$i18n.locale);
+      return require(`@/assets/lang/${this.$i18n.locale}/logo-full-${this.$i18n.locale}.png`);
+    },
   },
 };
 </script>
