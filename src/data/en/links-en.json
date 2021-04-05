@@ -1,0 +1,884 @@
+[
+  {
+    "fromNum": 1,
+    "toNum": 2,
+    "status": "valid",
+    "explanation": "[EN]"
+  },
+  {
+    "fromNum": 1,
+    "toNum": 3,
+    "status": "valid",
+    "explanation": "[EN]"
+  },
+  {
+    "fromNum": 1,
+    "toNum": 4,
+    "status": "valid",
+    "explanation": "[EN]"
+  },
+  {
+    "fromNum": 1,
+    "toNum": 8,
+    "status": "valid",
+    "explanation": "[EN]"
+  },
+  {
+    "fromNum": 1,
+    "toNum": 6,
+    "status": "optional",
+    "explanation": "[EN]La déforestation peut être considérée comme une activité humaine ou comme une conséquence de l'agriculture ou les deux."
+  },
+  {
+    "fromNum": 1,
+    "toNum": 25,
+    "status": "optional",
+    "explanation": "[EN]L'être humain occupe presque tout l'espace disponible sur terre, ne laissant aucune place aux animaux et aux plantes. C'est ce qu'on appelle la disparition des habitats naturels et c'est la principale cause de perte de biodiversité aujourd'hui, bien devant les causes climatiques."
+  },
+  {
+    "fromNum": 1,
+    "toNum": 27,
+    "status": "optional",
+    "explanation": "[EN]Par ce lien, on exprime toutes les dégradations que l'être humain est capable d'infliger à la vie marine comme la pollution au plastique et la sur-pêche. C'est hors-sujet par rapport au changement climatique, mais c'est intéressant de faire le lien quand-même."
+  },
+  {
+    "fromNum": 2,
+    "toNum": 5,
+    "status": "valid",
+    "explanation": "[EN]"
+  },
+  {
+    "fromNum": 2,
+    "toNum": 10,
+    "status": "valid",
+    "explanation": "[EN]"
+  },
+  {
+    "fromNum": 2,
+    "toNum": 6,
+    "status": "optional",
+    "explanation": "[EN]Ce lien est possible pour les industries qui consomment du bois. Cependant, il faut faire attention, du bois utilisé par une usine dans une forêt gérée durablement n'est pas considéré comme de la déforestation."
+  },
+  {
+    "fromNum": 2,
+    "toNum": 9,
+    "status": "optional",
+    "explanation": "[EN]En réalité, l'industrie est responsable d'autant d'émissions de méthanes que l'agriculture à cause des émissions fugitives (les fuites de gaz naturels dans les pipelines). C'est un point qui est peu connu, donc cette relation n'est pas considérée comme incontournable. L'industrie émet également des HFC (fluides réfrigérants)."
+  },
+  {
+    "fromNum": 3,
+    "toNum": 5,
+    "status": "valid",
+    "explanation": "[EN]"
+  },
+  {
+    "fromNum": 3,
+    "toNum": 6,
+    "status": "optional",
+    "explanation": "[EN]On pourrait dire que le chauffage au bois des bâtiments est responsable de déforestation mais ce n'est pas significatif. On pourrait dire que l'espace utilisé pour les bâtiments pousse à la déforestation mais ce n'est pas le même ordre de grandeur. L'agriculture est la cause principale de la déforestation bien avant les bâtiments."
+  },
+  {
+    "fromNum": 3,
+    "toNum": 10,
+    "status": "optional",
+    "explanation": "[EN]Les bâtiments émettent peu d'aérosols de manière directe. Les seules émissions significatives sont les feux de cheminée. A Chamonix, 85% des particules fines présentes dans l'atmosphère proviennent de chauffage au bois. De manière indirecte, via la production d'électricité, il y a bien émissions de particules."
+  },
+  {
+    "fromNum": 3,
+    "toNum": 26,
+    "status": "optional",
+    "explanation": "[EN]L'artificialisation des sols est également responsable d'inondations car le sol n'est plus drainant."
+  },
+  {
+    "fromNum": 4,
+    "toNum": 5,
+    "status": "valid",
+    "explanation": "[EN]"
+  },
+  {
+    "fromNum": 4,
+    "toNum": 10,
+    "status": "valid",
+    "explanation": "[EN]La pollution locale que représentent les échappements des voitures est une motivation forte pour pousser la voiture électrique. Or cette dernière est responsable d'émissions dûes à la génération de l'électricité elle-même (selon le mix électrique du pays considéré)."
+  },
+  {
+    "fromNum": 4,
+    "toNum": 6,
+    "status": "optional",
+    "explanation": "[EN]La construction de route nécessite parfois de déforester, mais l'aspect unidimensionnelle de la route la rend quasiment négligeable devant la déforestation lié à l'agriculture."
+  },
+  {
+    "fromNum": 5,
+    "toNum": 7,
+    "status": "valid",
+    "explanation": "[EN]"
+  },
+  {
+    "fromNum": 5,
+    "toNum": 1,
+    "status": "optional",
+    "explanation": "[EN]On peut se demander si les activités humaines consomment des énergies fossiles ou si les énergies fossiles permettent les activités humaines. Ce débat ne doit pas prendre de temps et on peut regrouper les deux cartes au besoin. Quand je chante dans mon jardin, je réalise une activité humaine sans énergie fossile. Quand les moulins à vent ou à eau produisaient de la farine, ils n'utilisaient pas d'énergie fossile. Il reste, heureusement de nombreuses activités humaines sans énergie fossile."
+  },
+  {
+    "fromNum": 5,
+    "toNum": 27,
+    "status": "optional",
+    "explanation": "[EN]La marée noire qu'a provoqué le naufrage du supertanker l'Amoco Cadiz est un exemple de lien entre énergie fossile et biodiversité."
+  },
+  {
+    "fromNum": 5,
+    "toNum": 40,
+    "status": "optional",
+    "explanation": "[EN]Bien que des conflits peuvent avoir lieu à cause des ressources, ce n'est pas directement causer par une perturbation du climat, mais un appauvrissement des ressources. La relation peut-être fait, mais elle est plus politique que climatique."
+  },
+  {
+    "fromNum": 6,
+    "toNum": 7,
+    "status": "valid",
+    "explanation": "[EN]La déforestation émet du CO2 car 93% du bois déforesté par l'homme est brûlé."
+  },
+  {
+    "fromNum": 6,
+    "toNum": 12,
+    "status": "optional",
+    "explanation": "[EN]Les participants pensent souvent que la déforestation réduit les puits de carbone. En réalité, l'impact est minime car les zones déforestées représentent une toute petite partie de la surface totale de forêt. De plus, une forêt à l'équilibre n'absorbe plus de carbone. Or, on déforeste souvent des forêts à l'équilibre, ce qui n'impacte pas les puits de carbone. Par contre le CO2 dégagé est très important."
+  },
+  {
+    "fromNum": 6,
+    "toNum": 15,
+    "status": "optional",
+    "explanation": "[EN]Quand la forêt est coupée, une surface vert foncé est remplacée par une surface vert clair, qui à un albédo plus élevé, donc absorbe moins d'énergie."
+  },
+  {
+    "fromNum": 6,
+    "toNum": 20,
+    "status": "optional",
+    "explanation": "[EN]La déforestation peut avoir des conséquences locales sur le régime des pluies."
+  },
+  {
+    "fromNum": 6,
+    "toNum": 25,
+    "status": "optional",
+    "explanation": "[EN]La déforestation cause énormément de perte de biodiversité : Animale car la forêt est un hôte de beaucoup d'espèce. L'indice de biodiversité des forêts a chuté de 53% entre 1970 et 2014. Végétale car sur les 60 000 espèces d'arbres connus, 8000 sont considérées comme menacés."
+  },
+  {
+    "fromNum": 6,
+    "toNum": 26,
+    "status": "optional",
+    "explanation": "[EN]La végétation retiens l'eau. Si on la coupe, ça facilite les crues."
+  },
+  {
+    "fromNum": 6,
+    "toNum": 30,
+    "status": "optional",
+    "explanation": "[EN]La déforestation peut être la cause directe de sécheresses car les arbres stockent beaucoup d'eau. Si on les coupe, ils ne jouent plus ce rôle de régulateurs de l'humidité."
+  },
+  {
+    "fromNum": 6,
+    "toNum": 35,
+    "status": "optional",
+    "explanation": "[EN]Une partie de la déforestation est faite en brûlant la forêt qui peut ensuite dégénérer en feu non-maîtrisé. C'est ce qu'il s'est passé pendant l'été 2019 en Amazonie et en Australie."
+  },
+  {
+    "fromNum": 7,
+    "toNum": 12,
+    "status": "valid",
+    "explanation": "[EN]"
+  },
+  {
+    "fromNum": 7,
+    "toNum": 11,
+    "status": "invalid",
+    "explanation": "[EN]Il faut plutôt faire un lien via la carte 12 Puits de Carbone."
+  },
+  {
+    "fromNum": 7,
+    "toNum": 24,
+    "status": "invalid",
+    "explanation": "[EN]Il faut plutôt faire un lien via la carte 12 Puits de Carbone."
+  },
+  {
+    "fromNum": 8,
+    "toNum": 6,
+    "status": "valid",
+    "explanation": "[EN]"
+  },
+  {
+    "fromNum": 8,
+    "toNum": 9,
+    "status": "valid",
+    "explanation": "[EN]"
+  },
+  {
+    "fromNum": 8,
+    "toNum": 5,
+    "status": "optional",
+    "explanation": "[EN]L'agriculture n'utilise pas beaucoup d'énergies fossiles. Tout juste un peu d'essence pour mettre dans les tracteurs. Attention, ça ne veut pas dire qu'elle n'a pas une empreinte carbone importante, mais c'est surtout du méthane et du protoxyde d'azote (lire les cartes 8 et 9)."
+  },
+  {
+    "fromNum": 8,
+    "toNum": 7,
+    "status": "optional",
+    "explanation": "[EN]L'agriculture émet peu de CO2 à part à travers la déforestation. Son empreinte carbone est surtout dûe aux autres GES."
+  },
+  {
+    "fromNum": 8,
+    "toNum": 10,
+    "status": "optional",
+    "explanation": "[EN]Dans l'absolu, c'est vrai : les épandages font des aérosols qui entrent en ligne de compte dans les pollutions locales aux alentours, mais c'est beaucoup moins important que la combustion incomplète des centrales thermiques."
+  },
+  {
+    "fromNum": 8,
+    "toNum": 12,
+    "status": "optional",
+    "explanation": "[EN]Ce n'est pas grave si ce lien n'est pas fait, mais il est vrai que l'agriculture peut améliorer la capacité de stockage via la photosynthèse. C'est le principe des 4 pour 1000 (si on augmentait ne serait-ce que de 4/1000 la capacité du sol à séquestrer du carbone, on aurait un impact important sur le CO2)."
+  },
+  {
+    "fromNum": 8,
+    "toNum": 25,
+    "status": "optional",
+    "explanation": "[EN]On pense ici surtout aux pesticides (notamment au round-up ou aux néonicotinoïdes). Pas de lien avec le climat, mais relation intéressante à faire."
+  },
+  {
+    "fromNum": 9,
+    "toNum": 13,
+    "status": "valid",
+    "explanation": "[EN]Le E et le S de la carte 'Autres GES' sont à mettre en lien avec Effet de Serre."
+  },
+  {
+    "fromNum": 10,
+    "toNum": 15,
+    "status": "valid",
+    "explanation": "[EN]Ce qui est expliqué au dos de la carte 10 et dans la nouvelle version de la carte 15 (> oct 2018) : Les aérosols refroidissent le climat. Voir les fiches thématiques sur les aérosols et sur le forçage radiatif."
+  },
+  {
+    "fromNum": 10,
+    "toNum": 38,
+    "status": "valid",
+    "explanation": "[EN]Bien que les aérosols ne soient pas les seuls à rentrer dans la catégorie \"Particule fines\", chaque année, 391 000 personnes dans les pays de l'UE décèdent de la pollution de l'air, et elle cause 1.1 millions décès prématurés en Inde et en Chine."
+  },
+  {
+    "fromNum": 11,
+    "toNum": 13,
+    "status": "valid",
+    "explanation": "[EN]"
+  },
+  {
+    "fromNum": 11,
+    "toNum": 12,
+    "status": "invalid",
+    "explanation": "[EN]On peut argumenter que les émissions de CO2 ont eu lieu dans l'atmosphère avant d'aller dans les puits de carbones. Ce lien est défendable. Mais l'idée était plutôt de faire un lien dans l'autre sens."
+  },
+  {
+    "fromNum": 11,
+    "toNum": 24,
+    "status": "invalid",
+    "explanation": "[EN]On retrouve souvent comme origine de cette carte concentration en CO2 (ppm). Hors, toute molécule qui se retrouve dans l'océan ne se retrouve pas dans l'atmosphère, et donc le lien le plus logique provient de la carte puits de carbone"
+  },
+  {
+    "fromNum": 12,
+    "toNum": 11,
+    "status": "valid",
+    "explanation": "[EN]"
+  },
+  {
+    "fromNum": 12,
+    "toNum": 24,
+    "status": "valid",
+    "explanation": "[EN]Le mot Océan est écrit des deux côtés."
+  },
+  {
+    "fromNum": 12,
+    "toNum": 32,
+    "status": "optional",
+    "explanation": "[EN]Des études ont montré que les rendements augmentent avec de l'augmentation du CO2, mais que la teneur en éléments nutritifs des légumes s'en trouve réduite. En effet, les oligo-éléments ne sont pas plus abondants sous prétexte que les rendements augmentent."
+  },
+  {
+    "fromNum": 12,
+    "toNum": 14,
+    "status": "invalid",
+    "explanation": "[EN]Le but n'est pas ici de dire qu'il n'y a pas de lien de cause à effet entre ces deux cartes, mais d'alerter sur le risque de les confondre. La première (Puits de carbone), nous dit où va le carbone. La deuxième (Budget énergétique) nous dit où va l'énergie en excès sur la Terre. Les deux notions sont proches (dans les deux cas, c'est un dispatching), mais ne concernent pas la même chose : d'un côté, le carbone, de l'autre, l'énergie. Ce qui contribue encore plus à faire la confusion, c'est que l'atmosphère et l'océan sont présents des deux côtés."
+  },
+  {
+    "fromNum": 13,
+    "toNum": 15,
+    "status": "valid",
+    "explanation": "[EN]Le mot Effet de serre est écrit des deux cotés (version > Oct 2018)."
+  },
+  {
+    "fromNum": 14,
+    "toNum": 16,
+    "status": "valid",
+    "explanation": "[EN]"
+  },
+  {
+    "fromNum": 14,
+    "toNum": 17,
+    "status": "valid",
+    "explanation": "[EN]"
+  },
+  {
+    "fromNum": 14,
+    "toNum": 18,
+    "status": "valid",
+    "explanation": "[EN]"
+  },
+  {
+    "fromNum": 14,
+    "toNum": 19,
+    "status": "valid",
+    "explanation": "[EN]"
+  },
+  {
+    "fromNum": 14,
+    "toNum": 21,
+    "status": "valid",
+    "explanation": "[EN]Il est précisé au dos de la carte qu'il s'agit de la température de l'air."
+  },
+  {
+    "fromNum": 14,
+    "toNum": 41,
+    "status": "optional",
+    "explanation": "[EN]Si l'on veut rester dans la même logique de conservation de l'énergie, il faudrait faire le lien de fonte a partir de budget énergétique. Cependant pour des raisons pratiques, on peut préférer faire le lien à partir de la hausse de la température."
+  },
+  {
+    "fromNum": 14,
+    "toNum": 42,
+    "status": "optional",
+    "explanation": "[EN]Si l'on veut rester dans la même logique de conservation de l'énergie, il faudrait faire le lien de fonte a partir de budget énergétique. Cependant pour des raisons pratiques, on peut préférer faire le lien à partir de la hausse de la température."
+  },
+  {
+    "fromNum": 15,
+    "toNum": 14,
+    "status": "valid",
+    "explanation": "[EN]"
+  },
+  {
+    "fromNum": 16,
+    "toNum": 22,
+    "status": "valid",
+    "explanation": "[EN]Une fonte de 100 gigatonnes de glace par an équivaut à environ 0,28 mm par an d’élévation du niveau moyen des mers. Ainsi l'élévation du niveau de la mer est liée de 15 à 35% à la fonte des glaciers, selon les scénarios du GIEC. Le reste est liée de 30% à 35% à la dilatation de l'eau, ainsi qu'à la fonte des calottes glaciaires."
+  },
+  {
+    "fromNum": 16,
+    "toNum": 31,
+    "status": "valid",
+    "explanation": "[EN]La fonte des glaciers menace l'approvisionnement en eau. En effet, l'importance relative des eaux de fonte des glaciers en été peut être considérable, contribuant par exemple à 25% des débits d'août dans les bassins drainant les Alpes européennes, avec une superficie d'environ 105 km2 et seulement 1% de couverture glaciaire. Leur disparition pourrait être catastrophique pour des villes situées dans les vallées arrosées par les rivières descendant des montagnes environnantes et pour la faune d'eau douce. L'eau de fonte des glaciers augmente également en importance pendant les sécheresses et les vagues de chaleur."
+  },
+  {
+    "fromNum": 16,
+    "toNum": 26,
+    "status": "optional",
+    "explanation": "[EN]Il est possible, dans certaines circonstances de forte chaleur, que la fonte trop rapide des glaciers provoque des crues. Mais le vrai sujet de préoccupation à propos des ces glaciers, c'est le fait qu'ils disparaissent progressivement, privant l'irrigation en aval d'un appoint d'eau en été."
+  },
+  {
+    "fromNum": 17,
+    "toNum": 20,
+    "status": "valid",
+    "explanation": "[EN]"
+  },
+  {
+    "fromNum": 17,
+    "toNum": 22,
+    "status": "valid",
+    "explanation": "[EN]"
+  },
+  {
+    "fromNum": 17,
+    "toNum": 27,
+    "status": "valid",
+    "explanation": "[EN]"
+  },
+  {
+    "fromNum": 17,
+    "toNum": 34,
+    "status": "valid",
+    "explanation": "[EN]"
+  },
+  {
+    "fromNum": 17,
+    "toNum": 42,
+    "status": "valid",
+    "explanation": "[EN]Si l'on veut rester dans la même logique de conservation de l'énergie, il faudrait faire le lien de fonte a partir de budget énergétique."
+  },
+  {
+    "fromNum": 17,
+    "toNum": 24,
+    "status": "invalid",
+    "explanation": "[EN]La hausse de la température de l'eau n'a aucun lien avec l'acidification de l'océan, du moins à court terme. A plus long terme (sur plusieurs centaines d'années), en se réchauffant, l'océan perd sa capacité à dissoudre le CO2 atmosphérique. Le puits océan perd donc de son efficacité au fur et à mesure que l'océan se réchauffe. La hausse de la température de l'eau a donc un effet sur l'acidification, inhibiteur en l'occurrence."
+  },
+  {
+    "fromNum": 18,
+    "toNum": 15,
+    "status": "optional",
+    "explanation": "[EN]Quand la banquise fond, une surface blanche est remplacé par une surface bleu marine, qui à un albédo plus faible, donc absorbe plus d'énergie. Cette relation n'est pas indispensable mais permet de mettre en avant une autre boucle de rétro-action du jeu."
+  },
+  {
+    "fromNum": 18,
+    "toNum": 25,
+    "status": "optional",
+    "explanation": "[EN]Eh oui, le pauvre ours polaire, emblématique du changement climatique... Il ne s’agit pas d’un phénomène tellement significatif sur l'équilibre de la biodiversité terrestre, mais si les participants font ce lien, proposez-leur de dessiner un ours! ;-)."
+  },
+  {
+    "fromNum": 18,
+    "toNum": 27,
+    "status": "optional",
+    "explanation": "[EN]Il va forcément y avoir un impact..."
+  },
+  {
+    "fromNum": 18,
+    "toNum": 13,
+    "status": "invalid",
+    "explanation": "[EN]Il y a ici confusion avec l’effet d’amplification dû à l’albédo. La banquise blanche qui fond laisse place à une surface beaucoup plus foncée et l'énergie absorbée réchauffe la terre. Ce mécanisme est appelé albédo et n’a rien à voir avec l’effet de serre. Ça joue sur les flèches oranges de la carte 13 et non sur les flèches rouges."
+  },
+  {
+    "fromNum": 18,
+    "toNum": 20,
+    "status": "invalid",
+    "explanation": "[EN]La fonte de la banquise arctique, mais également la fonte des glaciers du Groenland peuvent amener, dans un futur lointain, à perturber la circulation thermohaline (qui donne le Gulf Stream). Mais attention, la carte \"Cycle de l'eau\" ne fait pas du tout référence à la Circulation thermohaline."
+  },
+  {
+    "fromNum": 18,
+    "toNum": 22,
+    "status": "invalid",
+    "explanation": "[EN]La fonte de la banquise n'est pas responsable de la montée des eaux."
+  },
+  {
+    "fromNum": 19,
+    "toNum": 22,
+    "status": "valid",
+    "explanation": "[EN]"
+  },
+  {
+    "fromNum": 20,
+    "toNum": 25,
+    "status": "valid",
+    "explanation": "[EN]"
+  },
+  {
+    "fromNum": 20,
+    "toNum": 26,
+    "status": "valid",
+    "explanation": "[EN]"
+  },
+  {
+    "fromNum": 20,
+    "toNum": 30,
+    "status": "valid",
+    "explanation": "[EN]Le manque de pluie et l’évaporation sont les causes de sécheresses. Dans les deux cas, c’est la perturbation du cycle de l’eau qui est en cause."
+  },
+  {
+    "fromNum": 20,
+    "toNum": 33,
+    "status": "valid",
+    "explanation": "[EN]Dans les phénomènes de submersion, la baisse de pression atmosphérique joue un rôle important. Ces dépressions sont une manifestation de la perturbation du cycle de l'eau."
+  },
+  {
+    "fromNum": 20,
+    "toNum": 34,
+    "status": "valid",
+    "explanation": "[EN]On peut considérer les cyclones comme une manifestation de la perturbation du cycle de l'eau."
+  },
+  {
+    "fromNum": 20,
+    "toNum": 19,
+    "status": "optional",
+    "explanation": "[EN]C'est très technique, mais si on est pointilleux, la partie bleue du graphique de la carte 19 concernant l'Antarctique représente un gain de masse dû à une augmentation des précipitations. Les parties rouges représentent une perte de masse. Au total, l'Antarctique perd de la masse."
+  },
+  {
+    "fromNum": 20,
+    "toNum": 28,
+    "status": "optional",
+    "explanation": "[EN]La carte vecteurs de maladie est en général reliée à la carte Biodiversité terrestre car les vecteurs de maladie sont une sous-partie de la biodiversité, mais on peut aussi la relier aux mêmes causes que la carte biodiversité, c’est-à-dire perturbation du cycle de l'eau et hausse de la température."
+  },
+  {
+    "fromNum": 20,
+    "toNum": 22,
+    "status": "invalid",
+    "explanation": "[EN]Eh non, plus de pluie ne va pas faire déborder l'océan ! Il est assez rare de voir ce lien, mais on ne sait jamais. Si c'est le cas, demandez aux participants d'où vient la pluie, ou encore d'où viennent les nuages..."
+  },
+  {
+    "fromNum": 21,
+    "toNum": 20,
+    "status": "valid",
+    "explanation": "[EN]La hausse de la température sur terre augmente l'évaporation et perturbe le cycle de l'eau. D'ailleurs, autrefois, on parlait de réchauffement climatique (Global Warming) et aujourd'hui, on parle de changement climatique (Climate Change), voire de dérèglement climatique. Ce shift dans le vocabulaire est matérialisé par cette relation qui a donc une importance fondamentale. N'hésitez pas à faire une remarque sur ce point aux équipes."
+  },
+  {
+    "fromNum": 21,
+    "toNum": 25,
+    "status": "valid",
+    "explanation": "[EN]"
+  },
+  {
+    "fromNum": 21,
+    "toNum": 32,
+    "status": "valid",
+    "explanation": "[EN]Dans les pays du Nord, une hausse de la température peut améliorer les rendements. Dans les pays du Sud, c'est le contraire : la moindre augmentation de température se traduit par une baisse de rendement."
+  },
+  {
+    "fromNum": 21,
+    "toNum": 36,
+    "status": "valid",
+    "explanation": "[EN]"
+  },
+  {
+    "fromNum": 21,
+    "toNum": 38,
+    "status": "valid",
+    "explanation": "[EN]"
+  },
+  {
+    "fromNum": 21,
+    "toNum": 41,
+    "status": "valid",
+    "explanation": "[EN]Si l'on veut rester dans la même logique de conservation de l'énergie, il faudrait faire le lien de fonte a partir de budget énergétique."
+  },
+  {
+    "fromNum": 21,
+    "toNum": 28,
+    "status": "optional",
+    "explanation": "[EN]La carte vecteurs de maladie est en général reliée à la carte Biodiversité terrestre car les vecteurs de maladie sont une sous-partie de la biodiversité, mais on peut aussi la relier aux mêmes causes que la carte biodiversité, c’est-à-dire perturbation du cycle de l'eau et hausse de la température."
+  },
+  {
+    "fromNum": 22,
+    "toNum": 33,
+    "status": "valid",
+    "explanation": "[EN]"
+  },
+  {
+    "fromNum": 23,
+    "toNum": 29,
+    "status": "valid",
+    "explanation": "[EN]"
+  },
+  {
+    "fromNum": 23,
+    "toNum": 27,
+    "status": "optional",
+    "explanation": "[EN]Les problèmes de calcification ne concernent pas seulement les ptéropodes et les coccolithophores. Ils peuvent aussi impacter le corail par exemple. Donc ce lien est tout à fait acceptable."
+  },
+  {
+    "fromNum": 24,
+    "toNum": 23,
+    "status": "valid",
+    "explanation": "[EN]"
+  },
+  {
+    "fromNum": 25,
+    "toNum": 28,
+    "status": "valid",
+    "explanation": "[EN]Il faut voir les vecteurs de maladie comme un sous-ensemble de la biodiversité terrestre."
+  },
+  {
+    "fromNum": 25,
+    "toNum": 32,
+    "status": "valid",
+    "explanation": "[EN]Les abeilles et les vers de terre, pour ne citer qu'eux, sont indispensables à l'agriculture."
+  },
+  {
+    "fromNum": 25,
+    "toNum": 27,
+    "status": "optional",
+    "explanation": "[EN]Les deux types de biodiversité peuvent interagir entres elles."
+  },
+  {
+    "fromNum": 25,
+    "toNum": 8,
+    "status": "invalid",
+    "explanation": "[EN]Il serait plus logique de faire un lien vers les rendements agricoles."
+  },
+  {
+    "fromNum": 26,
+    "toNum": 32,
+    "status": "valid",
+    "explanation": "[EN]"
+  },
+  {
+    "fromNum": 26,
+    "toNum": 38,
+    "status": "valid",
+    "explanation": "[EN]Les crues amènent souvent des problèmes sanitaires graves : les égouts débordent, le choléra menace."
+  },
+  {
+    "fromNum": 26,
+    "toNum": 31,
+    "status": "optional",
+    "explanation": "[EN][explication en cours...]"
+  },
+  {
+    "fromNum": 26,
+    "toNum": 28,
+    "status": "invalid",
+    "explanation": "[EN]Attention aux associations d'idées : Crues / marécages / moustiques... Les crues peuvent amener des situations sanitaires dégradées, mais ce n'est pas de cela qu'on parle quand on évoque les vecteurs de maladie qui se déplacent à cause du changement climatique."
+  },
+  {
+    "fromNum": 26,
+    "toNum": 33,
+    "status": "invalid",
+    "explanation": "[EN]Ne pas confondre 'Crues' et 'Submersions'. Les crues, ce sont les rivières qui débordent (c'est de l'eau douce). Les submersions, c'est la mer qui entre dans les terres (c'est de l'eau salée)."
+  },
+  {
+    "fromNum": 27,
+    "toNum": 37,
+    "status": "valid",
+    "explanation": "[EN]Oui, à cause de la pêche..."
+  },
+  {
+    "fromNum": 27,
+    "toNum": 25,
+    "status": "optional",
+    "explanation": "[EN]Les deux types de biodiversité peuvent interagir entres elles."
+  },
+  {
+    "fromNum": 28,
+    "toNum": 38,
+    "status": "valid",
+    "explanation": "[EN]"
+  },
+  {
+    "fromNum": 29,
+    "toNum": 27,
+    "status": "valid",
+    "explanation": "[EN]"
+  },
+  {
+    "fromNum": 30,
+    "toNum": 26,
+    "status": "valid",
+    "explanation": "[EN]Voir la carte 26 : Si le sol a été durci par une sécheresse, c'est pire car l'eau ruisselle."
+  },
+  {
+    "fromNum": 30,
+    "toNum": 31,
+    "status": "valid",
+    "explanation": "[EN]"
+  },
+  {
+    "fromNum": 30,
+    "toNum": 32,
+    "status": "valid",
+    "explanation": "[EN]"
+  },
+  {
+    "fromNum": 30,
+    "toNum": 35,
+    "status": "valid",
+    "explanation": "[EN]"
+  },
+  {
+    "fromNum": 30,
+    "toNum": 12,
+    "status": "optional",
+    "explanation": "[EN]Si la pénurie de précipitations se produit au cours de la période de croissance de la végétation, il y a alors une diminution de la photosynthèse et donc une diminution de la capacité du puits de carbone. En Europe, en 2018, les puits de carbone ont baissé de 18 %."
+  },
+  {
+    "fromNum": 31,
+    "toNum": 32,
+    "status": "valid",
+    "explanation": "[EN]"
+  },
+  {
+    "fromNum": 31,
+    "toNum": 40,
+    "status": "valid",
+    "explanation": "[EN]"
+  },
+  {
+    "fromNum": 31,
+    "toNum": 37,
+    "status": "optional",
+    "explanation": "[EN]Si l'on considère qu'une famine n'est pas seulement un manque de nourriture mais également un manque d'eau."
+  },
+  {
+    "fromNum": 31,
+    "toNum": 38,
+    "status": "optional",
+    "explanation": "[EN][explication en cours...]"
+  },
+  {
+    "fromNum": 32,
+    "toNum": 37,
+    "status": "valid",
+    "explanation": "[EN]"
+  },
+  {
+    "fromNum": 32,
+    "toNum": 39,
+    "status": "valid",
+    "explanation": "[EN]"
+  },
+  {
+    "fromNum": 32,
+    "toNum": 8,
+    "status": "invalid",
+    "explanation": "[EN]Effectivement, la baisse des rendements agricoles affecte l'agriculture. Mais la carte agriculture est plutôt là pour incarner les causes des émissions de GES."
+  },
+  {
+    "fromNum": 33,
+    "toNum": 32,
+    "status": "valid",
+    "explanation": "[EN]"
+  },
+  {
+    "fromNum": 33,
+    "toNum": 39,
+    "status": "valid",
+    "explanation": "[EN]"
+  },
+  {
+    "fromNum": 33,
+    "toNum": 31,
+    "status": "optional",
+    "explanation": "[EN]Si l'eau de mer monte, elle peut pénétrer les nappes phréatiques qui sont des réserves d'eau douce."
+  },
+  {
+    "fromNum": 34,
+    "toNum": 32,
+    "status": "valid",
+    "explanation": "[EN]"
+  },
+  {
+    "fromNum": 34,
+    "toNum": 33,
+    "status": "valid",
+    "explanation": "[EN]"
+  },
+  {
+    "fromNum": 34,
+    "toNum": 38,
+    "status": "valid",
+    "explanation": "[EN]"
+  },
+  {
+    "fromNum": 35,
+    "toNum": 6,
+    "status": "optional",
+    "explanation": "[EN]Une partie de la déforestation est faite en brûlant la forêt qui peut ensuite dégénérer en feu non-maîtrisé. C'est ce qu'il s'est passé pendant l'été 2019 en Amazonie et en Australie"
+  },
+  {
+    "fromNum": 35,
+    "toNum": 10,
+    "status": "optional",
+    "explanation": "[EN]Les analyses par satellite montrent dans les fumées des quantités de particules toxiques qui posent des problèmes de santé publique."
+  },
+  {
+    "fromNum": 35,
+    "toNum": 25,
+    "status": "optional",
+    "explanation": "[EN]Cela reste un élément mineur. Sauf sur des hotspots particuliers de biodiversité."
+  },
+  {
+    "fromNum": 35,
+    "toNum": 32,
+    "status": "optional",
+    "explanation": "[EN]En général, ce qui brûle bien, c'est la forêt, pas les champs de blé."
+  },
+  {
+    "fromNum": 35,
+    "toNum": 38,
+    "status": "optional",
+    "explanation": "[EN]630 disparus suite aux incendies en Californie à l'automne 2018."
+  },
+  {
+    "fromNum": 36,
+    "toNum": 35,
+    "status": "valid",
+    "explanation": "[EN]"
+  },
+  {
+    "fromNum": 36,
+    "toNum": 30,
+    "status": "optional",
+    "explanation": "[EN]Une canicule, c'est la température, une sécheresse, c'est l'humidité. Ceci étant dit, si il fait chaud, l'eau s'évapore et cela peut entraîner une sécheresse. Les deux vont de fait souvent ensemble."
+  },
+  {
+    "fromNum": 36,
+    "toNum": 38,
+    "status": "optional",
+    "explanation": "[EN]Les canicules peuvent être dévastatrices, notamment chez les personnes âgées."
+  },
+  {
+    "fromNum": 37,
+    "toNum": 38,
+    "status": "valid",
+    "explanation": "[EN]"
+  },
+  {
+    "fromNum": 37,
+    "toNum": 39,
+    "status": "valid",
+    "explanation": "[EN]"
+  },
+  {
+    "fromNum": 37,
+    "toNum": 40,
+    "status": "optional",
+    "explanation": "[EN][explication en cours...]"
+  },
+  {
+    "fromNum": 38,
+    "toNum": 40,
+    "status": "valid",
+    "explanation": "[EN]"
+  },
+  {
+    "fromNum": 39,
+    "toNum": 40,
+    "status": "valid",
+    "explanation": "[EN]"
+  },
+  {
+    "fromNum": 39,
+    "toNum": 38,
+    "status": "optional",
+    "explanation": "[EN][explication en cours...]"
+  },
+  {
+    "fromNum": 40,
+    "toNum": 38,
+    "status": "valid",
+    "explanation": "[EN]Se prendre une balle, c’est pas bon pour la santé."
+  },
+  {
+    "fromNum": 40,
+    "toNum": 39,
+    "status": "valid",
+    "explanation": "[EN]"
+  },
+  {
+    "fromNum": 40,
+    "toNum": 1,
+    "status": "optional",
+    "explanation": "[EN]C'est \"la boucle du club de Rome\" ! Tout cela finira bien par se réguler, mais pas forcément de manière soft. Les participants font souvent ce lien, et proposent parfois de faire un rouleau avec la fresque pour mettre bord à bord la fin et le début. D'ailleurs, il est intéressant de remarquer qu'il y a des humains dans les cartes du début et celles de la fin, mais pas au milieu."
+  },
+  {
+    "fromNum": 40,
+    "toNum": 5,
+    "status": "optional",
+    "explanation": "[EN]C'est vrai, les conflits armés sont souvent dûs aux énergies fossiles. Mais la relation est plutôt dans l'autre sens."
+  },
+  {
+    "fromNum": 41,
+    "toNum": 9,
+    "status": "valid",
+    "explanation": "[EN]"
+  },
+  {
+    "fromNum": 41,
+    "toNum": 13,
+    "status": "optional",
+    "explanation": "[EN]On peut relier directement les feedback liés au Méthane à la carte Autres GES ou à la carte Effet de Serre. En effet, la carte des autres GES représente les GES d'origine humaine, alors qu'ici, il s'agit de GES qui ne sont pas émis directement par l'homme."
+  },
+  {
+    "fromNum": 41,
+    "toNum": 28,
+    "status": "optional",
+    "explanation": "[EN]Le permafrost contient des milliards de bactéries et de virus enfouis. S'il se mettait à dégeler, certains de ces agents pathogènes pourraient se retrouver à contaminer des populations humaines ou animales. En 2016, une épidémie d'anthrax a eu lieu en Sibérie à cause d'une carcasse de 75 ans qui aurait dégelé."
+  },
+  {
+    "fromNum": 42,
+    "toNum": 9,
+    "status": "valid",
+    "explanation": "[EN]"
+  }
+]

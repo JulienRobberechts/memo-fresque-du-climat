@@ -19,7 +19,7 @@ export default {
   },
   computed: {
     card: function () {
-      return CardsService.getCardDetails(this.cardNum);
+      return CardsService.getCardDetails(this.cardNum, this.$i18n.locale);
     },
   },
 };
