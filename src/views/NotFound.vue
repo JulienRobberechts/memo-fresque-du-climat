@@ -2,7 +2,7 @@
   <div class="notFound">
     <h3>Oups, la page n'existe pas</h3>
     <router-link class="back-link" :to="{ name: 'RouteHome' }">
-      retour
+      {{ $t('back') }}
     </router-link>
   </div>
 </template>
