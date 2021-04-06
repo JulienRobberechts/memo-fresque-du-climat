@@ -5,7 +5,8 @@
   "all-cards": "Cartes de la Fresque du climat",
   "menu": {
     "cards": "cartes",
-    "info": "i"
+    "info": "i",
+    "back": "retour"
   },
   "card": {
     "set": "lot",
