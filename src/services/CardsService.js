@@ -3,8 +3,6 @@ import linksFr from '@/data/fr/links-fr.json';
 import cardsEn from '@/data/en/cards-en.json';
 import linksEn from '@/data/en/links-en.json';
 
-// const lang = 'fr';
-
 export default {
   getCardsForLang(lang) {
     switch (lang) {
@@ -26,7 +24,7 @@ export default {
         throw new Error(`The language code '${lang}' is not supported`);
     }
   },
-  getCardData(cardNum, lang = 'fr') {
+  getCardData(cardNum, lang = 'invalid') {
     const card = this.getCardsForLang(lang).find(
       (c) => c.cardNum.toString() === cardNum.toString()
     );
@@ -35,19 +33,19 @@ export default {
     }
     return card;
   },
-  getCardLinks(cardNum, lang = 'fr') {
+  getCardLinks(cardNum, lang = 'invalid') {
     const causesCards = this.getLinksForLang(lang)
       .filter((l) => l.toNum.toString() === cardNum.toString())
       .map((link) => ({
-        from: this.getCardData(link.fromNum),
-        to: this.getCardData(link.toNum),
+        from: this.getCardData(link.fromNum, lang),
+        to: this.getCardData(link.toNum, lang),
         link,
       }));
     const consequencesCards = this.getLinksForLang(lang)
       .filter((l) => l.fromNum.toString() === cardNum.toString())
       .map((link) => ({
-        from: this.getCardData(link.fromNum),
-        to: this.getCardData(link.toNum),
+        from: this.getCardData(link.fromNum, lang),
+        to: this.getCardData(link.toNum, lang),
         link,
       }));
     return {
@@ -55,7 +53,7 @@ export default {
       consequences: consequencesCards,
     };
   },
-  getCardDetails(cardNum, lang = 'fr') {
+  getCardDetails(cardNum, lang = 'invalid') {
     const card = this.getCardData(cardNum, lang);
     const links = this.getCardLinks(cardNum, lang);
     return {

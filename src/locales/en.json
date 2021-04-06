@@ -5,7 +5,8 @@
   "all-cards": "Climat Collage cards",
   "menu": {
     "cards": "cards",
-    "info": "i"
+    "info": "i",
+    "back": "back"
   },
   "card": {
     "set": "set",

@@ -29,7 +29,6 @@ export default {
   },
   computed: {
     logoPath() {
-      console.log('ddd', this.$i18n.locale);
       return require(`@/assets/lang/${this.$i18n.locale}/logo-full-${this.$i18n.locale}.png`);
     },
   },

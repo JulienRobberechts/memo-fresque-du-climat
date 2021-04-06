@@ -3,7 +3,7 @@
     <CardView :card="card" />
   </div>
   <router-link class="fdc-link withSpace" :to="{ name: 'RouteHome' }">
-    &larrhk; retour
+    &larrhk; {{ $t('back') }}
   </router-link>
 </template>
 

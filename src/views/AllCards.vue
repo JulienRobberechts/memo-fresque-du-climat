@@ -21,7 +21,7 @@ export default {
     };
   },
   created() {
-    this.cards = CardsService.getCardsForLang('fr');
+    this.cards = CardsService.getCardsForLang(this.$i18n.locale);
   },
 };
 </script>
