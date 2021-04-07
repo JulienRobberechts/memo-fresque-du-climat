@@ -1,6 +1,6 @@
 {
   "name": "memo-fresque-du-climat",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "private": true,
   "scripts": {
     "serve-fr": "VUE_APP_I18N_LOCALE=fr PORT=8090 vue-cli-service serve",
@@ -12,31 +12,30 @@
   },
   "dependencies": {
     "axios": "^0.21.1",
-    "core-js": "^3.9.1",
+    "core-js": "^3.10.0",
     "jest": "^26.6.3",
-    "vue": "^3.0.7",
+    "vue": "^3.0.11",
     "vue-i18n": "^9.0.0",
-    "vue-router": "^4.0.5",
-    "vuex": "^4.0.0"
+    "vue-router": "^4.0.6"
   },
   "devDependencies": {
-    "@intlify/vue-i18n-loader": "^2.0.0",
+    "@intlify/vue-i18n-loader": "^2.0.3",
     "@vue/cli-plugin-babel": "~4.5.12",
     "@vue/cli-plugin-eslint": "~4.5.12",
     "@vue/cli-plugin-router": "~4.5.12",
     "@vue/cli-plugin-vuex": "~4.5.12",
     "@vue/cli-service": "~4.5.12",
-    "@vue/compiler-sfc": "^3.0.7",
+    "@vue/compiler-sfc": "^3.0.11",
     "@vue/eslint-config-prettier": "^6.0.0",
     "babel-eslint": "^10.1.0",
-    "eslint": "^7.22.0",
+    "eslint": "^7.23.0",
     "eslint-plugin-prettier": "^3.3.1",
-    "eslint-plugin-vue": "^7.7.0",
+    "eslint-plugin-vue": "^7.8.0",
     "prettier": "^2.2.1",
     "vue-cli-plugin-i18n": "~2.0.3"
   },
   "resolutions": {
     "ssri": "^8.0.1",
-    "is-svg": "^4.2.2"
+    "is-svg": "^4.3.1"
   }
 }
