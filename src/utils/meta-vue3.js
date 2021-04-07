@@ -9,10 +9,14 @@ const setOgTitle = (doc, val) => {
 const setDescription = (doc, val) => {
   setMetaName(doc, 'description', val);
   setOgDescription(doc, val);
+  setTwDescription(doc, val);
 };
 
 const setOgDescription = (doc, val) => {
   setMetaProp(doc, 'og:description', val);
+};
+const setTwDescription = (doc, val) => {
+  setMetaName(doc, 'twitter:description', val);
 };
 
 const setOgTypeProduct = (doc, product) => {
