@@ -1,4 +1,16 @@
 {
+  "title": {
+    "site": "Mémo de la Fresque du Climat",
+    "all-cards": "Mémo de la Fresque du Climat - Toutes les cartes du jeu",
+    "card": "Mémo de la Fresque du Climat - Carte '{cardTitle}'",
+    "about": "Mémo de la Fresque du Climat - A propos du Mémo"
+  },
+  "description": {
+    "site": "L'essentiel des cartes de la fresque du climat - Les explications, causes et conséquences importantes et facultatives, les liens ainsi que la présentation vidéo pour chaque carte.",
+    "all-cards": "L'essentiel des cartes de la fresque du climat - Les explications, causes et conséquences importantes et facultatives, les liens ainsi que la présentation vidéo pour chaque carte.",
+    "card": "Carte de la fresque de Climat '{cardTitle}' - {cardDesc} - description, causes et conséquences ainsi que l'explication en vidéo",
+    "about": "L'essentiel des cartes de la fresque du climat. Présentation du l'objectif du Mémo pour la Fresque du Climat"
+  },
   "config": {
     "wiki-root-url": "https://fresqueduclimat.org"
   },

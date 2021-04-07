@@ -3,7 +3,8 @@
   "version": "0.4.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "serve-fr": "VUE_APP_I18N_LOCALE=fr PORT=8090 vue-cli-service serve",
+    "serve-en": "VUE_APP_I18N_LOCALE=en PORT=8091 vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "i18n:report": "vue-cli-service i18n:report --src \"./src/**/*.?(js|vue)\" --locales \"./src/locales/**/*.json\"",

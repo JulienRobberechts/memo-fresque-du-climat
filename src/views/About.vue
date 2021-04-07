@@ -8,6 +8,7 @@
 import packageFile from '../../package.json';
 import aboutFr from '@/components/lang/fr/about-fr.vue';
 import AboutEn from '../components/lang/en/about-en.vue';
+import meta from '@/utils/meta-vue3';
 
 export default {
   components: { aboutFr, AboutEn },
@@ -15,6 +16,18 @@ export default {
     return {
       version: packageFile.version,
     };
+  },
+  created() {
+    meta.setTitle(document, this.title);
+    meta.setDescription(document, this.description);
+  },
+  computed: {
+    title() {
+      return this.$t('title.about');
+    },
+    description() {
+      return this.$t('description.about');
+    },
   },
 };
 </script>
