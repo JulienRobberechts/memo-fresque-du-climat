@@ -21,6 +21,10 @@ export default {
   created() {
     meta.setTitle(document, this.title);
     meta.setDescription(document, this.description);
+    meta.setOgTypeProduct(document, {
+      image: this.card.img.url,
+      url: document.URL,
+    });
   },
   computed: {
     title() {

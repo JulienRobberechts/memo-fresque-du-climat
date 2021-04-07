@@ -6,10 +6,15 @@
 </template>
 <script>
 import Menu from '@/components/Menu';
+import meta from '@/utils/meta-vue3';
 
 export default {
   components: {
     Menu,
+  },
+  created() {
+    meta.setOgLocale(document, this.$i18n.locale);
+    meta.setOgUrl(document, document.URL);
   },
 };
 </script>
