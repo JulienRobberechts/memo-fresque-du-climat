@@ -10,6 +10,7 @@
 <script>
 import CardView from '@/components/CardView.vue';
 import CardsService from '@/services/CardsService';
+import meta from '@/utils/meta-vue3';
 
 export default {
   name: 'CardDetails',
@@ -18,11 +19,18 @@ export default {
     CardView,
   },
   created() {
-    document.title = this.title;
+    meta.setTitle(document, this.title);
+    meta.setDescription(document, this.description);
   },
   computed: {
     title() {
       return this.$t('title.card', { cardTitle: this.card.title });
+    },
+    description() {
+      return this.$t('description.card', {
+        cardTitle: this.card.title,
+        cardDesc: this.card.backDescription,
+      });
     },
     card: function () {
       return CardsService.getCardDetails(this.cardNum, this.$i18n.locale);

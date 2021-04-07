@@ -5,6 +5,12 @@
     "card": "Climat Collage Memo - Card '{cardTitle}'",
     "about": "Climat Collage Memo - About the Memo"
   },
+  "description": {
+    "site": "The essentials of the Climat Collage cards. Explanations, causes and consequences, links and vidéo about each card explaining the climate change.",
+    "all-cards": "The essentials of the Climat Collage cards. Explanations, causes and consequences, links and vidéo about each card explaining the climate change.",
+    "card": "Climat Collage card '{cardTitle}' - {cardDesc} - description, causes and consequences and vidéo explaining the climate change.",
+    "about": "The essentials of the Climat Collage cards. Presentation of the aims of the Climat Collage Memo"
+  },
   "config": {
     "wiki-root-url": "https://fresqueduclimat.org"
   },

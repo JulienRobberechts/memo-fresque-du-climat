@@ -7,13 +7,22 @@
   </div>
 </template>
 <script>
+import meta from '@/utils/meta-vue3';
+
 export default {
   created() {
-    document.title = this.title;
+    meta.setTitle(document, this.title);
+    meta.setDescription(document, this.description);
   },
   computed: {
     title() {
       return this.$t('title.site');
+    },
+    description() {
+      return this.$t('description.site', {
+        cardTitle: this.card.title,
+        cardDesc: this.card.backDescription,
+      });
     },
   },
 };
