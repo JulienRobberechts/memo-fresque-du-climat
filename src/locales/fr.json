@@ -1,4 +1,10 @@
 {
+  "title": {
+    "site": "Mémo de la Fresque du Climat",
+    "all-cards": "Mémo de la Fresque du Climat - Toutes les cartes du jeu",
+    "card": "Mémo de la Fresque du Climat - Carte '{cardTitle}'",
+    "about": "Mémo de la Fresque du Climat - A propos du Mémo"
+  },
   "config": {
     "wiki-root-url": "https://fresqueduclimat.org"
   },

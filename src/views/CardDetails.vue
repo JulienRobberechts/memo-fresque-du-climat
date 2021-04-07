@@ -17,7 +17,13 @@ export default {
   components: {
     CardView,
   },
+  created() {
+    document.title = this.title;
+  },
   computed: {
+    title() {
+      return this.$t('title.card', { cardTitle: this.card.title });
+    },
     card: function () {
       return CardsService.getCardDetails(this.cardNum, this.$i18n.locale);
     },

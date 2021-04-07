@@ -6,6 +6,18 @@
     </router-link>
   </div>
 </template>
+<script>
+export default {
+  created() {
+    document.title = this.title;
+  },
+  computed: {
+    title() {
+      return this.$t('title.site');
+    },
+  },
+};
+</script>
 <style scoped>
 .notFound {
   color: red;

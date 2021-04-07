@@ -16,6 +16,14 @@ export default {
       version: packageFile.version,
     };
   },
+  created() {
+    document.title = this.title;
+  },
+  computed: {
+    title() {
+      return this.$t('title.about');
+    },
+  },
 };
 </script>
 <style scoped>

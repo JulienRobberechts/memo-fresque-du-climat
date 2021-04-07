@@ -21,7 +21,13 @@ export default {
     };
   },
   created() {
+    document.title = this.title;
     this.cards = CardsService.getCardsForLang(this.$i18n.locale);
+  },
+  computed: {
+    title() {
+      return this.$t('title.all-cards');
+    },
   },
 };
 </script>

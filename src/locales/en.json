@@ -1,4 +1,10 @@
 {
+  "title": {
+    "site": "Climat Collage Memo",
+    "all-cards": "Climat Collage Memo - All Climat Collage cards of the game",
+    "card": "Climat Collage Memo - Card '{cardTitle}'",
+    "about": "Climat Collage Memo - About the Memo"
+  },
   "config": {
     "wiki-root-url": "https://fresqueduclimat.org"
   },
