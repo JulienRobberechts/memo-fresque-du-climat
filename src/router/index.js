@@ -1,7 +1,4 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import AllCards from '@/views/AllCards.vue';
-import CardDetails from '@/views/CardDetails.vue';
-import About from '@/views/About.vue';
 import NotFound from '@/views/NotFound.vue';
 import { noScroll, scrollToCard, scrollToTop, scrollToHash } from './scroll';
 import { isLinkToCardDetail, isLinkBackToCardList } from './nav';
@@ -10,18 +7,21 @@ const routes = [
   {
     path: '/',
     name: 'RouteHome',
-    component: AllCards,
+    component: () =>
+      import(/* webpackChunkName: "AllCards" */ '../views/AllCards.vue'),
   },
   {
     path: '/cards/:cardNum',
     name: 'RouteCardDetails',
     props: true,
-    component: CardDetails,
+    component: () =>
+      import(/* webpackChunkName: "CardDetails" */ '../views/CardDetails.vue'),
   },
   {
     path: '/about',
     name: 'RouteAbout',
-    component: About,
+    component: () =>
+      import(/* webpackChunkName: "About" */ '../views/About.vue'),
   },
   {
     path: '/:pathMatch(.*)*',
