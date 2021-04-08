@@ -7,15 +7,15 @@
       <img
         class="memo-img"
         src="@/assets/lang/en/memo-1200x630-en.jpg"
-        alt="Memo du climat sur GitHub"
+        alt="Climate Collage Memo on GitHub"
     /></a>
     <p>
-      The Climate Collage Memo aims to provide to facilitators a quick and easy
-      access to the Climate Collage cards (especially on mobile).
+      The Climate Collage Memo aims to provide facilitators with a quick and
+      easy access to the Climate Collage cards (especially on mobiles).
     </p>
 
     <p>
-      Cards and links descriptions and explanations are all coming from
+      Card and link descriptions and explanations all come from
       <a href="https://fresqueduclimat.org/wiki/en" target="_blank"
         >The Cl!mate Wiki</a
       >
@@ -46,7 +46,7 @@
           <a
             href="https://drive.google.com/file/d/17dv0mGFpn5Fdk7BmIXEjuDt2-GVLzVHj/view"
             target="_blank"
-            >Climate Collage cards training</a
+            >Climate Collage - Training's Collage</a
           >
         </li>
         <li>
@@ -67,7 +67,8 @@
     </div>
 
     <p>
-      If you noticed some bugs or have improvements to suggest contact us in
+      If you have noticed some bugs or have any improvements to suggest, contact
+      us on
       <a href="https://t.me/memofdc" target="_blank">Telegram</a>.
     </p>
 

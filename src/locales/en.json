@@ -1,20 +1,20 @@
 {
   "title": {
-    "site": "Climat Collage Memo",
-    "all-cards": "Climat Collage Memo - All Climat Collage cards of the game",
-    "card": "Climat Collage Memo - Card '{cardTitle}'",
-    "about": "Climat Collage Memo - About the Memo"
+    "site": "Climate Collage Memo",
+    "all-cards": "Climate Collage Memo - Understanding Climate Change",
+    "card": "Climate Collage Memo - Card '{cardTitle}'",
+    "about": "Climate Collage Memo - About the Memo"
   },
   "description": {
-    "site": "The essentials of the Climat Collage cards. Explanations, causes and consequences, links and vidéo about each card explaining the climate change.",
-    "all-cards": "The essentials of the Climat Collage cards. Explanations, causes and consequences, links and vidéo about each card explaining the climate change.",
-    "card": "Climat Collage card '{cardTitle}' - {cardDesc} - description, causes and consequences and vidéo explaining the climate change.",
-    "about": "The essentials of the Climat Collage cards. Presentation of the aims of the Climat Collage Memo"
+    "site": "Climate Collage card essentials. Explanations, causes and consequences, links and videos about each card explaining climate change.",
+    "all-cards": "Climate Collage card essentials. Explanations, causes and consequences, links and videos about each card explaining climate change.",
+    "card": "Climate Collage card '{cardTitle}' - {cardDesc} - description, causes and consequences and video explaining the climate change.",
+    "about": "Climate Collage card essentials. Presentation of the goal of the Climate Collage Memo website"
   },
   "config": {
     "wiki-root-url": "https://fresqueduclimat.org"
   },
-  "all-cards": "Climat Collage cards",
+  "all-cards": "Climate Collage cards",
   "menu": {
     "cards": "cards",
     "info": "i",
