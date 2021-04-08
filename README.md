@@ -1,7 +1,5 @@
-[<img src="https://raw.githubusercontent.com/JulienRobberechts/memo-fresque-du-climat/main/src/assets/lang/fr/logo-full-fr.png" width="200">](https://memo-fresque-du-climat.onrender.com/)
-
 # Memo Fresque du Climat
-## liens
+## Liens
 
 En Français:
 
@@ -16,6 +14,8 @@ In English:
 - [Climate Collage Memo](https://climate-collage-memo.onrender.com/)
 
 ## Présentation
+
+[<img src="https://raw.githubusercontent.com/JulienRobberechts/memo-fresque-du-climat/main/src/assets/lang/fr/logo-full-fr.png" width="200">](https://memo-fresque-du-climat.onrender.com/)
 
 Ce site web permet un accès facile et rapide aux cartes de [la Fresque du climat](https://fresqueduclimat.org/).
 Les animateurs peuvent facilement consulter sur leur téléphone ou ordinateur  la description de chacune des cartes, les liens importants ou facultatifs ainsi que les liens à ne pas faire et pourquoi. C'est donc un aide-mémoire pour les animateurs plus que pour les participants (à priori).
