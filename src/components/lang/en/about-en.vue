@@ -5,11 +5,10 @@
       target="_blank"
     >
       <img
-        class="memo-logo"
-        src="@/assets/lang/en/memo-en.png"
-        alt="Climate Collage Memo on GitHub"
+        class="memo-img"
+        src="@/assets/lang/en/memo-1200x630-en.jpg"
+        alt="Memo du climat sur GitHub"
     /></a>
-
     <p>
       The Climate Collage Memo aims to provide to facilitators a quick and easy
       access to the Climate Collage cards (especially on mobile).
@@ -95,6 +94,9 @@ export default {
   width: 90vw;
   max-width: 400px;
   margin: 0 auto;
+}
+.memo-img {
+  width: 100%;
 }
 .fdc-logo {
   width: 90vw;

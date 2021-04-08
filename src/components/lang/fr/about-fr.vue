@@ -5,8 +5,8 @@
       target="_blank"
     >
       <img
-        class="memo-logo"
-        src="@/assets/lang/fr/memo-fr.png"
+        class="memo-img"
+        src="@/assets/lang/fr/memo-1200x630-fr.jpg"
         alt="Memo du climat sur GitHub"
     /></a>
     <p>
@@ -76,6 +76,9 @@ export default {
   width: 90vw;
   max-width: 400px;
   margin: 0 auto;
+}
+.memo-img {
+  width: 100%;
 }
 .fdc-logo {
   width: 90vw;

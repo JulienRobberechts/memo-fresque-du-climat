@@ -35,13 +35,15 @@ const setOgUrl = (doc, val) => {
 };
 
 const setMetaName = (doc, selector, val) => {
-  doc.querySelector(`meta[name="${selector}"]`).setAttribute('content', val);
+  const el = doc.querySelector(`meta[name="${selector}"]`);
+  if (el) el.setAttribute('content', val);
+  else console.log(`element with name '${selector}' not found.`);
 };
 
 const setMetaProp = (doc, selector, val) => {
-  doc
-    .querySelector(`meta[property="${selector}"]`)
-    .setAttribute('content', val);
+  const el = doc.querySelector(`meta[property="${selector}"]`);
+  if (el) el.setAttribute('content', val);
+  else console.log(`element with property '${selector}' not found.`);
 };
 
 export default {
