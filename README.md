@@ -1,12 +1,23 @@
-# Memo Fresque du Climat
-
-Site web Live :
-
-["MEMO Fresque du Climat"](https://memo-fresque-du-climat.onrender.com/)
-
 [<img src="https://raw.githubusercontent.com/JulienRobberechts/memo-fresque-du-climat/main/src/assets/lang/fr/logo-full-fr.png" width="200">](https://memo-fresque-du-climat.onrender.com/)
 
-C'est un petit site web qui permet un accès facile et rapide aux cartes de [la Fresque du climat](https://fresqueduclimat.org/).
+# Memo Fresque du Climat
+## liens
+
+En Français:
+
+- [Site officiel](https://fresqueduclimat.org/)
+- [Le Wiki du Cl!mat](https://fresqueduclimat.org/wiki)
+- [Mémo de La Fresque du Climat en Français](https://memo-fresque-du-climat.onrender.com/)
+
+In English:
+
+- [Official website](https://climatecollage.org/)
+- [The Cl!mate Wiki ](https://fresqueduclimat.org/wiki/en)
+- [Climate Collage Memo](https://climate-collage-memo.onrender.com/)
+
+## Présentation
+
+Ce site web permet un accès facile et rapide aux cartes de [la Fresque du climat](https://fresqueduclimat.org/).
 Les animateurs peuvent facilement consulter sur leur téléphone ou ordinateur  la description de chacune des cartes, les liens importants ou facultatifs ainsi que les liens à ne pas faire et pourquoi. C'est donc un aide-mémoire pour les animateurs plus que pour les participants (à priori).
 
 [<img src="https://raw.githubusercontent.com/JulienRobberechts/memo-fresque-du-climat/main/doc/assets/list.jpg" width="200">](https://memo-fresque-du-climat.onrender.com/#carte-3) [<img src="https://raw.githubusercontent.com/JulienRobberechts/memo-fresque-du-climat/main/doc/assets/details-1.jpg" width="200">](https://memo-fresque-du-climat.onrender.com/cards/3) [<img src="https://raw.githubusercontent.com/JulienRobberechts/memo-fresque-du-climat/main/doc/assets/details-2.png" width="200">](https://memo-fresque-du-climat.onrender.com/cards/3)
@@ -91,10 +102,4 @@ Les projets sont complémentaires et pourrait être rassemblés à terme dans le
 - [repo github](https://github.com/Marc-AntoineA/collage-view/tree/master/src/assets/collages/climatecollage)
 - [site web](https://fresqueduclimat.marc-antoinea.fr/#/)
 
-## liens
 
-- [Site de La Fresque du Climat en Français](https://fresqueduclimat.org/)
-- [Site de La Fresque du Climat en anglais](https://climatecollage.org/)
-- [Wiki de La Fresque du Climat en Français](https://fresqueduclimat.org/wiki)
-- [Wiki de La Fresque du Climat en anglais](https://fresqueduclimat.org/wiki/en) (beta)
-- [Memo en français](https://memo-fresque-du-climat.onrender.com)

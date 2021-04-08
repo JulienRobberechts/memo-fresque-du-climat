@@ -1,6 +1,8 @@
-# Climat Collage Memo
+# Climate Collage Memo (Draft from the french version)
 
-Live web site : ["Climat Collage Memo"](https://memo-fresque-du-climat.onrender.com/)
+Live web sites:
+- English:["Climate Collage Memo"](https://climate-collage-memo.onrender.com/)
+- French:["Mémo de la Fresque du Climat"](https://memo-fresque-du-climat.onrender.com/)
 
 [<img src="https://raw.githubusercontent.com/JulienRobberechts/memo-fresque-du-climat/main/src/assets/lang/fr/logo-full-fr.png" width="200">](https://memo-fresque-du-climat.onrender.com/)
 
