@@ -43,7 +43,6 @@ body {
 }
 
 #content {
-  max-width: 600px;
   margin: 0 auto;
   margin-top: 5rem;
 }
