@@ -25,6 +25,12 @@
   },
   {
     "fromNum": 1,
+    "toNum": 6,
+    "status": "optional",
+    "explanation": "Deforestation can be considered either as a human activity, or as a consequence of agriculture, or both."
+  },
+  {
+    "fromNum": 1,
     "toNum": 25,
     "status": "optional",
     "explanation": "Humans occupy almost all available space on Earth, leaving no room for animals and plants. This entails the disappearance of natural habitats and it is the main cause of biodiversity loss today, well ahead of climate change."
@@ -67,6 +73,12 @@
   },
   {
     "fromNum": 3,
+    "toNum": 6,
+    "status": "optional",
+    "explanation": "It can be said that heating buildings with wood is in part responsible for deforestation, but it is not significant. Neither is building a major cause of deforestation. Agriculture is the main cause of deforestation, way in front of buildings and their usage."
+  },
+  {
+    "fromNum": 3,
     "toNum": 10,
     "status": "optional",
     "explanation": "Buildings emit few aerosols directly. The only significant emissions are chimney fires. In Chamonix, 85% of the fine particles present in the atmosphere come from wood heating."
@@ -90,10 +102,28 @@
     "explanation": ""
   },
   {
+    "fromNum": 4,
+    "toNum": 6,
+    "status": "optional",
+    "explanation": "Road construction sometimes requires deforestation, but the one-dimensional aspect of the road makes it almost negligible compared to deforestation linked to agriculture."
+  },
+  {
     "fromNum": 5,
     "toNum": 7,
     "status": "valid",
     "explanation": ""
+  },
+  {
+    "fromNum": 5,
+    "toNum": 1,
+    "status": "optional",
+    "explanation": "What comes first? Do human activities cause the use of fossil fuels or do fossil fuels ensable human activities? Don't waste time on this and group the two cards together if necessary. Plenty of activities, happily, do not require burning fossil fuels, like windmills and watermills grinding grains for flour."
+  },
+  {
+    "fromNum": 5,
+    "toNum": 27,
+    "status": "optional",
+    "explanation": "Oils slicks in the ocean are an example of a link between fossil fuels and marine biodiversity."
   },
   {
     "fromNum": 5,
@@ -106,6 +136,48 @@
     "toNum": 7,
     "status": "valid",
     "explanation": ""
+  },
+  {
+    "fromNum": 6,
+    "toNum": 12,
+    "status": "optional",
+    "explanation": "Participants often think that deforestation reduces carbon sinks. In reality, the impact is minimal because deforested areas represent a very small part of the total forest area. Moreover, a mature forest has reached its equilibrium and no longer absorbs carbon. Therefore, as mainly mature forests are deforested, this does not impact carbon sinks. On the other hand, the amount CO2 released is very high."
+  },
+  {
+    "fromNum": 6,
+    "toNum": 15,
+    "status": "optional",
+    "explanation": "When forests are cut down, a dark green surface is replaced by a light green one, which has a higher albedo and therefore absorbs less energy."
+  },
+  {
+    "fromNum": 6,
+    "toNum": 20,
+    "status": "optional",
+    "explanation": "Deforestation can perturb local precipitation."
+  },
+  {
+    "fromNum": 6,
+    "toNum": 25,
+    "status": "optional",
+    "explanation": "Deforestation causes huge losses of biodiversity. To animal biodiversity because forests are hosts to many species. The forest biodiversity index fell by 53% between 1970 and 2014. And also to plant biodiversity, as 8,000 of the 60,000 known tree species are considered endangered.."
+  },
+  {
+    "fromNum": 6,
+    "toNum": 26,
+    "status": "optional",
+    "explanation": "Vegetation retains water. Cutting it down can lead to flooding."
+  },
+  {
+    "fromNum": 6,
+    "toNum": 30,
+    "status": "optional",
+    "explanation": "Deforestation can be the direct cause of droughts because trees stock a lot of water. If they are cut down, they no longer play their part as humidity regulators."
+  },
+  {
+    "fromNum": 6,
+    "toNum": 35,
+    "status": "optional",
+    "explanation": "One way of clearing forests is to burn them down, with the risk of losing control of the fire. This is what happened in the summer of 2019 in the Amazon forest and in Australia."
   },
   {
     "fromNum": 7,
@@ -124,6 +196,24 @@
     "toNum": 9,
     "status": "valid",
     "explanation": ""
+  },
+  {
+    "fromNum": 8,
+    "toNum": 5,
+    "status": "optional",
+    "explanation": "Agriculture does not use much fossil fuel, just enough to keep tractors running. Its carbon emissions are high, bu mainly because of methane and nitrous oxide."
+  },
+  {
+    "fromNum": 8,
+    "toNum": 7,
+    "status": "optional",
+    "explanation": "Agriculture does not emit much CO2 except from deforestation. Its carbon emissions mainly come from othe GHGs."
+  },
+  {
+    "fromNum": 8,
+    "toNum": 10,
+    "status": "optional",
+    "explanation": "Spraying crops does result in aerosols and air pollution, but not to the same extent as incomplete combustion from power plants."
   },
   {
     "fromNum": 8,
@@ -234,18 +324,6 @@
     "explanation": ""
   },
   {
-    "fromNum": 15,
-    "toNum": 6,
-    "status": "optional",
-    "explanation": "When the forest is cut down and replaced by a meadow, it is the opposite, a dark surface (the foliage) is replaced by a light surface (the meadow). All in all, the artificialization of the soil has a cooling effect on the climate."
-  },
-  {
-    "fromNum": 15,
-    "toNum": 18,
-    "status": "optional",
-    "explanation": "When sea ice melts, a white surface is replaced by a navy blue surface, which has a lower albedo and therefore absorbs more energy."
-  },
-  {
     "fromNum": 16,
     "toNum": 22,
     "status": "valid",
@@ -301,6 +379,24 @@
   },
   {
     "fromNum": 18,
+    "toNum": 25,
+    "status": "optional",
+    "explanation": "The poor polar bear is a powerful symbol of the climat. If players make this connection, suggest they draw a bear!"
+  },
+  {
+    "fromNum": 18,
+    "toNum": 27,
+    "status": "optional",
+    "explanation": "There's probably some sort of link here..."
+  },
+  {
+    "fromNum": 18,
+    "toNum": 13,
+    "status": "invalid",
+    "explanation": "This link would mark confusion with the amplifying effect due to albedo. The white sea ice melts to reveal a darker surface underneath and the extra energy absorbed warms the Earth. This mechanism is called albedo and has nothing to do with the greenhouse effect. It belongs to the orange arrows on card 13, not to the red arrows."
+  },
+  {
+    "fromNum": 18,
     "toNum": 20,
     "status": "invalid",
     "explanation": "The melting of the Arctic ice pack, but also the melting of Greenland's glaciers may lead, in the distant future, to a disruption of the thermohaline circulation (which gives rise to the Gulf Stream). But beware, the \"Water Cycle\" card does not refer at all to the thermohaline circulation."
@@ -349,9 +445,21 @@
   },
   {
     "fromNum": 20,
+    "toNum": 19,
+    "status": "optional",
+    "explanation": "It's a bit technical, but the blue part of the map of Antarctica on card 19 represents a gain in mass due to an increase of precipitations. The red part represents a loss in mass. In total, Antarctica is losing mass."
+  },
+  {
+    "fromNum": 20,
     "toNum": 28,
     "status": "optional",
     "explanation": "The Vectors of disease card is generally linked to the Terrestrial Biodiversity card because disease vectors are a sub-part of biodiversity, but it can also be linked to the same causes as the biodiversity card, i.e. Disruption of the Water Cycle and Temperature Rise."
+  },
+  {
+    "fromNum": 20,
+    "toNum": 22,
+    "status": "invalid",
+    "explanation": "No, more rain is not going to cause the oceans to overflow! This is a rare mistake to be made, but if it happens to you, ask the players where rainclouds come from..."
   },
   {
     "fromNum": 21,
@@ -408,6 +516,12 @@
     "explanation": ""
   },
   {
+    "fromNum": 23,
+    "toNum": 27,
+    "status": "optional",
+    "explanation": "Calcification problems do not only affect pteropods and coccolithophores. Coral reefs are also affected, for example, so this link is acceptable."
+  },
+  {
     "fromNum": 24,
     "toNum": 23,
     "status": "valid",
@@ -426,6 +540,12 @@
     "explanation": ""
   },
   {
+    "fromNum": 25,
+    "toNum": 27,
+    "status": "optional",
+    "explanation": "The two types of biodiversity can interact with each other."
+  },
+  {
     "fromNum": 26,
     "toNum": 32,
     "status": "valid",
@@ -438,10 +558,22 @@
     "explanation": ""
   },
   {
+    "fromNum": 26,
+    "toNum": 31,
+    "status": "optional",
+    "explanation": "Flooding can lead in some cases to contamination of freshwater resources and affect drinking water systems."
+  },
+  {
     "fromNum": 27,
     "toNum": 37,
     "status": "valid",
     "explanation": ""
+  },
+  {
+    "fromNum": 27,
+    "toNum": 25,
+    "status": "optional",
+    "explanation": "The two types of biodiversity can interact with each other."
   },
   {
     "fromNum": 28,
@@ -480,6 +612,12 @@
     "explanation": ""
   },
   {
+    "fromNum": 30,
+    "toNum": 12,
+    "status": "optional",
+    "explanation": "If a lack of rain occurs while plants are growing, there is less photosynthesis and therefore a reduction in capacity of the carbon sink. In Europe, in 2018, carbon sinks declined by 18%."
+  },
+  {
     "fromNum": 31,
     "toNum": 32,
     "status": "valid",
@@ -498,6 +636,12 @@
     "explanation": "If we consider that a famine is not only a lack of food but also a lack of water."
   },
   {
+    "fromNum": 31,
+    "toNum": 38,
+    "status": "optional",
+    "explanation": "A lack of drinking water will have impacts on human health."
+  },
+  {
     "fromNum": 32,
     "toNum": 37,
     "status": "valid",
@@ -520,6 +664,12 @@
     "toNum": 39,
     "status": "valid",
     "explanation": ""
+  },
+  {
+    "fromNum": 33,
+    "toNum": 31,
+    "status": "optional",
+    "explanation": "If seawater rises, it can penetrate the water tables, which are freshwater reserves."
   },
   {
     "fromNum": 34,
@@ -540,6 +690,36 @@
     "explanation": ""
   },
   {
+    "fromNum": 35,
+    "toNum": 6,
+    "status": "optional",
+    "explanation": "Deforestation is partly done by burning the forest, which can then degenerate into uncontrolled fire. This is what happened in the summer of 2019 in the Amazon and Australia."
+  },
+  {
+    "fromNum": 35,
+    "toNum": 10,
+    "status": "optional",
+    "explanation": "Smoke from wildfires has been shown to carry toxic particles."
+  },
+  {
+    "fromNum": 35,
+    "toNum": 25,
+    "status": "optional",
+    "explanation": "This is a more minor link, except for specific biodiversity-rich areas."
+  },
+  {
+    "fromNum": 35,
+    "toNum": 32,
+    "status": "optional",
+    "explanation": "Generally forests burn better than wheat fields."
+  },
+  {
+    "fromNum": 35,
+    "toNum": 38,
+    "status": "optional",
+    "explanation": "630 people died in Californian wildfires in autumn 2018."
+  },
+  {
     "fromNum": 36,
     "toNum": 35,
     "status": "valid",
@@ -547,9 +727,15 @@
   },
   {
     "fromNum": 36,
+    "toNum": 30,
+    "status": "optional",
+    "explanation": "Heatwaves can cause droughts. They often go together."
+  },
+  {
+    "fromNum": 36,
     "toNum": 38,
     "status": "optional",
-    "explanation": ": Heat waves can be devastating, especially for the elderly."
+    "explanation": "Heat waves can be devastating, especially for the elderly."
   },
   {
     "fromNum": 37,
@@ -561,6 +747,12 @@
     "fromNum": 37,
     "toNum": 39,
     "status": "valid",
+    "explanation": ""
+  },
+  {
+    "fromNum": 37,
+    "toNum": 40,
+    "status": "optional",
     "explanation": ""
   },
   {
@@ -576,6 +768,12 @@
     "explanation": ""
   },
   {
+    "fromNum": 39,
+    "toNum": 38,
+    "status": "optional",
+    "explanation": ""
+  },
+  {
     "fromNum": 40,
     "toNum": 38,
     "status": "valid",
@@ -586,6 +784,18 @@
     "toNum": 39,
     "status": "valid",
     "explanation": ""
+  },
+  {
+    "fromNum": 40,
+    "toNum": 1,
+    "status": "optional",
+    "explanation": "It's the final loop of the Club of Rome. All this will eventually regulate itself, but not necessarily peacefully. The players often make this link and sometimes propose to roll up the Collage to connect the beginning and ending edges. Moreover, it is noteworthy that humankind appears in the first and last cards, but not in the middle of the Collage."
+  },
+  {
+    "fromNum": 40,
+    "toNum": 5,
+    "status": "optional",
+    "explanation": "Conflicts are often linked to fossil fuels, but the link is more the other way round."
   },
   {
     "fromNum": 41,
