@@ -18,6 +18,12 @@ const routes = [
       import(/* webpackChunkName: "CardDetails" */ '../views/CardDetails.vue'),
   },
   {
+    path: '/network',
+    name: 'NetworkView',
+    component: () =>
+      import(/* webpackChunkName: "CardDetails" */ '../views/Network.vue'),
+  },
+  {
     path: '/about',
     name: 'RouteAbout',
     component: () =>
