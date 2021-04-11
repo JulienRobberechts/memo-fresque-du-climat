@@ -28,10 +28,8 @@ export default {
       autoResize: true,
       height: '100%',
       width: '100%',
-      nodes: {
-        shapeProperties: {
-          useBorderWithImage: true,
-        },
+      physics: {
+        enabled: false,
       },
     };
 
