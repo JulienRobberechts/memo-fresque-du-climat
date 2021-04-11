@@ -37,6 +37,7 @@
 <script>
 import FdcNetwork from '@/components/NetworkComponent.vue';
 import CardsService from '@/services/CardsService';
+import LayoutService from '@/services/LayoutService';
 import meta from '@/utils/meta-vue3';
 
 export default {
@@ -62,45 +63,66 @@ export default {
       return this.$t('description.all-cards');
     },
     nodes() {
-      return CardsService.getCardsForLang(this.$i18n.locale).map((card) => ({
-        id: card.cardNum,
-        label: card.title,
-        shape: 'image',
-        image: card.img.url,
-        size: 30,
-      }));
+      const layoutName = 'set1';
+      const layout = LayoutService.getLayoutByName(layoutName);
+      // console.log('layout', layout);
+
+      const selectedCards = CardsService.getCardsForLang(
+        this.$i18n.locale
+      ).filter((card) => !layout.cardFilter || layout.cardFilter(card));
+      // console.log('selectedCards', selectedCards);
+
+      const nodes = selectedCards.map((card) => {
+        const cardLayout =
+          layout.cards.find((c) => c.cardNum === card.cardNum) || {};
+        return {
+          id: card.cardNum,
+          shape: 'image',
+          image: card.img.url,
+          size: 30,
+          ...cardLayout.nodeOptions,
+        };
+      });
+      // console.log('nodes', nodes);
+      return nodes;
     },
     edges() {
-      console.log(
-        CardsService.getCardsForLang(this.$i18n.locale).map((link) => ({
-          // todo status
-          from: link.from,
-          to: link.to,
-          arrows: { to: { enabled: true } },
-        }))
-      );
-      return CardsService.getLinksForLang(this.$i18n.locale).map((link) => {
-        console.log(link);
+      const layoutName = 'set1';
+      const layout = LayoutService.getLayoutByName(layoutName);
+
+      const selectedLinks = CardsService.getLinksForLang(
+        this.$i18n.locale
+      ).filter((link) => !layout.linkFilter || layout.linkFilter(link));
+
+      const additionalLinks = (layout.links || []).map((link) => ({
+        explanation: '',
+        ...link,
+        status: 'temporary',
+      }));
+
+      const edges = [...selectedLinks, ...additionalLinks].map((link) => {
         return {
-          // todo status
           from: link.fromNum,
           to: link.toNum,
-          dashes: link.status === 'optional',
+          dashes: link.status === 'temporary',
           arrows: { to: { enabled: true } },
         };
       });
+      // console.log(edges);
+      return edges;
     },
   },
   methods: {
     onNodeDoubleSelection(nodeId) {
-      console.log(nodeId);
+      console.log('onNodeDoubleSelection', nodeId);
       //   this.selectedCard = this.collage.cards()[nodeId - 1];
     },
-    onNodeSelection() {
-      this.$buefy.toast.open({
-        message: "Double cliquer sur la carte pour l'afficher en grand",
-        position: 'is-bottom',
-      });
+    onNodeSelection(nodeId) {
+      console.log('onNodeSelection', nodeId);
+      // this.$buefy.toast.open({
+      //   message: "Double cliquer sur la carte pour l'afficher en grand",
+      //   position: 'is-bottom',
+      // });
     },
   },
 };
