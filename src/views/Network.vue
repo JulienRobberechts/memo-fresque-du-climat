@@ -49,11 +49,12 @@ export default {
   data: () => ({
     // collage: new Collage('climatecollage'),
     selectedCard: undefined,
+    layoutName: 'set2',
   }),
   created() {
     meta.setTitle(document, this.title);
     meta.setDescription(document, this.description);
-    console.log(this.cards);
+    // console.log(this.cards);
   },
   computed: {
     title() {
@@ -63,8 +64,7 @@ export default {
       return this.$t('description.all-cards');
     },
     nodes() {
-      const layoutName = 'set1';
-      const layout = LayoutService.getLayoutByName(layoutName);
+      const layout = LayoutService.getLayoutByName(this.layoutName);
       // console.log('layout', layout);
 
       const selectedCards = CardsService.getCardsForLang(
@@ -87,8 +87,8 @@ export default {
       return nodes;
     },
     edges() {
-      const layoutName = 'set1';
-      const layout = LayoutService.getLayoutByName(layoutName);
+      const layout = LayoutService.getLayoutByName(this.layoutName);
+      // console.log('layout', layout);
 
       const selectedLinks = CardsService.getLinksForLang(
         this.$i18n.locale
@@ -99,6 +99,7 @@ export default {
         ...link,
         status: 'temporary',
       }));
+      // console.log('additionalLinks', additionalLinks);
 
       const edges = [...selectedLinks, ...additionalLinks].map((link) => {
         return {

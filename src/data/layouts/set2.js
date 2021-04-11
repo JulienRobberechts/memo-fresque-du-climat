@@ -1,15 +1,15 @@
 export default {
   titleKey: 'layout-set2',
-  cardFilter: (card) => {
-    return card.cardSet <= 2;
-  },
+  cardFilter: (card) => card.cardSet <= 2,
+  linkFilter: (link) => link.status === 'valid',
   cards: [
     {
       cardNum: 1,
       // https://visjs.github.io/vis-network/docs/network/nodes.html
       nodeOptions: {
-        x: 0,
-        y: 0,
+        size: 50,
+        x: -50,
+        y: 100,
       },
     },
     {
@@ -44,7 +44,7 @@ export default {
       cardNum: 6,
       nodeOptions: {
         x: 240,
-        y: 192,
+        y: 170,
       },
     },
     {
