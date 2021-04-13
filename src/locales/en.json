@@ -38,10 +38,10 @@
     "invalid-consequences": "Wrong consequences"
   },
   "layout": {
-    "set1": "Set 1",
-    "set2": "Set 2",
-    "set3": "Set 3",
-    "set4": "Set 4",
-    "full": "Correction"
+    "set1": "Set 1 - Correction",
+    "set2": "Set 2 - Correction",
+    "set3": "Set 3 - Correction",
+    "set4": "Set 4 - Correction",
+    "full": "Climate Collage - Correction"
   }
 }
