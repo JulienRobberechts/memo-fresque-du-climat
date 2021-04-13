@@ -1,5 +1,5 @@
 <template>
-  <div ref="visualization" style="height: 100vh"></div>
+  <div class="visu" ref="visualization" style="height: 100vh"></div>
 </template>
 
 <script>
@@ -106,4 +106,8 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped></style>
+<style scoped>
+.visu {
+  background: linear-gradient(#ffffff, #04c2c0);
+}
+</style>

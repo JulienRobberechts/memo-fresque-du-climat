@@ -1,7 +1,6 @@
 <template>
-  <hr v-if="selectedCard" />
   <div v-if="selectedCard" class="banner">
-    <h2>{{ selectedCard.title }}</h2>
+    <span>{{ selectedCard.title }}</span>
   </div>
 </template>
 
@@ -16,14 +15,13 @@ export default {
 </script>
 
 <style scoped>
-hr {
-  color: #04c2c0;
-}
-
 .banner {
-  margin: 4px;
-  color: #04c2c0;
+  padding: 1rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #ffffff;
   text-shadow: #e90000 1px 1px;
-  padding: 0.1rem 0;
+
+  background-color: #04c2c0;
 }
 </style>
