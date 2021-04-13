@@ -1,5 +1,5 @@
 export default {
-  titleKey: 'layout-set1',
+  titleKey: 'layout.set1',
   cardFilter: (card) => card.cardSet <= 1,
   linkFilter: (link) => link.status === 'valid',
   cards: [
