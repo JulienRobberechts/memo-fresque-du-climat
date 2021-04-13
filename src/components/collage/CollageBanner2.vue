@@ -19,9 +19,9 @@ export default {
   padding: 1rem;
   font-size: 1.8rem;
   font-weight: 600;
-  color: #ffffff;
-  text-shadow: #e90000 1px 1px;
+  color: #04c2c0;
+  text-shadow: #5a5a5a 1px 1px;
 
-  background-color: #04c2c0;
+  background-color: #efeeee;
 }
 </style>

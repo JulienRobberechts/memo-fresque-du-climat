@@ -17,7 +17,9 @@ export default {
 <style scoped>
 .banner {
   color: #04c2c0;
-  text-shadow: #e90000 1px 1px;
+  text-shadow: #5a5a5a 1px 1px;
   padding: 0.1rem 0;
+  text-align: center;
+  margin: 0 1rem;
 }
 </style>
