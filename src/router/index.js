@@ -18,8 +18,9 @@ const routes = [
       import(/* webpackChunkName: "CardDetails" */ '../views/CardDetails.vue'),
   },
   {
-    path: '/collages',
+    path: '/collages/:layoutName?',
     name: 'CollagesView',
+    props: true,
     component: () =>
       import(/* webpackChunkName: "CardDetails" */ '../views/Collages.vue'),
   },
