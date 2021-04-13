@@ -1,23 +1,22 @@
 <template>
-  <div>
-    <CollageBanner1
-      :layout="layout"
-      :cards="cards"
-      :selectedCard="selectedCard"
-    />
-    <CollageNetwork
-      id="network"
-      :nodes="nodes"
-      :edges="edges"
-      @node-double-selection="onNodeDoubleSelection"
-      @node-selection="onNodeSelection"
-    />
-    <CollageBanner2
-      :layout="layout"
-      :cards="cards"
-      :selectedCard="selectedCard"
-    />
-    <!-- <b-modal
+  <CollageBanner1
+    :layout="layout"
+    :cards="cards"
+    :selectedCard="selectedCard"
+  />
+  <CollageNetwork
+    id="network"
+    :nodes="nodes"
+    :edges="edges"
+    @node-double-selection="onNodeDoubleSelection"
+    @node-selection="onNodeSelection"
+  />
+  <CollageBanner2
+    :layout="layout"
+    :cards="cards"
+    :selectedCard="selectedCard"
+  />
+  <!-- <b-modal
           v-model="selectedCard"
           has-modal-card
           trap-focus
@@ -40,7 +39,6 @@
             </div>
           </template>
       </b-modal> -->
-  </div>
 </template>
 
 <script>

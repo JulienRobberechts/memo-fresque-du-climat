@@ -1,5 +1,5 @@
 <template>
-  <div><CollageLayout :layoutName="layoutName" /></div>
+  <CollageLayout :layoutName="layoutName" />
 </template>
 
 <script>
