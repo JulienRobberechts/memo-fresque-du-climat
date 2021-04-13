@@ -176,7 +176,7 @@ export default {
       cardNum: 23,
       nodeOptions: {
         xPos: oceanCol + 1,
-        yPos: oceanRow+0.5,
+        yPos: oceanRow + 0.5,
       },
     },
     {
@@ -211,7 +211,7 @@ export default {
       cardNum: 29,
       nodeOptions: {
         xPos: oceanCol + 2,
-        yPos: oceanRow+1,
+        yPos: oceanRow + 1,
       },
     },
     {

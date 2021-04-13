@@ -5,12 +5,18 @@ const physicsRow = 1;
 const oceanCol = 4;
 const oceanRow = 3;
 const meltingCol = 8;
-const weatherCol = meltingCol + 2;
-const bioCol = weatherCol + 2;
+const weatherCol = meltingCol + 3;
+const bioCol = weatherCol;
+const bioRow = -2.5;
+const foodCol = weatherCol + 2;
+const deathCol = foodCol + 1;
+const deathRow = 0;
+const retroCol = 5;
+const retroRow = -2;
 
 export default {
   titleKey: 'layout.full',
-  cardFilter: (card) => card.cardSet <= 4,
+  cardFilter: null,
   linkFilter: (link) => link.status === 'valid',
   cards: [
     {
@@ -190,21 +196,28 @@ export default {
       cardNum: 25,
       nodeOptions: {
         xPos: bioCol,
-        yPos: 0,
+        yPos: bioRow,
       },
     },
     {
       cardNum: 26,
       nodeOptions: {
-        xPos: weatherCol,
-        yPos: 1,
+        xPos: weatherCol + 1,
+        yPos: 0,
       },
     },
     {
       cardNum: 27,
       nodeOptions: {
-        xPos: bioCol,
-        yPos: 4,
+        xPos: oceanCol + 6,
+        yPos: oceanRow + 1.5,
+      },
+    },
+    {
+      cardNum: 28,
+      nodeOptions: {
+        xPos: bioCol + 1,
+        yPos: bioRow,
       },
     },
     {
@@ -222,17 +235,87 @@ export default {
       },
     },
     {
+      cardNum: 31,
+      nodeOptions: {
+        xPos: foodCol,
+        yPos: 2.5,
+      },
+    },
+    {
+      cardNum: 32,
+      nodeOptions: {
+        xPos: foodCol,
+        yPos: 1.5,
+      },
+    },
+    {
       cardNum: 33,
       nodeOptions: {
-        xPos: weatherCol,
-        yPos: 3,
+        xPos: weatherCol + 1,
+        yPos: 1,
       },
     },
     {
       cardNum: 34,
       nodeOptions: {
         xPos: weatherCol,
-        yPos: 2,
+        yPos: 1.5,
+      },
+    },
+    {
+      cardNum: 35,
+      nodeOptions: {
+        xPos: weatherCol + 1,
+        yPos: -1,
+      },
+    },
+    {
+      cardNum: 36,
+      nodeOptions: {
+        xPos: weatherCol,
+        yPos: -1.5,
+      },
+    },
+    {
+      cardNum: 37,
+      nodeOptions: {
+        xPos: deathCol,
+        yPos: deathRow + 1,
+      },
+    },
+    {
+      cardNum: 38,
+      nodeOptions: {
+        xPos: deathCol + 1,
+        yPos: deathRow,
+      },
+    },
+    {
+      cardNum: 39,
+      nodeOptions: {
+        xPos: deathCol + 1,
+        yPos: deathRow + 2,
+      },
+    },
+    {
+      cardNum: 40,
+      nodeOptions: {
+        xPos: deathCol + 2,
+        yPos: deathRow + 1,
+      },
+    },
+    {
+      cardNum: 41,
+      nodeOptions: {
+        xPos: retroCol,
+        yPos: retroRow,
+      },
+    },
+    {
+      cardNum: 42,
+      nodeOptions: {
+        xPos: retroCol + 1,
+        yPos: retroRow + 1,
       },
     },
   ],
