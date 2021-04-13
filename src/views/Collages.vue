@@ -35,13 +35,13 @@
 </template>
 
 <script>
-import FdcNetwork from '@/components/NetworkComponent.vue';
+import FdcNetwork from '@/components/collage/Network.vue';
 import CardsService from '@/services/CardsService';
 import LayoutService from '@/services/LayoutService';
 import meta from '@/utils/meta-vue3';
 
 export default {
-  name: 'NetworkView',
+  name: 'CollagesView',
   components: {
     FdcNetwork,
     // FdcCard

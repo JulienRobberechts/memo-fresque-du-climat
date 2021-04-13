@@ -5,7 +5,8 @@ export default {
   cards: [
     {
       cardNum: 1,
-      // https://visjs.github.io/vis-network/docs/network/nodes.html
+      /// node options as you can see in the doc
+      /// https://visjs.github.io/vis-network/docs/network/nodes.html
       nodeOptions: {
         x: 0,
         y: 0,
