@@ -49,18 +49,23 @@ export default {
     selectedCard: undefined,
   }),
   computed: {
+    layout() {
+      return LayoutService.getLayoutByName(this.layoutName);
+    },
     nodes() {
-      const layout = LayoutService.getLayoutByName(this.layoutName);
+      // const layout = LayoutService.getLayoutByName(this.layoutName);
       // console.log('layout', layout);
 
       const selectedCards = CardsService.getCardsForLang(
         this.$i18n.locale
-      ).filter((card) => !layout.cardFilter || layout.cardFilter(card));
+      ).filter(
+        (card) => !this.layout.cardFilter || this.layout.cardFilter(card)
+      );
       // console.log('selectedCards', selectedCards);
 
       const nodes = selectedCards.map((card) => {
         const cardLayout =
-          layout.cards.find((c) => c.cardNum === card.cardNum) || {};
+          this.layout.cards.find((c) => c.cardNum === card.cardNum) || {};
         return {
           id: card.cardNum,
           shape: 'image',
@@ -73,14 +78,16 @@ export default {
       return nodes;
     },
     edges() {
-      const layout = LayoutService.getLayoutByName(this.layoutName);
+      // const layout = LayoutService.getLayoutByName(this.layoutName);
       // console.log('layout', layout);
 
       const selectedLinks = CardsService.getLinksForLang(
         this.$i18n.locale
-      ).filter((link) => !layout.linkFilter || layout.linkFilter(link));
+      ).filter(
+        (link) => !this.layout.linkFilter || this.layout.linkFilter(link)
+      );
 
-      const additionalLinks = (layout.links || []).map((link) => ({
+      const additionalLinks = (this.layout.links || []).map((link) => ({
         explanation: '',
         ...link,
         status: 'temporary',
