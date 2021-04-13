@@ -52,18 +52,14 @@ export default {
     layout() {
       return LayoutService.getLayoutByName(this.layoutName);
     },
-    nodes() {
-      // const layout = LayoutService.getLayoutByName(this.layoutName);
-      // console.log('layout', layout);
-
-      const selectedCards = CardsService.getCardsForLang(
-        this.$i18n.locale
-      ).filter(
+    cards() {
+      const cards = CardsService.getCardsForLang(this.$i18n.locale).filter(
         (card) => !this.layout.cardFilter || this.layout.cardFilter(card)
       );
-      // console.log('selectedCards', selectedCards);
-
-      const nodes = selectedCards.map((card) => {
+      return cards;
+    },
+    nodes() {
+      const nodes = this.cards.map((card) => {
         const cardLayout =
           this.layout.cards.find((c) => c.cardNum === card.cardNum) || {};
         return {
@@ -74,14 +70,10 @@ export default {
           ...cardLayout.nodeOptions,
         };
       });
-      // console.log('nodes', nodes);
       return nodes;
     },
-    edges() {
-      // const layout = LayoutService.getLayoutByName(this.layoutName);
-      // console.log('layout', layout);
-
-      const selectedLinks = CardsService.getLinksForLang(
+    links() {
+      const officialLinks = CardsService.getLinksForLang(
         this.$i18n.locale
       ).filter(
         (link) => !this.layout.linkFilter || this.layout.linkFilter(link)
@@ -92,9 +84,11 @@ export default {
         ...link,
         status: 'temporary',
       }));
-      // console.log('additionalLinks', additionalLinks);
-
-      const edges = [...selectedLinks, ...additionalLinks].map((link) => {
+      const links = [...officialLinks, ...additionalLinks];
+      return links;
+    },
+    edges() {
+      const edges = this.links.map((link) => {
         return {
           from: link.fromNum,
           to: link.toNum,
@@ -102,14 +96,14 @@ export default {
           arrows: { to: { enabled: true } },
         };
       });
-      // console.log(edges);
       return edges;
     },
   },
   methods: {
-    onNodeDoubleSelection(nodeId) {
-      console.log('onNodeDoubleSelection', nodeId);
-      //   this.selectedCard = this.collage.cards()[nodeId - 1];
+    onNodeDoubleSelection(nodeNum) {
+      console.log('onNodeDoubleSelection', nodeNum);
+      this.selectedCard = this.cards.find((card) => card.cardNum === nodeNum);
+      // console.log('this.selectedCard', this.selectedCard);
     },
     onNodeSelection(nodeId) {
       console.log('onNodeSelection', nodeId);
