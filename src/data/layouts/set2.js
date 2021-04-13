@@ -8,115 +8,134 @@ export default {
       /// node options as you can see in the doc
       /// https://visjs.github.io/vis-network/docs/network/nodes.html
       nodeOptions: {
-        size: 50,
-        x: -50,
-        y: 100,
+        zoom: 1.6,
+        xPos: -0.5,
+        yPos: 1.5,
       },
     },
     {
       cardNum: 2,
       nodeOptions: {
-        x: 120,
-        y: 0,
+        xPos: 1,
+        yPos: 0,
       },
     },
     {
       cardNum: 3,
       nodeOptions: {
-        x: 120,
-        y: 75,
+        xPos: 1,
+        yPos: 1,
       },
     },
     {
       cardNum: 4,
       nodeOptions: {
-        x: 120,
-        y: 150,
+        xPos: 1,
+        yPos: 2,
       },
     },
     {
       cardNum: 5,
       nodeOptions: {
-        x: 240,
-        y: 75,
+        xPos: 2,
+        yPos: 0.5,
       },
     },
     {
       cardNum: 6,
       nodeOptions: {
-        x: 240,
-        y: 170,
+        xPos: 2,
+        yPos: 2,
       },
     },
     {
       cardNum: 7,
       nodeOptions: {
-        x: 120 * 3,
-        y: 75,
+        xPos: 3,
+        yPos: 0.5,
       },
     },
     {
       cardNum: 8,
       nodeOptions: {
-        x: 120,
-        y: 75 * 3,
+        xPos: 1,
+        yPos: 3,
       },
     },
     {
       cardNum: 9,
       nodeOptions: {
-        x: 120 * 3,
-        y: 87 * 3,
+        xPos: 3,
+        yPos: 2.5,
       },
     },
     {
       cardNum: 11,
       nodeOptions: {
-        x: 480,
-        y: 45 * 3,
+        xPos: 4,
+        yPos: 0.5,
       },
     },
     {
       cardNum: 12,
       nodeOptions: {
-        x: 120 * 3,
-        y: 44 * 3,
+        xPos: 3,
+        yPos: 1.5,
       },
     },
     {
       cardNum: 13,
       nodeOptions: {
-        x: 600,
-        y: 45 * 3,
+        xPos: 5,
+        yPos: 0.5,
       },
     },
     {
       cardNum: 18,
       nodeOptions: {
-        x: 280 * 3,
-        y: 75 * 3,
+        xPos: 7,
+        yPos: 0,
       },
     },
     {
       cardNum: 21,
       nodeOptions: {
-        x: 280 * 3,
-        y: 75,
+        xPos: 6,
+        yPos: 0.5,
       },
     },
     {
       cardNum: 22,
       nodeOptions: {
-        x: 900,
-        y: 150,
+        xPos: 7,
+        yPos: 1,
       },
     },
     {
       cardNum: 24,
       nodeOptions: {
-        x: 480,
-        y: 300,
+        xPos: 4,
+        yPos: 3.5,
       },
+    },
+  ],
+  links: [
+    {
+      fromNum: 13,
+      toNum: 21,
+    },
+    {
+      fromNum: 21,
+      toNum: 18,
+    },
+    {
+      fromNum: 21,
+      toNum: 22,
+    },
+    {
+      fromNum: 18,
+      toNum: 22,
+      status: 'invalid',
     },
   ],
 };
