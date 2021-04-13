@@ -39,6 +39,9 @@
   },
   "layout": {
     "set1": "Lot 1",
-    "set2": "Lot 2"
+    "set2": "Lot 2",
+    "set3": "Lot 3",
+    "set4": "Lot 4",
+    "full": "Correction"
   }
 }

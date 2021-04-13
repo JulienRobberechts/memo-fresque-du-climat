@@ -77,10 +77,6 @@ export default {
     },
     nodes() {
       const nodes = this.cards.map((card) => {
-        const cardLayout =
-          this.layout.cards.find((c) => c.cardNum === card.cardNum) || {};
-
-        const n = cardLayout.nodeOptions;
         const cardSize = 30;
         const cardMarginRatio = 1.8;
 
@@ -90,14 +86,27 @@ export default {
         const cardSpaceX = 2.9 * cardSize + cardMarginX;
         const cardSpaceY = 2.0 * cardSize + cardMarginY;
 
+        const cardLayout =
+          this.layout.cards.find((c) => c.cardNum === card.cardNum) || {};
+
+        const { nodeOptions } = cardLayout;
+        if (!nodeOptions) {
+          console.warn(
+            `Card ${card.cardNum} '${card.title}' not found in the layout ${this.layoutName}`
+          );
+          return {
+            id: card.cardNum,
+          };
+        }
+
         return {
           id: card.cardNum,
           shape: 'image',
           image: card.img.url,
-          ...n,
-          x: n.xPos * cardSpaceX,
-          y: n.yPos * cardSpaceY,
-          size: (n.zoom || 1) * cardSize,
+          ...nodeOptions,
+          x: nodeOptions.xPos * cardSpaceX,
+          y: nodeOptions.yPos * cardSpaceY,
+          size: (nodeOptions.zoom || 1) * cardSize,
         };
       });
       return nodes;
