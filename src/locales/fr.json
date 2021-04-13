@@ -37,8 +37,8 @@
     "invalid-consequence": "Conséquence à ne pas faire",
     "invalid-consequences": "Conséquences à ne pas faire"
   },
-  "layout":{
-    "set1": "Set 1",
-    "set2": "Set 2"
+  "layout": {
+    "set1": "Lot 1",
+    "set2": "Lot 2"
   }
 }
