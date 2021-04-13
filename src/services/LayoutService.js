@@ -1,5 +1,6 @@
 import layoutSet1 from '@/data/layouts/set1.js';
 import layoutSet2 from '@/data/layouts/set2.js';
+import layoutTest from '@/data/layouts/test.js';
 
 export default {
   validLayouts() {
@@ -15,6 +16,8 @@ export default {
     switch (layoutName) {
       case '':
         return this.defaultLayout();
+      case 'test':
+        return layoutTest;
       case 'set1':
         return layoutSet1;
       case 'set2':

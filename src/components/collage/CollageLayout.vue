@@ -79,12 +79,25 @@ export default {
       const nodes = this.cards.map((card) => {
         const cardLayout =
           this.layout.cards.find((c) => c.cardNum === card.cardNum) || {};
+
+        const n = cardLayout.nodeOptions;
+        const cardSize = 30;
+        const cardMarginRatio = 1.8;
+
+        const cardMargin = cardMarginRatio * cardSize;
+        const cardMarginX = cardMargin;
+        const cardMarginY = cardMargin;
+        const cardSpaceX = 2.9 * cardSize + cardMarginX;
+        const cardSpaceY = 2.0 * cardSize + cardMarginY;
+
         return {
           id: card.cardNum,
           shape: 'image',
           image: card.img.url,
-          size: 30,
-          ...cardLayout.nodeOptions,
+          ...n,
+          x: n.xPos * cardSpaceX,
+          y: n.yPos * cardSpaceY,
+          size: (n.zoom || 1) * cardSize,
         };
       });
       return nodes;
@@ -99,24 +112,37 @@ export default {
       const additionalLinks = (this.layout.links || []).map((link) => ({
         explanation: '',
         ...link,
-        status: 'temporary',
+        tmp: true,
       }));
       const links = [...officialLinks, ...additionalLinks];
       return links;
     },
     edges() {
-      const edges = this.links.map((link) => {
-        return {
-          from: link.fromNum,
-          to: link.toNum,
-          dashes: link.status === 'temporary',
-          arrows: { to: { enabled: true } },
-        };
-      });
-      return edges;
+      return this.links.map(this.edgeFromLink);
     },
   },
   methods: {
+    edgeFromLink(link) {
+      return {
+        from: link.fromNum,
+        to: link.toNum,
+        ...this.edgeOptions(link),
+      };
+    },
+    edgeOptions(link) {
+      return {
+        color: {
+          color:
+            link.status === 'invalid'
+              ? '#e90000'
+              : link.tmp
+              ? '#aaa'
+              : '#04c2c0',
+        },
+        dashes: link.tmp,
+        arrows: { to: { enabled: true } },
+      };
+    },
     onNodeDoubleSelection(nodeNum) {
       console.log('onNodeDoubleSelection', nodeNum);
       this.selectedCard = this.cards.find((card) => card.cardNum === nodeNum);
