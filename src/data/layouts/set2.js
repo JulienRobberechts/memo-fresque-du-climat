@@ -1,3 +1,10 @@
+const humanActivityCol = 1;
+const humanActivityRow = 1.5;
+const co2Col = 3;
+const physicsRow = 0.5;
+const oceanCol = 4;
+const oceanRow = 3.5;
+
 export default {
   titleKey: 'layout.set2',
   cardFilter: (card) => card.cardSet <= 2,
@@ -9,113 +16,113 @@ export default {
       /// https://visjs.github.io/vis-network/docs/network/nodes.html
       nodeOptions: {
         zoom: 1.6,
-        xPos: -0.5,
-        yPos: 1.5,
+        xPos: humanActivityCol - 1.5,
+        yPos: humanActivityRow,
       },
     },
     {
       cardNum: 2,
       nodeOptions: {
-        xPos: 1,
-        yPos: 0,
+        xPos: humanActivityCol,
+        yPos: humanActivityRow - 1.5,
       },
     },
     {
       cardNum: 3,
       nodeOptions: {
-        xPos: 1,
-        yPos: 1,
+        xPos: humanActivityCol,
+        yPos: humanActivityRow - 0.5,
       },
     },
     {
       cardNum: 4,
       nodeOptions: {
-        xPos: 1,
-        yPos: 2,
+        xPos: humanActivityCol,
+        yPos: humanActivityRow + 0.5,
       },
     },
     {
       cardNum: 5,
       nodeOptions: {
-        xPos: 2,
-        yPos: 0.5,
+        xPos: humanActivityCol + 1,
+        yPos: physicsRow,
       },
     },
     {
       cardNum: 6,
       nodeOptions: {
-        xPos: 2,
-        yPos: 2,
+        xPos: humanActivityCol + 1,
+        yPos: physicsRow + 1.5,
       },
     },
     {
       cardNum: 7,
       nodeOptions: {
-        xPos: 3,
-        yPos: 0.5,
+        xPos: co2Col,
+        yPos: physicsRow,
       },
     },
     {
       cardNum: 8,
       nodeOptions: {
-        xPos: 1,
-        yPos: 3,
+        xPos: humanActivityCol,
+        yPos: humanActivityRow + 1.5,
       },
     },
     {
       cardNum: 9,
       nodeOptions: {
-        xPos: 3,
-        yPos: 2.5,
+        xPos: co2Col,
+        yPos: physicsRow + 2,
       },
     },
     {
       cardNum: 11,
       nodeOptions: {
-        xPos: 4,
-        yPos: 0.5,
+        xPos: co2Col + 1,
+        yPos: physicsRow,
       },
     },
     {
       cardNum: 12,
       nodeOptions: {
-        xPos: 3,
-        yPos: 1.5,
+        xPos: co2Col,
+        yPos: physicsRow + 0.55,
       },
     },
     {
       cardNum: 13,
       nodeOptions: {
-        xPos: 5,
-        yPos: 0.5,
+        xPos: co2Col + 2,
+        yPos: physicsRow,
       },
     },
     {
       cardNum: 18,
       nodeOptions: {
-        xPos: 7,
-        yPos: 0,
+        xPos: co2Col + 4,
+        yPos: physicsRow - 0.5,
       },
     },
     {
       cardNum: 21,
       nodeOptions: {
-        xPos: 6,
-        yPos: 0.5,
+        xPos: co2Col + 3,
+        yPos: physicsRow,
       },
     },
     {
       cardNum: 22,
       nodeOptions: {
-        xPos: 7,
-        yPos: 1,
+        xPos: co2Col + 4,
+        yPos: physicsRow + 0.5,
       },
     },
     {
       cardNum: 24,
       nodeOptions: {
-        xPos: 4,
-        yPos: 3.5,
+        xPos: oceanCol,
+        yPos: oceanRow,
       },
     },
   ],
