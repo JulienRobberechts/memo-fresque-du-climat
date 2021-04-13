@@ -1,3 +1,6 @@
+const humanActivityCol = 1;
+const physicsRow = 0.5;
+
 export default {
   titleKey: 'layout.set1',
   cardFilter: (card) => card.cardSet <= 1,
@@ -9,53 +12,53 @@ export default {
       /// https://visjs.github.io/vis-network/docs/network/nodes.html
       nodeOptions: {
         zoom: 1.6,
-        xPos: -0.5,
-        yPos: 0,
+        xPos: humanActivityCol - 0.5,
+        yPos: physicsRow,
       },
     },
 
     {
       cardNum: 5,
       nodeOptions: {
-        xPos: 1,
-        yPos: 0,
+        xPos: humanActivityCol + 1,
+        yPos: physicsRow,
       },
     },
 
     {
       cardNum: 7,
       nodeOptions: {
-        xPos: 2,
-        yPos: 0,
+        xPos: humanActivityCol + 2,
+        yPos: physicsRow,
       },
     },
 
     {
       cardNum: 13,
       nodeOptions: {
-        xPos: 3,
-        yPos: 0,
+        xPos: humanActivityCol + 3,
+        yPos: physicsRow,
       },
     },
     {
       cardNum: 18,
       nodeOptions: {
-        xPos: 5,
-        yPos: -0.5,
+        xPos: humanActivityCol + 5,
+        yPos: physicsRow - 0.5,
       },
     },
     {
       cardNum: 21,
       nodeOptions: {
-        xPos: 4,
-        yPos: 0,
+        xPos: humanActivityCol + 4,
+        yPos: physicsRow,
       },
     },
     {
       cardNum: 22,
       nodeOptions: {
-        xPos: 5,
-        yPos: 0.5,
+        xPos: humanActivityCol + 5,
+        yPos: physicsRow + 0.5,
       },
     },
   ],
