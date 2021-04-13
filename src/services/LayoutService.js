@@ -13,7 +13,7 @@ export default {
     return layoutName === '' || this.validLayouts().includes(layoutName);
   },
   defaultLayout() {
-    return layoutSet2;
+    return layoutFull;
   },
   getLayoutByName(layoutName) {
     switch (layoutName) {
@@ -29,6 +29,7 @@ export default {
         return layoutSet3;
       case 'set4':
         return layoutSet4;
+      case 'set5':
       case 'full':
         return layoutFull;
       default:
