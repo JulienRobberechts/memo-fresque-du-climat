@@ -26,7 +26,6 @@ export default {
 
     const options = {
       autoResize: true,
-      height: '100%',
       width: '100%',
       physics: {
         enabled: false,
@@ -109,6 +108,7 @@ export default {
 <style scoped>
 .visu {
   background: linear-gradient(#ffffff, #efeeee);
-  height: 100vh;
+  /* magic number to replace */
+  height: calc(100vh - 219px);
 }
 </style>
