@@ -1,5 +1,10 @@
 <template>
   <div>
+    <CollageBanner1
+      :layout="layout"
+      :cards="cards"
+      :selectedCard="selectedCard"
+    />
     <CollageNetwork
       id="network"
       :nodes="nodes"
@@ -7,7 +12,11 @@
       @node-double-selection="onNodeDoubleSelection"
       @node-selection="onNodeSelection"
     />
-
+    <CollageBanner2
+      :layout="layout"
+      :cards="cards"
+      :selectedCard="selectedCard"
+    />
     <!-- <b-modal
           v-model="selectedCard"
           has-modal-card
@@ -35,14 +44,17 @@
 </template>
 
 <script>
+import CollageBanner1 from '@/components/collage/CollageBanner1.vue';
+import CollageBanner2 from '@/components/collage/CollageBanner2.vue';
 import CollageNetwork from '@/components/collage/CollageNetwork.vue';
 import CardsService from '@/services/CardsService';
 import LayoutService from '@/services/LayoutService';
 
 export default {
   components: {
+    CollageBanner1,
+    CollageBanner2,
     CollageNetwork,
-    // FdcCard
   },
   props: {
     layoutName: {
@@ -112,8 +124,9 @@ export default {
       this.selectedCard = this.cards.find((card) => card.cardNum === nodeNum);
       // console.log('this.selectedCard', this.selectedCard);
     },
-    onNodeSelection(nodeId) {
-      console.log('onNodeSelection', nodeId);
+    onNodeSelection(nodeNum) {
+      console.log('onNodeSelection', nodeNum);
+      this.selectedCard = this.cards.find((card) => card.cardNum === nodeNum);
       // this.$buefy.toast.open({
       //   message: "Double cliquer sur la carte pour l'afficher en grand",
       //   position: 'is-bottom',
