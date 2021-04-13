@@ -36,5 +36,9 @@
     "invalid-causes": "Causes à ne pas faire",
     "invalid-consequence": "Conséquence à ne pas faire",
     "invalid-consequences": "Conséquences à ne pas faire"
+  },
+  "layout":{
+    "set1": "Set 1",
+    "set2": "Set 2"
   }
 }
