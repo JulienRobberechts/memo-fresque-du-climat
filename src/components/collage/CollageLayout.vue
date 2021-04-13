@@ -44,7 +44,14 @@ export default {
     CollageNetwork,
     // FdcCard
   },
-  props: ['layoutName'],
+  props: {
+    layoutName: {
+      type: String,
+      validator: function (value) {
+        return LayoutService.isValidLayout(value);
+      },
+    },
+  },
   data: () => ({
     selectedCard: undefined,
   }),

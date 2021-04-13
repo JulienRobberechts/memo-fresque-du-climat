@@ -1,5 +1,5 @@
 <template>
-  <div><CollageLayout layoutName="set2" /></div>
+  <div><CollageLayout :layoutName="layoutName" /></div>
 </template>
 
 <script>
@@ -8,6 +8,9 @@ import meta from '@/utils/meta-vue3';
 
 export default {
   name: 'CollagesView',
+  props: {
+    layoutName: String,
+  },
   components: {
     CollageLayout,
   },
