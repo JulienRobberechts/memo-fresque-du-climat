@@ -37,8 +37,8 @@
     "invalid-consequence": "Wrong consequence",
     "invalid-consequences": "Wrong consequences"
   },
-  "layouts": {
-    "set1": "Lot 1",
-    "set2": "Lot 2"
+  "layout": {
+    "set1": "Set 1",
+    "set2": "Set 2"
   }
 }
