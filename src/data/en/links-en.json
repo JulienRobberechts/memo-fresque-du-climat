@@ -186,6 +186,18 @@
     "explanation": ""
   },
   {
+    "fromNum": 7,
+    "toNum": 11,
+    "status": "invalid",
+    "explanation": "The correct link is via the carbon sinks card."
+  },
+  {
+    "fromNum": 7,
+    "toNum": 24,
+    "status": "invalid",
+    "explanation": "The correct link is via the carbon sinks card."
+  },
+  {
     "fromNum": 8,
     "toNum": 6,
     "status": "valid",
@@ -252,6 +264,18 @@
     "explanation": ""
   },
   {
+    "fromNum": 11,
+    "toNum": 12,
+    "status": "invalid",
+    "explanation": "It can be argued that CO2 emissions take place before reaching carbon sinks. But the opposite link has our preference."
+  },
+  {
+    "fromNum": 11,
+    "toNum": 24,
+    "status": "invalid",
+    "explanation": "Players often identify CO2 concentration as a cause for ocean acidification. But it is more logical to link back to carbon sinks."
+  },
+  {
     "fromNum": 12,
     "toNum": 11,
     "status": "valid",
@@ -268,6 +292,12 @@
     "toNum": 32,
     "status": "optional",
     "explanation": "Studies have shown that yields increase with increased CO2, but that the nutrient content of vegetables is reduced as a result, because trace elements are not more abundant when yields increase."
+  },
+  {
+    "fromNum": 12,
+    "toNum": 14,
+    "status": "invalid",
+    "explanation": "The idea here is not to say there is no link between these two cards, but to make sure they are not mixed up. The carbon sinks card tells us where the carbon goes. The energy budget card tells us where the excess energy goes. Both distribute something, but not the same thing. To make it even more confusing, the atmosphere and the ocean are present in both."
   },
   {
     "fromNum": 13,
@@ -370,6 +400,12 @@
     "toNum": 42,
     "status": "valid",
     "explanation": ""
+  },
+  {
+    "fromNum": 17,
+    "toNum": 24,
+    "status": "invalid",
+    "explanation": "The increase of water temperature is not linked to ocean acidification, at least for the time being. In the long term (over several centuries), as it heats up, the water will lose its capacity to dissolve atmospheric CO2 and will become less efficient as a carbon sink. So the increase in water temperature will inhibit, to some extent, ocean acidification."
   },
   {
     "fromNum": 18,
@@ -546,6 +582,12 @@
     "explanation": "The two types of biodiversity can interact with each other."
   },
   {
+    "fromNum": 25,
+    "toNum": 8,
+    "status": "invalid",
+    "explanation": "It would be more logical to link to agricultural yields."
+  },
+  {
     "fromNum": 26,
     "toNum": 32,
     "status": "valid",
@@ -652,6 +694,12 @@
     "toNum": 39,
     "status": "valid",
     "explanation": ""
+  },
+  {
+    "fromNum": 32,
+    "toNum": 8,
+    "status": "invalid",
+    "explanation": "Yes, the yield decline does affect agriculture, but the agriculture card is here to stand for one of the causes of GHG emissions."
   },
   {
     "fromNum": 33,
@@ -802,6 +850,18 @@
     "toNum": 9,
     "status": "valid",
     "explanation": ""
+  },
+  {
+    "fromNum": 41,
+    "toNum": 13,
+    "status": "optional",
+    "explanation": "The permafrost card can be linked either to Other GHGs or to Additional Greenhouse Effect. The Other GHGs card is about GHGs emitted by human activities, while the methane in permafrost is not of human origin."
+  },
+  {
+    "fromNum": 41,
+    "toNum": 28,
+    "status": "optional",
+    "explanation": "Permafrost contains billions of buried bacteria and viruses. If it melts, diseases might contaminate humans and animals. In 2016, there was an outbreak of anthrax caused by a melted reindeer carcass."
   },
   {
     "fromNum": 42,

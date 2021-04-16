@@ -165,7 +165,7 @@
     "fromNum": 6,
     "toNum": 26,
     "status": "optional",
-    "explanation": "La végétation retiens l'eau. Si on la coupe, ça facilite les crues."
+    "explanation": "La végétation retient l'eau. Si on la coupe, cela facilite les crues."
   },
   {
     "fromNum": 6,
@@ -273,7 +273,7 @@
     "fromNum": 11,
     "toNum": 24,
     "status": "invalid",
-    "explanation": "On retrouve souvent comme origine de cette carte concentration en CO2 (ppm). Hors, toute molécule qui se retrouve dans l'océan ne se retrouve pas dans l'atmosphère, et donc le lien le plus logique provient de la carte puits de carbone"
+    "explanation": "On retrouve souvent comme origine de cette carte concentration en CO2 (ppm). Or toute molécule qui se retrouve dans l'océan ne se retrouve pas dans l'atmosphère, et donc le lien le plus logique provient de la carte puits de carbone"
   },
   {
     "fromNum": 12,
