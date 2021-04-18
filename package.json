@@ -1,6 +1,6 @@
 {
   "name": "memo-fresque-du-climat",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": true,
   "scripts": {
     "serve-fr": "VUE_APP_I18N_LOCALE=fr PORT=8090 vue-cli-service serve",
