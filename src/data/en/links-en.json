@@ -606,6 +606,18 @@
     "explanation": "Flooding can lead in some cases to contamination of freshwater resources and affect drinking water systems."
   },
   {
+    "fromNum": 26,
+    "toNum": 28,
+    "status": "invalid",
+    "explanation": "Be wary of common misconceptions about flooding, marshes, mosquitos... Flooding can cause sanitation issues, but that is not what we are talking about here."
+  },
+  {
+    "fromNum": 26,
+    "toNum": 33,
+    "status": "invalid",
+    "explanation": "No, these are two different phenomena and should not be conflated."
+  },
+  {
     "fromNum": 27,
     "toNum": 37,
     "status": "valid",
