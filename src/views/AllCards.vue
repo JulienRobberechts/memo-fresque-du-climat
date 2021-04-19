@@ -1,17 +1,16 @@
 <template>
   <h1>{{ $t('all-cards') }}</h1>
-  <CardsList />
+  <CardsMenu />
 </template>
 
 <script>
-// @ is an alias to /src
-import CardsList from '@/components/collections/CardsList.vue';
+import CardsMenu from '@/components/collections/menu/CardsMenu.vue';
 import meta from '@/utils/meta-vue3';
 
 export default {
   name: 'AllCards',
   components: {
-    CardsList,
+    CardsMenu,
   },
   data() {
     return {

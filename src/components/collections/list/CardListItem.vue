@@ -9,7 +9,7 @@
 
 <script>
 export default {
-  name: 'CardItem',
+  name: 'CardListItem',
   props: {
     card: Object,
   },
