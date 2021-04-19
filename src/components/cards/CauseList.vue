@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import Cause from '@/components/Cause.vue';
+import Cause from './Cause.vue';
 
 export default {
   name: 'CauseList',

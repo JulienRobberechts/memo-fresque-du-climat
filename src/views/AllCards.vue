@@ -5,7 +5,7 @@
 
 <script>
 // @ is an alias to /src
-import CardsList from '@/components/CardsList.vue';
+import CardsList from '@/components/collections/CardsList.vue';
 import meta from '@/utils/meta-vue3';
 
 export default {

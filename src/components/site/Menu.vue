@@ -21,7 +21,7 @@
   </div>
 </template>
 <script>
-import LanguageSwitch from '@/components/LanguageSwitch';
+import LanguageSwitch from '@/components/site/LanguageSwitch';
 
 export default {
   components: {
