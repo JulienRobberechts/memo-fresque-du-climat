@@ -1,18 +1,18 @@
 <template>
   <div class="cards">
-    <CardInList v-for="card in cards" :key="card.cardNum" :card="card" />
+    <CardItem v-for="card in cards" :key="card.cardNum" :card="card" />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import CardInList from '@/components/CardInList.vue';
+import CardItem from '@/components/cards/CardItem.vue';
 import CardsService from '@/services/CardsService';
 
 export default {
   name: 'CardsList',
   components: {
-    CardInList,
+    CardItem,
   },
   data() {
     return {

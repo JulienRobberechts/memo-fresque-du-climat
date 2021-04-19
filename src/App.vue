@@ -5,7 +5,7 @@
   </div>
 </template>
 <script>
-import Menu from '@/components/Menu';
+import Menu from '@/components/site/Menu';
 import meta from '@/utils/meta-vue3';
 
 export default {

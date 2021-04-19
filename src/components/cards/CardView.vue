@@ -112,10 +112,10 @@
 </template>
 
 <script>
-import ListTitle from '@/components/ListTitle.vue';
-import CauseList from '@/components/CauseList.vue';
-import ConsequenceList from '@/components/ConsequenceList.vue';
-import CardBack from '@/components/CardBack.vue';
+import ListTitle from './ListTitle.vue';
+import CauseList from './CauseList.vue';
+import ConsequenceList from './ConsequenceList.vue';
+import CardBack from './CardBack.vue';
 
 export default {
   name: 'CardView',

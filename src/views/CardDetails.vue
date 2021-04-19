@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import CardView from '@/components/CardView.vue';
+import CardView from '@/components/cards/CardView.vue';
 import CardsService from '@/services/CardsService';
 import meta from '@/utils/meta-vue3';
 

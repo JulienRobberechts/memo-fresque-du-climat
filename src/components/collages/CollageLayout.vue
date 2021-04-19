@@ -42,9 +42,9 @@
 </template>
 
 <script>
-import CollageBanner1 from '@/components/collages/CollageBanner1.vue';
-import CollageBanner2 from '@/components/collages/CollageBanner2.vue';
-import CollageNetwork from '@/components/collages/CollageNetwork.vue';
+import CollageBanner1 from './CollageBanner1.vue';
+import CollageBanner2 from './CollageBanner2.vue';
+import CollageNetwork from './CollageNetwork.vue';
 import CardsService from '@/services/CardsService';
 import LayoutService from '@/services/LayoutService';
 
