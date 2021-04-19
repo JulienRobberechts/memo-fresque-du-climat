@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import CollageLayout from '@/components/collage/CollageLayout.vue';
+import CollageLayout from '@/components/collages/CollageLayout.vue';
 import meta from '@/utils/meta-vue3';
 
 export default {
