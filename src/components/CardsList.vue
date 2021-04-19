@@ -1,0 +1,34 @@
+<template>
+  <div class="cards">
+    <CardInList v-for="card in cards" :key="card.cardNum" :card="card" />
+  </div>
+</template>
+
+<script>
+// @ is an alias to /src
+import CardInList from '@/components/CardInList.vue';
+import CardsService from '@/services/CardsService';
+
+export default {
+  name: 'CardsList',
+  components: {
+    CardInList,
+  },
+  data() {
+    return {
+      cards: null,
+    };
+  },
+  created() {
+    this.cards = CardsService.getCardsForLang(this.$i18n.locale);
+  },
+};
+</script>
+<style scoped>
+.cards {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+}
+</style>
