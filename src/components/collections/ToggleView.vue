@@ -2,15 +2,15 @@
   <div class="toggle">
     <grid-icon
       class="icon"
-      alt="small cards"
-      title="small cards"
+      :alt="$t('all-cards.smallCards')"
+      :title="$t('all-cards.smallCards')"
       :color="colorSmall"
       @click="handleClick(true)"
     />
     <lines-icon
       class="icon"
-      alt="big cards"
-      title="big cards"
+      :alt="$t('all-cards.bigCards')"
+      :title="$t('all-cards.bigCards')"
       :color="colorBig"
       @click="handleClick(false)"
     />

@@ -12,6 +12,7 @@
     xml:space="preserve"
     :style="SvgStyle"
   >
+    <title id="unique-id">{{ title }}</title>
     <g>
       <rect width="16" height="16" rx="4" ry="4" />
       <rect x="19" width="16" height="16" rx="4" ry="4" />
