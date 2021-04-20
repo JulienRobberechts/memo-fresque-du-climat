@@ -14,7 +14,11 @@
   "config": {
     "wiki-root-url": "https://fresqueduclimat.org"
   },
-  "all-cards": "Cartes de la Fresque du climat",
+  "all-cards": {
+    "title": "Cartes de la Fresque du climat",
+    "smallCards": "miniatures",
+    "bigCards": "grand format"
+  },
   "menu": {
     "cards": "cartes",
     "info": "i",

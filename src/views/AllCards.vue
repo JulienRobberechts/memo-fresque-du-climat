@@ -1,5 +1,5 @@
 <template>
-  <h1>{{ $t('all-cards') }}</h1>
+  <h1>{{ $t('all-cards.title') }}</h1>
   <div
     class="menu"
     :class="{

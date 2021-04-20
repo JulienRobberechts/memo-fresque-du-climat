@@ -14,7 +14,11 @@
   "config": {
     "wiki-root-url": "https://fresqueduclimat.org"
   },
-  "all-cards": "Climate Collage cards",
+  "all-cards": {
+    "title": "Climate Collage cards",
+    "smallCards": "thumbnails",
+    "bigCards": "full size"
+  },
   "menu": {
     "cards": "cards",
     "info": "i",
