@@ -30,7 +30,7 @@ export default {
   width: 95vw;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
   margin: 0 auto;
   align-items: center;
 }
