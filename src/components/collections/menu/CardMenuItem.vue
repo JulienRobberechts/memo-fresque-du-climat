@@ -22,12 +22,15 @@ export default {
   },
   computed: {
     cardItemStyle() {
-      const factor = 1.15;
-      const widthPercentage = 25 * factor;
-      const heightPercentage = 17 * factor;
+      const widthPercentage = 18;
+      const heightPercentage = (17 / 25) * widthPercentage;
+      const widthMinPx = 50;
+      const heightMin = (17 / 25) * widthMinPx;
       return {
         width: `${widthPercentage}vmin`,
         height: `${heightPercentage}vmin`,
+        'min-width': `${widthMinPx}px`,
+        'min-height': `${heightMin}px`,
       };
     },
   },
@@ -36,8 +39,6 @@ export default {
 
 <style scoped>
 .card-item {
-  min-width: 75px;
-  min-height: 51px;
   margin: max(3px, 0.4vw);
   position: relative;
 }
