@@ -1,21 +1,36 @@
 <template>
   <h1>{{ $t('all-cards') }}</h1>
-  <CardsMenu />
+  <div
+    class="menu"
+    :class="{
+      maxWidth450: !smallIconSelected,
+      maxWidth1400: smallIconSelected,
+    }"
+  >
+    <toggle-view
+      :smallIconSelected="smallIconSelected"
+      @selectionChange="selectionChange"
+    />
+  </div>
+  <CardsMenu v-show="smallIconSelected" />
+  <CardsList v-show="!smallIconSelected" />
 </template>
 
 <script>
+import ToggleView from '../components/collections/ToggleView.vue';
 import CardsMenu from '@/components/collections/menu/CardsMenu.vue';
+import CardsList from '@/components/collections/list/CardsList.vue';
 import meta from '@/utils/meta-vue3';
 
 export default {
   name: 'AllCards',
   components: {
+    ToggleView,
     CardsMenu,
+    CardsList,
   },
   data() {
-    return {
-      cards: null,
-    };
+    return { cards: null, smallIconSelected: true };
   },
   created() {
     meta.setTitle(document, this.title);
@@ -29,6 +44,12 @@ export default {
       return this.$t('description.all-cards');
     },
   },
+  methods: {
+    selectionChange(selection) {
+      console.log('selectionChange', selection);
+      this.smallIconSelected = selection;
+    },
+  },
 };
 </script>
 <style scoped>
@@ -36,5 +57,19 @@ h1 {
   font-size: 1.4rem;
   line-height: 1.4em;
   margin: 0.6rem auto;
+}
+.menu {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 80vw;
+  margin: 0.2rem auto;
+}
+
+.maxWidth450 {
+  max-width: 450px;
+}
+
+.maxWidth1400 {
+  max-width: 1400px;
 }
 </style>
