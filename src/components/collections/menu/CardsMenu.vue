@@ -26,7 +26,7 @@ export default {
 
 <style scoped>
 .cards {
-  max-width: 1000px;
+  max-width: 1400px;
   width: 95vw;
   display: flex;
   flex-wrap: wrap;

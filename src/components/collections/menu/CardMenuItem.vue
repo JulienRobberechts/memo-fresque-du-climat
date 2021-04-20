@@ -2,7 +2,7 @@
   <router-link
     :to="{ name: 'RouteCardDetails', params: { cardNum: card.cardNum } }"
   >
-    <div class="card-item">
+    <div class="card-item" :style="cardItemStyle">
       <div class="card-num">
         <img class="card-num-logo" src="@/assets/cards.svg" />
         <div class="card-num-digit">{{ card.cardNum }}</div>
@@ -20,15 +20,24 @@ export default {
   props: {
     card: Object,
   },
+  computed: {
+    cardItemStyle() {
+      const factor = 0.65;
+      const widthPercentage = 25 * factor;
+      const heightPercentage = 17 * factor;
+      return {
+        width: `${widthPercentage}vmin`,
+        height: `${heightPercentage}vmin`,
+      };
+    },
+  },
 };
 </script>
 
 <style scoped>
 .card-item {
   min-width: 75px;
-  width: 7.5vw;
   min-height: 51px;
-  height: 5.1vw;
   margin: max(3px, 0.4vw);
   position: relative;
 }
@@ -66,7 +75,7 @@ export default {
   left: 50%;
   transform: translate(-50%, -50%);
   font-weight: 600;
-  font-size: max(1.5rem, 2vw);
+  font-size: max(1.5rem, 3.5vmin);
   font-family: 'Avenir Next', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica',
     Arial, sans-serif;
   text-shadow: 1px 1px #444;
