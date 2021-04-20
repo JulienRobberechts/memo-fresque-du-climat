@@ -61,7 +61,7 @@ h1 {
 .menu {
   display: flex;
   flex-direction: row-reverse;
-  width: 80vw;
+  width: 95vw;
   margin: 0.2rem auto;
 }
 
