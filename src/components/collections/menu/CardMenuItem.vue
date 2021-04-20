@@ -22,7 +22,7 @@ export default {
   },
   computed: {
     cardItemStyle() {
-      const factor = 0.65;
+      const factor = 1.15;
       const widthPercentage = 25 * factor;
       const heightPercentage = 17 * factor;
       return {
