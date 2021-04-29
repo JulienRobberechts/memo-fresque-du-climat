@@ -22,7 +22,7 @@
     <picture>
       <source
         :srcset="imgPathWebp"
-        sizes="(max-width:600px) 70px,(max-width:1000px) 190px, 400px"
+        sizes="(max-width:400px) 95vw, 450px"
         type="image/webp" />
       <img
         class="card-image"

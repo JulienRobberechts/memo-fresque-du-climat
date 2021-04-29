@@ -7,12 +7,21 @@
           params: { cardNum: cause.from.cardNum },
         }"
       >
-        <img
-          class="cause-card-image"
-          :class="getLinkStyle('cause-card-image-', cause.link.status)"
-          :src="cause.from.img.url"
-          :title="cause.from.title"
-      /></router-link>
+        <picture>
+          <source
+            :srcset="imgPathWebpFrom"
+            sizes="(max-width:800px) 30vw, 240px"
+            type="image/webp"
+          />
+          <img
+            class="cause-card-image"
+            :class="getLinkStyle('cause-card-image-', cause.link.status)"
+            :src="imgPathDefaultFrom"
+            :alt="cause.from.title"
+            :title="cause.from.title"
+          />
+        </picture>
+      </router-link>
       <div class="arrow-anchor">
         <span class="arrow" :class="getLinkStyle('arrow-', cause.link.status)">
           <svg
@@ -41,11 +50,19 @@
         </span>
       </div>
       <p class="cause-target">
-        <img
-          class="cause-card-image-original"
-          :src="cause.to.img.url"
-          :title="cause.to.title"
-        />
+        <picture>
+          <source
+            :srcset="imgPathWebpTo"
+            sizes="(max-width:800px) 20vw, 160px"
+            type="image/webp"
+          />
+          <img
+            class="cause-card-image-original"
+            :src="imgPathDefaultTo"
+            :alt="cause.from.title"
+            :title="cause.from.title"
+          />
+        </picture>
       </p>
     </div>
   </div>
@@ -60,6 +77,28 @@ export default {
   name: 'Cause',
   props: {
     cause: Object,
+  },
+  computed: {
+    imgPathDefaultFrom() {
+      return `/img/cards/${this.$i18n.locale}/80/${this.cause.from.cardNum}.webp`;
+    },
+    imgPathDefaultTo() {
+      return `/img/cards/${this.$i18n.locale}/80/${this.cause.to.cardNum}.webp`;
+    },
+    imgPathWebpFrom() {
+      return (
+        `/img/cards/${this.$i18n.locale}/80/${this.cause.from.cardNum}.webp 80w,` +
+        `/img/cards/${this.$i18n.locale}/200/${this.cause.from.cardNum}.webp 200w,` +
+        `/img/cards/${this.$i18n.locale}/400/${this.cause.from.cardNum}.webp 400w`
+      );
+    },
+    imgPathWebpTo() {
+      return (
+        `/img/cards/${this.$i18n.locale}/80/${this.cause.to.cardNum}.webp 80w,` +
+        `/img/cards/${this.$i18n.locale}/200/${this.cause.to.cardNum}.webp 200w,` +
+        `/img/cards/${this.$i18n.locale}/400/${this.cause.to.cardNum}.webp 400w`
+      );
+    },
   },
   methods: {
     getLinkStyle(classPrefix, linkStatus) {
