@@ -8,7 +8,12 @@
         <div class="card-num-digit">{{ card.cardNum }}</div>
       </div>
       <div class="card-image-frame">
-        <img class="card-image" :src="card.img.url" :title="card.title" />
+        <img
+          class="card-image"
+          :src="`/img/cards/${$i18n.locale}/default/${card.cardNum}.png`"
+          :alt="card.title"
+          :title="card.title"
+        />
       </div>
     </div>
   </router-link>
