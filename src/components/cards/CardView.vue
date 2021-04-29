@@ -19,13 +19,19 @@
         />
       </a>
     </div>
-    <img
-      class="card-image"
-      v-if="!showVideo"
-      :src="card.img.url"
-      :title="card.title"
-      @click="showVideo = !showVideo"
-    />
+    <picture>
+      <source
+        :srcset="imgPathWebp"
+        sizes="(max-width:600px) 70px,(max-width:1000px) 190px, 400px"
+        type="image/webp" />
+      <img
+        class="card-image"
+        v-if="!showVideo"
+        :src="imgPathDefault"
+        :alt="card.title"
+        :title="card.title"
+        @click="showVideo = !showVideo"
+    /></picture>
     <div class="card-video-wrapper" v-if="showVideo">
       <iframe
         class="card-video"
@@ -161,6 +167,16 @@ export default {
       return this.card.consequences
         .filter((consequence) => consequence.link.status === 'invalid')
         .sort((a, b) => a.to.cardNum - b.to.cardNum);
+    },
+    imgPathDefault() {
+      return `/img/cards/${this.$i18n.locale}/80/${this.card.cardNum}.webp`;
+    },
+    imgPathWebp() {
+      return (
+        `/img/cards/${this.$i18n.locale}/80/${this.card.cardNum}.webp 80w,` +
+        `/img/cards/${this.$i18n.locale}/200/${this.card.cardNum}.webp 200w,` +
+        `/img/cards/${this.$i18n.locale}/400/${this.card.cardNum}.webp 400w`
+      );
     },
   },
   watch: {
