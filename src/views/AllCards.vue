@@ -12,8 +12,8 @@
       @selectionChange="selectionChange"
     />
   </div>
-  <CardsMenu v-show="smallIconSelected" />
-  <CardsList v-show="!smallIconSelected" />
+  <CardsMenu v-if="smallIconSelected" />
+  <CardsList v-if="!smallIconSelected" />
 </template>
 
 <script>

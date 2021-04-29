@@ -8,12 +8,17 @@
         <div class="card-num-digit">{{ card.cardNum }}</div>
       </div>
       <div class="card-image-frame">
-        <img
-          class="card-image"
-          :src="`/img/cards/${$i18n.locale}/default/${card.cardNum}.png`"
-          :alt="card.title"
-          :title="card.title"
-        />
+        <picture>
+          <source
+            :srcset="imgPathWebp"
+            sizes="(max-width:600px) 70px,(max-width:1000px) 190px, 400px"
+            type="image/webp" />
+          <img
+            class="card-image"
+            :src="imgPathDefault"
+            :alt="card.title"
+            :title="card.title"
+        /></picture>
       </div>
     </div>
   </router-link>
@@ -26,6 +31,16 @@ export default {
     card: Object,
   },
   computed: {
+    imgPathDefault() {
+      return `/img/cards/${this.$i18n.locale}/80/${this.card.cardNum}.webp`;
+    },
+    imgPathWebp() {
+      return (
+        `/img/cards/${this.$i18n.locale}/80/${this.card.cardNum}.webp 80w,` +
+        `/img/cards/${this.$i18n.locale}/200/${this.card.cardNum}.webp 200w,` +
+        `/img/cards/${this.$i18n.locale}/400/${this.card.cardNum}.webp 400w`
+      );
+    },
     cardItemStyle() {
       const widthPercentage = 18;
       const heightPercentage = (17 / 25) * widthPercentage;
