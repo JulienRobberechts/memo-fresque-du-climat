@@ -3,7 +3,19 @@
   <router-link
     :to="{ name: 'RouteCardDetails', params: { cardNum: card.cardNum } }"
   >
-    <img class="card-image" :src="card.img.url" :title="card.title" />
+    <picture>
+      <source
+        :srcset="imgPathWebp"
+        sizes="(max-width:400px) 95vw, 450px"
+        type="image/webp"
+      />
+      <img
+        class="card-image"
+        :src="imgPathDefault"
+        :alt="card.title"
+        :title="card.title"
+      />
+    </picture>
   </router-link>
 </template>
 
@@ -12,6 +24,18 @@ export default {
   name: 'CardListItem',
   props: {
     card: Object,
+  },
+  computed: {
+    imgPathDefault() {
+      return `/img/cards/${this.$i18n.locale}/80/${this.card.cardNum}.webp`;
+    },
+    imgPathWebp() {
+      return (
+        `/img/cards/${this.$i18n.locale}/80/${this.card.cardNum}.webp 80w,` +
+        `/img/cards/${this.$i18n.locale}/200/${this.card.cardNum}.webp 200w,` +
+        `/img/cards/${this.$i18n.locale}/400/${this.card.cardNum}.webp 400w`
+      );
+    },
   },
 };
 </script>

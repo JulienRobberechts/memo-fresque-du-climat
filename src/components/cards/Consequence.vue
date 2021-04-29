@@ -7,14 +7,23 @@
           params: { cardNum: consequence.to.cardNum },
         }"
       >
-        <img
-          class="consequence-card-image"
-          :class="
-            getLinkStyle('consequence-card-image-', consequence.link.status)
-          "
-          :src="consequence.to.img.url"
-          :title="consequence.to.title"
-      /></router-link>
+        <picture>
+          <source
+            :srcset="imgPathWebpFrom"
+            sizes="(max-width:800px) 20vw, 160px"
+            type="image/webp"
+          />
+          <img
+            class="consequence-card-image"
+            :class="
+              getLinkStyle('consequence-card-image-', consequence.link.status)
+            "
+            :src="imgPathDefaultFrom"
+            :alt="consequence.to.title"
+            :title="consequence.to.title"
+          />
+        </picture>
+      </router-link>
       <div class="arrow-anchor">
         <span
           class="arrow"
@@ -46,11 +55,19 @@
         </span>
       </div>
       <p class="consequence-origin">
-        <img
-          class="consequence-card-image-original"
-          :src="consequence.from.img.url"
-          :title="consequence.from.title"
-        />
+        <picture>
+          <source
+            :srcset="imgPathWebpTo"
+            sizes="(max-width:800px) 30vw, 240px"
+            type="image/webp"
+          />
+          <img
+            class="consequence-card-image-original"
+            :src="imgPathDefaultTo"
+            :alt="consequence.from.title"
+            :title="consequence.from.title"
+          />
+        </picture>
       </p>
     </div>
   </div>
@@ -65,6 +82,28 @@ export default {
   name: 'Consequence',
   props: {
     consequence: Object,
+  },
+  computed: {
+    imgPathDefaultFrom() {
+      return `/img/cards/${this.$i18n.locale}/80/${this.consequence.from.cardNum}.webp`;
+    },
+    imgPathDefaultTo() {
+      return `/img/cards/${this.$i18n.locale}/80/${this.consequence.to.cardNum}.webp`;
+    },
+    imgPathWebpFrom() {
+      return (
+        `/img/cards/${this.$i18n.locale}/80/${this.consequence.from.cardNum}.webp 80w,` +
+        `/img/cards/${this.$i18n.locale}/200/${this.consequence.from.cardNum}.webp 200w,` +
+        `/img/cards/${this.$i18n.locale}/400/${this.consequence.from.cardNum}.webp 400w`
+      );
+    },
+    imgPathWebpTo() {
+      return (
+        `/img/cards/${this.$i18n.locale}/80/${this.consequence.to.cardNum}.webp 80w,` +
+        `/img/cards/${this.$i18n.locale}/200/${this.consequence.to.cardNum}.webp 200w,` +
+        `/img/cards/${this.$i18n.locale}/400/${this.consequence.to.cardNum}.webp 400w`
+      );
+    },
   },
   methods: {
     getLinkStyle(classPrefix, linkStatus) {
