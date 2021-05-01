@@ -14,7 +14,8 @@
     "postbuild-fr": "unlink ./public/index.html && rm ./dist/index.*.html",
     "lint": "vue-cli-service lint",
     "i18n:report": "vue-cli-service i18n:report --src \"./src/**/*.?(js|vue)\" --locales \"./src/locales/**/*.json\"",
-    "test": "jest ./src"
+    "test": "jest ./src",
+    "build-report": "vue-cli-service build --report"
   },
   "dependencies": {
     "axios": "^0.21.1",
