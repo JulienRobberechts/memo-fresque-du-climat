@@ -9,7 +9,7 @@
       >
         <picture>
           <source
-            :srcset="imgPathWebpFrom"
+            :srcset="imgPathWebpTo"
             sizes="(max-width:800px) 20vw, 160px"
             type="image/webp"
           />
@@ -18,7 +18,7 @@
             :class="
               getLinkStyle('consequence-card-image-', consequence.link.status)
             "
-            :src="imgPathDefaultFrom"
+            :src="imgPathDefaultTo"
             :alt="consequence.to.title"
             :title="consequence.to.title"
           />
@@ -57,13 +57,13 @@
       <p class="consequence-origin">
         <picture>
           <source
-            :srcset="imgPathWebpTo"
+            :srcset="imgPathWebpFrom"
             sizes="(max-width:800px) 30vw, 240px"
             type="image/webp"
           />
           <img
             class="consequence-card-image-original"
-            :src="imgPathDefaultTo"
+            :src="imgPathDefaultFrom"
             :alt="consequence.from.title"
             :title="consequence.from.title"
           />
