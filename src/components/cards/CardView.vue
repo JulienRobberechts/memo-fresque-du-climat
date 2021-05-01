@@ -169,7 +169,7 @@ export default {
         .sort((a, b) => a.to.cardNum - b.to.cardNum);
     },
     imgPathDefault() {
-      return `/img/cards/${this.$i18n.locale}/80/${this.card.cardNum}.webp`;
+      return `/img/cards/${this.$i18n.locale}/default/${this.card.cardNum}.png`;
     },
     imgPathWebp() {
       return (

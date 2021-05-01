@@ -85,10 +85,10 @@ export default {
   },
   computed: {
     imgPathDefaultFrom() {
-      return `/img/cards/${this.$i18n.locale}/80/${this.consequence.from.cardNum}.webp`;
+      return `/img/cards/${this.$i18n.locale}/default/${this.consequence.from.cardNum}.png`;
     },
     imgPathDefaultTo() {
-      return `/img/cards/${this.$i18n.locale}/80/${this.consequence.to.cardNum}.webp`;
+      return `/img/cards/${this.$i18n.locale}/default/${this.consequence.to.cardNum}.png`;
     },
     imgPathWebpFrom() {
       return (
