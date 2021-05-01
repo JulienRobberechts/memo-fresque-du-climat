@@ -80,10 +80,10 @@ export default {
   },
   computed: {
     imgPathDefaultFrom() {
-      return `/img/cards/${this.$i18n.locale}/80/${this.cause.from.cardNum}.webp`;
+      return `/img/cards/${this.$i18n.locale}/default/${this.cause.from.cardNum}.png`;
     },
     imgPathDefaultTo() {
-      return `/img/cards/${this.$i18n.locale}/80/${this.cause.to.cardNum}.webp`;
+      return `/img/cards/${this.$i18n.locale}/default/${this.cause.to.cardNum}.png`;
     },
     imgPathWebpFrom() {
       return (
