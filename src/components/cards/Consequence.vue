@@ -10,7 +10,7 @@
         <picture>
           <source
             :srcset="imgPathWebpTo"
-            sizes="(max-width:800px) 20vw, 160px"
+            sizes="(max-width:800px) 30vw, 240px"
             type="image/webp"
           />
           <img
@@ -58,7 +58,7 @@
         <picture>
           <source
             :srcset="imgPathWebpFrom"
-            sizes="(max-width:800px) 30vw, 240px"
+            sizes="(max-width:800px) 20vw, 160px"
             type="image/webp"
           />
           <img
