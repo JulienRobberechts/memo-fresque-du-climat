@@ -22,7 +22,7 @@ const routes = [
     name: 'CollagesView',
     props: true,
     component: () =>
-      import(/* webpackChunkName: "CardDetails" */ '../views/Collages.vue'),
+      import(/* webpackChunkName: "CollagesView" */ '../views/Collages.vue'),
   },
   {
     path: '/about',
