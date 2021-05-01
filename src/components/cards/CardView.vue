@@ -14,7 +14,7 @@
       >
         <img
           class="wiki-logo"
-          src="@/assets/wiki.png"
+          src="@/assets/wiki-40.png"
           :title="$t('card.wiki-link-title')"
         />
       </a>
