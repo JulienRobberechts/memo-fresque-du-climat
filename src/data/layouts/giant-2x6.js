@@ -24,6 +24,7 @@ export default {
     !(link.fromNum === 34 && link.toNum === 38) &&
     !(link.fromNum === 26 && link.toNum === 38) &&
     !(link.fromNum === 21 && link.toNum === 32) &&
+    !(link.fromNum === 17 && link.toNum === 27) &&
     !(link.fromNum === 37 && link.toNum === 38) &&
     !(link.fromNum === 21 && link.toNum === 38),
   edgeMap: (link, edge) => {
@@ -145,7 +146,7 @@ export default {
       cardNum: 6,
       nodeOptions: {
         xPos: humanActivityCol + 1,
-        yPos: physicsRow - 2,
+        yPos: physicsRow - 1.5,
       },
     },
     {
@@ -172,7 +173,7 @@ export default {
     {
       cardNum: 10,
       nodeOptions: {
-        xPos: humanActivityCol + 1,
+        xPos: co2Col,
         yPos: physicsRow - 1,
       },
     },
@@ -292,7 +293,7 @@ export default {
     {
       cardNum: 27,
       nodeOptions: {
-        xPos: oceanCol + 5,
+        xPos: deathCol - 1,
         yPos: oceanRow,
       },
     },
@@ -334,8 +335,8 @@ export default {
     {
       cardNum: 33,
       nodeOptions: {
-        xPos: weatherCol,
-        yPos: 3,
+        xPos: weatherCol + 1,
+        yPos: 2,
       },
     },
     {
@@ -363,7 +364,7 @@ export default {
       cardNum: 37,
       nodeOptions: {
         xPos: deathCol,
-        yPos: deathRow + 1,
+        yPos: deathRow,
       },
     },
     {
