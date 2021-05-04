@@ -144,7 +144,7 @@ export default {
     },
     edgeOptions(link) {
       return {
-        width: 3,
+        width: 2,
         color: {
           color:
             link.status === 'invalid'
@@ -154,6 +154,9 @@ export default {
               : '#04c2c0',
         },
         dashes: link.tmp,
+        widthConstraint: {
+          maximum: 7,
+        },
         arrows: {
           // from: {
           //   // To show the arrow root
