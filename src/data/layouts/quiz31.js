@@ -1,15 +1,11 @@
 const humanActivityCol = 1;
-const humanActivityRow = 1;
 const co2Col = 3;
 const physicsRow = 1;
 const oceanCol = 3;
 const oceanRow = 3;
 const meltingCol = 5;
-const weatherCol = meltingCol + 2;
-const bioCol = weatherCol;
 const bioRow = 0;
-const foodCol = weatherCol;
-const deathCol = foodCol + 1;
+const deathCol = meltingCol + 3;
 const deathRow = 0;
 const retroCol = 4;
 const retroRow = 0;
@@ -138,14 +134,14 @@ export default {
       /// https://visjs.github.io/vis-network/docs/network/nodes.html
       nodeOptions: {
         xPos: humanActivityCol,
-        yPos: humanActivityRow - 2,
+        yPos: -1,
       },
     },
     {
       cardNum: 2,
       nodeOptions: {
         xPos: humanActivityCol,
-        yPos: humanActivityRow - 1,
+        yPos: 0,
       },
     },
 
@@ -153,14 +149,14 @@ export default {
       cardNum: 3,
       nodeOptions: {
         xPos: humanActivityCol,
-        yPos: humanActivityRow + 1,
+        yPos: 2,
       },
     },
     {
       cardNum: 4,
       nodeOptions: {
         xPos: humanActivityCol,
-        yPos: humanActivityRow,
+        yPos: 1,
       },
     },
     {
@@ -188,7 +184,7 @@ export default {
       cardNum: 8,
       nodeOptions: {
         xPos: humanActivityCol + 1,
-        yPos: humanActivityRow - 2,
+        yPos: -1,
       },
     },
     {
@@ -196,20 +192,6 @@ export default {
       nodeOptions: {
         xPos: co2Col,
         yPos: 0,
-      },
-    },
-    {
-      cardNum: 10,
-      nodeOptions: {
-        xPos: humanActivityCol + 1,
-        yPos: physicsRow - 1,
-      },
-    },
-    {
-      cardNum: 11,
-      nodeOptions: {
-        xPos: co2Col + 1,
-        yPos: physicsRow,
       },
     },
     {
@@ -226,20 +208,7 @@ export default {
         yPos: physicsRow,
       },
     },
-    {
-      cardNum: 14,
-      nodeOptions: {
-        xPos: meltingCol - 1,
-        yPos: physicsRow,
-      },
-    },
-    {
-      cardNum: 15,
-      nodeOptions: {
-        xPos: meltingCol - 2,
-        yPos: physicsRow,
-      },
-    },
+
     {
       cardNum: 16,
       nodeOptions: {
@@ -252,21 +221,6 @@ export default {
       nodeOptions: {
         xPos: meltingCol,
         yPos: physicsRow + 1,
-      },
-    },
-
-    {
-      cardNum: 18,
-      nodeOptions: {
-        xPos: meltingCol,
-        yPos: physicsRow + 2,
-      },
-    },
-    {
-      cardNum: 19,
-      nodeOptions: {
-        xPos: meltingCol,
-        yPos: physicsRow,
       },
     },
     {
@@ -291,13 +245,6 @@ export default {
       },
     },
     {
-      cardNum: 23,
-      nodeOptions: {
-        xPos: oceanCol + 1,
-        yPos: oceanRow + 0.5,
-      },
-    },
-    {
       cardNum: 24,
       nodeOptions: {
         xPos: oceanCol,
@@ -307,14 +254,14 @@ export default {
     {
       cardNum: 25,
       nodeOptions: {
-        xPos: bioCol,
+        xPos: deathCol - 1,
         yPos: bioRow,
       },
     },
     {
       cardNum: 26,
       nodeOptions: {
-        xPos: weatherCol,
+        xPos: deathCol - 1,
         yPos: 1,
       },
     },
@@ -326,44 +273,30 @@ export default {
       },
     },
     {
-      cardNum: 28,
-      nodeOptions: {
-        xPos: bioCol + 1,
-        yPos: bioRow,
-      },
-    },
-    {
-      cardNum: 29,
-      nodeOptions: {
-        xPos: oceanCol + 2,
-        yPos: oceanRow + 1,
-      },
-    },
-    {
       cardNum: 30,
       nodeOptions: {
-        xPos: weatherCol + 1,
+        xPos: deathCol,
         yPos: 1,
       },
     },
     {
       cardNum: 31,
       nodeOptions: {
-        xPos: foodCol,
+        xPos: deathCol-1,
         yPos: 2,
       },
     },
     {
       cardNum: 32,
       nodeOptions: {
-        xPos: foodCol + 1,
+        xPos: deathCol,
         yPos: 2,
       },
     },
     {
       cardNum: 33,
       nodeOptions: {
-        xPos: weatherCol - 1,
+        xPos: meltingCol + 1,
         yPos: 3,
       },
     },
@@ -375,16 +308,9 @@ export default {
       },
     },
     {
-      cardNum: 35,
-      nodeOptions: {
-        xPos: weatherCol + 1,
-        yPos: -1,
-      },
-    },
-    {
       cardNum: 36,
       nodeOptions: {
-        xPos: weatherCol + 1,
+        xPos: meltingCol,
         yPos: 0,
       },
     },
@@ -421,13 +347,6 @@ export default {
       nodeOptions: {
         xPos: retroCol,
         yPos: retroRow,
-      },
-    },
-    {
-      cardNum: 42,
-      nodeOptions: {
-        xPos: retroCol + 1,
-        yPos: retroRow + 1,
       },
     },
   ],
