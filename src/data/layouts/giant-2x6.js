@@ -1,3 +1,5 @@
+import { isLink } from './utils.js';
+
 const humanActivityCol = 1;
 const humanActivityRow = 1;
 const co2Col = 3;
@@ -17,23 +19,20 @@ const retroRow = -2;
 export default {
   titleKey: 'layout.giant-2x6',
   cardFilter: null,
-  linkFilter: (link) =>
-    link.status === 'valid' &&
-    !(link.fromNum === 25 && link.toNum === 32) &&
-    !(link.fromNum === 34 && link.toNum === 32) &&
-    !(link.fromNum === 34 && link.toNum === 38) &&
-    !(link.fromNum === 26 && link.toNum === 38) &&
-    !(link.fromNum === 21 && link.toNum === 32) &&
-    !(link.fromNum === 17 && link.toNum === 27) &&
-    !(link.fromNum === 37 && link.toNum === 38) &&
-    !(link.fromNum === 10 && link.toNum === 38) &&
-    !(link.fromNum === 21 && link.toNum === 38),
-  edgeMap: (link, edge) => {
-    const width = 2; // link.fromNum === 13 && link.toNum === 15 ? 5 : 2;
-    if (
-      (link.fromNum === 10 && link.toNum === 15) ||
-      (link.fromNum === 9 && link.toNum === 13)
-    ) {
+  linkFilter: (l) =>
+    l.status === 'valid' &&
+    !isLink(l, 25, 32) &&
+    !isLink(l, 34, 32) &&
+    !isLink(l, 34, 38) &&
+    !isLink(l, 26, 38) &&
+    !isLink(l, 21, 32) &&
+    !isLink(l, 17, 27) &&
+    !isLink(l, 37, 38) &&
+    !isLink(l, 10, 38) &&
+    !isLink(l, 21, 38),
+  edgeMap: (l, edge) => {
+    const width = 2; // isLink(l, 13, 15) ? 5 : 2;
+    if (isLink(l, 10, 15) || isLink(l, 9, 13)) {
       return {
         ...edge,
         smooth: {
@@ -43,10 +42,10 @@ export default {
       };
     }
     if (
-      (link.fromNum === 41 && link.toNum === 9) ||
-      (link.fromNum === 42 && link.toNum === 9) ||
-      (link.fromNum === 21 && link.toNum === 41) ||
-      (link.fromNum === 17 && link.toNum === 42)
+      isLink(l, 41, 9) ||
+      isLink(l, 42, 9) ||
+      isLink(l, 21, 41) ||
+      isLink(l, 17, 42)
     ) {
       return {
         ...edge,
@@ -59,13 +58,13 @@ export default {
       };
     }
     if (
-      (link.fromNum === 21 && link.toNum === 36) ||
-      (link.fromNum === 20 && link.toNum === 26) ||
-      (link.fromNum === 20 && link.toNum === 30) ||
-      (link.fromNum === 30 && link.toNum === 32) ||
-      (link.fromNum === 26 && link.toNum === 32) ||
-      (link.fromNum === 32 && link.toNum === 39) ||
-      (link.fromNum === 33 && link.toNum === 39)
+      isLink(l, 21, 36) ||
+      isLink(l, 20, 26) ||
+      isLink(l, 20, 30) ||
+      isLink(l, 30, 32) ||
+      isLink(l, 26, 32) ||
+      isLink(l, 32, 39) ||
+      isLink(l, 33, 39)
     ) {
       return {
         ...edge,
@@ -76,7 +75,7 @@ export default {
         },
       };
     }
-    if (link.fromNum === 17 && link.toNum === 34) {
+    if (isLink(l, 17, 34)) {
       return {
         ...edge,
         smooth: {
@@ -86,7 +85,7 @@ export default {
         },
       };
     }
-    if (link.fromNum === 20 && link.toNum === 33) {
+    if (isLink(l, 20, 33)) {
       return {
         ...edge,
         smooth: {
@@ -95,7 +94,7 @@ export default {
         },
       };
     }
-    if (link.fromNum === 34 && link.toNum === 33) {
+    if (isLink(l, 34, 33)) {
       return {
         ...edge,
         smooth: {
@@ -104,7 +103,7 @@ export default {
         },
       };
     }
-    if (link.fromNum === 30 && link.toNum === 31) {
+    if (isLink(l, 30, 31)) {
       return {
         ...edge,
         smooth: {
@@ -113,7 +112,7 @@ export default {
         },
       };
     }
-    if (link.fromNum === 20 && link.toNum === 33) {
+    if (isLink(l, 20, 33)) {
       return {
         ...edge,
         smooth: {
@@ -123,7 +122,7 @@ export default {
         },
       };
     }
-    if (link.fromNum === 21 && link.toNum === 20) {
+    if (isLink(l, 21, 20)) {
       return {
         ...edge,
         smooth: {
@@ -133,7 +132,7 @@ export default {
         },
       };
     }
-    if (link.fromNum === 16 && link.toNum === 31) {
+    if (isLink(l, 16, 31)) {
       return {
         ...edge,
         color: {

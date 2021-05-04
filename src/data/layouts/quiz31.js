@@ -1,3 +1,4 @@
+import { isLink } from './utils.js';
 const humanActivityCol = 1;
 const co2Col = 3;
 const physicsRow = 1;
@@ -17,19 +18,19 @@ export default {
   cardFilter: (card) => {
     return !nonQuizCards.includes(card.cardNum);
   },
-  linkFilter: (link) =>
-    link.status === 'valid' &&
-    !(link.fromNum === 17 && link.toNum === 20) &&
-    !(link.fromNum === 30 && link.toNum === 31) &&
-    !(link.fromNum === 20 && link.toNum === 34) &&
-    !(link.fromNum === 21 && link.toNum === 32) &&
-    !(link.fromNum === 21 && link.toNum === 38) &&
-    !(link.fromNum === 26 && link.toNum === 38) &&
-    !(link.fromNum === 32 && link.toNum === 39) &&
-    !(link.fromNum === 31 && link.toNum === 40) &&
-    !(link.fromNum === 34 && link.toNum === 32),
-  edgeMap: (link, edge) => {
-    if (link.fromNum === 1) {
+  linkFilter: (l) =>
+    l.status === 'valid' &&
+    !isLink(l, 17, 20) &&
+    !isLink(l, 30, 31) &&
+    !isLink(l, 20, 34) &&
+    !isLink(l, 21, 32) &&
+    !isLink(l, 21, 38) &&
+    !isLink(l, 26, 38) &&
+    !isLink(l, 32, 39) &&
+    !isLink(l, 31, 40) &&
+    !isLink(l, 34, 32),
+  edgeMap: (l, edge) => {
+    if (l.fromNum === 1) {
       return {
         ...edge,
         smooth: {
@@ -39,7 +40,7 @@ export default {
         },
       };
     }
-    if (link.fromNum === 21 && link.toNum === 25) {
+    if (isLink(l, 21, 25)) {
       return {
         ...edge,
         smooth: {
@@ -49,7 +50,7 @@ export default {
         },
       };
     }
-    if (link.fromNum === 21 && link.toNum === 36) {
+    if (isLink(l, 21, 36)) {
       return {
         ...edge,
         smooth: {
@@ -59,7 +60,7 @@ export default {
         },
       };
     }
-    if (link.fromNum === 20 && link.toNum === 26) {
+    if (isLink(l, 20, 26)) {
       return {
         ...edge,
         smooth: {
@@ -69,7 +70,7 @@ export default {
         },
       };
     }
-    if (link.fromNum === 20 && link.toNum === 30) {
+    if (isLink(l, 20, 30)) {
       return {
         ...edge,
         smooth: {
@@ -80,7 +81,7 @@ export default {
       };
     }
     // difficult one !!
-    if (link.fromNum === 25 && link.toNum === 32) {
+    if (isLink(l, 25, 32)) {
       return {
         ...edge,
         smooth: {
@@ -90,7 +91,7 @@ export default {
         },
       };
     }
-    if (link.fromNum === 36 && link.toNum === 38) {
+    if (isLink(l, 36, 38)) {
       return {
         ...edge,
         smooth: {
@@ -100,7 +101,7 @@ export default {
         },
       };
     }
-    if (link.fromNum === 33 && link.toNum === 32) {
+    if (isLink(l, 33, 32)) {
       return {
         ...edge,
         smooth: {
@@ -110,7 +111,7 @@ export default {
         },
       };
     }
-    if (link.fromNum === 27 && link.toNum === 37) {
+    if (isLink(l, 27, 37)) {
       return {
         ...edge,
         smooth: {
@@ -282,7 +283,7 @@ export default {
     {
       cardNum: 31,
       nodeOptions: {
-        xPos: deathCol-1,
+        xPos: deathCol - 1,
         yPos: 2,
       },
     },
