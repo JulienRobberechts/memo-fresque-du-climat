@@ -120,7 +120,7 @@ export default {
         smooth: {
           type: 'curvedCCW',
           forceDirection: 'horizontal',
-          roundness: 0.5,
+          roundness: 0.4,
         },
       };
     }
@@ -459,10 +459,6 @@ export default {
     {
       fromNum: 36,
       toNum: 38,
-    },
-    {
-      fromNum: 27,
-      toNum: 37,
     },
   ],
 };
