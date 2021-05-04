@@ -104,7 +104,15 @@ export default {
         },
       };
     }
-
+    if (link.fromNum === 30 && link.toNum === 31) {
+      return {
+        ...edge,
+        smooth: {
+          type: 'curvedCCW',
+          roundness: 0.3,
+        },
+      };
+    }
     if (link.fromNum === 20 && link.toNum === 33) {
       return {
         ...edge,
