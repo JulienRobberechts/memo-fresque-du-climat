@@ -9,7 +9,17 @@ import layoutGiant2x6 from '@/data/layouts/giant-2x6.js';
 
 export default {
   validLayouts() {
-    return ['set1', 'set2', 'set3', 'set4', 'set5', 'full', 'quiz', 'quiz31'];
+    return [
+      'set1',
+      'set2',
+      'set3',
+      'set4',
+      'set5',
+      'full',
+      'quiz',
+      'quiz31',
+      'giant',
+    ];
   },
   isValidLayout(layoutName) {
     return layoutName === '' || this.validLayouts().includes(layoutName);
