@@ -6,7 +6,7 @@ const oceanCol = 4;
 const oceanRow = 3;
 const meltingCol = 8;
 const weatherCol = meltingCol + 2;
-const bioCol = 9;
+const bioCol = 10;
 const bioRow = -1;
 const foodCol = weatherCol + 2;
 const deathCol = foodCol + 1;
@@ -50,6 +50,8 @@ export default {
     ) {
       return {
         ...edge,
+        color: { color: '#951' },
+        width: 1,
         smooth: {
           type: 'curvedCCW',
           roundness: 0.25,
@@ -60,7 +62,6 @@ export default {
       (link.fromNum === 21 && link.toNum === 36) ||
       (link.fromNum === 20 && link.toNum === 26) ||
       (link.fromNum === 20 && link.toNum === 30) ||
-      (link.fromNum === 16 && link.toNum === 31) ||
       (link.fromNum === 30 && link.toNum === 32) ||
       (link.fromNum === 26 && link.toNum === 32) ||
       (link.fromNum === 32 && link.toNum === 39) ||
@@ -85,28 +86,25 @@ export default {
         },
       };
     }
-    if (
-      (link.fromNum === 20 && link.toNum === 34) ||
-      (link.fromNum === 20 && link.toNum === 33)
-    ) {
+    if (link.fromNum === 20 && link.toNum === 33) {
       return {
         ...edge,
         smooth: {
           type: 'curvedCCW',
-          roundness: 0.3,
+          roundness: 0.25,
         },
       };
     }
-    if (link.fromNum === 22 && link.toNum === 33) {
+    if (link.fromNum === 34 && link.toNum === 33) {
       return {
         ...edge,
         smooth: {
           type: 'curvedCCW',
-          forceDirection: 'horizontal',
-          roundness: 0.4,
+          roundness: 0.1,
         },
       };
     }
+
     if (link.fromNum === 20 && link.toNum === 33) {
       return {
         ...edge,
@@ -114,6 +112,29 @@ export default {
           type: 'curvedCW',
           forceDirection: 'horizontal',
           roundness: 0.3,
+        },
+      };
+    }
+    if (link.fromNum === 21 && link.toNum === 20) {
+      return {
+        ...edge,
+        smooth: {
+          type: 'curvedCCW',
+          forceDirection: 'horizontal',
+          roundness: 0.3,
+        },
+      };
+    }
+    if (link.fromNum === 16 && link.toNum === 31) {
+      return {
+        ...edge,
+        color: {
+          color: '#aaa',
+        },
+        smooth: {
+          type: 'curvedCCW',
+          forceDirection: 'horizontal',
+          roundness: 0.25,
         },
       };
     }
@@ -229,7 +250,7 @@ export default {
       },
     },
     {
-      cardNum: 16,
+      cardNum: 19,
       nodeOptions: {
         xPos: meltingCol,
         yPos: physicsRow + 1,
@@ -251,7 +272,7 @@ export default {
       },
     },
     {
-      cardNum: 19,
+      cardNum: 16,
       nodeOptions: {
         xPos: meltingCol,
         yPos: physicsRow,
@@ -316,7 +337,7 @@ export default {
     {
       cardNum: 28,
       nodeOptions: {
-        xPos: weatherCol,
+        xPos: bioCol + 1,
         yPos: bioRow,
       },
     },
@@ -351,15 +372,15 @@ export default {
     {
       cardNum: 33,
       nodeOptions: {
-        xPos: weatherCol + 1,
+        xPos: weatherCol + 0.5,
         yPos: 2,
       },
     },
     {
       cardNum: 34,
       nodeOptions: {
-        xPos: weatherCol,
-        yPos: 2,
+        xPos: weatherCol - 1,
+        yPos: 1,
       },
     },
     {
