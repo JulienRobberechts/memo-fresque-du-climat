@@ -55,6 +55,57 @@ export default {
         },
       };
     }
+    if (
+      (link.fromNum === 21 && link.toNum === 36) ||
+      (link.fromNum === 20 && link.toNum === 26) ||
+      (link.fromNum === 16 && link.toNum === 31) ||
+      (link.fromNum === 30 && link.toNum === 32) ||
+      (link.fromNum === 26 && link.toNum === 32) ||
+      (link.fromNum === 32 && link.toNum === 39) ||
+      (link.fromNum === 33 && link.toNum === 39)
+    ) {
+      return {
+        ...edge,
+        smooth: {
+          type: 'cubicBezier',
+          forceDirection: 'vertical',
+          roundness: 0.8,
+        },
+      };
+    }
+    if (
+      (link.fromNum === 17 && link.toNum === 34) ||
+      (link.fromNum === 20 && link.toNum === 34)
+    ) {
+      return {
+        ...edge,
+        smooth: {
+          type: 'cubicBezier',
+          forceDirection: 'horizontal',
+          roundness: 0.6,
+        },
+      };
+    }
+    if (link.fromNum === 22 && link.toNum === 33) {
+      return {
+        ...edge,
+        smooth: {
+          type: 'curvedCCW',
+          forceDirection: 'horizontal',
+          roundness: 0.4,
+        },
+      };
+    }
+    if (link.fromNum === 20 && link.toNum === 33) {
+      return {
+        ...edge,
+        smooth: {
+          type: 'curvedCW',
+          forceDirection: 'horizontal',
+          roundness: 0.3,
+        },
+      };
+    }
     return { ...edge };
   },
   cards: [
