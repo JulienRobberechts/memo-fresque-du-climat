@@ -29,6 +29,7 @@ export default {
     !(link.fromNum === 10 && link.toNum === 38) &&
     !(link.fromNum === 21 && link.toNum === 38),
   edgeMap: (link, edge) => {
+    const width = 2; // link.fromNum === 13 && link.toNum === 15 ? 5 : 2;
     if (
       (link.fromNum === 10 && link.toNum === 15) ||
       (link.fromNum === 9 && link.toNum === 13)
@@ -58,6 +59,7 @@ export default {
     if (
       (link.fromNum === 21 && link.toNum === 36) ||
       (link.fromNum === 20 && link.toNum === 26) ||
+      (link.fromNum === 20 && link.toNum === 30) ||
       (link.fromNum === 16 && link.toNum === 31) ||
       (link.fromNum === 30 && link.toNum === 32) ||
       (link.fromNum === 26 && link.toNum === 32) ||
@@ -73,16 +75,25 @@ export default {
         },
       };
     }
-    if (
-      (link.fromNum === 17 && link.toNum === 34) ||
-      (link.fromNum === 20 && link.toNum === 34)
-    ) {
+    if (link.fromNum === 17 && link.toNum === 34) {
       return {
         ...edge,
         smooth: {
           type: 'cubicBezier',
           forceDirection: 'horizontal',
           roundness: 0.6,
+        },
+      };
+    }
+    if (
+      (link.fromNum === 20 && link.toNum === 34) ||
+      (link.fromNum === 20 && link.toNum === 33)
+    ) {
+      return {
+        ...edge,
+        smooth: {
+          type: 'curvedCCW',
+          roundness: 0.3,
         },
       };
     }
@@ -106,7 +117,7 @@ export default {
         },
       };
     }
-    return { ...edge };
+    return { ...edge, width };
   },
   cards: [
     {
