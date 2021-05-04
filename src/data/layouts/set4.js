@@ -13,30 +13,25 @@ export default {
   cardFilter: (card) => card.cardSet <= 4,
   linkFilter: (link) => link.status === 'valid',
   edgeMap: (link, edge) => {
-    console.log('edgeMap');
     if (link.fromNum === 10 && link.toNum === 15) {
-      console.log('10-15');
       return {
         ...edge,
         smooth: { type: 'discrete' },
       };
     }
     if (link.fromNum === 9 && link.toNum === 13) {
-      console.log('9-13');
       return {
         ...edge,
         smooth: { type: 'horizontal' },
       };
     }
     if (link.fromNum === 21 && link.toNum === 25) {
-      console.log(`${link.fromNum}-${link.toNum}`);
       return {
         ...edge,
         smooth: { type: 'curvedCW', roundness: 0.2 },
       };
     }
     if (link.fromNum === 17 && link.toNum === 34) {
-      console.log(`${link.fromNum}-${link.toNum}`);
       return {
         ...edge,
         smooth: {

@@ -15,7 +15,7 @@ const retroCol = 5;
 const retroRow = -2;
 
 export default {
-  titleKey: 'layout.full',
+  titleKey: 'layout.giant-2x6',
   cardFilter: null,
   linkFilter: (link) => link.status === 'valid',
   edgeMap: (link, edge) => {

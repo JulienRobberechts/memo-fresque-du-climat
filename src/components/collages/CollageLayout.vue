@@ -138,10 +138,8 @@ export default {
         ...this.edgeOptions(link),
       };
       if (!this.layout.edgeMap) {
-        // console.log('NO edgeMap');
         return edge;
       }
-      // console.log('ONE edgeMap');
       return this.layout.edgeMap(link, edge);
     },
     edgeOptions(link) {
