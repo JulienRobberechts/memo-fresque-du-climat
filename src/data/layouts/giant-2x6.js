@@ -26,78 +26,32 @@ export default {
     !(link.fromNum === 21 && link.toNum === 32) &&
     !(link.fromNum === 17 && link.toNum === 27) &&
     !(link.fromNum === 37 && link.toNum === 38) &&
+    !(link.fromNum === 10 && link.toNum === 38) &&
     !(link.fromNum === 21 && link.toNum === 38),
   edgeMap: (link, edge) => {
-    if (link.fromNum === 10 && link.toNum === 15) {
-      return {
-        ...edge,
-        smooth: { type: 'discrete' },
-      };
-    }
-    if (link.fromNum === 9 && link.toNum === 13) {
-      return {
-        ...edge,
-        smooth: { type: 'horizontal' },
-      };
-    }
-    if (link.fromNum === 21 && link.toNum === 25) {
-      return {
-        ...edge,
-        smooth: { type: 'curvedCW', roundness: 0.2 },
-      };
-    }
-
-    if (link.fromNum === 8 && link.toNum === 9) {
+    if (
+      (link.fromNum === 10 && link.toNum === 15) ||
+      (link.fromNum === 9 && link.toNum === 13)
+    ) {
       return {
         ...edge,
         smooth: {
-          type: 'curvedCW',
+          type: 'horizontal',
+          roundness: 0.8,
         },
       };
     }
-    if (link.fromNum === 20 && link.toNum === 26) {
-      return {
-        ...edge,
-        smooth: {
-          type: 'curvedCW',
-          roundness: 0.2,
-        },
-      };
-    }
-    if (link.fromNum === 30 && link.toNum === 31) {
+    if (
+      (link.fromNum === 41 && link.toNum === 9) ||
+      (link.fromNum === 42 && link.toNum === 9) ||
+      (link.fromNum === 21 && link.toNum === 41) ||
+      (link.fromNum === 17 && link.toNum === 42)
+    ) {
       return {
         ...edge,
         smooth: {
           type: 'curvedCCW',
-          roundness: 0.3,
-        },
-      };
-    }
-    if (link.fromNum === 30 && link.toNum === 32) {
-      return {
-        ...edge,
-        smooth: {
-          type: 'curvedCCW',
-          roundness: 0.3,
-        },
-      };
-    }
-    if (link.fromNum === 10 && link.toNum === 38) {
-      return {
-        hidden: true,
-        ...edge,
-        smooth: {
-          type: 'curvedCW',
-          roundness: 0.4,
-        },
-      };
-    }
-    if (link.fromNum === 31 && link.toNum === 40) {
-      return {
-        ...edge,
-        smooth: {
-          type: 'curvedCW',
-          roundness: 0.2,
+          roundness: 0.25,
         },
       };
     }
@@ -117,17 +71,17 @@ export default {
       cardNum: 2,
       nodeOptions: {
         xPos: humanActivityCol,
-        yPos: humanActivityRow - 1,
+        yPos: humanActivityRow + 1,
       },
     },
-
     {
       cardNum: 3,
       nodeOptions: {
         xPos: humanActivityCol,
-        yPos: humanActivityRow + 1,
+        yPos: humanActivityRow - 1,
       },
     },
+
     {
       cardNum: 4,
       nodeOptions: {
@@ -173,8 +127,8 @@ export default {
     {
       cardNum: 10,
       nodeOptions: {
-        xPos: co2Col,
-        yPos: physicsRow - 1,
+        xPos: co2Col - 1,
+        yPos: physicsRow + 1,
       },
     },
     {
