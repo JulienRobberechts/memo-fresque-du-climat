@@ -9,6 +9,16 @@ export default {
   titleKey: 'layout.set2',
   cardFilter: (card) => card.cardSet <= 2,
   linkFilter: (link) => link.status === 'valid',
+  edgeMap: (link, edge) => {
+    if (link.fromNum === 9 && link.toNum === 13) {
+      console.log('9-13');
+      return {
+        ...edge,
+        smooth: { type: 'horizontal' },
+      };
+    }
+    return { ...edge };
+  },
   cards: [
     {
       cardNum: 1,

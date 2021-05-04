@@ -48,6 +48,15 @@ import CollageNetwork from './CollageNetwork.vue';
 import CardsService from '@/services/CardsService';
 import LayoutService from '@/services/LayoutService';
 
+const cardSize = 30;
+const cardMarginRatio = 1.8;
+
+const cardMargin = cardMarginRatio * cardSize;
+const cardMarginX = cardMargin;
+const cardMarginY = cardMargin;
+const cardSpaceX = 2.9 * cardSize + cardMarginX;
+const cardSpaceY = 2.0 * cardSize + cardMarginY;
+
 export default {
   components: {
     CollageBanner1,
@@ -76,40 +85,7 @@ export default {
       return cards;
     },
     nodes() {
-      const nodes = this.cards.map((card) => {
-        const cardSize = 30;
-        const cardMarginRatio = 1.8;
-
-        const cardMargin = cardMarginRatio * cardSize;
-        const cardMarginX = cardMargin;
-        const cardMarginY = cardMargin;
-        const cardSpaceX = 2.9 * cardSize + cardMarginX;
-        const cardSpaceY = 2.0 * cardSize + cardMarginY;
-
-        const cardLayout =
-          this.layout.cards.find((c) => c.cardNum === card.cardNum) || {};
-
-        const { nodeOptions } = cardLayout;
-        if (!nodeOptions) {
-          console.warn(
-            `Card ${card.cardNum} '${card.title}' not found in the layout ${this.layoutName}`
-          );
-          return {
-            id: card.cardNum,
-          };
-        }
-
-        return {
-          id: card.cardNum,
-          shape: 'image',
-          image: card.img.url,
-          ...nodeOptions,
-          x: nodeOptions.xPos * cardSpaceX,
-          y: nodeOptions.yPos * cardSpaceY,
-          size: (nodeOptions.zoom || 1) * cardSize,
-        };
-      });
-      return nodes;
+      return this.cards.map(this.nodeFromCard);
     },
     links() {
       const officialLinks = CardsService.getLinksForLang(
@@ -131,15 +107,46 @@ export default {
     },
   },
   methods: {
-    edgeFromLink(link) {
+    nodeFromCard(card) {
+      const cardLayout =
+        this.layout.cards.find((c) => c.cardNum === card.cardNum) || {};
+
+      const { nodeOptions } = cardLayout;
+      if (!nodeOptions) {
+        console.warn(
+          `Card ${card.cardNum} '${card.title}' not found in the layout ${this.layoutName}`
+        );
+        return {
+          id: card.cardNum,
+        };
+      }
+
       return {
+        id: card.cardNum,
+        shape: 'image',
+        image: card.img.url,
+        ...nodeOptions,
+        x: nodeOptions.xPos * cardSpaceX,
+        y: nodeOptions.yPos * cardSpaceY,
+        size: (nodeOptions.zoom || 1) * cardSize,
+      };
+    },
+    edgeFromLink(link) {
+      const edge = {
         from: link.fromNum,
         to: link.toNum,
         ...this.edgeOptions(link),
       };
+      if (!this.layout.edgeMap) {
+        // console.log('NO edgeMap');
+        return edge;
+      }
+      // console.log('ONE edgeMap');
+      return this.layout.edgeMap(link, edge);
     },
     edgeOptions(link) {
       return {
+        width: 3,
         color: {
           color:
             link.status === 'invalid'
@@ -149,7 +156,35 @@ export default {
               : '#04c2c0',
         },
         dashes: link.tmp,
-        arrows: { to: { enabled: true } },
+        arrows: {
+          // from: {
+          //   // To show the arrow root
+          //   enabled: true,
+          //   type: 'bar',
+          // },
+          to: {
+            // To show the arrow head
+            enabled: true,
+          },
+        },
+        smooth: {
+          enabled: true,
+          // 'dynamic'
+          // 'continuous'
+          // 'discrete'
+          // 'diagonalCross'
+          // 'straightCross'
+          // 'horizontal'
+          // 'vertical'
+          // 'curvedCW'
+          // 'curvedCCW'
+          // 'cubicBezier'
+          // best: discrete, vertical/horizontal, cubicBezier+forceDirection'vertical'/horizontal
+          type: 'cubicBezier',
+          // For cubicBezier curves: ['horizontal', 'vertical', 'none']
+          forceDirection: 'horizontal',
+          roundness: 0.8,
+        },
       };
     },
     onNodeDoubleSelection(nodeNum) {

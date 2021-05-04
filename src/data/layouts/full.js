@@ -18,6 +18,95 @@ export default {
   titleKey: 'layout.full',
   cardFilter: null,
   linkFilter: (link) => link.status === 'valid',
+  edgeMap: (link, edge) => {
+    console.log('edgeMap');
+    if (link.fromNum === 10 && link.toNum === 15) {
+      console.log('10-15');
+      return {
+        ...edge,
+        smooth: { type: 'discrete' },
+      };
+    }
+    if (link.fromNum === 9 && link.toNum === 13) {
+      console.log('9-13');
+      return {
+        ...edge,
+        smooth: { type: 'horizontal' },
+      };
+    }
+    if (link.fromNum === 21 && link.toNum === 25) {
+      console.log(`${link.fromNum}-${link.toNum}`);
+      return {
+        ...edge,
+        smooth: { type: 'curvedCW', roundness: 0.2 },
+      };
+    }
+    // if (link.fromNum === 17 && link.toNum === 34) {
+    //   console.log(`${link.fromNum}-${link.toNum}`);
+    //   return {
+    //     ...edge,
+    //     smooth: {
+    //       type: 'cubicBezier',
+    //     },
+    //   };
+    // }
+    if (link.fromNum === 8 && link.toNum === 9) {
+      console.log(`${link.fromNum}-${link.toNum}`);
+      return {
+        ...edge,
+        smooth: {
+          type: 'curvedCW',
+        },
+      };
+    }
+    if (link.fromNum === 20 && link.toNum === 26) {
+      return {
+        ...edge,
+        smooth: {
+          type: 'curvedCW',
+          roundness: 0.2,
+        },
+      };
+    }
+    if (link.fromNum === 30 && link.toNum === 31) {
+      return {
+        ...edge,
+        smooth: {
+          type: 'curvedCCW',
+          roundness: 0.3,
+        },
+      };
+    }
+    if (link.fromNum === 30 && link.toNum === 32) {
+      return {
+        ...edge,
+        smooth: {
+          type: 'curvedCCW',
+          roundness: 0.3,
+        },
+      };
+    }
+    if (link.fromNum === 10 && link.toNum === 38) {
+      return {
+        hidden: true,
+        ...edge,
+        smooth: {
+          type: 'curvedCW',
+          roundness: 0.4,
+        },
+      };
+    }
+    if (link.fromNum === 31 && link.toNum === 40) {
+      return {
+        ...edge,
+        smooth: {
+          type: 'curvedCW',
+          roundness: 0.2,
+        },
+      };
+    }
+    return { ...edge };
+  },
   cards: [
     {
       cardNum: 1,
@@ -62,7 +151,7 @@ export default {
       cardNum: 6,
       nodeOptions: {
         xPos: humanActivityCol + 1,
-        yPos: physicsRow + 1,
+        yPos: physicsRow - 2,
       },
     },
     {
@@ -76,14 +165,14 @@ export default {
       cardNum: 8,
       nodeOptions: {
         xPos: humanActivityCol,
-        yPos: humanActivityRow + 2,
+        yPos: humanActivityRow - 2,
       },
     },
     {
       cardNum: 9,
       nodeOptions: {
         xPos: co2Col,
-        yPos: 2.5,
+        yPos: -1,
       },
     },
     {
@@ -161,7 +250,7 @@ export default {
       cardNum: 20,
       nodeOptions: {
         xPos: meltingCol + 1,
-        yPos: -1,
+        yPos: -0.5,
       },
     },
     {
@@ -175,7 +264,7 @@ export default {
       cardNum: 22,
       nodeOptions: {
         xPos: meltingCol + 1,
-        yPos: 1,
+        yPos: 2,
       },
     },
     {
@@ -209,7 +298,7 @@ export default {
     {
       cardNum: 27,
       nodeOptions: {
-        xPos: oceanCol + 6,
+        xPos: oceanCol + 5,
         yPos: oceanRow + 1.5,
       },
     },
