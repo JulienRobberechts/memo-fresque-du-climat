@@ -1,3 +1,4 @@
+import { isLink } from './utils.js';
 const humanActivityCol = 1;
 const humanActivityRow = 1.5;
 const co2Col = 3;
@@ -9,8 +10,8 @@ export default {
   titleKey: 'layout.set2',
   cardFilter: (card) => card.cardSet <= 2,
   linkFilter: (link) => link.status === 'valid',
-  edgeMap: (link, edge) => {
-    if (link.fromNum === 9 && link.toNum === 13) {
+  edgeMap: (l, edge) => {
+    if (isLink(l, 9, 13)) {
       return {
         ...edge,
         smooth: { type: 'horizontal' },

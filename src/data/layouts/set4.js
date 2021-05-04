@@ -1,3 +1,4 @@
+import { isLink } from './utils.js';
 const humanActivityCol = 1;
 const humanActivityRow = 1;
 const co2Col = 3;
@@ -12,26 +13,26 @@ export default {
   titleKey: 'layout.set4',
   cardFilter: (card) => card.cardSet <= 4,
   linkFilter: (link) => link.status === 'valid',
-  edgeMap: (link, edge) => {
-    if (link.fromNum === 10 && link.toNum === 15) {
+  edgeMap: (l, edge) => {
+    if (isLink(l, 10, 15)) {
       return {
         ...edge,
         smooth: { type: 'discrete' },
       };
     }
-    if (link.fromNum === 9 && link.toNum === 13) {
+    if (isLink(l, 9, 13)) {
       return {
         ...edge,
         smooth: { type: 'horizontal' },
       };
     }
-    if (link.fromNum === 21 && link.toNum === 25) {
+    if (isLink(l, 21, 25)) {
       return {
         ...edge,
         smooth: { type: 'curvedCW', roundness: 0.2 },
       };
     }
-    if (link.fromNum === 17 && link.toNum === 34) {
+    if (isLink(l, 17, 34)) {
       return {
         ...edge,
         smooth: {
