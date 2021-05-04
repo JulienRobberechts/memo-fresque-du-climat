@@ -14,44 +14,12 @@ const deathRow = 0;
 const retroCol = 4;
 const retroRow = 0;
 
-const quizCards = [
-  1,
-  2,
-  3,
-  4,
-  5,
-  6,
-  7,
-  8,
-  9,
-  12,
-  13,
-  16,
-  17,
-  20,
-  21,
-  22,
-  24,
-  25,
-  26,
-  27,
-  30,
-  31,
-  32,
-  33,
-  34,
-  36,
-  37,
-  38,
-  39,
-  40,
-  41,
-];
+const nonQuizCards = [10, 11, 14, 15, 18, 19, 23, 28, 29, 35, 42];
 
 export default {
-  titleKey: 'layout.quiz30',
+  titleKey: 'layout.quiz31',
   cardFilter: (card) => {
-    return quizCards.includes(card.cardNum);
+    return !nonQuizCards.includes(card.cardNum);
   },
   linkFilter: (link) =>
     link.status === 'valid' &&
@@ -156,67 +124,6 @@ export default {
         },
       };
     }
-    // if (link.toNum === 13) {
-    //   return {
-    //     ...edge,
-    //     smooth: {
-    //       type: 'straightCross',
-    //     },
-    //   };
-    // }
-    // if (link.toNum === 12) {
-    //   return {
-    //     ...edge,
-    //     smooth: {
-    //       type: 'straightCross',
-    //     },
-    //   };
-    // }
-    // if (link.toNum === 9) {
-    //   return {
-    //     ...edge,
-    //     smooth: {
-    //       type: 'curvedCW',
-    //       forceDirection: 'horizontal',
-    //     },
-    //   };
-    // }
-    // if (link.fromNum === 8) {
-    //   return {
-    //     ...edge,
-    //     smooth: {
-    //       type: 'straightCross',
-    //     },
-    //   };
-    // }
-    // if (link.toNum === 8) {
-    //   return {
-    //     ...edge,
-    //     smooth: {
-    //       type: 'straightCross',
-    //     },
-    //   };
-    // }
-    // if (link.toNum === 7) {
-    //   return {
-    //     ...edge,
-    //     smooth: {
-    //       type: 'curvedCCW',
-    //       forceDirection: 'horizontal',
-    //       roundness: 0.3,
-    //     },
-    //   };
-    // }
-    // if (link.toNum === 5) {
-    //   return {
-    //     ...edge,
-    //     smooth: {
-    //       type: 'cubicBezier',
-    //       forceDirection: 'horizontal',
-    //       roundness: 0.2,
-    //     },
-    //   };
-    // }
     return {
       ...edge,
       smooth: {

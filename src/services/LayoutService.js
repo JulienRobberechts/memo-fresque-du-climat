@@ -4,11 +4,11 @@ import layoutSet2 from '@/data/layouts/set2.js';
 import layoutSet3 from '@/data/layouts/set3.js';
 import layoutSet4 from '@/data/layouts/set4.js';
 import layoutFull from '@/data/layouts/full.js';
-import layoutQuiz30 from '@/data/layouts/quiz30.js';
+import layoutQuiz31 from '@/data/layouts/quiz31.js';
 
 export default {
   validLayouts() {
-    return ['set1', 'set2', 'set3', 'set4', 'full', 'quiz30'];
+    return ['set1', 'set2', 'set3', 'set4', 'set5', 'full', 'quiz', 'quiz31'];
   },
   isValidLayout(layoutName) {
     return layoutName === '' || this.validLayouts().includes(layoutName);
@@ -34,8 +34,8 @@ export default {
       case 'full':
         return layoutFull;
       case 'quiz':
-      case 'quiz30':
-        return layoutQuiz30;
+      case 'quiz31':
+        return layoutQuiz31;
       default:
         console.warn(`The layout name '${layoutName}' is not supported`);
         return this.defaultLayout();
