@@ -1,9 +1,12 @@
 <template>
   <div class="visu" ref="visualization"></div>
+  <canvas ref="can" width="600" height="600"></canvas>
 </template>
 
 <script>
+// @ts-nocheck
 import { DataSet, Network } from 'visjs-network';
+import C2S from 'canvas2svg';
 
 const arrayDiff = (arr1, arr2) => arr1.filter((x) => arr2.indexOf(x) === -1);
 
@@ -23,6 +26,8 @@ export default {
   mounted() {
     // create a network
     const container = this.$refs.visualization;
+    const can = this.$refs.can;
+    console.log('can', can);
 
     const options = {
       autoResize: true,
@@ -97,7 +102,55 @@ export default {
       } else if (selectedEdges.length == 1) {
         self.$emit('edge-double-selection', selectedEdges[0]);
       } else {
-        throw new Error('Unknown db click event');
+        console.log('db click event on empty area');
+        // throw new Error('Unknown db click event');
+      }
+      try {
+        console.log('double click');
+        const sourceCanvas = self.$refs.visualization.getElementsByTagName(
+          'canvas'
+        )[0];
+        console.log('sourceCanvas :', sourceCanvas);
+        // var sourceCtx = sourceCanvas.getContext('2d');
+
+        var destCanvas = self.$refs.can;
+        // const destCtx = destCanvas.getContext('2d');
+        const destCtxFabric = new C2S(destCanvas);
+
+        //call its drawImage() function passing it the source canvas directly
+        destCtxFabric.drawImage(
+          sourceCanvas,
+          0,
+          0,
+          500,
+          500,
+          100,
+          100,
+          600,
+          600
+        );
+
+        // var imgInstance = new fabric.Image.fromObject(sourceCanvas, (res) => {
+        //   console.log('callback res', res);
+        // });
+        // destCtxFabric.add(imgInstance);
+
+        const svgFormat = destCtxFabric.getSerializedSvg();
+        console.log('toSVG =', svgFormat);
+
+        // get pixels png
+        // var myImageData = ctx.getImageData(0, 0, 500, 500);
+        // var buffer = document.createElement('canvas');
+        // buffer.width = 500;
+        // buffer.height = 500;
+
+        // var bufferCtx = buffer.getContext('2d');
+        // bufferCtx.putImageData(myImageData, 0, 0);
+        // window.open(buffer.toDataURL('image/png'));
+        // console.log(myImageData);
+        // console.log(ctx);
+      } catch (error) {
+        console.log('double click ERror', error);
       }
     });
   },
