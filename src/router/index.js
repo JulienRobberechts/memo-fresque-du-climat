@@ -25,6 +25,13 @@ const routes = [
       import(/* webpackChunkName: "CollagesView" */ '../views/Collages.vue'),
   },
   {
+    path: '/canvas/circle-quiz',
+    name: 'Canvas',
+    props: true,
+    component: () =>
+      import(/* webpackChunkName: "Canvas" */ '../views/Canvas.vue'),
+  },
+  {
     path: '/about',
     name: 'RouteAbout',
     component: () =>

@@ -50,5 +50,9 @@
     "quiz2": "Quiz collage circle version in 32 cards",
     "quiz31": "Quiz collage in 30 cards",
     "giant-2x6": "giant-2x6"
+  },
+  "canvas": {
+    "dimensions": "Dimensions: {width}x{height}cm",
+    "circle_quiz": "Canvas - Circle quiz"
   }
 }

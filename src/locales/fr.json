@@ -50,5 +50,9 @@
     "quiz2": "Fresque quiz version en cercle avec 32 cartes",
     "quiz31": "Fresque quiz en 31 cartes",
     "giant-2x6": "giant-2x6"
+  },
+  "canvas": {
+    "dimensions": "Dimensions: {width}x{height}cm",
+    "circle_quiz": "Bâche - Quiz en cercle"
   }
 }
