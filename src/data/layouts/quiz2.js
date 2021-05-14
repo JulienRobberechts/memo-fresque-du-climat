@@ -4,149 +4,31 @@ const humanActivityCol = 1;
 const humanActivityRow = 1;
 const co2Col = 3;
 const physicsRow = 1;
-const oceanCol = 4;
 const oceanRow = 3;
-const meltingCol = 8;
+const meltingCol = 6;
 const weatherCol = meltingCol + 2;
-const bioCol = 10;
-const bioRow = -1;
-const foodCol = weatherCol + 2;
+const foodCol = weatherCol + 1;
 const deathCol = foodCol + 1;
 const deathRow = 2;
-const retroCol = 5;
 const retroRow = -2;
+
+const nonQuizCards = [10, 11, 15, 18, 19, 23, 29, 35, 36, 42];
 
 export default {
   titleKey: 'layout.quiz2',
-  cardFilter: null,
+  cardFilter: (card) => {
+    return !nonQuizCards.includes(card.cardNum);
+  },
   linkFilter: (l) =>
     l.status === 'valid' &&
     !isLink(l, 25, 32) &&
-    !isLink(l, 34, 32) &&
+    !isLink(l, 17, 34) &&
     !isLink(l, 34, 38) &&
     !isLink(l, 26, 38) &&
     !isLink(l, 21, 32) &&
     !isLink(l, 17, 27) &&
     !isLink(l, 37, 38) &&
-    !isLink(l, 10, 38) &&
     !isLink(l, 21, 38),
-  edgeMap: (l, edge) => {
-    const width = 2; // isLink(l, 13, 15) ? 5 : 2;
-    if (isLink(l, 10, 15) || isLink(l, 9, 13)) {
-      return {
-        ...edge,
-        smooth: {
-          type: 'horizontal',
-          roundness: 0.8,
-        },
-      };
-    }
-    if (
-      isLink(l, 41, 9) ||
-      isLink(l, 42, 9) ||
-      isLink(l, 21, 41) ||
-      isLink(l, 17, 42)
-    ) {
-      return {
-        ...edge,
-        color: { color: '#951' },
-        width: 1,
-        smooth: {
-          type: 'curvedCCW',
-          roundness: 0.25,
-        },
-      };
-    }
-    if (
-      isLink(l, 21, 36) ||
-      isLink(l, 20, 26) ||
-      isLink(l, 20, 30) ||
-      isLink(l, 30, 32) ||
-      isLink(l, 26, 32) ||
-      isLink(l, 32, 39) ||
-      isLink(l, 33, 39)
-    ) {
-      return {
-        ...edge,
-        smooth: {
-          type: 'cubicBezier',
-          forceDirection: 'vertical',
-          roundness: 0.8,
-        },
-      };
-    }
-    if (isLink(l, 17, 34)) {
-      return {
-        ...edge,
-        smooth: {
-          type: 'cubicBezier',
-          forceDirection: 'horizontal',
-          roundness: 0.6,
-        },
-      };
-    }
-    if (isLink(l, 20, 33)) {
-      return {
-        ...edge,
-        smooth: {
-          type: 'curvedCCW',
-          roundness: 0.25,
-        },
-      };
-    }
-    if (isLink(l, 34, 33)) {
-      return {
-        ...edge,
-        smooth: {
-          type: 'curvedCCW',
-          roundness: 0.1,
-        },
-      };
-    }
-    if (isLink(l, 30, 31)) {
-      return {
-        ...edge,
-        smooth: {
-          type: 'curvedCCW',
-          roundness: 0.3,
-        },
-      };
-    }
-    if (isLink(l, 20, 33)) {
-      return {
-        ...edge,
-        smooth: {
-          type: 'curvedCW',
-          forceDirection: 'horizontal',
-          roundness: 0.3,
-        },
-      };
-    }
-    if (isLink(l, 21, 20)) {
-      return {
-        ...edge,
-        smooth: {
-          type: 'curvedCCW',
-          forceDirection: 'horizontal',
-          roundness: 0.3,
-        },
-      };
-    }
-    if (isLink(l, 16, 31)) {
-      return {
-        ...edge,
-        color: {
-          color: '#aaa',
-        },
-        smooth: {
-          type: 'curvedCCW',
-          forceDirection: 'horizontal',
-          roundness: 0.25,
-        },
-      };
-    }
-    return { ...edge, width };
-  },
   cards: [
     {
       cardNum: 1,
@@ -215,20 +97,6 @@ export default {
       },
     },
     {
-      cardNum: 10,
-      nodeOptions: {
-        xPos: co2Col - 1,
-        yPos: physicsRow + 1,
-      },
-    },
-    {
-      cardNum: 11,
-      nodeOptions: {
-        xPos: co2Col + 1,
-        yPos: physicsRow,
-      },
-    },
-    {
       cardNum: 12,
       nodeOptions: {
         xPos: co2Col,
@@ -238,7 +106,7 @@ export default {
     {
       cardNum: 13,
       nodeOptions: {
-        xPos: co2Col + 2,
+        xPos: co2Col + 1,
         yPos: physicsRow,
       },
     },
@@ -250,14 +118,7 @@ export default {
       },
     },
     {
-      cardNum: 15,
-      nodeOptions: {
-        xPos: meltingCol - 2,
-        yPos: physicsRow,
-      },
-    },
-    {
-      cardNum: 19,
+      cardNum: 16,
       nodeOptions: {
         xPos: meltingCol,
         yPos: physicsRow + 1,
@@ -267,21 +128,6 @@ export default {
       cardNum: 17,
       nodeOptions: {
         xPos: meltingCol,
-        yPos: physicsRow - 1,
-      },
-    },
-
-    {
-      cardNum: 18,
-      nodeOptions: {
-        xPos: meltingCol - 1,
-        yPos: physicsRow + 1,
-      },
-    },
-    {
-      cardNum: 16,
-      nodeOptions: {
-        xPos: meltingCol,
         yPos: physicsRow,
       },
     },
@@ -289,105 +135,91 @@ export default {
       cardNum: 20,
       nodeOptions: {
         xPos: meltingCol + 1,
-        yPos: 0,
+        yPos: physicsRow,
       },
     },
     {
       cardNum: 21,
       nodeOptions: {
         xPos: meltingCol,
-        yPos: physicsRow - 2,
+        yPos: physicsRow - 1,
       },
     },
     {
       cardNum: 22,
       nodeOptions: {
         xPos: meltingCol + 1,
-        yPos: 2,
-      },
-    },
-    {
-      cardNum: 23,
-      nodeOptions: {
-        xPos: oceanCol + 1,
-        yPos: oceanRow,
+        yPos: physicsRow + 1,
       },
     },
     {
       cardNum: 24,
       nodeOptions: {
-        xPos: oceanCol,
-        yPos: oceanRow,
+        xPos: co2Col + 1,
+        yPos: oceanRow - 1,
       },
     },
     {
       cardNum: 25,
       nodeOptions: {
-        xPos: bioCol,
-        yPos: bioRow,
+        xPos: meltingCol + 1,
+        yPos: physicsRow - 1,
       },
     },
     {
       cardNum: 26,
       nodeOptions: {
-        xPos: weatherCol + 1,
-        yPos: 1,
+        xPos: weatherCol,
+        yPos: -0.5,
       },
     },
     {
       cardNum: 27,
       nodeOptions: {
-        xPos: deathCol - 1,
-        yPos: oceanRow,
+        xPos: foodCol,
+        yPos: 2,
       },
     },
     {
       cardNum: 28,
       nodeOptions: {
-        xPos: bioCol + 1,
-        yPos: bioRow,
-      },
-    },
-    {
-      cardNum: 29,
-      nodeOptions: {
-        xPos: oceanCol + 2,
-        yPos: oceanRow,
+        xPos: foodCol,
+        yPos: physicsRow - 2,
       },
     },
     {
       cardNum: 30,
       nodeOptions: {
         xPos: weatherCol,
-        yPos: 1,
+        yPos: 0.5,
       },
     },
     {
       cardNum: 31,
       nodeOptions: {
         xPos: foodCol,
-        yPos: 1,
+        yPos: 0,
       },
     },
     {
       cardNum: 32,
       nodeOptions: {
         xPos: foodCol,
-        yPos: 2,
+        yPos: 1,
       },
     },
     {
       cardNum: 33,
       nodeOptions: {
-        xPos: weatherCol + 0.5,
-        yPos: 2,
+        xPos: weatherCol,
+        yPos: 2.5,
       },
     },
     {
       cardNum: 34,
       nodeOptions: {
-        xPos: weatherCol - 1,
-        yPos: 1,
+        xPos: weatherCol,
+        yPos: 1.5,
       },
     },
     {
@@ -435,17 +267,23 @@ export default {
     {
       cardNum: 41,
       nodeOptions: {
-        xPos: retroCol + 1,
+        xPos: co2Col + 1,
         yPos: retroRow + 1,
       },
     },
+  ],
+  links: [
     {
-      cardNum: 42,
-      nodeOptions: {
-        xPos: retroCol + 1,
-        yPos: retroRow + 2,
-      },
+      fromNum: 12,
+      toNum: 13,
+    },
+    {
+      fromNum: 13,
+      toNum: 14,
+    },
+    {
+      fromNum: 24,
+      toNum: 27,
     },
   ],
-  links: [],
 };
