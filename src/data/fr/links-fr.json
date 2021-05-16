@@ -39,7 +39,7 @@
     "fromNum": 1,
     "toNum": 27,
     "status": "optional",
-    "explanation": "Par ce lien, on exprime toutes les dégradations que l'être humain est capable d'infliger à la vie marine comme la pollution au plastique et la sur-pêche. C'est hors-sujet par rapport au changement climatique, mais c'est intéressant de faire le lien quand-même."
+    "explanation": "Par ce lien, on exprime toutes les dégradations que l'Homme est capable d'infliger à la vie marine comme la pollution au plastique et la surpêche. C'est hors-sujet par rapport au changement climatique, mais c'est intéressant de faire le lien quand-même et l'occasion d'évoquer la Fresque Océane. Si on parle a un public âgé, on peut par exemple parler de la taille des boites de sardines qui a diminué car elles n'ont même plus le temps de grandir avant d'être pêchées."
   },
   {
     "fromNum": 2,
@@ -159,7 +159,7 @@
     "fromNum": 6,
     "toNum": 25,
     "status": "optional",
-    "explanation": "La déforestation cause énormément de perte de biodiversité : Animale car la forêt est un hôte de beaucoup d'espèce. L'indice de biodiversité des forêts a chuté de 53% entre 1970 et 2014. Végétale car sur les 60 000 espèces d'arbres connus, 8000 sont considérées comme menacés."
+    "explanation": "La déforestation cause énormément de perte de biodiversité : Animale car la forêt est un hôte de beaucoup d'espèces. L'indice de biodiversité des forêts a chuté de 53% entre 1970 et 2014. Végétale car sur les 60 000 espèces d'arbres connues, 8 000 sont considérées comme menacées."
   },
   {
     "fromNum": 6,
@@ -177,7 +177,7 @@
     "fromNum": 6,
     "toNum": 35,
     "status": "optional",
-    "explanation": "Une partie de la déforestation est faite en brûlant la forêt qui peut ensuite dégénérer en feu non-maîtrisé. C'est ce qu'il s'est passé pendant l'été 2019 en Amazonie et en Australie."
+    "explanation": "Une partie de la déforestation est faite en brûlant la forêt, ce qui peut ensuite dégénérer en feu non maîtrisé. C'est ce qu'il s'est passé pendant l'été 2019 en Amazonie et en Australie."
   },
   {
     "fromNum": 7,
@@ -339,13 +339,13 @@
     "fromNum": 14,
     "toNum": 41,
     "status": "optional",
-    "explanation": "Si l'on veut rester dans la même logique de conservation de l'énergie, il faudrait faire le lien de fonte a partir de budget énergétique. Cependant pour des raisons pratiques, on peut préférer faire le lien à partir de la hausse de la température."
+    "explanation": "Si l'on veut rester dans la même logique de conservation de l'énergie, il faudrait faire le lien de fonte à partir de bilan énergétique. Cependant pour des raisons pratiques, on peut préférer faire le lien à partir de la hausse de la température."
   },
   {
     "fromNum": 14,
     "toNum": 42,
     "status": "optional",
-    "explanation": "Si l'on veut rester dans la même logique de conservation de l'énergie, il faudrait faire le lien de fonte a partir de budget énergétique. Cependant pour des raisons pratiques, on peut préférer faire le lien à partir de la hausse de la température."
+    "explanation": "Si l'on veut rester dans la même logique de conservation de l'énergie, il faudrait faire le lien de fonte à partir de bilan énergétique. Cependant pour des raisons pratiques, on peut préférer faire le lien à partir de la hausse de la température."
   },
   {
     "fromNum": 15,
@@ -831,19 +831,19 @@
     "fromNum": 39,
     "toNum": 38,
     "status": "optional",
-    "explanation": "[explication en cours...]"
+    "explanation": "Lorsque les réfugiés se déplacent, ils se retrouvent souvent placés dans des camps \"de réfugiés\" dans lesquels la concentration humaine et le manque d'infrastructures sanitaires favorisent l'apparition et la circulation des vecteurs de maladie."
   },
   {
     "fromNum": 40,
     "toNum": 38,
     "status": "valid",
-    "explanation": "Se prendre une balle, c’est pas bon pour la santé."
+    "explanation": "Les conflits armés dégradent les infrastructures et réduisent l'accès aux biens de premières nécessité (nourriture, eau, ...)"
   },
   {
     "fromNum": 40,
     "toNum": 39,
     "status": "valid",
-    "explanation": ""
+    "explanation": "Les populations locales fuient les zones de combat et migrent pour retrouver la sécurité et le confort minimum"
   },
   {
     "fromNum": 40,
