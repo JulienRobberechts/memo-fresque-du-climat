@@ -4,15 +4,22 @@
       class="icon"
       :alt="$t('all-cards.smallCards')"
       :title="$t('all-cards.smallCards')"
-      :style="SvgStyleSmall"
-      @click="handleClick(true)"
+      :style="svgStyle('grid')"
+      @click="handleClick('grid')"
     />
     <lines-icon
       class="icon"
       :alt="$t('all-cards.bigCards')"
       :title="$t('all-cards.bigCards')"
-      :style="SvgStyleBig"
-      @click="handleClick(false)"
+      :style="svgStyle('list')"
+      @click="handleClick('list')"
+    />
+    <network-icon
+      class="icon"
+      :alt="$t('all-cards.networkCards')"
+      :title="$t('all-cards.networkCards')"
+      :style="svgStyle('network')"
+      @click="handleClick('network')"
     />
   </div>
 </template>
@@ -20,26 +27,25 @@
 <script>
 import GridIcon from './GridIcon.vue';
 import LinesIcon from './LinesIcon.vue';
+import NetworkIcon from './NetworkIcon.vue';
+
 const selectedColor = '#04c2c0';
 const unselectedColor = '#706f71';
 
 export default {
-  components: { GridIcon, LinesIcon },
+  components: { GridIcon, LinesIcon, NetworkIcon },
   props: {
-    smallIconSelected: Boolean,
-  },
-  computed: {
-    SvgStyleSmall() {
-      return { fill: this.smallIconSelected ? selectedColor : unselectedColor };
-    },
-    SvgStyleBig() {
-      return { fill: this.smallIconSelected ? unselectedColor : selectedColor };
-    },
+    selectedView: String,
   },
   methods: {
     handleClick(selection) {
       console.log('handleClick', selection);
       this.$emit('selectionChange', selection);
+    },
+    svgStyle(target) {
+      return {
+        fill: this.selectedView === target ? selectedColor : unselectedColor,
+      };
     },
   },
 };

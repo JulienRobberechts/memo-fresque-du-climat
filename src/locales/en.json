@@ -17,7 +17,8 @@
   "all-cards": {
     "title": "Climate Collage cards",
     "smallCards": "thumbnails",
-    "bigCards": "full size"
+    "bigCards": "full size",
+    "networkCards": "collage"
   },
   "menu": {
     "cards": "cards",
