@@ -17,7 +17,8 @@
   "all-cards": {
     "title": "Cartes de la Fresque du climat",
     "smallCards": "miniatures",
-    "bigCards": "grand format"
+    "bigCards": "grand format",
+    "networkCards": "fresque"
   },
   "menu": {
     "cards": "cartes",

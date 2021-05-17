@@ -3,17 +3,18 @@
   <div
     class="menu"
     :class="{
-      maxWidth450: !smallIconSelected,
-      maxWidth1400: smallIconSelected,
+      maxWidth450: selectedView === 'list',
+      maxWidth1400: selectedView === 'grid',
     }"
   >
     <toggle-view
-      :smallIconSelected="smallIconSelected"
+      :selectedView="selectedView"
       @selectionChange="selectionChange"
     />
   </div>
-  <CardsMenu v-if="smallIconSelected" />
-  <CardsList v-if="!smallIconSelected" />
+  <CardsMenu v-if="selectedView === 'grid'" />
+  <CardsList v-if="selectedView === 'list'" />
+  <div v-if="selectedView === 'network'">Network</div>
 </template>
 
 <script>
@@ -30,7 +31,10 @@ export default {
     CardsList,
   },
   data() {
-    return { cards: null, smallIconSelected: true };
+    return {
+      cards: null,
+      selectedView: 'grid',
+    };
   },
   created() {
     meta.setTitle(document, this.title);
@@ -47,7 +51,7 @@ export default {
   methods: {
     selectionChange(selection) {
       console.log('selectionChange', selection);
-      this.smallIconSelected = selection;
+      this.selectedView = selection;
     },
   },
 };
