@@ -5,108 +5,101 @@
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     xmlns:svg="http://www.w3.org/2000/svg"
     xmlns="http://www.w3.org/2000/svg"
-    id="svg18"
+    id="svg8"
     version="1.1"
-    width="512pt"
-    viewBox="10 100 502 312"
-    height="512pt"
+    viewBox="0 0 9.2604167 9.2604167"
+    height="35"
+    width="35"
   >
-    <title id="unique-id">{{ title }}</title>
-    <path
-      style="stroke-width: 0.5"
-      id="lineh1"
-      d="m 176.7409,377.92501 c -3.85007,-2.01588 -6.5966,-5.86844 -6.85723,-10.32365 -0.39526,-6.59353 4.81172,-12.01397 11.61175,-12.10819 l 131.61504,-1.61764 c 6.80504,-0.10382 12.64242,5.19375 13.03976,11.81278 0.39524,6.59352 -4.81173,12.01396 -11.61177,12.1082 l -131.61708,1.61656 c -2.21305,0.0277 -4.32325,-0.51562 -6.18047,-1.48806 z m 0,0"
-    />
-    <path
-      style="stroke-width: 5.5"
-      id="path14"
-      d="m 202.0583,192.36982 c -2.93986,0 -5.79467,3.5726 -7.34887,9.96279 -2.30582,9.44982 -0.88614,21.50412 3.15946,26.91175 l 78.36795,104.35987 c 4.04559,5.42568 9.20622,2.10959 11.52129,-7.37635 2.3058,-9.44983 0.88613,-21.50414 -3.15946,-26.91178 l -78.3695,-104.35985 c -1.31761,-1.75559 -2.75274,-2.58643 -4.17087,-2.58643 z m 0,0"
-    />
-    <path
-      style="stroke-width: 0.5"
-      id="lineh2"
-      d="m 168.05999,173.9979 c -3.85007,-2.01588 -6.5966,-5.86843 -6.85723,-10.32365 -0.39526,-6.59352 4.81172,-12.01396 11.61175,-12.10818 l 131.61504,-1.61764 c 6.80504,-0.10382 12.64242,5.19375 13.03976,11.81278 0.39524,6.59351 -4.81173,12.01395 -11.61177,12.10819 l -131.61708,1.61657 c -2.21305,0.0277 -4.32325,-0.51563 -6.18047,-1.48807 z m 0,0"
-    />
-    <rect
-      y="116"
-      x="34"
-      height="88.2"
-      width="158.8"
-      id="card1"
-      style="
-        fill-opacity: 1;
-        fill-rule: nonzero;
-        stroke: currentColor;
-        stroke-width: 46.60403824;
-        stroke-linecap: round;
-        stroke-linejoin: round;
-        stroke-miterlimit: 4;
-        stroke-dasharray: none;
-        stroke-dashoffset: 0;
-        stroke-opacity: 1;
-        paint-order: stroke markers fill;
-      "
-    />
-    <rect
-      y="116"
-      x="296"
-      height="88.2"
-      width="158.8"
-      id="card2"
-      style="
-        fill-opacity: 1;
-        fill-rule: nonzero;
-        stroke: #000000;
-        stroke-width: 46.60403824;
-        stroke-linecap: round;
-        stroke-linejoin: round;
-        stroke-miterlimit: 4;
-        stroke-dasharray: none;
-        stroke-dashoffset: 0;
-        stroke-opacity: 1;
-        paint-order: stroke markers fill;
-      "
-    />
-    <rect
-      y="325"
-      x="34"
-      height="88.2"
-      width="158.8"
-      id="card3"
-      style="
-        opacity: 1;
-        fill-opacity: 1;
-        fill-rule: nonzero;
-        stroke: #000000;
-        stroke-width: 46.60403824;
-        stroke-linecap: round;
-        stroke-linejoin: round;
-        stroke-miterlimit: 4;
-        stroke-dasharray: none;
-        stroke-dashoffset: 0;
-        stroke-opacity: 1;
-        paint-order: stroke markers fill;
-      "
-    />
-    <rect
-      y="325"
-      x="296"
-      height="88.2"
-      width="158.8"
-      id="card4"
-      style="
-        opacity: 1;
-        stroke: #000000;
-        stroke-width: 46.60403824;
-        stroke-linecap: round;
-        stroke-linejoin: round;
-        stroke-miterlimit: 4;
-        stroke-dasharray: none;
-        stroke-dashoffset: 0;
-        stroke-opacity: 1;
-        paint-order: stroke markers fill;
-      "
-    />
+    <defs id="defs2">
+      <marker
+        style="overflow: visible"
+        id="Arrow2Lend"
+        refX="0.0"
+        refY="0.0"
+        orient="auto"
+      >
+        <path
+          transform="scale(1.1) rotate(180) translate(1,0)"
+          d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+          style="fill-rule: evenodd; stroke-linejoin: round"
+          id="path1406"
+        />
+      </marker>
+      <marker
+        style="overflow: visible"
+        id="DotL"
+        refX="0.0"
+        refY="0.0"
+        orient="auto"
+      >
+        <path
+          transform="scale(0.8) translate(7.4, 1)"
+          d="M -2.5,-1.0 C -2.5,1.7600000 -4.7400000,4.0 -7.5,4.0 C -10.260000,4.0 -12.5,1.7600000 -12.5,-1.0 C -12.5,-3.7600000 -10.260000,-6.0 -7.5,-6.0 C -4.7400000,-6.0 -2.5,-3.7600000 -2.5,-1.0 z "
+          id="path1446"
+        />
+      </marker>
+    </defs>
+    <g transform="translate(0,-287.73957)" id="layer1">
+      <rect
+        ry="0.39101124"
+        y="288.21204"
+        x="0.33072907"
+        height="2.7403274"
+        width="4.8428197"
+        id="card-1"
+        style="
+          opacity: 1;
+          fill-opacity: 1;
+          fill-rule: nonzero;
+          stroke: none;
+          stroke-width: 21.65471077;
+          stroke-linecap: round;
+          stroke-linejoin: round;
+          stroke-miterlimit: 4;
+          stroke-dasharray: none;
+          stroke-dashoffset: 0;
+          stroke-opacity: 1;
+          paint-order: stroke markers fill;
+        "
+      />
+      <path
+        id="link"
+        d="m 5.1026785,289.60582 c 1.0016609,0.80837 1.5102215,1.11304 1.9607516,3.87426"
+        style="
+          fill: none;
+          fill-rule: evenodd;
+          stroke: #000000;
+          stroke-width: 0.2;
+          stroke-linecap: butt;
+          stroke-linejoin: miter;
+          stroke-dasharray: none;
+          marker-end: url(#Arrow2Lend);
+        "
+      />
+      <rect
+        ry="0.39101124"
+        y="293.62183"
+        x="4.122303"
+        height="2.7403274"
+        width="4.8428197"
+        id="card-2"
+        style="
+          opacity: 1;
+          fill-opacity: 1;
+          fill-rule: nonzero;
+          stroke: none;
+          stroke-width: 21.65471077;
+          stroke-linecap: round;
+          stroke-linejoin: round;
+          stroke-miterlimit: 4;
+          stroke-dasharray: none;
+          stroke-dashoffset: 0;
+          stroke-opacity: 1;
+          paint-order: stroke markers fill;
+        "
+      />
+    </g>
   </svg>
 </template>
 
