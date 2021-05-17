@@ -4,14 +4,14 @@
       class="icon"
       :alt="$t('all-cards.smallCards')"
       :title="$t('all-cards.smallCards')"
-      :color="colorSmall"
+      :style="SvgStyleSmall"
       @click="handleClick(true)"
     />
     <lines-icon
       class="icon"
       :alt="$t('all-cards.bigCards')"
       :title="$t('all-cards.bigCards')"
-      :color="colorBig"
+      :style="SvgStyleBig"
       @click="handleClick(false)"
     />
   </div>
@@ -20,18 +20,20 @@
 <script>
 import GridIcon from './GridIcon.vue';
 import LinesIcon from './LinesIcon.vue';
+const selectedColor = '#04c2c0';
+const unselectedColor = '#706f71';
+
 export default {
   components: { GridIcon, LinesIcon },
   props: {
     smallIconSelected: Boolean,
   },
   computed: {
-    colorSmall() {
-      // console.log('this.smallIconSelected', this.smallIconSelected);
-      return this.smallIconSelected ? '#04c2c0' : '#706f71';
+    SvgStyleSmall() {
+      return { fill: this.smallIconSelected ? selectedColor : unselectedColor };
     },
-    colorBig() {
-      return this.smallIconSelected ? '#706f71' : '#04c2c0';
+    SvgStyleBig() {
+      return { fill: this.smallIconSelected ? unselectedColor : selectedColor };
     },
   },
   methods: {
