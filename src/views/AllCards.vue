@@ -14,13 +14,19 @@
   </div>
   <CardsMenu v-if="selectedView === 'grid'" />
   <CardsList v-if="selectedView === 'list'" />
-  <div v-if="selectedView === 'network'">Network</div>
+  <CollageLayout
+    v-if="selectedView === 'network'"
+    layoutName="full"
+    :showBanner1="false"
+  />
 </template>
 
 <script>
 import ToggleView from '../components/collections/ToggleView.vue';
 import CardsMenu from '@/components/collections/menu/CardsMenu.vue';
 import CardsList from '@/components/collections/list/CardsList.vue';
+import CollageLayout from '@/components/collages/CollageLayout.vue';
+
 import meta from '@/utils/meta-vue3';
 
 export default {
@@ -29,6 +35,7 @@ export default {
     ToggleView,
     CardsMenu,
     CardsList,
+    CollageLayout,
   },
   data() {
     return {

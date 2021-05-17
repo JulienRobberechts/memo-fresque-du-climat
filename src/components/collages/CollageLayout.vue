@@ -1,5 +1,6 @@
 <template>
   <CollageBanner1
+    v-if="showBanner1"
     :layout="layout"
     :cards="cards"
     :selectedCard="selectedCard"
@@ -69,6 +70,14 @@ export default {
       validator: function (value) {
         return LayoutService.isValidLayout(value);
       },
+    },
+    showBanner1: {
+      type: Boolean,
+      default: true,
+    },
+    showBanner2: {
+      type: Boolean,
+      default: true,
     },
   },
   data: () => ({
