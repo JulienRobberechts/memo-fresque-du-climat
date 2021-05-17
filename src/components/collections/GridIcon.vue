@@ -10,7 +10,6 @@
     viewBox="0 0 35 35"
     style="enable-background: new 0 0 35 35"
     xml:space="preserve"
-    :style="SvgStyle"
   >
     <title id="unique-id">{{ title }}</title>
     <g>
@@ -26,12 +25,6 @@
 export default {
   props: {
     title: String,
-    color: String,
-  },
-  computed: {
-    SvgStyle() {
-      return { fill: this.color };
-    },
   },
 };
 </script>
