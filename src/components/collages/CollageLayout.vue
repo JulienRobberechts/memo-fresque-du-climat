@@ -197,18 +197,14 @@ export default {
         },
       };
     },
-    onNodeDoubleSelection(nodeNum) {
-      console.log('onNodeDoubleSelection', nodeNum);
-      this.selectedCard = this.cards.find((card) => card.cardNum === nodeNum);
-      // console.log('this.selectedCard', this.selectedCard);
-    },
     onNodeSelection(nodeNum) {
-      console.log('onNodeSelection', nodeNum);
       this.selectedCard = this.cards.find((card) => card.cardNum === nodeNum);
-      // this.$buefy.toast.open({
-      //   message: "Double cliquer sur la carte pour l'afficher en grand",
-      //   position: 'is-bottom',
-      // });
+    },
+    onNodeDoubleSelection(nodeNum) {
+      this.$router.push({
+        name: 'RouteCardDetails',
+        params: { cardNum: nodeNum },
+      });
     },
   },
 };
