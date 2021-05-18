@@ -85,34 +85,6 @@ export default {
     };
   },
   computed: {
-    validCauses: function () {
-      return this.card.causes.filter((cause) => cause.link.status === 'valid');
-    },
-    validConsequences: function () {
-      return this.card.consequences.filter(
-        (consequence) => consequence.link.status === 'valid'
-      );
-    },
-    optionalCauses: function () {
-      return this.card.causes
-        .filter((cause) => cause.link.status === 'optional')
-        .sort((a, b) => a.from.cardNum - b.from.cardNum);
-    },
-    optionalConsequences: function () {
-      return this.card.consequences
-        .filter((consequence) => consequence.link.status === 'optional')
-        .sort((a, b) => a.to.cardNum - b.to.cardNum);
-    },
-    invalidCauses: function () {
-      return this.card.causes
-        .filter((cause) => cause.link.status === 'invalid')
-        .sort((a, b) => a.from.cardNum - b.from.cardNum);
-    },
-    invalidConsequences: function () {
-      return this.card.consequences
-        .filter((consequence) => consequence.link.status === 'invalid')
-        .sort((a, b) => a.to.cardNum - b.to.cardNum);
-    },
     imgPathDefault() {
       return `/img/cards/${this.$i18n.locale}/default/${this.card.cardNum}.png`;
     },
@@ -217,17 +189,5 @@ export default {
   padding: 0;
   text-align: justify;
   font-size: 1.2rem;
-}
-
-.icon {
-  width: 25px;
-  margin: 2px;
-}
-.icon:hover {
-  transform: scale(1.08);
-}
-.menu-card {
-  display: flex;
-  justify-content: space-between;
 }
 </style>
