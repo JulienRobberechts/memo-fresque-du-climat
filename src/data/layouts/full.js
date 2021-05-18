@@ -101,9 +101,8 @@ export default {
       /// node options as you can see in the doc
       /// https://visjs.github.io/vis-network/docs/network/nodes.html
       nodeOptions: {
-        zoom: 1.6,
-        xPos: humanActivityCol - 1.5,
-        yPos: humanActivityRow,
+        xPos: humanActivityCol - 1,
+        yPos: humanActivityRow - 0.5,
       },
     },
     {
