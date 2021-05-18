@@ -1,12 +1,6 @@
 <template>
   <h1>{{ $t('all-cards.title') }}</h1>
-  <div
-    class="menu"
-    :class="{
-      maxWidth450: view === 'list',
-      maxWidth1400: view === 'grid',
-    }"
-  >
+  <div class="menu">
     <toggle-view :selectedView="selectedView" />
   </div>
   <CardsList v-if="view === 'list'" />
@@ -71,16 +65,16 @@ h1 {
 }
 .menu {
   display: flex;
-  flex-direction: row-reverse;
+  justify-content: center;
   width: 95vw;
   margin: 0.2rem auto;
 }
 
-.maxWidth450 {
+/* .maxWidth450 {
   max-width: 450px;
 }
 
 .maxWidth1400 {
   max-width: 1400px;
-}
+} */
 </style>
