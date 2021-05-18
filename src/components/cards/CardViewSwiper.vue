@@ -9,15 +9,15 @@
     @slidePrevTransitionEnd="slidePrevTransitionEnd"
   >
     <swiper-slide v-if="allowSlidePrevious">
-      <div>PREV</div>
+      <div v-if="debug">PREV</div>
       <CardView :card="cardPrevious" />
     </swiper-slide>
     <swiper-slide>
-      <div>CURR</div>
+      <div v-if="debug">CURR</div>
       <CardView :card="card" />
     </swiper-slide>
     <swiper-slide v-if="allowSlideNext"
-      ><div>NEXT</div>
+      ><div v-if="debug">NEXT</div>
       <CardView :card="cardNext" />
     </swiper-slide>
   </swiper>
@@ -33,6 +33,7 @@ export default {
   name: 'CardViewSwiper',
   props: {
     cardNum: Number,
+    debug: { type: Boolean, default: false },
   },
   components: {
     Swiper,
