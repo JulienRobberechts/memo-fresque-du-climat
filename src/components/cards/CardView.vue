@@ -50,12 +50,7 @@
       :cardNumber="card.cardNum"
       :setNumber="card.cardSet"
     />
-    <div class="explanation" v-if="card.explanation">
-      <span class="explanation-logo">
-        <img src="@/assets/fresque-hand.png" />
-      </span>
-      {{ card.explanation }}
-    </div>
+    <CardExplanation :card="card" />
     <CardMenu :card="card" />
     <CardLinks :card="card" />
     <CardMenu :card="card" />
@@ -66,13 +61,14 @@
 import CardBack from './CardBack.vue';
 import CardMenu from './CardMenu.vue';
 import CardLinks from './CardLinks.vue';
+import CardExplanation from './CardExplanation.vue';
 
 export default {
   name: 'CardView',
   props: {
     card: Object,
   },
-  components: { CardMenu, CardBack, CardLinks },
+  components: { CardMenu, CardBack, CardExplanation, CardLinks },
   data() {
     return {
       showVideo: false,
@@ -99,6 +95,12 @@ export default {
 </script>
 
 <style scoped>
+.card-details-panel {
+  width: 95vw;
+  max-width: 600px;
+  padding: 0;
+  margin: 3px;
+}
 .card-video-wrapper {
   position: relative;
   padding-bottom: 68%;
@@ -109,12 +111,6 @@ export default {
   left: 0;
   width: 100%;
   height: 100%;
-}
-.card-details-panel {
-  width: 95vw;
-  max-width: 600px;
-  padding: 0;
-  margin: 3px;
 }
 .header-panel {
   margin-bottom: 0.3rem;
@@ -149,15 +145,5 @@ export default {
 .card-image {
   width: 100%;
   box-shadow: 1px 1px 4px #706f71;
-}
-.explanation-logo img {
-  position: relative;
-  width: 1.5rem;
-}
-.explanation {
-  margin: 1rem 1rem;
-  max-width: 600px;
-  font-size: 1.2rem;
-  text-align: justify;
 }
 </style>
