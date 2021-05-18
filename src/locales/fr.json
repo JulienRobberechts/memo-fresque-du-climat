@@ -26,6 +26,7 @@
     "back": "retour"
   },
   "card": {
+    "title": "{cardNum}",
     "previous": "carte précédente",
     "next": "carte suivante",
     "set": "lot",
