@@ -6,7 +6,7 @@ const routes = [
   {
     path: '/',
     name: 'RouteHome',
-    redirect: '/game/network',
+    redirect: '/game/grid',
   },
   {
     path: '/game/:view',

@@ -34,7 +34,7 @@ export default {
     view: {
       type: String,
       required: false,
-      default: 'network',
+      default: 'grid',
       validator: function (value) {
         // La valeur passée doit être l'une de ces chaines de caractères
         return ['grid', 'list', 'network'].indexOf(value) !== -1;
