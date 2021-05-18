@@ -63,76 +63,22 @@
       </li>
     </ul>
     <CardMenu :card="card" />
-    <ListTitle
-      :nameSingular="$t('card.valid-cause')"
-      :namePlural="$t('card.valid-causes')"
-      badgeStatus="valid"
-      :items="validCauses"
-    />
-    <CauseList :causes="validCauses" />
-
-    <ListTitle
-      :nameSingular="$t('card.valid-consequence')"
-      :namePlural="$t('card.valid-consequences')"
-      badgeStatus="valid"
-      :items="validConsequences"
-    />
-    <ConsequenceList :consequences="validConsequences" />
-
-    <ListTitle
-      :nameSingular="$t('card.optional-cause')"
-      :namePlural="$t('card.optional-causes')"
-      badgeStatus="optional"
-      :items="optionalCauses"
-    />
-    <CauseList v-if="optionalCauses.length > 0" :causes="optionalCauses" />
-
-    <ListTitle
-      :nameSingular="$t('card.optional-consequence')"
-      :namePlural="$t('card.optional-consequences')"
-      badgeStatus="optional"
-      :items="optionalConsequences"
-    />
-    <ConsequenceList
-      v-if="optionalConsequences.length > 0"
-      :consequences="optionalConsequences"
-    />
-
-    <ListTitle
-      :nameSingular="$t('card.invalid-cause')"
-      :namePlural="$t('card.invalid-causes')"
-      badgeStatus="invalid"
-      :items="invalidCauses"
-    />
-    <CauseList v-if="invalidCauses.length > 0" :causes="invalidCauses" />
-
-    <ListTitle
-      :nameSingular="$t('card.invalid-consequence')"
-      :namePlural="$t('card.invalid-consequences')"
-      badgeStatus="invalid"
-      :items="invalidConsequences"
-    />
-    <ConsequenceList
-      v-if="invalidConsequences.length > 0"
-      :consequences="invalidConsequences"
-    />
+    <CardLinks :card="card" />
     <CardMenu :card="card" />
   </div>
 </template>
 
 <script>
-import ListTitle from './ListTitle.vue';
-import CauseList from './CauseList.vue';
-import ConsequenceList from './ConsequenceList.vue';
 import CardBack from './CardBack.vue';
 import CardMenu from './CardMenu.vue';
+import CardLinks from './CardLinks.vue';
 
 export default {
   name: 'CardView',
   props: {
     card: Object,
   },
-  components: { CardMenu, ListTitle, CardBack, CauseList, ConsequenceList },
+  components: { CardMenu, CardBack, CardLinks },
   data() {
     return {
       showVideo: false,
