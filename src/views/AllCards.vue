@@ -7,11 +7,15 @@
       maxWidth1400: view === 'grid',
     }"
   >
-    <toggle-view :selectedView="view" />
+    <toggle-view :selectedView="selectedView" />
   </div>
-  <CardsMenu v-if="view === 'grid'" />
-  <CardsList v-else-if="view === 'list'" />
-  <CollageLayout v-else layoutName="full" :showBanner1="false" />
+  <CardsList v-if="view === 'list'" />
+  <CollageLayout
+    v-else-if="view === 'network'"
+    layoutName="full"
+    :showBanner1="false"
+  />
+  <CardsMenu v-else />
 </template>
 
 <script>
@@ -51,6 +55,10 @@ export default {
     },
     description() {
       return this.$t('description.all-cards');
+    },
+    selectedView() {
+      if (['grid', 'list', 'network'].includes(this.view)) return this.view;
+      return 'grid';
     },
   },
 };
