@@ -21,10 +21,11 @@
     "axios": "^0.21.1",
     "core-js": "^3.12.1",
     "jest": "^26.6.3",
+    "swiper": "^6.6.1",
+    "visjs-network": "^4.24.11",
     "vue": "^3.0.11",
     "vue-i18n": "^9.1.6",
-    "vue-router": "^4.0.8",
-    "visjs-network": "^4.24.11"
+    "vue-router": "^4.0.8"
   },
   "devDependencies": {
     "@intlify/vue-i18n-loader": "^2.1.0",
