@@ -148,7 +148,6 @@ export default {
 }
 .card-image {
   width: 100%;
-
   box-shadow: 1px 1px 4px #706f71;
 }
 .explanation-logo img {
@@ -160,27 +159,5 @@ export default {
   max-width: 600px;
   font-size: 1.2rem;
   text-align: justify;
-}
-.notes {
-  margin: 0 auto;
-  padding: 1rem;
-  max-width: 600px;
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
-}
-
-.bullet {
-  width: 1.2rem;
-  margin-right: 0.3rem;
-  float: left;
-}
-.note {
-  display: inline-block;
-  list-style-type: none;
-  margin: 0.5rem;
-  padding: 0;
-  text-align: justify;
-  font-size: 1.2rem;
 }
 </style>
