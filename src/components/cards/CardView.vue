@@ -52,16 +52,10 @@
     />
     <div class="explanation" v-if="card.explanation">
       <span class="explanation-logo">
-        <img src="@/assets/hand.png" />
+        <img src="@/assets/fresque-hand.png" />
       </span>
       {{ card.explanation }}
     </div>
-    <ul class="notes" v-if="card.notes">
-      <li class="note" v-for="(note, i) in card.notes" :key="i">
-        <img class="bullet" src="@/assets/fresque-hand.png" alt="note" />
-        {{ note }}
-      </li>
-    </ul>
     <CardMenu :card="card" />
     <CardLinks :card="card" />
     <CardMenu :card="card" />
@@ -159,8 +153,7 @@ export default {
 }
 .explanation-logo img {
   position: relative;
-  top: 0.5rem;
-  width: 2rem;
+  width: 1.5rem;
 }
 .explanation {
   margin: 1rem 1rem;
