@@ -1,5 +1,5 @@
 <template>
-  <h1>{{ $t('all-cards.title') }}</h1>
+  <div class="title">{{ $t('all-cards.title') }}</div>
   <div class="menu">
     <toggle-view :selectedView="selectedView" />
   </div>
@@ -58,8 +58,9 @@ export default {
 };
 </script>
 <style scoped>
-h1 {
-  font-size: 1.4rem;
+.title {
+  font-weight: 500;
+  font-size: 1.2rem;
   line-height: 1.4em;
   margin: 0.6rem auto;
 }

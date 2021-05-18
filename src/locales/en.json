@@ -26,6 +26,7 @@
     "back": "back"
   },
   "card": {
+    "title": "{cardNum}",
     "previous": "previous card",
     "next": "next card",
     "set": "set",
