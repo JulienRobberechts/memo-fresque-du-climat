@@ -26,6 +26,8 @@
     "back": "back"
   },
   "card": {
+    "previous": "previous card",
+    "next": "next card",
     "set": "set",
     "video-link-title": "video",
     "wiki-link-title": "The Cl!mate Wiki",

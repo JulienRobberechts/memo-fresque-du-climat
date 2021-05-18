@@ -26,6 +26,8 @@
     "back": "retour"
   },
   "card": {
+    "previous": "carte précédente",
+    "next": "carte suivante",
     "set": "lot",
     "video-link-title": "vidéo Fresqu'onfinée",
     "wiki-link-title": "Le Wiki du Cl!mat",

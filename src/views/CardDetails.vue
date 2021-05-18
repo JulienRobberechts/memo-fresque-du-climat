@@ -44,6 +44,19 @@ export default {
 </script>
 
 <style scoped>
+.menu-container {
+  display: flex;
+  justify-content: center;
+  /* copy of card-details-panel to refactor */
+  width: 95vw;
+  max-width: 600px;
+  padding: 0;
+  margin: 3px auto;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
 .card-details {
   display: flex;
   justify-content: center;

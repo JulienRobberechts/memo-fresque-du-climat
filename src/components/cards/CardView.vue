@@ -1,23 +1,34 @@
 <template>
   <div class="card-details-panel">
-    <div class="header-panel">
-      <img
-        class="yt-logo"
-        src="@/assets/play-youtube.png"
-        :title="$t('card.video-link-title')"
-        @click="showVideo = !showVideo"
-      />
-      <a
-        :href="`${$t('config.wiki-root-url')}${card.wikiUrl}`"
-        target="_blank"
-        class="wiki-link"
+    <div class="menu">
+      <router-link
+        :to="{
+          name: 'RouteCardDetails',
+          params: { cardNum: card.cardNum - 1 },
+        }"
+        v-if="card.cardNum > 1"
       >
         <img
-          class="wiki-logo"
-          src="@/assets/wiki-40.png"
-          :title="$t('card.wiki-link-title')"
+          class="icon"
+          src="@/assets/icons/left.svg"
+          :title="$t('card.previous')"
         />
-      </a>
+      </router-link>
+      <div v-else></div>
+      <router-link
+        :to="{
+          name: 'RouteCardDetails',
+          params: { cardNum: card.cardNum + 1 },
+        }"
+        v-if="card.cardNum < 42"
+      >
+        <img
+          class="icon"
+          src="@/assets/icons/right.svg"
+          :title="$t('card.next')"
+        />
+      </router-link>
+      <div v-else></div>
     </div>
     <picture>
       <source
@@ -43,6 +54,25 @@
         name="card-video"
         referrerpolicy="no-referrer"
       ></iframe>
+    </div>
+    <div class="header-panel">
+      <img
+        class="yt-logo"
+        src="@/assets/play-youtube.png"
+        :title="$t('card.video-link-title')"
+        @click="showVideo = !showVideo"
+      />
+      <a
+        :href="`${$t('config.wiki-root-url')}${card.wikiUrl}`"
+        target="_blank"
+        class="wiki-link"
+      >
+        <img
+          class="wiki-logo"
+          src="@/assets/wiki-40.png"
+          :title="$t('card.wiki-link-title')"
+        />
+      </a>
     </div>
     <CardBack
       :description="card.backDescription"
@@ -272,5 +302,13 @@ export default {
   padding: 0;
   text-align: justify;
   font-size: 1.2rem;
+}
+
+.icon {
+  width: 230pxrem;
+  margin: 2px;
+}
+.icon:hover {
+  transform: scale(1.08);
 }
 </style>
