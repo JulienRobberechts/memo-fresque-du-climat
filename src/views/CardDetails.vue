@@ -1,17 +1,5 @@
 <template>
-  <div class="title">
-    <span class="title1">{{
-      $t('card.title', { cardNum: card.cardNum })
-    }}</span>
-    <span> - </span>
-    <span class="title2">{{ card.title }}</span>
-  </div>
-  <div class="card-details" v-if="card">
-    <CardView :card="card" />
-  </div>
-  <router-link class="fdc-link withSpace" :to="{ name: 'RouteHome' }">
-    &larrhk; {{ $t('menu.back') }}
-  </router-link>
+  <CardView :card="card" />
 </template>
 
 <script>
@@ -49,27 +37,3 @@ export default {
   },
 };
 </script>
-
-<style scoped>
-.title {
-  font-weight: 500;
-  margin: 0 0.3rem;
-}
-.title1 {
-  font-size: 1.2rem;
-  line-height: 1.4em;
-  margin: 0.6rem auto;
-}
-.title2 {
-  font-size: 1.2rem;
-  line-height: 1.4em;
-  margin: 0.6rem auto;
-}
-.card-details {
-  display: flex;
-  justify-content: center;
-}
-.withSpace {
-  margin: 2rem;
-}
-</style>
