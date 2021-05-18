@@ -1,5 +1,4 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import NotFound from '@/views/NotFound.vue';
 import { noScroll, scrollToCard, scrollToTop, scrollToHash } from './scroll';
 import { isLinkToCardDetail, isLinkBackToCardList } from './nav';
 
@@ -45,7 +44,7 @@ const routes = [
   },
   {
     path: '/:pathMatch(.*)*',
-    component: NotFound,
+    redirect: { name: 'RouteHome' },
   },
 ];
 
