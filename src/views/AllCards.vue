@@ -19,7 +19,7 @@
 </template>
 
 <script>
-import ToggleView from '../components/collections/ToggleView.vue';
+import ToggleView from '@/components/collections/ToggleView.vue';
 import CardsMenu from '@/components/collections/menu/CardsMenu.vue';
 import CardsList from '@/components/collections/list/CardsList.vue';
 import CollageLayout from '@/components/collages/CollageLayout.vue';
