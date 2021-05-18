@@ -1,9 +1,9 @@
 <template>
-  <CardView :card="card" />
+  <CardViewSwiper :cardNum="Number(cardNum)" />
 </template>
 
 <script>
-import CardView from '@/components/cards/CardView.vue';
+import CardViewSwiper from '@/components/cards/CardViewSwiper.vue';
 import CardsService from '@/services/CardsService';
 import meta from '@/utils/meta-vue3';
 
@@ -11,7 +11,7 @@ export default {
   name: 'CardDetails',
   props: ['cardNum'],
   components: {
-    CardView,
+    CardViewSwiper,
   },
   created() {
     meta.setTitle(document, this.title);
