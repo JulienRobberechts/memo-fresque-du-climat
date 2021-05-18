@@ -11,6 +11,7 @@
     height="35"
     width="35"
   >
+    <title id="unique-id">{{ title }}</title>
     <defs id="defs2">
       <marker
         style="overflow: visible"

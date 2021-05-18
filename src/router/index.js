@@ -7,6 +7,12 @@ const routes = [
   {
     path: '/',
     name: 'RouteHome',
+    redirect: '/game/network',
+  },
+  {
+    path: '/game/:view',
+    name: 'RouteGame',
+    props: true,
     component: () =>
       import(/* webpackChunkName: "AllCards" */ '../views/AllCards.vue'),
   },
@@ -52,7 +58,7 @@ const scrollBehavior = (to, from) => {
     return scrollToHash(to.hash);
   }
 
-  if (isLinkToCardDetail(to, from)) {
+  if (isLinkToCardDetail(to)) {
     return scrollToTop();
   }
 
