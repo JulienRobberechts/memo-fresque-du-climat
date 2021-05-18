@@ -52,10 +52,8 @@ export default {
 
 <style scoped>
 .icon {
-  min-width: 25px;
-  min-height: 25px;
-  width: min(3vw, 35px);
-  height: min(3vw, 35px);
+  width: 25px;
+  height: 25px;
   padding: 5px;
   border-radius: 5px;
 }

@@ -1,34 +1,37 @@
 <template>
   <div class="card-details-panel">
-    <div class="menu">
-      <router-link
-        :to="{
-          name: 'RouteCardDetails',
-          params: { cardNum: card.cardNum - 1 },
-        }"
-        v-if="card.cardNum > 1"
-      >
-        <img
-          class="icon"
-          src="@/assets/icons/left.svg"
-          :title="$t('card.previous')"
-        />
-      </router-link>
-      <div v-else></div>
-      <router-link
-        :to="{
-          name: 'RouteCardDetails',
-          params: { cardNum: card.cardNum + 1 },
-        }"
-        v-if="card.cardNum < 42"
-      >
-        <img
-          class="icon"
-          src="@/assets/icons/right.svg"
-          :title="$t('card.next')"
-        />
-      </router-link>
-      <div v-else></div>
+    <div class="menu-card">
+      <div>
+        <router-link
+          :to="{
+            name: 'RouteCardDetails',
+            params: { cardNum: card.cardNum - 1 },
+          }"
+          v-if="card.cardNum > 1"
+        >
+          <img
+            class="icon"
+            src="@/assets/icons/left.svg"
+            :title="$t('card.previous')"
+          />
+        </router-link>
+      </div>
+      <toggle-view />
+      <div>
+        <router-link
+          :to="{
+            name: 'RouteCardDetails',
+            params: { cardNum: card.cardNum + 1 },
+          }"
+          v-if="card.cardNum < 42"
+        >
+          <img
+            class="icon"
+            src="@/assets/icons/right.svg"
+            :title="$t('card.next')"
+          />
+        </router-link>
+      </div>
     </div>
     <picture>
       <source
@@ -148,6 +151,7 @@
 </template>
 
 <script>
+import ToggleView from '@/components/collections/ToggleView.vue';
 import ListTitle from './ListTitle.vue';
 import CauseList from './CauseList.vue';
 import ConsequenceList from './ConsequenceList.vue';
@@ -158,12 +162,7 @@ export default {
   props: {
     card: Object,
   },
-  components: {
-    ListTitle,
-    CardBack,
-    CauseList,
-    ConsequenceList,
-  },
+  components: { ToggleView, ListTitle, CardBack, CauseList, ConsequenceList },
   data() {
     return {
       showVideo: false,
@@ -305,10 +304,14 @@ export default {
 }
 
 .icon {
-  width: 230pxrem;
+  width: 25px;
   margin: 2px;
 }
 .icon:hover {
   transform: scale(1.08);
+}
+.menu-card {
+  display: flex;
+  justify-content: space-between;
 }
 </style>
