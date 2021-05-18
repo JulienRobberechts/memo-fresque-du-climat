@@ -3,22 +3,15 @@
   <div
     class="menu"
     :class="{
-      maxWidth450: selectedView === 'list',
-      maxWidth1400: selectedView === 'grid',
+      maxWidth450: view === 'list',
+      maxWidth1400: view === 'grid',
     }"
   >
-    <toggle-view
-      :selectedView="selectedView"
-      @selectionChange="selectionChange"
-    />
+    <toggle-view :selectedView="view" />
   </div>
-  <CardsMenu v-if="selectedView === 'grid'" />
-  <CardsList v-if="selectedView === 'list'" />
-  <CollageLayout
-    v-if="selectedView === 'network'"
-    layoutName="full"
-    :showBanner1="false"
-  />
+  <CardsMenu v-if="view === 'grid'" />
+  <CardsList v-else-if="view === 'list'" />
+  <CollageLayout v-else layoutName="full" :showBanner1="false" />
 </template>
 
 <script>
@@ -37,11 +30,16 @@ export default {
     CardsList,
     CollageLayout,
   },
-  data() {
-    return {
-      cards: null,
-      selectedView: 'grid',
-    };
+  props: {
+    view: {
+      type: String,
+      required: false,
+      default: 'network',
+      validator: function (value) {
+        // La valeur passée doit être l'une de ces chaines de caractères
+        return ['grid', 'list', 'network'].indexOf(value) !== -1;
+      },
+    },
   },
   created() {
     meta.setTitle(document, this.title);
@@ -53,12 +51,6 @@ export default {
     },
     description() {
       return this.$t('description.all-cards');
-    },
-  },
-  methods: {
-    selectionChange(selection) {
-      console.log('selectionChange', selection);
-      this.selectedView = selection;
     },
   },
 };

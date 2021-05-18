@@ -1,26 +1,29 @@
 <template>
   <div class="toggle">
-    <grid-icon
-      class="icon"
-      :alt="$t('all-cards.smallCards')"
-      :title="$t('all-cards.smallCards')"
-      :style="svgStyle('grid')"
-      @click="handleClick('grid')"
-    />
-    <lines-icon
-      class="icon"
-      :alt="$t('all-cards.bigCards')"
-      :title="$t('all-cards.bigCards')"
-      :style="svgStyle('list')"
-      @click="handleClick('list')"
-    />
-    <network-icon
-      class="icon"
-      :alt="$t('all-cards.networkCards')"
-      :title="$t('all-cards.networkCards')"
-      :style="svgStyle('network')"
-      @click="handleClick('network')"
-    />
+    <router-link :to="{ name: 'RouteGame', params: { view: 'grid' } }">
+      <grid-icon
+        class="icon"
+        :alt="$t('all-cards.smallCards')"
+        :title="$t('all-cards.smallCards')"
+        :style="svgStyle('grid')"
+      />
+    </router-link>
+    <router-link :to="{ name: 'RouteGame', params: { view: 'list' } }">
+      <lines-icon
+        class="icon"
+        :alt="$t('all-cards.bigCards')"
+        :title="$t('all-cards.bigCards')"
+        :style="svgStyle('list')"
+      />
+    </router-link>
+    <router-link :to="{ name: 'RouteGame', params: { view: 'network' } }">
+      <network-icon
+        class="icon"
+        :alt="$t('all-cards.networkCards')"
+        :title="$t('all-cards.networkCards')"
+        :style="svgStyle('network')"
+      />
+    </router-link>
   </div>
 </template>
 
@@ -38,10 +41,6 @@ export default {
     selectedView: String,
   },
   methods: {
-    handleClick(selection) {
-      console.log('handleClick', selection);
-      this.$emit('selectionChange', selection);
-    },
     svgStyle(target) {
       return {
         fill: this.selectedView === target ? selectedColor : unselectedColor,
