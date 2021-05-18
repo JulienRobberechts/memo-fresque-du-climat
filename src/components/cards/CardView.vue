@@ -1,38 +1,6 @@
 <template>
   <div class="card-details-panel">
-    <div class="menu-card">
-      <div>
-        <router-link
-          :to="{
-            name: 'RouteCardDetails',
-            params: { cardNum: card.cardNum - 1 },
-          }"
-          v-if="card.cardNum > 1"
-        >
-          <img
-            class="icon"
-            src="@/assets/icons/left.svg"
-            :title="$t('card.previous')"
-          />
-        </router-link>
-      </div>
-      <toggle-view />
-      <div>
-        <router-link
-          :to="{
-            name: 'RouteCardDetails',
-            params: { cardNum: card.cardNum + 1 },
-          }"
-          v-if="card.cardNum < 42"
-        >
-          <img
-            class="icon"
-            src="@/assets/icons/right.svg"
-            :title="$t('card.next')"
-          />
-        </router-link>
-      </div>
-    </div>
+    <CardMenu :card="card" />
     <picture>
       <source
         :srcset="imgPathWebp"
@@ -94,6 +62,7 @@
         {{ note }}
       </li>
     </ul>
+    <CardMenu :card="card" />
     <ListTitle
       :nameSingular="$t('card.valid-cause')"
       :namePlural="$t('card.valid-causes')"
@@ -147,22 +116,23 @@
       v-if="invalidConsequences.length > 0"
       :consequences="invalidConsequences"
     />
+    <CardMenu :card="card" />
   </div>
 </template>
 
 <script>
-import ToggleView from '@/components/collections/ToggleView.vue';
 import ListTitle from './ListTitle.vue';
 import CauseList from './CauseList.vue';
 import ConsequenceList from './ConsequenceList.vue';
 import CardBack from './CardBack.vue';
+import CardMenu from './CardMenu.vue';
 
 export default {
   name: 'CardView',
   props: {
     card: Object,
   },
-  components: { ToggleView, ListTitle, CardBack, CauseList, ConsequenceList },
+  components: { CardMenu, ListTitle, CardBack, CauseList, ConsequenceList },
   data() {
     return {
       showVideo: false,
