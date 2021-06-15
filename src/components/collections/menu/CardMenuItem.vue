@@ -35,13 +35,13 @@ export default {
   },
   computed: {
     imgPathDefault() {
-      return `/img/cards/${this.$i18n.locale}/default/${this.card.cardNum}.png`;
+      return `${process.env.BASE_URL}/img/cards/${this.$i18n.locale}/default/${this.card.cardNum}.png`;
     },
     imgPathWebp() {
       return (
-        `/img/cards/${this.$i18n.locale}/80/${this.card.cardNum}.webp 80w,` +
-        `/img/cards/${this.$i18n.locale}/200/${this.card.cardNum}.webp 200w,` +
-        `/img/cards/${this.$i18n.locale}/400/${this.card.cardNum}.webp 400w`
+        `${process.env.BASE_URL}/img/cards/${this.$i18n.locale}/80/${this.card.cardNum}.webp 80w,` +
+        `${process.env.BASE_URL}/img/cards/${this.$i18n.locale}/200/${this.card.cardNum}.webp 200w,` +
+        `${process.env.BASE_URL}/img/cards/${this.$i18n.locale}/400/${this.card.cardNum}.webp 400w`
       );
     },
     cardItemStyle() {

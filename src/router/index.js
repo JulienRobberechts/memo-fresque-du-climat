@@ -7,7 +7,7 @@ import { loadLanguage, DEFAULT_LOCALE } from '@/i18n';
 import langs from '@/data/langs.json';
 const langsArray = langs.map((lang) => lang.code);
 
-const routes = [
+export const routes = [
   {
     path: '',
     name: 'RouteHome',
@@ -77,7 +77,7 @@ const scrollBehavior = (to, from) => {
   return noScroll;
 };
 
-const router = createRouter({
+export const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
   routes: [
     {
@@ -109,5 +109,3 @@ router.beforeEach((to, from, next) => {
   if (to.params.lang !== from.params.lang) loadLanguage(to.params.lang);
   next();
 });
-
-export default router;

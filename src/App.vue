@@ -16,6 +16,9 @@ export default {
     meta.setOgLocale(document, this.$i18n.locale);
     meta.setOgUrl(document, document.URL);
   },
+  mounted() {
+    document.dispatchEvent(new Event("x-app-rendered"));
+  }
 };
 </script>
 <style>

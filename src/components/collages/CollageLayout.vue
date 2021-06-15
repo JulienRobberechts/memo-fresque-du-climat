@@ -133,7 +133,7 @@ export default {
       return {
         id: card.cardNum,
         shape: 'image',
-        image: card.img.url,
+        image: process.env.BASE_URL + '/' + card.img.url,
         ...nodeOptions,
         x: nodeOptions.xPos * cardSpaceX,
         y: nodeOptions.yPos * cardSpaceY,
