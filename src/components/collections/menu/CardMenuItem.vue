@@ -1,6 +1,9 @@
 <template>
   <router-link
-    :to="{ name: 'RouteCardDetails', params: { cardNum: card.cardNum } }"
+    :to="{
+      name: 'RouteCardDetails',
+      params: { cardNum: card.cardNum, lang: $i18n.locale },
+    }"
   >
     <div class="card-item" :style="cardItemStyle">
       <div class="card-num">

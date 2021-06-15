@@ -1,7 +1,10 @@
 <template>
   <div class="anchorInList" :id="'carte-' + card.cardNum"></div>
   <router-link
-    :to="{ name: 'RouteCardDetails', params: { cardNum: card.cardNum } }"
+    :to="{
+      name: 'RouteCardDetails',
+      params: { cardNum: card.cardNum, lang: $i18n.locale },
+    }"
   >
     <picture>
       <source

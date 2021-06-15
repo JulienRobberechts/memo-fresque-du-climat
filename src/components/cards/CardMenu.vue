@@ -4,7 +4,7 @@
       <router-link
         :to="{
           name: 'RouteCardDetails',
-          params: { cardNum: card.cardNum - 1 },
+          params: { cardNum: card.cardNum - 1, lang: $i18n.locale },
         }"
         v-if="card.cardNum > 1"
       >
@@ -20,7 +20,7 @@
       <router-link
         :to="{
           name: 'RouteCardDetails',
-          params: { cardNum: card.cardNum + 1 },
+          params: { cardNum: card.cardNum + 1, lang: $i18n.locale },
         }"
         v-if="card.cardNum < 42"
       >

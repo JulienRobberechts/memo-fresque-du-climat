@@ -4,7 +4,7 @@
       <router-link
         :to="{
           name: 'RouteCardDetails',
-          params: { cardNum: consequence.to.cardNum },
+          params: { cardNum: consequence.to.cardNum, lang: $i18n.locale },
         }"
       >
         <picture>

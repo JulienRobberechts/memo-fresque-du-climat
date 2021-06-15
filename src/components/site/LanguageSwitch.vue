@@ -1,24 +1,29 @@
 <template>
   <div class="locale-changer">
-    <select v-model="$i18n.locale">
-      <option v-for="(lang, i) in langs" :key="`Lang${i}`" :value="lang">
-        {{ lang }}
-      </option>
-    </select>
+    <router-link class="fdc-link" :to="{ params: { lang: otherLanguage.code } }"
+      >{{ currentLanguage.flag }} {{ currentLanguage.text }}
+    </router-link>
   </div>
 </template>
 
 <script>
+import langs from '@/data/langs.json';
+
 export default {
   name: 'LanguageSwitch',
   data() {
-    return { langs: ['en', 'fr'] };
+    return { langs };
+  },
+  computed: {
+    otherLanguage: function () {
+      if (this.$i18n.locale == this.langs[0].code) return this.langs[1];
+      return this.langs[0];
+    },
+    currentLanguage: function () {
+      if (this.$i18n.locale == this.langs[0].code) return this.langs[0];
+      return this.langs[1];
+    },
   },
 };
 </script>
-<style scoped>
-.locale-changer {
-  /* hide the component until we get 2 languages */
-  display: none;
-}
-</style>
+<style scoped></style>

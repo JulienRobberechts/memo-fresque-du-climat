@@ -87,7 +87,7 @@ export default {
         this.initialSlide === 1 ? swiper.activeIndex - 1 : swiper.activeIndex;
       this.$router.push({
         name: 'RouteCardDetails',
-        params: { cardNum: this.cardNum + increment },
+        params: { cardNum: this.cardNum + increment, lang: this.$i18n.locale },
       });
     },
     slidePrevTransitionEnd(swiper) {
@@ -95,7 +95,7 @@ export default {
         this.initialSlide === 1 ? swiper.activeIndex - 1 : swiper.activeIndex;
       this.$router.push({
         name: 'RouteCardDetails',
-        params: { cardNum: this.cardNum + increment },
+        params: { cardNum: this.cardNum + increment, lang: this.$i18n.locale },
       });
     },
   },

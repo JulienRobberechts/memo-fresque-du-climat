@@ -203,7 +203,7 @@ export default {
     onNodeDoubleSelection(nodeNum) {
       this.$router.push({
         name: 'RouteCardDetails',
-        params: { cardNum: nodeNum },
+        params: { cardNum: nodeNum, lang: this.$i18n.locale },
       });
     },
   },

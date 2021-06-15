@@ -13,7 +13,10 @@
       <CardMenu :card="card" />
       <CardLinks :card="card" />
       <CardMenu :card="card" />
-      <router-link class="fdc-link withSpace" :to="{ name: 'RouteHome' }">
+      <router-link
+        class="fdc-link withSpace"
+        :to="{ name: 'RouteHome', params: { lang: $i18n.locale } }"
+      >
         &larrhk; {{ $t('menu.back') }}
       </router-link>
     </div>
