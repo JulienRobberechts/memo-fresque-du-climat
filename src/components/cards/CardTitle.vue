@@ -1,11 +1,11 @@
 <template>
-  <div class="title" v-if="card">
+  <h1 class="title" v-if="card">
     <span class="title1">{{
       $t('card.title', { cardNum: card.cardNum })
     }}</span>
     <span> - </span>
     <span class="title2">{{ card.title }}</span>
-  </div>
+  </h1>
 </template>
 
 <script>

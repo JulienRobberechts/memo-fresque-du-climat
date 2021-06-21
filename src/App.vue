@@ -14,7 +14,9 @@ export default {
   },
   created() {
     meta.setOgLocale(document, this.$i18n.locale);
-    meta.setOgUrl(document, document.URL);
+    meta.setOgUrl(document, window.location.pathname);
+    meta.setDescription(document, this.$t('description.site'));
+    meta.setImage(document, `${process.env.BASE_URL}img/memo-1200x630-${this.$i18n.locale}.jpg`)
   },
   mounted() {
     document.dispatchEvent(new Event('x-app-rendered'));

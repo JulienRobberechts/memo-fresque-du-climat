@@ -1,5 +1,5 @@
 <template>
-  <div class="title">{{ $t('all-cards.title') }}</div>
+  <h1 class="title">{{ $t('all-cards.title') }}</h1>
   <div class="menu">
     <toggle-view :selectedView="selectedView" />
   </div>
