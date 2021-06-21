@@ -2,6 +2,7 @@
 import { nextTick } from 'vue';
 import { createI18n } from 'vue-i18n';
 import langs from '@/data/langs.json';
+import meta from '@/utils/meta-vue3';
 
 // load default locale
 export const DEFAULT_LOCALE = 'fr';
@@ -43,6 +44,8 @@ export const loadLanguage = async (lang) => {
     i18n.global.setLocaleMessage(lang, message.default);
     loadedLanguages.push(lang);
   }
+
+  meta.setOgLocale(document, lang);
 
   // set locale globally
   i18n.global.locale = lang;

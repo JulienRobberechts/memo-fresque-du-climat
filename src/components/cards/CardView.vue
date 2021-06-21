@@ -8,6 +8,7 @@
         :description="card.backDescription"
         :cardNumber="card.cardNum"
         :setNumber="card.cardSet"
+        :cardTitle="card.title"
       />
       <CardExplanation :card="card" />
       <CardMenu :card="card" />

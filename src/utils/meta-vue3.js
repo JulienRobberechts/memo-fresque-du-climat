@@ -26,6 +26,10 @@ const setOgTypeProduct = (doc, product) => {
 };
 const setOgLocale = (doc, val) => {
   setMetaProp(doc, 'og:locale', val);
+
+  const el = doc.querySelector('html');
+  if (el) el.setAttribute('lang', val);
+  else console.log('html element not found.');
 };
 const setOgSiteName = (doc, val) => {
   setMetaProp(doc, 'og:site_name', val);

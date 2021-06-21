@@ -12,6 +12,7 @@
           class="icon"
           src="@/assets/icons/left.svg"
           :title="$t('card.previous')"
+          :alt="$t('card.previous')"
         />
       </router-link>
     </div>
@@ -28,6 +29,7 @@
           class="icon"
           src="@/assets/icons/right.svg"
           :title="$t('card.next')"
+          :alt="$t('card.next')"
         />
       </router-link>
     </div>

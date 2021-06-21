@@ -17,8 +17,8 @@ export default {
     meta.setOgUrl(document, document.URL);
   },
   mounted() {
-    document.dispatchEvent(new Event("x-app-rendered"));
-  }
+    document.dispatchEvent(new Event('x-app-rendered'));
+  },
 };
 </script>
 <style>
