@@ -17,8 +17,8 @@ export default {
     meta.setTitle(document, this.title);
     meta.setDescription(document, this.description);
     meta.setOgTypeProduct(document, {
-      image: process.env.BASE_URL + this.card.img.url,
-      url: document.URL,
+      image: `${process.env.BASE_URL}img/cards/${this.$i18n.locale}/default/${this.card.cardNum}.png`,
+      url: window.location.pathname,
     });
   },
   computed: {

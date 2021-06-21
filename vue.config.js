@@ -1,7 +1,7 @@
 const langs = require('./src/data/langs.json');
 const nbCards = require('./src/data/fr/cards-fr.json').length;
-const path = require('path')
-const SitemapPlugin = require('sitemap-webpack-plugin').default; 
+const path = require('path');
+const SitemapPlugin = require('sitemap-webpack-plugin').default;
 
 const withoutLang = [
   { path: '/' },
@@ -13,22 +13,25 @@ const withoutLang = [
   { path: '/about' },
 ];
 
-for (let k=1; k<=nbCards; ++k) {
+for (let k = 1; k <= nbCards; ++k) {
   withoutLang.push({ path: '/cards/' + k });
 }
 
 let paths = [];
 
 for (const lang of langs) {
-    paths = paths.concat(withoutLang.map((path) => {
-        return { 'path': '/' + lang.code + path.path };
-    }));
+  paths = paths.concat(
+    withoutLang.map((path) => {
+      return { path: '/' + lang.code + path.path };
+    })
+  );
 }
 
-paths.push( { 'path': '/' });
+paths.push({ path: '/' });
 
 const publicPath = process.env.NODE_ENV === 'production' ? '/memo/' : '/';
-const host = process.env.NODE_ENV === 'production' ? 'fresqueduclimat.org' : 'localhost';
+const host =
+  process.env.NODE_ENV === 'production' ? 'fresqueduclimat.org' : 'localhost';
 
 module.exports = {
   devServer: {
@@ -37,14 +40,18 @@ module.exports = {
   publicPath,
   configureWebpack: {
     plugins: [
-      new SitemapPlugin({ "base": 'https://fresqueduclimat.org/' + publicPath, "paths": paths, "options": {
+      new SitemapPlugin({
+        base: 'https://fresqueduclimat.org/' + publicPath,
+        paths: paths,
+        options: {
           filename: 'sitemap.xml',
-          lastmod: true
-      }}),
+          lastmod: true,
+        },
+      }),
     ],
   },
   pluginOptions: {
-    prerenderSpa: {   
+    prerenderSpa: {
       registry: undefined,
       renderRoutes: paths.map((path) => path.path),
       useRenderEvent: true,
@@ -56,22 +63,30 @@ module.exports = {
         collapseWhitespace: true,
         decodeEntities: true,
         keepClosingSlash: true,
-        sortAttributes: true
+        sortAttributes: true,
       },
       // TODO bug avec webpack 5 (voir https://www.npmjs.com/package/@dreysolano/prerender-spa-plugin)
-      postProcess (renderedRoute) {
-        console.log(renderedRoute)
+      postProcess(renderedRoute) {
         // Ignore any redirects.
-        renderedRoute.route = renderedRoute.originalRoute
+        renderedRoute.route = renderedRoute.originalRoute;
         // Remove /index.html from the output path if the dir name ends with a .html file extension.
         // For example: /dist/dir/special.html/index.html -> /dist/dir/special.html
         if (renderedRoute.route.endsWith('.html')) {
-          renderedRoute.outputPath = path.join(__dirname, 'dist', renderedRoute.route)
+          renderedRoute.outputPath = path.join(
+            __dirname,
+            'dist',
+            renderedRoute.route
+          );
         } else {
-          renderedRoute.outputPath = path.join(__dirname, 'dist', renderedRoute.route, 'index.html')
+          renderedRoute.outputPath = path.join(
+            __dirname,
+            'dist',
+            renderedRoute.route,
+            'index.html'
+          );
         }
-        return renderedRoute
+        return renderedRoute;
       },
-    }
-  }
+    },
+  },
 };

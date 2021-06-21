@@ -1,4 +1,4 @@
-const host = 'https://fresqueduclimat.org'
+const host = 'https://fresqueduclimat.org';
 
 const setTitle = (doc, val) => {
   doc.title = val;
@@ -68,5 +68,5 @@ export default {
   setOgLocale,
   setOgSiteName,
   setOgUrl,
-  setImage
+  setImage,
 };
