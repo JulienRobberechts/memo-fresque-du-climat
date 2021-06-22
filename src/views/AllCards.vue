@@ -5,9 +5,10 @@
   </div>
   <CardsList v-if="view === 'list'" />
   <CollageLayout
-    v-else-if="view === 'network'"
+    v-else-if="view === 'network' || view ==='quiz'"
     layoutName="full"
     :showBanner1="false"
+    :quiz="view === 'quiz'"
   />
   <CardsMenu v-else />
 </template>
@@ -35,7 +36,7 @@ export default {
       default: 'grid',
       validator: function (value) {
         // La valeur passée doit être l'une de ces chaines de caractères
-        return ['grid', 'list', 'network'].indexOf(value) !== -1;
+        return ['grid', 'list', 'network', 'quiz'].indexOf(value) !== -1;
       },
     },
   },
@@ -51,7 +52,7 @@ export default {
       return this.$t('description.all-cards');
     },
     selectedView() {
-      if (['grid', 'list', 'network'].includes(this.view)) return this.view;
+      if (['grid', 'list', 'network', 'quiz'].includes(this.view)) return this.view;
       return 'grid';
     },
   },

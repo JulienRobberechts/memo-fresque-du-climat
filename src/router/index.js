@@ -32,13 +32,6 @@ export const routes = [
       import(/* webpackChunkName: "CardDetails" */ '../views/CardDetails.vue'),
   },
   {
-    path: 'collages/:layoutName?',
-    name: 'CollagesView',
-    props: true,
-    component: () =>
-      import(/* webpackChunkName: "CollagesView" */ '../views/Collages.vue'),
-  },
-  {
     path: 'canvas/circle-quiz',
     name: 'Canvas',
     props: true,

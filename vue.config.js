@@ -8,7 +8,8 @@ const withoutLang = [
   { path: '/game/grid' },
   { path: '/game/list' },
   { path: '/game/view' },
-  { path: '/collages' },
+  { path: '/game/network' },
+  { path: '/game/quiz' },
   // { path: '/canvas/circle-quiz' },
   { path: '/about' },
 ];
@@ -29,7 +30,7 @@ for (const lang of langs) {
 
 paths.push({ path: '/' });
 
-const publicPath = process.env.NODE_ENV === 'production' ? '/memo/' : '/';
+const publicPath = process.env.NODE_ENV === 'production' ? '/memo' : '/';
 const host =
   process.env.NODE_ENV === 'production' ? 'fresqueduclimat.org' : 'localhost';
 
@@ -41,8 +42,8 @@ module.exports = {
   configureWebpack: {
     plugins: [
       new SitemapPlugin({
-        base: 'https://fresqueduclimat.org/' + publicPath,
-        paths: paths,
+        base: 'https://fresqueduclimat.org',
+        paths: paths.map((path) => ({ path: publicPath + path.path })),
         options: {
           filename: 'sitemap.xml',
           lastmod: true,

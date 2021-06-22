@@ -1,5 +1,7 @@
 <template>
-  <div class="visu" ref="visualization"></div>
+  <div>
+    <div class="visu" ref="visualization"></div>
+  </div>
 </template>
 
 <script>
@@ -72,6 +74,10 @@ export default {
       const selectedNodes = params.nodes;
       const selectedEdges = params.edges;
       if (selectedNodes.length === 1) {
+        network.focus(selectedNodes[0], {
+          scale: 2,
+          animation: true
+        });
         self.$emit('node-selection', selectedNodes[0]);
       } else if (selectedEdges.length == 1) {
         self.$emit('edge-selection', selectedEdges[0]);
@@ -86,6 +92,14 @@ export default {
       const removed = oldSelectedNodes.filter(function (n) {
         return newSelectedNodes.indexOf(n) === -1;
       });
+
+      if (newSelectedNodes.length === 0) {
+        network.fit({
+          scale: 1,
+          // locked: false,
+          animation: true
+        });
+      }
       self.$emit('node-deselection', removed);
     });
 

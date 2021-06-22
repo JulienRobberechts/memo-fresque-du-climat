@@ -56,9 +56,14 @@ export default {
       type: Boolean,
       default: true,
     },
+    quiz: {
+      type: Boolean,
+      default: false
+    }
   },
   data: () => ({
     selectedCard: undefined,
+    visibleCards: []
   }),
   computed: {
     layout() {
@@ -107,10 +112,15 @@ export default {
         };
       }
 
+      const img = this.quiz && !this.visibleCards.includes(card.cardNum) ? 
+        `${process.env.BASE_URL}img/cards/unknown-card.png`
+        : 
+        `${process.env.BASE_URL}img/cards/${this.$i18n.locale}/400/${card.cardNum}.webp`;
+
       return {
         id: card.cardNum,
         shape: 'image',
-        image: `${process.env.BASE_URL}img/cards/${this.$i18n.locale}/200/${card.cardNum}.webp`,
+        image: img,
         ...nodeOptions,
         x: nodeOptions.xPos * cardSpaceX,
         y: nodeOptions.yPos * cardSpaceY,
@@ -176,6 +186,10 @@ export default {
     },
     onNodeSelection(nodeNum) {
       this.selectedCard = this.cards.find((card) => card.cardNum === nodeNum);
+      if (!this.visibleCards.includes(nodeNum))
+        this.visibleCards.push(nodeNum);
+      else
+        this.visibleCards.splice(this.visibleCards.indexOf(nodeNum), 1);
     },
     onNodeDoubleSelection(nodeNum) {
       this.$router.push({
