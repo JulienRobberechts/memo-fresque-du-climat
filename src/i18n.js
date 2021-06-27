@@ -1,30 +1,53 @@
+'use strict';
+import { nextTick } from 'vue';
 import { createI18n } from 'vue-i18n';
+import langs from '@/data/langs.json';
+import meta from '@/utils/meta-vue3';
 
-/**
- * Load locale messages
- *
- * The loaded `JSON` locale messages is pre-compiled by `@intlify/vue-i18n-loader`, which is integrated into `vue-cli-plugin-i18n`.
- * See: https://github.com/intlify/vue-i18n-loader#rocket-i18n-resource-pre-compilation
- */
-function loadLocaleMessages() {
-  const locales = require.context(
-    './locales',
-    true,
-    /[A-Za-z0-9-_,\s]+\.json$/i
-  );
-  const messages = {};
-  locales.keys().forEach((key) => {
-    const matched = key.match(/([A-Za-z0-9-_]+)\./i);
-    if (matched && matched.length > 1) {
-      const locale = matched[1];
-      messages[locale] = locales(key).default;
-    }
-  });
-  return messages;
-}
+// load default locale
+export const DEFAULT_LOCALE = 'fr';
+let locale = window.location.pathname.replace(/^\/([^/]+).*/i, '$1');
 
-export default createI18n({
-  locale: process.env.VUE_APP_I18N_LOCALE || 'en',
-  fallbackLocale: process.env.VUE_APP_I18N_FALLBACK_LOCALE || 'en',
-  messages: loadLocaleMessages(),
+const newLocale = langs.find((l) => l.code === locale)
+  ? locale
+  : DEFAULT_LOCALE;
+
+const loadedLanguages = [newLocale];
+const message = require(/* webpackChunkName: "i18n-[request]" */ `@/locales/${newLocale}.json`);
+//=================================================================================================================
+
+export const i18n = createI18n({
+  locale: newLocale,
+  fallbackLocale: DEFAULT_LOCALE,
+  messages: { [newLocale]: message },
 });
+
+//=================================================================================================================
+
+export const loadLanguage = async (lang) => {
+  // requested lang is already the current locale
+  if (i18n.locale === lang) {
+    return;
+  }
+
+  // requested lang is not available
+  const isLangAvailable = langs.find((l) => l.code === lang);
+  if (!isLangAvailable) {
+    return;
+  }
+
+  // load locale if needed
+  if (!loadedLanguages.includes(lang)) {
+    const message = await import(
+      /* webpackChunkName: "i18n-[request]" */ `@/locales/${lang}.json`
+    );
+    i18n.global.setLocaleMessage(lang, message.default);
+    loadedLanguages.push(lang);
+  }
+
+  meta.setOgLocale(document, lang);
+
+  // set locale globally
+  i18n.global.locale = lang;
+  return nextTick();
+};

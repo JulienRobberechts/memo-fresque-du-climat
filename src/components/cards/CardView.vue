@@ -8,12 +8,16 @@
         :description="card.backDescription"
         :cardNumber="card.cardNum"
         :setNumber="card.cardSet"
+        :cardTitle="card.title"
       />
       <CardExplanation :card="card" />
       <CardMenu :card="card" />
       <CardLinks :card="card" />
       <CardMenu :card="card" />
-      <router-link class="fdc-link withSpace" :to="{ name: 'RouteHome' }">
+      <router-link
+        class="fdc-link withSpace"
+        :to="{ name: 'RouteHome', params: { lang: $i18n.locale } }"
+      >
         &larrhk; {{ $t('menu.back') }}
       </router-link>
     </div>

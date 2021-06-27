@@ -4,7 +4,7 @@
       <router-link
         :to="{
           name: 'RouteCardDetails',
-          params: { cardNum: cause.from.cardNum },
+          params: { cardNum: cause.from.cardNum, lang: $i18n.locale },
         }"
       >
         <picture>
@@ -80,23 +80,23 @@ export default {
   },
   computed: {
     imgPathDefaultFrom() {
-      return `/img/cards/${this.$i18n.locale}/default/${this.cause.from.cardNum}.png`;
+      return `${process.env.BASE_URL}img/cards/${this.$i18n.locale}/default/${this.cause.from.cardNum}.png`;
     },
     imgPathDefaultTo() {
-      return `/img/cards/${this.$i18n.locale}/default/${this.cause.to.cardNum}.png`;
+      return `${process.env.BASE_URL}img/cards/${this.$i18n.locale}/default/${this.cause.to.cardNum}.png`;
     },
     imgPathWebpFrom() {
       return (
-        `/img/cards/${this.$i18n.locale}/80/${this.cause.from.cardNum}.webp 80w,` +
-        `/img/cards/${this.$i18n.locale}/200/${this.cause.from.cardNum}.webp 200w,` +
-        `/img/cards/${this.$i18n.locale}/400/${this.cause.from.cardNum}.webp 400w`
+        `${process.env.BASE_URL}img/cards/${this.$i18n.locale}/80/${this.cause.from.cardNum}.webp 80w,` +
+        `${process.env.BASE_URL}img/cards/${this.$i18n.locale}/200/${this.cause.from.cardNum}.webp 200w,` +
+        `${process.env.BASE_URL}img/cards/${this.$i18n.locale}/400/${this.cause.from.cardNum}.webp 400w`
       );
     },
     imgPathWebpTo() {
       return (
-        `/img/cards/${this.$i18n.locale}/80/${this.cause.to.cardNum}.webp 80w,` +
-        `/img/cards/${this.$i18n.locale}/200/${this.cause.to.cardNum}.webp 200w,` +
-        `/img/cards/${this.$i18n.locale}/400/${this.cause.to.cardNum}.webp 400w`
+        `${process.env.BASE_URL}img/cards/${this.$i18n.locale}/80/${this.cause.to.cardNum}.webp 80w,` +
+        `${process.env.BASE_URL}img/cards/${this.$i18n.locale}/200/${this.cause.to.cardNum}.webp 200w,` +
+        `${process.env.BASE_URL}img/cards/${this.$i18n.locale}/400/${this.cause.to.cardNum}.webp 400w`
       );
     },
   },

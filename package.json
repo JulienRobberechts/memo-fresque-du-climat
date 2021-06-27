@@ -5,6 +5,7 @@
   "scripts": {
     "serve-fr": "VUE_APP_I18N_LOCALE=fr PORT=8090 vue-cli-service serve",
     "serve-en": "VUE_APP_I18N_LOCALE=en PORT=8091 vue-cli-service serve",
+    "serve": "PORT=8090 vue-cli-service serve",
     "build": "vue-cli-service build",
     "prebuild-en": "cp -v ./public/index.en.html ./public/index.html",
     "build-en": "vue-cli-service build",
@@ -28,6 +29,7 @@
     "vue-router": "^4.0.8"
   },
   "devDependencies": {
+    "@dreysolano/prerender-spa-plugin": "^1.0.3",
     "@intlify/vue-i18n-loader": "^2.1.0",
     "@vue/cli-plugin-babel": "^4.5.13",
     "@vue/cli-plugin-eslint": "^4.5.13",
@@ -41,7 +43,8 @@
     "eslint-plugin-prettier": "^3.4.0",
     "eslint-plugin-vue": "^7.9.0",
     "prettier": "^2.3.0",
-    "vue-cli-plugin-i18n": "^2.1.0"
+    "sitemap-webpack-plugin": "^1.1.0",
+    "vue-cli-plugin-prerender-spa": "^1.1.6"
   },
   "resolutions": {
     "ssri": "^8.0.1",

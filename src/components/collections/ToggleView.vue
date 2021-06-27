@@ -1,6 +1,8 @@
 <template>
   <div class="toggle">
-    <router-link :to="{ name: 'RouteGame', params: { view: 'grid' } }">
+    <router-link
+      :to="{ name: 'RouteGame', params: { view: 'grid', lang: $i18n.locale } }"
+    >
       <grid-icon
         class="icon"
         :alt="$t('all-cards.smallCards')"
@@ -8,7 +10,9 @@
         :style="svgStyle('grid')"
       />
     </router-link>
-    <router-link :to="{ name: 'RouteGame', params: { view: 'list' } }">
+    <router-link
+      :to="{ name: 'RouteGame', params: { view: 'list', lang: $i18n.locale } }"
+    >
       <lines-icon
         class="icon"
         :alt="$t('all-cards.bigCards')"
@@ -16,7 +20,12 @@
         :style="svgStyle('list')"
       />
     </router-link>
-    <router-link :to="{ name: 'RouteGame', params: { view: 'network' } }">
+    <router-link
+      :to="{
+        name: 'RouteGame',
+        params: { view: 'network', lang: $i18n.locale },
+      }"
+    >
       <network-icon
         class="icon"
         :alt="$t('all-cards.networkCards')"

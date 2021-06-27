@@ -1,6 +1,9 @@
+const host = 'https://fresqueduclimat.org';
+
 const setTitle = (doc, val) => {
   doc.title = val;
   setOgTitle(doc, val);
+  setMetaName(doc, 'twitter:title', val);
 };
 const setOgTitle = (doc, val) => {
   setMetaProp(doc, 'og:title', val);
@@ -21,17 +24,29 @@ const setTwDescription = (doc, val) => {
 
 const setOgTypeProduct = (doc, product) => {
   setMetaProp(doc, 'og:type', 'og:product');
-  setMetaProp(doc, 'og:image', product.image);
-  setMetaProp(doc, 'og:url', product.url);
+  setMetaProp(doc, 'og:image', host + product.image);
+  setMetaProp(doc, 'og:url', host + product.url);
+  setMetaName(doc, 'twitter:image', host + product.image);
 };
+
+const setImage = (doc, image) => {
+  setMetaProp(doc, 'og:type', 'website');
+  setMetaProp(doc, 'og:image', host + image);
+  setMetaName(doc, 'twitter:image', host + image);
+};
+
 const setOgLocale = (doc, val) => {
   setMetaProp(doc, 'og:locale', val);
+
+  const el = doc.querySelector('html');
+  if (el) el.setAttribute('lang', val);
+  else console.log('html element not found.');
 };
 const setOgSiteName = (doc, val) => {
   setMetaProp(doc, 'og:site_name', val);
 };
 const setOgUrl = (doc, val) => {
-  setMetaProp(doc, 'og:url', val);
+  setMetaProp(doc, 'og:url', host + val);
 };
 
 const setMetaName = (doc, selector, val) => {
@@ -53,4 +68,5 @@ export default {
   setOgLocale,
   setOgSiteName,
   setOgUrl,
+  setImage,
 };

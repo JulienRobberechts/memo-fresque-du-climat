@@ -1,7 +1,7 @@
 <template>
   <div class="explanation" v-if="card.explanation">
     <span class="explanation-logo">
-      <img src="@/assets/fresque-hand.png" />
+      <img src="@/assets/fresque-hand.png" :alt="Logo" />
     </span>
     {{ card.explanation }}
   </div>

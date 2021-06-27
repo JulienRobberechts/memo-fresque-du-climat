@@ -4,7 +4,7 @@
       <router-link
         :to="{
           name: 'RouteCardDetails',
-          params: { cardNum: card.cardNum - 1 },
+          params: { cardNum: card.cardNum - 1, lang: $i18n.locale },
         }"
         v-if="card.cardNum > 1"
       >
@@ -12,6 +12,7 @@
           class="icon"
           src="@/assets/icons/left.svg"
           :title="$t('card.previous')"
+          :alt="$t('card.previous')"
         />
       </router-link>
     </div>
@@ -20,7 +21,7 @@
       <router-link
         :to="{
           name: 'RouteCardDetails',
-          params: { cardNum: card.cardNum + 1 },
+          params: { cardNum: card.cardNum + 1, lang: $i18n.locale },
         }"
         v-if="card.cardNum < 42"
       >
@@ -28,6 +29,7 @@
           class="icon"
           src="@/assets/icons/right.svg"
           :title="$t('card.next')"
+          :alt="$t('card.next')"
         />
       </router-link>
     </div>

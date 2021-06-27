@@ -11,6 +11,7 @@
           :src="
             require(`@/assets/lang/${$i18n.locale}/logo-full-${$i18n.locale}.png`)
           "
+          :alt="cardTitle"
         />
       </div>
     </div>
@@ -35,6 +36,10 @@ export default {
     },
     cardNumber: {
       type: Number,
+      required: true,
+    },
+    cardTitle: {
+      type: String,
       required: true,
     },
     setNumber: {

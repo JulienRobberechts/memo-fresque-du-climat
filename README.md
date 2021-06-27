@@ -66,8 +66,8 @@ Voici quelques idées pour s'investir dans ce projet:
 ## Project setup
 ```
 yarn install
+// yarn add --dev prerender-spa-plugin@npm:@dreysolano/prerender-spa-plugin
 ```
-
 ### Compiles and hot-reloads for development
 
 Launch one of those 2 commands:

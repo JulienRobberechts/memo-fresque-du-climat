@@ -1,10 +1,17 @@
 <template>
   <router-link
-    :to="{ name: 'RouteCardDetails', params: { cardNum: card.cardNum } }"
+    :to="{
+      name: 'RouteCardDetails',
+      params: { cardNum: card.cardNum, lang: $i18n.locale },
+    }"
   >
     <div class="card-item" :style="cardItemStyle">
       <div class="card-num">
-        <img class="card-num-logo" src="@/assets/cards.svg" />
+        <img
+          class="card-num-logo"
+          src="@/assets/cards.svg"
+          :alt="card.cardNum"
+        />
         <div class="card-num-digit">{{ card.cardNum }}</div>
       </div>
       <div class="card-image-frame">
@@ -32,19 +39,19 @@ export default {
   },
   computed: {
     imgPathDefault() {
-      return `/img/cards/${this.$i18n.locale}/default/${this.card.cardNum}.png`;
+      return `${process.env.BASE_URL}img/cards/${this.$i18n.locale}/default/${this.card.cardNum}.png`;
     },
     imgPathWebp() {
       return (
-        `/img/cards/${this.$i18n.locale}/80/${this.card.cardNum}.webp 80w,` +
-        `/img/cards/${this.$i18n.locale}/200/${this.card.cardNum}.webp 200w,` +
-        `/img/cards/${this.$i18n.locale}/400/${this.card.cardNum}.webp 400w`
+        `${process.env.BASE_URL}img/cards/${this.$i18n.locale}/80/${this.card.cardNum}.webp 80w,` +
+        `${process.env.BASE_URL}img/cards/${this.$i18n.locale}/200/${this.card.cardNum}.webp 200w,` +
+        `${process.env.BASE_URL}img/cards/${this.$i18n.locale}/400/${this.card.cardNum}.webp 400w`
       );
     },
     cardItemStyle() {
       const widthPercentage = 18;
       const heightPercentage = (17 / 25) * widthPercentage;
-      const widthMinPx = 50;
+      const widthMinPx = 210;
       const heightMin = (17 / 25) * widthMinPx;
       return {
         width: `${widthPercentage}vmin`,

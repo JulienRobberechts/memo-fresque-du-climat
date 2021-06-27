@@ -3,17 +3,23 @@
     <div class="menu-left">
       <router-link
         class="fdc-link-logo"
-        :to="{ name: 'RouteHome', hash: '#top' }"
+        :to="{
+          name: 'RouteHome',
+          hash: '#top',
+          params: { lang: $i18n.locale },
+        }"
         ><img class="main-logo" :src="logoPath"
       /></router-link>
     </div>
     <div class="menu-right">
-      <router-link class="fdc-link" :to="{ name: 'RouteHome' }">{{
-        $t('menu.cards')
-      }}</router-link>
+      <router-link
+        class="fdc-link"
+        :to="{ name: 'RouteHome', params: { lang: $i18n.locale } }"
+        >{{ $t('menu.cards') }}</router-link
+      >
       <router-link
         class="fdc-link fdc-link-info"
-        :to="{ name: 'RouteAbout' }"
+        :to="{ name: 'RouteAbout', params: { lang: $i18n.locale } }"
         >{{ $t('menu.info') }}</router-link
       >
       <LanguageSwitch />

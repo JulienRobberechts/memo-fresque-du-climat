@@ -17,29 +17,6 @@
     :cards="cards"
     :selectedCard="selectedCard"
   />
-  <!-- <b-modal
-          v-model="selectedCard"
-          has-modal-card
-          trap-focus
-          :destroy-on-hide="false"
-          aria-role="dialog"
-
-          aria-modal>
-          <template #default='props'>
-              <div class='modal-card' style="width: auto">
-                <header class="modal-card-head">
-                  <p class="modal-card-title">Carte {{ selectedCard ? selectedCard.label : ''}}</p>
-                  <button
-                      type="button"
-                      class="delete"
-                      @click="props.close"/>
-              </header>
-              <section class="modal-card-body">
-                <FdcCard :card="selectedCard"></FdcCard>
-              </section>
-            </div>
-          </template>
-      </b-modal> -->
 </template>
 
 <script>
@@ -79,9 +56,14 @@ export default {
       type: Boolean,
       default: true,
     },
+    quiz: {
+      type: Boolean,
+      default: false
+    }
   },
   data: () => ({
     selectedCard: undefined,
+    visibleCards: []
   }),
   computed: {
     layout() {
@@ -130,10 +112,15 @@ export default {
         };
       }
 
+      const img = this.quiz && !this.visibleCards.includes(card.cardNum) ? 
+        `${process.env.BASE_URL}img/cards/unknown-card.png`
+        : 
+        `${process.env.BASE_URL}img/cards/${this.$i18n.locale}/400/${card.cardNum}.webp`;
+
       return {
         id: card.cardNum,
         shape: 'image',
-        image: card.img.url,
+        image: img,
         ...nodeOptions,
         x: nodeOptions.xPos * cardSpaceX,
         y: nodeOptions.yPos * cardSpaceY,
@@ -199,11 +186,15 @@ export default {
     },
     onNodeSelection(nodeNum) {
       this.selectedCard = this.cards.find((card) => card.cardNum === nodeNum);
+      if (!this.visibleCards.includes(nodeNum))
+        this.visibleCards.push(nodeNum);
+      else
+        this.visibleCards.splice(this.visibleCards.indexOf(nodeNum), 1);
     },
     onNodeDoubleSelection(nodeNum) {
       this.$router.push({
         name: 'RouteCardDetails',
-        params: { cardNum: nodeNum },
+        params: { cardNum: nodeNum, lang: this.$i18n.locale },
       });
     },
   },
