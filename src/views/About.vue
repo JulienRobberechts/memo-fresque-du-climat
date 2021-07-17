@@ -41,8 +41,6 @@ export default {
   width: 90vw;
   max-width: 400px;
 }
-.memo-logo {
-}
 p {
   /* margin: 1rem auto; */
   text-align: justify;

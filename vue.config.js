@@ -43,7 +43,7 @@ module.exports = {
     plugins: [
       new SitemapPlugin({
         base: 'https://fresqueduclimat.org',
-        paths: paths.map((path) => ({ path: publicPath + path.path })),
+        paths: paths.map((path) => ({ path: (publicPath == '/' ? '' : publicPath) + path.path })),
         options: {
           filename: 'sitemap.xml',
           lastmod: true,
