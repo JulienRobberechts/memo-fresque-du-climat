@@ -3,8 +3,6 @@
   "version": "1.1.0",
   "private": true,
   "scripts": {
-    "serve-fr": "VUE_APP_I18N_LOCALE=fr PORT=8090 vue-cli-service serve",
-    "serve-en": "VUE_APP_I18N_LOCALE=en PORT=8091 vue-cli-service serve",
     "serve": "PORT=8090 vue-cli-service serve",
     "build": "vue-cli-service build",
     "prebuild-en": "cp -v ./public/index.en.html ./public/index.html",

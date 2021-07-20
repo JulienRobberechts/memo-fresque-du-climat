@@ -70,25 +70,15 @@ yarn install
 ```
 ### Compiles and hot-reloads for development
 
-Launch one of those 2 commands:
+Launch:
 ```
-yarn serve-fr
-```
-
-```
-yarn serve-en
+yarn serve
 ```
 
 ### Compiles and minifies for production
 
-Launch one of those 2 commands:
-
 ```
-yarn build-fr
-```
-
-```
-yarn build-en
+yarn build
 ```
 
 ### Lints and fixes files
